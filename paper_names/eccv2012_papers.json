@@ -1,0 +1,3674 @@
+[
+    {
+        "Conference": "eccv", 
+        "Title": "Semi-Intrinsic Mean shift on Riemannian Manifolds", 
+        "Authors": "Rui Caseiro, Joao F Henriques, PedroMartins, Jorge Batista", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www2.isr.uc.pt/~ruicaseiro/publications/ECCV2012_RuiCaseiro.pdf", 
+        "ID": 0
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Online Learning of Linear Predictors for Real-Time Tracking", 
+        "Authors": "Stefan Holzer, Marc Pollefeys, Slobodan Ilic, David Joseph Tan, Nassir Navab", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.inf.ethz.ch/personal/pomarc/pubs/HolzerECCV12.pdf", 
+        "ID": 1
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning to Efficiently Detect Repeatable Interest Points in Depth Data", 
+        "Authors": "Stefan Holzer, Jamie Shotton, Pushmeet Kohli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/pubs/189088/hsk_eccv2012.pdf", 
+        "ID": 2
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Effective Use of Frequent Itemset Mining for Image Classification", 
+        "Authors": "Basura Fernando, Elisa Fromont, Tinne Tuytelaars", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://homes.esat.kuleuven.be/~bfernand/papers/ECCV_ID10.pdf", 
+        "ID": 3
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Diverse M-Best Solutions in Markov Random Fields - formely: M-Best Modes", 
+        "Authors": "Dhruv Batra, Payman Yadollahpour, Abner Guzman-Rivera, Greg Shakhnarovich", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 4
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Attributes for classifier feedback", 
+        "Authors": "Amar Prakash, Devi Parikh", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 5
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Lie Bodies: A Manifold Representation of 3D Human Shape", 
+        "Authors": "Oren Freifeld, Michael Black", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://files.is.tue.mpg.de/black/papers/FreifeldAndBlack2012LieBodies.pdf", 
+        "ID": 6
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Modeling Complex Temporal Composition of Actionlets for Activity Prediction", 
+        "Authors": "Kang Li, Jie Hu  at Buffalo), YunFu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 7
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Object Co-detection", 
+        "Authors": "Yinzge Bao, Yu Xiang, Silvio Savarese", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "sitemaker.umich.edu/bao/files/cv.pdf", 
+        "ID": 8
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shape and Material Under Natural Illumination", 
+        "Authors": "Geoffrey Oxholm, Ko Nishino", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 9
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Discriminative Projections for Compact Binary Descriptors", 
+        "Authors": "Tomasz Trzcinski, Vincent Lepetit", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://cvlab.epfl.ch/~trzcinsk/publications/eccv12.pdf", 
+        "ID": 10
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Nonlocal Regularization for Optical Flow", 
+        "Authors": "Philipp Kr&#228;henb\u00c2\u00b8hl, Vladlen Koltun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.mia.uni-saarland.de/Teaching/MAIA12/slides/kaufhold.pdf", 
+        "ID": 11
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Morphable Displacement Field based Image Matching for Face RecognitionAcross Pose", 
+        "Authors": "shaoxin Li, xin Liu, Xiujuan Chai, Haihong Zhang, Shihong Lao, Shiguang Shan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 12
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Frequency Analysis of Transient Light Transport with Applications in BareSensor Imaging", 
+        "Authors": "Di Wu, GordonWetzstein, Christopher Barsi, Thomas Willwacher, Matthew O&#8217;Toole, Nikhil Naik, Qionghai Dai, Kyros Kutulakos, Ramesh Raskar", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 13
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Descriptor Learning Revisited", 
+        "Authors": "Karen Simonyan, Andrea Vedaldi, Andrew Zisserman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 14
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Reconstructing the World's Museums", 
+        "Authors": "Jianxiong Xiao, Yasutaka Furukawa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://mit.edu/jxiao/Public/publication/2012/ECCV/paper.pdf", 
+        "ID": 15
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Online Learned Discriminative Part-Based Appearance Models forMulti-Human Tracking", 
+        "Authors": "Bo Yang, Ram Nevatia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 16
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast Fusion Moves for Multi-Model Estimation", 
+        "Authors": "Andrew Delong, Olga Veksler, Yuri Boykov", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.csd.uwo.ca/~adelong3/pub/eccv2012fusac.pdf", 
+        "ID": 17
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Segmentation with non-linear regional constraints via line-search cuts", 
+        "Authors": "Lena Gorelick, Frank Schmidt, Yuri Boykov, Andrew Delong, Aaron Ward", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.csd.uwo.ca/~ygorelic/eccv12_linesearchcuts.pdf", 
+        "ID": 18
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Hausdorff Distance Constraint for Multi-Surface Segmentation", 
+        "Authors": "Frank Schmidt, Yuri Boykov", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.frank-r-schmidt.de/pdf/cv.pdf", 
+        "ID": 19
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Background Subtraction using Group Sparsity and Low Rank constraint", 
+        "Authors": "Xinyi Cui, Junzhou Huang, shaoting Zhang, Dimitris Metaxas", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 20
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exposure Stacks of Live Scenes with Hand-held Cameras", 
+        "Authors": "Jun Hu, Orazio Gallo, Kari Pulli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.duke.edu/~junhu/ECCV2012/jhu_ogallo_kpulli_eccv2012.pdf", 
+        "ID": 21
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Frequency-Space Decomposition and Acquisition of Light Transport under Spatially Varying Illumination", 
+        "Authors": "Dikpal Reddy, Ravi Ramamoorthi, Brian Curless", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 22
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Worldwide Pose Estimation Using 3D Point Cloud Models", 
+        "Authors": "Yunpeng Li, Noah Snavely, Daniel Huttenlocher, Pascal Fua", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 23
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Combining Per-Frame and Per-Track Cues for Multi-Person ActionRecognition", 
+        "Authors": "Sameh Khamis, Vlad Morariu, Larry Davis", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.samehkhamis.com/khamis-eccv2012.pdf", 
+        "ID": 24
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A graph cut algorithm based on approximating the signed bi-form graph", 
+        "Authors": "Alex Fix, Joyce Chen, Endre Boros, RaminZabih", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 25
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Recursive Bilateral Filtering", 
+        "Authors": "Qingxiong Yang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "ieeexplore.ieee.org/iel7/83/4358840/06582517.pdf", 
+        "ID": 26
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Accelerated Large-Scale Optimization by Concomitant Hashing", 
+        "Authors": "Yadong Mu, John Wright, Shih-Fu Chang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.ee.columbia.edu/ln/dvmm/publications/12/ECCV_HashOpt.pdf", 
+        "ID": 27
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Graph Degree Linkage: Agglomerative Clustering on a Directed Graph", 
+        "Authors": "Wei Zhang, Xiaogang Wang, Deli Zhao, Xiaoou Tang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://arxiv.org/pdf/1208.5092v1", 
+        "ID": 28
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Joint Image and Word Sense Discrimination For Image Retrieval", 
+        "Authors": "Aurelien Lucchi, Jason Weston", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://infoscience.epfl.ch/record/179947/files/wsd.pdf", 
+        "ID": 29
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Supervised Earth Mover&#8217;s Distance Learning and Its Computer Vision Applications", 
+        "Authors": "Fan Wang, Leonidas Guibas", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "forum.stanford.edu/events/posterslides/SupervisedEarthMover%25E2%2580%2599sDistanceLearningandItsComputerVisionApplications.pdf", 
+        "ID": 30
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Metric Learning for Large Scale Image Classification: Generalizing to New Classes at Near-Zero Cost", 
+        "Authors": "Thomas Mensink, Jakob Verbeek, Gabriela Csurka, Florent Perronnin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://hal.inria.fr/hal-00722313/PDF/mensink12eccv.final.pdf", 
+        "ID": 31
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Knowledge-Oriented Sketch Segmentation", 
+        "Authors": "Zhenbang Sun, Changhu Wang, Liqing Zhang, Lei Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 32
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Global Optimization of Object Pose and Motion from a Single RollingShutter Image with Automatic 2D-3D Matching", 
+        "Authors": "Ludovic MAGERAND", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 33
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Script Data for Attribute-based Recognition of Composite Activities", 
+        "Authors": "Marcus Rohrbach, Michaela Regneri, Mykhaylo Andriluka, Sikandar Amin, Manfred Pinkal, Bernt Schiele", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 34
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Auto-grouped Sparse Representation for Visual Analysis", 
+        "Authors": "Jiashi Feng, Xiaotong Yuan, zilei Wang, Huan Xu, Shuicheng Yan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 35
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dual-force Metric Learning for Robust Distractor Resistant Tracker", 
+        "Authors": "Zhibin Hong", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 36
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Undoing the Damage of Dataset Bias", 
+        "Authors": "Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alyosha Efros, Antonio Torralba", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf", 
+        "ID": 37
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "[Best Paper Award] Segmentation Propagation in ImageNet", 
+        "Authors": "Daniel Kuettel, Matthieu Guillaumin, Vittorio Ferrari", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://groups.inf.ed.ac.uk/calvin/Publications/kuettelECCV12.pdf", 
+        "ID": 38
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Improved Reconstruction of Deforming Surfaces by Cancelling Ambient Occlusion", 
+        "Authors": "Thabo Beeler, Derek Bradley, Henning Zimmer, Markus Gross", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "graphics.ethz.ch/Downloads/Publications/Papers/2012/Bee12b/Bee12b.pdf", 
+        "ID": 39
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Unified Framework for Multi-Target Tracking and Collective Activity Recognition", 
+        "Authors": "Wongun Choi, Silvio Savarese", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 40
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dog Breed Classi?cation Using Part Localization", 
+        "Authors": "Jiongxin Liu, Angjoo Kanazawa, David Jacobs, Peter Belhumeur", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 41
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "On the statistical determination of optimal camera configurations in multi-camera surveillance networks", 
+        "Authors": "Junbin Liu, Tim Wark, Sridha Sridharan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 42
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Dictionary Learning Approach for Classification: Separating the Particularity and the Commonality", 
+        "Authors": "Donghui Wang, Shu Kong", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.cs.zju.edu.cn/people/wangdh/papers/draft_ECCV12_particularity.pdf", 
+        "ID": 43
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exact Acceleration of Linear Object Detectors", 
+        "Authors": "Charles Dubout, Fran\u00c3\u00a7ois Fleuret", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33712-3_22.pdf", 
+        "ID": 44
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Bottom-Up Perceptual Organization of Images into Object Part Hypotheses", 
+        "Authors": "Maruthi Narayanan, Benjamin Kimia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 45
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Human Interaction by Interactive Phrases", 
+        "Authors": "Yu Kong, Yunde Jia, Yun Fu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 46
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Structured Image Segmentation using Kernelized Features", 
+        "Authors": "Aurelien Lucchi, Yunpeng Li, Kevin Smith, Pascal Fua", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2012/LucchiLSF12.pdf", 
+        "ID": 47
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "The Scale of Geometric Texture", 
+        "Authors": "Geoffrey Oxholm, Ko Nishino", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 48
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Salient Object Detection: A Benchmark", 
+        "Authors": "Ali Borji, Dicky Sihite, Laurent Itti", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "ilab.usc.edu/borji/CV-Borji.pdf", 
+        "ID": 49
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-Task Order Preserving Sparse Coding For Time Sequence Classification", 
+        "Authors": "Bingbing Ni, Shuicheng Yan, Pierre Moulin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 50
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shape Sharing for Object Segmentation", 
+        "Authors": "Jaechul Kim, Kristen Grauman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 51
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Articulated Trajectory Reconstruction using Dynamic Programming and Filters", 
+        "Authors": "Jack Valmadre, Yingying Zhu, Sridha Sridharan, Simon Lucey", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://jack.valmadre.net/static/eccv-2012-articulated.pdf", 
+        "ID": 52
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Nonuniform Lattice Regression for Modeling the Camera Imaging Pipeline", 
+        "Authors": "Hai Ting Lin, Zheng Lu, Seon JooKim, Michael S. Brown", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 53
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Background Inpainting for Videos with Dynamic Objects and a Free-moving Camera", 
+        "Authors": "Miguel Granados, Kwang In Kim, James Tompkin, Jan Kautz, Christian Theobalt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 54
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Match Graph Construction for Large Image Databases", 
+        "Authors": "Kwang In Kim, James Tompkin, Martin Theobald, Jan Kautz, Christian Theobalt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.gcpr2013.uni-saarland.de/material/gcpr2013_booklet.pdf", 
+        "ID": 55
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "From Meaningful Contours to Discriminative Object Shape", 
+        "Authors": "Pradeep krishna Yarlagadda, Bjorn Ommer", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 56
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "[Best Paper Award Honorable Mention] Activity Forecasting", 
+        "Authors": "Kris Kitani, James Bagnell, Martial Hebert", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.cmu.edu/~kkitani/ActivityForecasting_files/Kitani-ECCV2012.pdf", 
+        "ID": 57
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Context-Based Automatic Local Image Enhancement", 
+        "Authors": "Sung Ju Hwang, Ashish Kapoor, Sing Bing Kang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 58
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Statistics of Patch Offsets for Image Completion", 
+        "Authors": "Kaiming He, Jian Sun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/kahe/publications/eccv12completion.pdf", 
+        "ID": 59
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Min-Space Integral Histogram", 
+        "Authors": "S\u00c3&circ;verine Dubuisson, Christophe Gonzales", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.researchgate.net/publication/236526150_Min-Space_Integral_Histogram/file/e0b49517fe0b29be3c.pdf", 
+        "ID": 60
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Automatic Segmentation of Unknown Objects, with Application to Baggage Security", 
+        "Authors": "Leo Grady, Vivek Singh, Timo Kohlberger, Christopher Alvino, Claus Bahlmann", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 61
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Optimal Templates for Non-Rigid Surface Reconstruction", 
+        "Authors": "Markus Moll, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 62
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Heliometric Stereo: Shape from Sun Position", 
+        "Authors": "Austin Abrams, Christopher Hawley, Robert Pless", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://research.engineering.wustl.edu/~abramsa/papers/eccv2012.pdf", 
+        "ID": 63
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-channel Shape-Flow Kernel Descriptors for Robust Video Event Detection and Retrieval", 
+        "Authors": "Pradeep Natarajan, Shuang Wu, Unsang Park, Shiv Vitaladevuni, Rohit Prasad, Premkumar Natarajan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33709-3_22.pdf", 
+        "ID": 64
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Particle Filter Framework for Contour Detection", 
+        "Authors": "Nicolas Widynski, Max Mignotte", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33718-5_56.pdf", 
+        "ID": 65
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Action Recognition with Exemplar Based 2.5D Graph Matching", 
+        "Authors": "Bangpeng Yao, Li Fei-fei", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 66
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "TriCoS: A Tri-level Class-Discriminative Co-Segmentation Method for Image Classification", 
+        "Authors": "Yuning Chai, Esa Rahtu, Andrew Zisserman, VictorLempitsky, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 67
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "On Learning Higher-Order Consistency Potentials for Multi-class Pixel Labeling", 
+        "Authors": "Kyoungup Park, Stephen Gould", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 68
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Spectral Demons &#8211; Image Registration via Global Spectral Correspondence", 
+        "Authors": "\u00c3\u00a9e Lombaert, Leo Grady, Xavier Pennec, Nicholas Ayache, Farida Cheriet", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www-sop.inria.fr/teams/asclepios/Publications-tracked/Xavier.Pennec/Lombaert_ECCV-Spectral-Demons.pdf", 
+        "ID": 69
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-view Discriminant Analysis", 
+        "Authors": "Meina Kan, Shiguang Shan, Haihong Zhang, Shihong Lao, xilin Chen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.jdl.ac.cn/doc/2011/20131910365517756_2012_eccv_mnkan_mvda.pdf", 
+        "ID": 70
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-scale Patch based Collaborative Representation for Face Recognition with Margin Distribution Optimization", 
+        "Authors": "Pengfei Zhu, Lei Zhang, Qinghua Hu, Simon Shiu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 71
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning to Recognize Daily Actions using Gaze", 
+        "Authors": "Alireza Fathi, James Rehg", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 72
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-Scale Clustering of Frame-to-Frame Correspondences for Motion Segmentation", 
+        "Authors": "Ralf Dragon, t Hannover, Bodo Rosenhahn, Joern Ostermann", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.tnt.uni-hannover.de/papers/data/942/paper.pdf", 
+        "ID": 73
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Domain Knowledge for Facade Labelling", 
+        "Authors": "Dengxin Dai, Mukta Prasad, Gerhard Schmitt, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.varcity.eu/paper/eccv2012_dai_facade.pdf", 
+        "ID": 74
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Object detection using strongly-supervised deformable part models", 
+        "Authors": "Hossein Azizpour, Ivan Laptev", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.csc.kth.se/~azizpour/papers/ha_eccv12.pdf", 
+        "ID": 75
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Simultaneous Shape and Pose Adaption of Articulated Models using Linear Optimization", 
+        "Authors": "Matthias Straka, Stefan Hauswiesner, Matthias R\u00fcther, Horst Bischof", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.icg.tugraz.at/project/narkissos/simultaneous-shape-and-pose-adaption-of-articulated-models-using-linear-optimization/at_download/file", 
+        "ID": 76
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Misalignment-Robust Representation for Real-Time FaceRecognition", 
+        "Authors": "Meng Yang, Lei Zhang, David Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 77
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Monocular Object Detection using 3D Geometric Primitives", 
+        "Authors": "Peter Carr, Yaser Sheikh, Iain Matthews", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 78
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Object-centric spatial pooling for image classification", 
+        "Authors": "Olga Russakovsky, Yuanqing Lin, Kai Yu, Li Fei-fei", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 79
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Spanning Structure Mining in Large Image Collections (project,PDF)", 
+        "Authors": "Yin Lou, Noah Snavely, JohannesGehrke", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.cornell.edu/~yinlou/papers/lou-eccv12.pdf", 
+        "ID": 80
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Sparse Coding and Dictionary Learning for Symmetric Positive Definite Matrices: A Kernel Approach", 
+        "Authors": "Mehrtash Harandi, Conrad Sanderson, Richard Hartley, Brian Lovell", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 81
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "V1-Inspired Features Induce a Weighted Margin in SVMs", 
+        "Authors": "Hilton Bristow, Simon Lucey", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://hiltonbristow.com/static/papers/2012_ECCV_Bristow.pdf", 
+        "ID": 82
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Propagative Hough Voting for Human Activity Recognition", 
+        "Authors": "Gang YU, Junsong Yuan, Zicheng Liu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/en-us/um/people/zliu/Slides/FG2013TutorialPart1.pdf", 
+        "ID": 83
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "People Watching: Human Actions as a Cue for Single View Geometry", 
+        "Authors": "David Fouhey, Vincent Delaitre, Alyosha Efros, Abhinav Gupta, Ivan Laptev, Josef Sivic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 84
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Renormalization Returns: Hyper-renormalization and Its Applications", 
+        "Authors": "Kenichi Kanatani, Ali Al-Sharadqah, Nikolai Chernov, YasuyukiSugaya", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 85
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Real-time Compressive Tracking", 
+        "Authors": "Kaihua Zhang, Lei Zhang, Ming-Hsuan Yang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www4.comp.polyu.edu.hk/~cslzhang/CT/eccv_ct_camera.pdf", 
+        "ID": 86
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shape from Single Scattering for Translucent Objects", 
+        "Authors": "Chika Inoshita, Yasuhiro Mukaigawa, Yasu Matsushita, Yasushi Yagi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.am.sanken.osaka-u.ac.jp/~inoshita/paper/ECCV2012-sscattering.pdf", 
+        "ID": 87
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Joint Face Alignment: Rescue Bad Alignments with Good Ones by Regularized Re-fitting", 
+        "Authors": "Xiaowei Zhao, Xiujuan Chai, Shiguang Shan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.jdl.ac.cn/doc/2011/20131910352151768_2012_eccv_xwzhao_rescuebad.pdf", 
+        "ID": 88
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Depth Extraction from Video Using Non-parametric Sampling", 
+        "Authors": "Kevin Karsch, Ce Liu, Sing BingKang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.kevinkarsch.com/depthtransfer/eccv12-depthtransfer-supp.pdf", 
+        "ID": 89
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Scale Invariant Optical Flow", 
+        "Authors": "Li Xu, Zhenlong Dai, jiaya Jia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.cse.cuhk.edu.hk/leojia/projects/flow/siof_eccv12.pdf", 
+        "ID": 90
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Class-to-Image Distance via Large Margin and L1-norm Regularization (poster,PDF)", 
+        "Authors": "Zhengxiang Wang, Shenghua Gao, Liang-Tien Chia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://sites.google.com/site/wangzhengxiang/eccv2012_LC2I_CR.pdf", 
+        "ID": 91
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Taxonomic Multi-class Prediction and Person Layout using Efficient Structured Ranking", 
+        "Authors": "Arpit Mittal, Matthew Blaschko, cole Centrale Paris, Andrew Zisserman, Phil Torr", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.robots.ox.ac.uk/~vgg/publications/2012/Mittal12/mittal12.pdf", 
+        "ID": 92
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Unsupervised Discovery of Mid-Level Discriminative Patches", 
+        "Authors": "Saurabh Singh, Abhinav Gupta, Alyosha Efros", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 93
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Self-Similar Sketch", 
+        "Authors": "Andrea Vedaldi, Andrew Zisserman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 94
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Blind Correction of Optical Aberrations", 
+        "Authors": "Christian Schuler, Michael Hirsch, Stefan Harmeling, BernhardSch\u00cb&dagger;lkopf", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/2012/Schuler_etal_ECCV2012.pdf", 
+        "ID": 95
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Depth Matters: Influence of Depth Cues on Visual Saliency", 
+        "Authors": "Lang Congyan, Tam Nguyen, harish Katti, Karthik Yadati, Shuicheng Yan, Mohan Kankanhalli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://sites.google.com/site/vantam/publications/3DSaliency_ECCV2012.pdf", 
+        "ID": 96
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Gait Recognition by Ranking", 
+        "Authors": "Ra&ugrave;, l Mart&igrave;, n F&egrave;, lez, Tao Xiang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 97
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust Point Matching Revisited: A Concave Optimization Approach", 
+        "Authors": "Wei Lian, Lei Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 98
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Quaternion-based Spectral Saliency Detection for Human Eye Fixation Point Prediction", 
+        "Authors": "Boris Schauerte, Rainer Stiefelhagen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://cvhci.anthropomatik.kit.edu/~bschauer/pdf/schauerte2012quaternion-based.pdf", 
+        "ID": 99
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Discriminative Spatial Relations for Detector Dictionaries: an Application to Pedestrian Detection", 
+        "Authors": "Enver Sangineto, Marco Cristani, Alessio Del Bue, Vittorio Murino", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33709-3_20.pdf", 
+        "ID": 100
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Deformations with Parallel Transport", 
+        "Authors": "Donglai Wei, Dahua Lin, John Fisher III", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "dahua.me/dahua_cv.pdf", 
+        "ID": 101
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dynamic Facial Expression Recognition using Longitudinal Facial Expression Atlases", 
+        "Authors": "Yimo Guo, Guoying Zhao, Matti Pietik&#228;inen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33709-3_45.pdf", 
+        "ID": 102
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Polynomial Regression on Riemannian Manifolds", 
+        "Authors": "Jacob Hinkle, Prasanna Muralidharan, P Thomas Fletcher, Sarang Joshi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33712-3_1.pdf", 
+        "ID": 103
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Crosstalk Cascades for Frame-Rate Pedestrian Detection", 
+        "Authors": "Piotr Dollar, Ron Appel, Wolf Kienzle", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/pubs/183825/DollarECCV12crosstalkCascades.pdf", 
+        "ID": 104
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Query Specific Fusion for Image Retrieval", 
+        "Authors": "shaoting Zhang, Ming Yang, Timothee Cour, Kai Yu, Dimitris Metaxas", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.research.rutgers.edu/~shaoting/paper/ECCV12-retrieval.pdf", 
+        "ID": 105
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Approximate Gaussian Mixtures for Large Scale Vocabularies", 
+        "Authors": "Yannis Avrithis, Yannis Kalantidis", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://image.ntua.gr/iva/files/agm.pdf", 
+        "ID": 106
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Tracking Using Motion Patterns for Very Crowded Scenes", 
+        "Authors": "Xuemei Zhao, Dian Gong, Gerard Medioni", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 107
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Constrained Semi-Supervised Learning via Attributes and Comparative Attributes", 
+        "Authors": "Abhinav Shrivastava, Saurabh Singh, Abhinav Gupta", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://graphics.cs.cmu.edu/projects/constrainedSSL/SSL.pdf", 
+        "ID": 108
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Long-Range Spatio-Temporal Modeling with Application to Fire Detection", 
+        "Authors": "Avinash Ravichandran, Stefano Soatto", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 109
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Geodesic Saliency Using Background Priors", 
+        "Authors": "Yichen Wei, Fang Wen, Wangjiang Zhu, Jian Sun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://research.microsoft.com/en-us/people/yichenw/eccv12_geodesicsaliency.pdf", 
+        "ID": 110
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Human Actions as Stochastic Kronecker Graphs", 
+        "Authors": "Sinisa Todorovic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 111
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "GMCP-Tracker: Global Multi-object Tracking Using Generalized Minimum Clique Graphs", 
+        "Authors": "Amir Roshan Zamir, Afshin Dehghan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "crcv.ucf.edu/papers/eccv2012/GMCP-Tracker_ECCV12.pdf", 
+        "ID": 112
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust Fitting for Multiple View Geometry", 
+        "Authors": "Olof Enqvist, Erik Ask, Fredrik Kahl, Kalle &Acircle;, str&ouml;, m", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.maths.lth.se/vision/publdb/reports/pdf/enqvist-ask-etal-eccv-12.pdf", 
+        "ID": 113
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Improving Image-Based Localization by Active Correspondence Search", 
+        "Authors": "Torsten Sattler, Bastian Leibe, Leif Kobbelt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.graphics.rwth-aachen.de/media/papers/poster_eccv2012_small.pdf", 
+        "ID": 114
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Nested Sparse Quantization for Efficient Feature Coding", 
+        "Authors": "Gemma Roig Noguera, Xavier Boix, Christian Leistner, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 115
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Inverse Rendering of Faces on a Cloudy Day", 
+        "Authors": "Oswald Aldrian, William A. P. Smith", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33712-3_15.pdf", 
+        "ID": 116
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "On Tensor-Based PDEs and their Corresponding Variational Formulations with Application to Color Image Denoising", 
+        "Authors": "Freddie \u00c3&hellip;str\u00c3\u00b6m, George Baravdish, Michael Felsberg", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 117
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Size Matters: Exhaustive Geometric Verification for Image Retrieval", 
+        "Authors": "Henrik Stewenius, Steinar Gunderson, Julien Pilet", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33709-3_48.pdf", 
+        "ID": 118
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "&#8220;Clustering by Composition&#8221; for Unsupervised Discovery of ImageCategories", 
+        "Authors": "Alon Faktor, Michal Irani", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 119
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Joint Face Alignment with Non-Parametric Shape Models", 
+        "Authors": "Brandon Smith, Li Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://pages.cs.wisc.edu/~lizhang/projects/joint-align/SmithECCV12.pdf", 
+        "ID": 120
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Kernelized Temporal Cut for Online Hierarchical Human Action Segmentation and Recognition", 
+        "Authors": "Dian Gong, Gerard Medioni, Sikai Zhu, XuemeiZhao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 121
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Scene Aligned Pooling for Complex Video Recognition", 
+        "Authors": "Liangliang Cao, Yadong Mu, Apostol Natsev, Shih-FuChang, Gang Hua, John Smith", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.ee.columbia.edu/ln/dvmm/publications/12/ECCV_Pooling.pdf", 
+        "ID": 122
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Comparative Evaluation of Binary Features", 
+        "Authors": "Jared Heinly, Enrique Dunn, Jan-Michael Frahm", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 123
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Group Tracking: Exploring Mutual Relations for Multiple Object Tracking", 
+        "Authors": "Genquan Duan, Song Cao, Haizhou Ai, Shihong Lao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 124
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Discovering Latent Domains for Multisource Domain Adaptation", 
+        "Authors": "Judy Hoffman, Kate Saenko, Brian Kulis, Trevor Darrell", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 125
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Grain Segmentation of 3D Superalloy Images Using MultiChannel EWCVT under Human Annotation Constraints", 
+        "Authors": "Yu Cao, Lili Ju, Song Wang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 126
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Discrete Chain Graph Model for 3d+t Cell Tracking with High Misdetection Robustness", 
+        "Authors": "Bernhard Kausler, Martin Schiegg, Bjoern Andres, Martin Lindner, Heike Leitte, Lars Hufnagel, Ullrich Koethe, Fred Hamprecht", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://hci.iwr.uni-heidelberg.de/publications/mip/techrep/kausler_12_discrete.pdf", 
+        "ID": 127
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Image Enhancement using Calibrated Lens Simulations", 
+        "Authors": "YiChang Shih, Neel Joshi, Brian Guenter", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 128
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Hough Regions for Joining Instance Localization and Segmentation", 
+        "Authors": "Hayko Riemenschneider, Sabine Sternig, Michael Donoser, Peter Roth, Horst Bischof", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 129
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exploiting Color in Shape, Albedo, and Illumination from Shading", 
+        "Authors": "Jonathan Barron, Jitendra Malik", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 130
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Discriminative Bayesian Active Shape Models", 
+        "Authors": "Pedro Martins, Jo\u00e3o F. Henriques, Rui Caseiro, Jorge Batista", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www2.isr.uc.pt/~pedromartins/Publications/pmartins_eccv2012.pdf", 
+        "ID": 131
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Patch Based Synthesis for Single Depth Image Super-Resolution", 
+        "Authors": "Oisin Mac Aodha, Neill Campbell, Arun Nair, Gabriel Brostow", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://visual.cs.ucl.ac.uk/ext/depthSuperRes/eccv2012_draft.pdf", 
+        "ID": 132
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Facial Action Transfer with Personalized Bilinear Regression", 
+        "Authors": "Dong Huang, Fernando De la Torre", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 133
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Fast Illumination and Deformation Insensitive Image Comparison Algorithm Using Wavelet-Based Geodesics", 
+        "Authors": "Anne Jorstad, David Jacobs", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33765-9_6.pdf", 
+        "ID": 134
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Point of Gaze Estimation through Corneal Surface Reflection in an Active Illumination Environment", 
+        "Authors": "Atsushi Nakazawa, Christian Nitschke", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33709-3_12.pdf", 
+        "ID": 135
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Manifold Statistics for Essential Matrices", 
+        "Authors": "Gijs Dubbelman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 136
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust Tracking with Weighted Online Structured Learning", 
+        "Authors": "Rui Yao, Qinfeng Shi, Chunhua Shen, Yanning Zhang, Anton van den hengel", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "hal.archives-ouvertes.fr/docs/00/80/60/98/PDF/12_garcia-cifuentes_bmvc2012_PREVIEW.pdf", 
+        "ID": 137
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Annotation Propagation in Large Image Databases via Dense Image Correspondence", 
+        "Authors": "Michael Rubinstein, Ce Liu, WilliamFreeman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 138
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Covariance Propagation and Next Best View Planning for 3D Reconstruction", 
+        "Authors": "Sebastian Haner, Anders Heyden", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33709-3_39.pdf", 
+        "ID": 139
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dilated Divergence based Scale-Space Representation for Curve Analysis", 
+        "Authors": "Max W.K. Law, Andrew Leung, Keng-YeowTay, Shuo Li", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 140
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Parameterless Line Segment and Elliptical Arc Detector with Controlled Number of False Positives", 
+        "Authors": "Viorica Patraucean, Pierre Gurdjos, RafaelGrompone von Gioi, G\u00c3&circ;raldine Morin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 141
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning to segment a video to clips based on scene and camera motion", 
+        "Authors": "Adarsh Kowdle, Tsuhan Chen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "chenlab.ece.cornell.edu/people/adarsh/publications/eccv2012_video2clips.pdf", 
+        "ID": 142
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Numerically Stable Optimization of Polynomial Solvers for MinimalProblems", 
+        "Authors": "Yubin Kuang, Kalle \u00e2&permil;&circ;str\u00cb&dagger;m", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 143
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Has my algorithm succeeded? Evaluating human pose estimators", 
+        "Authors": "Nataraj Jammalamadaka, Andrew Zisserman, MarcinEichner, Vittorio Ferrari, Jawahar C. V.", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 144
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Full Body Performance Capture under Uncontrolled and Varying Illumination: A Shading-based Approach", 
+        "Authors": "Chenglei Wu, Kiran Varanasi, Christian Theobalt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 145
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Visual Recognition using Local Quantized Patterns", 
+        "Authors": "Sibt ul Hussain, Bill Triggs", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "hal.inria.fr/docs/00/69/56/27/PDF/lqp-tr-hal.pdf", 
+        "ID": 146
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Detecting and Reconstructing 3D Mirror Symmetric Objects", 
+        "Authors": "Rick Szeliski, Krishnan Ramnath, Sudipta Sinha, Sudipta Sinha", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/bfm%253A978-3-642-33709-3%252F1.pdf", 
+        "ID": 147
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "3D Reconstruction of Dynamic Scenes with Multiple Handheld Cameras", 
+        "Authors": "Hanqing Jiang, Haomin Liu, PingTan, Guofeng Zhang, Hujun Bao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.ece.nus.edu.sg/stfpage/eletp/Papers/eccv12_stereo.pdf", 
+        "ID": 148
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Globally Optimal Closed-surface Segmentation for Connectomics", 
+        "Authors": "Bjoern Andres, Thorben Kroeger, Kevin Briggman, WinfriedDenk, Natalya Korogod, Graham Knott, Ullrich Koethe, FredHamprecht", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 149
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Performance Capture of Interacting Characters with Handheld Kinects", 
+        "Authors": "Genzhi Ye, Yebin Liu, NilsHasler, Xiangyang Ji, Qionghai Dai, Christian Theobalt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 150
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Reduced Analytical Dependency Modeling for Classifier Fusion", 
+        "Authors": "Andy Jinhua Ma, Pong Yuen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 151
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Randomized Spatial Partition for Scene Recognition", 
+        "Authors": "Yuning Jiang, Junsong Yuan, Gang YU", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eeeweba.ntu.edu.sg/computervision/Research%2520Papers/2012/Randomized%2520Spatial%2520Partition%2520for%2520Scene%2520Recognition.pdf", 
+        "ID": 152
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Evaluation of Image Segmentation Quality by Adaptive Ground Truth Composition", 
+        "Authors": "Bo Peng, Lei Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 153
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Ensemble Partitioning for Unsupervised Image Categorization", 
+        "Authors": "Dengxin Dai, Mukta Prasad, Christian Leistner, Luc Van Gool, Gerhard Schmitt", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 154
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Set Based Discriminative Ranking for Recognition", 
+        "Authors": "Yang Wu, Michihiko Minoh, MasayukiMukunoki, Shihong Lao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "mm.media.kyoto-u.ac.jp/members/yangwu/publications/13C06_CRNP_BMVC.pdf", 
+        "ID": 155
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Global Hypotheses Verification Method for 3D Object Recognition", 
+        "Authors": "Aitor Aldoma, Federico Tombari, Luigi DiStefano, Markus Vincze", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vision.deis.unibo.it/fede/papers/eccv12.pdf", 
+        "ID": 156
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning to Match Appearances by Correlations in a Covariance Metric Space", 
+        "Authors": "Slawomir Bak, Guillaume Charpiat, Etienne Corvee, Francois Bremond, Monique Thonnat", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 157
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Scale Robust Multi View Stereo", 
+        "Authors": "Christian Bailer, Manuel Finckh, Hendrik Lensch", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33712-3_29.pdf", 
+        "ID": 158
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast Regularization of Matrix-Valued Images", 
+        "Authors": "Guy Rosman, Yu Wang, Xue-Cheng Tai, Ron Kimmel, Alfred Bruckstein", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://tx.technion.ac.il/~rosman/eccv_almtx.pdf", 
+        "ID": 159
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Tracking feature points in uncalibrated images with radial distortion", 
+        "Authors": "Miguel Louren\u00c3 o, Jo\u00e2&euro;&#x17E;o Pedro Barreto", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 160
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Laplacian Meshes for Monocular 3D Shape Recovery", 
+        "Authors": "Jonas \u00d6stlund, Aydin Varol, Pascal Fua", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2012/OstlundVF12.pdf", 
+        "ID": 161
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "On the Convergence of Graph Matching: Graduated Assignment Revisited", 
+        "Authors": "Yu Tian, Junchi Yan, Hequan Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33712-3_59.pdf", 
+        "ID": 162
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Divergence-free motion estimation", 
+        "Authors": "Dominque B\u00c3&circ;r\u00c3&circ;ziat, Isabelle Herlin, Nicolas Mercier, Sergiy Zhuk", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 163
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Negative evidences and co-occurences in image retrieval: the benefit of PCA and whitening", 
+        "Authors": "\u00c3\u00a9\u00c3&circ; J\u00c3&circ;gou, Ondrej Chum", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 164
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Large-Scale Gaussian Process Classification with Flexible Adaptive Histogram Kernels", 
+        "Authors": "Erik Rodner, Alexander Freytag, Paul Bodesheim, Joachim Denzler", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://herakles.inf-cv.uni-jena.de/biborb/bibs/cv/papers/Rodner12:LGP.pdf", 
+        "ID": 165
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Visual Tracking via Adaptive Tracker Selection with Multiple Features", 
+        "Authors": "Ju Hong Yoon, Du Yong Kim, Kuk-Jin Yoon", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33765-9_3.pdf", 
+        "ID": 166
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Are You Really Smiling at Me? Spontaneous versus Posed Enjoyment Smiles", 
+        "Authors": "Hamdi Dibeklioglu, Albert Ali Salah, Theo Gevers", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.science.uva.nl/research/publications/2012/DibekliogluECCV2012/Dibeklioglu2012ECCV.pdf", 
+        "ID": 167
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Background Subtraction with Dirichlet Processes", 
+        "Authors": "Tom Haines, Tao Xiang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "thaines.com/content/research/2012_eccv/dp_bgs.pdf", 
+        "ID": 168
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Soft inextensibility constraints for template-free non-rigid reconstruction", 
+        "Authors": "Sara Vicente, Lourdes Agapito", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33712-3_31.pdf", 
+        "ID": 169
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Image Annotation Using Metric Learning in Semantic Neighbourhoods", 
+        "Authors": "Yashaswi Verma, Jawahar C. V.", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "cvit.iiit.ac.in/papers/Yashaswi2012Image.pdf", 
+        "ID": 170
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Movies and Sports: Large-Scale Dynamic Human Eye Movement Datasets and Consistency Studies for Visual Action Recognition", 
+        "Authors": "Stefan Mathe, Cristian Sminchisescu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.intel.com/content/dam/www/public/us/en/documents/white-papers/mining-big-data-In-the-enterprise-for-better-business-intelligence.pdf", 
+        "ID": 171
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Monte Carlo sampler for detecting parametric objects in large scenes", 
+        "Authors": "Yannick Verdi\u00e9, Florent Lafarge", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www-sop.inria.fr/members/Florent.Lafarge/articles/eccv2012.pdf", 
+        "ID": 172
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exploiting the Circulant Structure of Tracking-by-detection with Kernels", 
+        "Authors": "Jo\u00e3o F Henriques, Rui Caseiro, Pedro Martins, Jorge Batista", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www2.isr.uc.pt/~henriques/publications/henriques_eccv2012.pdf", 
+        "ID": 173
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "W&alpha;SH: Weighted &alpha;-Shapes for Local Feature Detection", 
+        "Authors": "Christos Varytimidis, Konstantinos Rapantzikos, Yannis Avrithis", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://image.ntua.gr/iva/files/WaSH_eccv2012.pdf", 
+        "ID": 174
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Detecting and Localizing Activities at Different Scales under Budget", 
+        "Authors": "Mohamed Amer, Dan Xie, Mingtian Zhao, Yaofei Feng, Behrooz Mahasseni, Sinisa Todorovic, Song-Chun Zhu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 175
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dynamic Programming for Approximate Expansion Algorithm", 
+        "Authors": "Olga Veksler", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.csd.uwo.ca/faculty/olga/Papers/dpExpansion.pdf", 
+        "ID": 176
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Sparselet Models for Efficient Multiclass Object Detection", 
+        "Authors": "Hyun Oh Song, Stefan Zickler, Tim Althoff, Ross Girshick, Christopher Geyer, Mario Fritz, Pedro Felzenszwalb, Trevor Darrell", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.eecs.berkeley.edu/~song/sparselets/sparselets-eccv.pdf", 
+        "ID": 177
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Mobile Product Image Search by Automatic Query Object Extraction", 
+        "Authors": "Xiaohui Shen, Zhe Lin, Jonathan Brandt, Ying Wu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 178
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast Tiered Labeling with Topological Priors", 
+        "Authors": "Ying Zheng, Steve Gu, Carlo Tomasi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 179
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Nested Pictorial Structures", 
+        "Authors": "Steve Gu, Ying Zheng, Carlo Tomasi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 180
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Describing Clothing by Semantic Attributes", 
+        "Authors": "Huizhong Chen, andrew Gallagher, Bernd Girod", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://chenlab.ece.cornell.edu/people/Andy/publications/ECCV2012_ClothingAttributes.pdf", 
+        "ID": 181
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Analyzing the Subspace Structure of Related Images: Concurrent Segmentation of Image Sets", 
+        "Authors": "Lopamudra Mukherjee, Vikas Singh, Jia Xu, Maxwell D. Collins", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://pages.cs.wisc.edu/~jiaxu/pub/mmcoseg.pdf", 
+        "ID": 182
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Graph Matching via Sequential Monte Carlo", 
+        "Authors": "Yumin Suh, Minsu Cho, Kyoung Mu Lee", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "cv.snu.ac.kr/publication/conf/2012/SMCM_ECCV2012.pdf", 
+        "ID": 183
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Artistic image classification: an analysis on the ART database", 
+        "Authors": "Gustavo Carneiro, Nuno Pinho da Silva, Alessio Del Bue, Joao Costeira", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 184
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Supervised Geodesic Propagation for Semantic Label Transfer", 
+        "Authors": "Xiaowu Chen, Qing Li, YafeiSong, Xin Jin, Qinping Zhao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33712-3_40.pdf", 
+        "ID": 185
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Bayesian Face Revisited: A Joint Formulation", 
+        "Authors": "Dong Chen, Xudong Cao, Liwei Wang, Fang Wen, Jian Sun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/en-us/um/people/jiansun/papers/ECCV12_BayesianFace_suppl.pdf", 
+        "ID": 186
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Coherent Filtering: Detecting Coherent Motions from Clutters", 
+        "Authors": "Bolei Zhou, Xiaogang Wang, Xiaoou Tang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 187
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Beyond Bounding Boxes: Learning Object-Form by Model-driven Grouping", 
+        "Authors": "Juan Antonio Monroy, Bjorn Ommer", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "printart.isr.ist.utl.pt/ei11.pdf", 
+        "ID": 188
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Supervised Assessment of Segmentation Hierarchies", 
+        "Authors": "Jordi Pont-Tuset, Ferran Marques", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://imatge.upc.edu/web/sites/default/files/pub/cPont-Tuset12.pdf", 
+        "ID": 189
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "TreeCANN &#8211; k-d tree Coherence Approximate Nearest Neighbor algorithm", 
+        "Authors": "Igor Olonetsky, Shai Avidan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33765-9_43.pdf", 
+        "ID": 190
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Jet-Based Local Image Descriptors", 
+        "Authors": "Anders Boesen Lindbo Larsen, Sune Darkner, Anders Dahl, Kim Pedersen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "image.diku.dk/kimstp/papers/75740638.pdf", 
+        "ID": 191
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Automatic Exposure Correction of Consumer Photographs", 
+        "Authors": "Lu Yuan, Jian Sun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/en-us/um/people/jiansun/papers/ECCV12_AutoExposure.pdf", 
+        "ID": 192
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust Regression", 
+        "Authors": "Dong Huang, Ricardo Cabral, Fernando De la Torre", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.humansensing.cs.cmu.edu/projects/robustreg/robustreg.pdf", 
+        "ID": 193
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Image Guided Tone Mapping with Locally Nonlinear Model Image Guided Tone Mapping with Locally Nonlinear Model Image Guided Tone Mapping with Locally Nonlinear Model", 
+        "Authors": "Huxiang Gu, Ying Wang, Shiming Xiang, Gaofeng MENG, Chunhong Pan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 194
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Domain Adaptive Dictionary Learning", 
+        "Authors": "Qiang Qiu, Vishal Patel, PavanTuraga, Rama Chellappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.umd.edu/~qiu/pub/dadl-eccv12.pdf", 
+        "ID": 195
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Latent Hough Transform for Object Detection", 
+        "Authors": "Nima Razavi, Juergen Gall, Pushmeet Kohli, LucVan Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.vision.ee.ethz.ch/~nrazavi/papers/razavi11LHT.pdf", 
+        "ID": 196
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Canonical Scene based Contextual Model for Abnormal Object Detection", 
+        "Authors": "Sangdon Park, Wonsik Kim, Kyoung Mu Lee", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "cv.snu.ac.kr/publication/conf/2012/AOD_ECCV2012.pdf", 
+        "ID": 197
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust 3D Action Recognition with Random Occupancy Patterns", 
+        "Authors": "Jiang Wang, Zicheng Liu, Jan Chorowski, Zhuoyuan Chen, Ying Wu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 198
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shapecollage: occlusion-aware, example-based shape interpretation", 
+        "Authors": "Forrester Cole, Phillip Isola, Edward Adelson, WilliamFreeman, Fredo Durand", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "people.csail.mit.edu/fcole/pdfs/eccv2012_poster.pdf", 
+        "ID": 199
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A new image database for Image Quality Assessment", 
+        "Authors": "Javier Silvestre-Blanes, Ian Van Der Linde, Rub\u00c3&circ;nP\u00c3&circ;rez-Llor\u00c3&circ;ns", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 200
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Image Labeling on a Network:\\\\Using Social-Network Metadata for Image Classification", 
+        "Authors": "Julian McAuley, Jure Leskovec", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 201
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Spatio-Temporal Phrases for Activity Recognition", 
+        "Authors": "Yimeng Zhang, Xiaoming Liu, Ming-Ching Chang, Weina Ge, TsuhanChen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 202
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Spatial and Angular Variational Super-resolution of 4D Light Fields", 
+        "Authors": "Sven Wanner, Bastian Goldluecke", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "hci.iwr.uni-heidelberg.de/Staff/bgoldlue/papers/WG12_eccv_poster.pdf", 
+        "ID": 203
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Blur-Kernel Estimation from Spectral Irregularities", 
+        "Authors": "Amit Goldstein, Raanan Fattal", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 204
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Robust and Efficient Doubly Regularized Metric Learning Approach", 
+        "Authors": "Meizhu Liu, Baba Vemuri", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 205
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A QCQP Approach to Triangulation", 
+        "Authors": "Chris Aholt, Sameer Agarwal, RekhaThomas", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.washington.edu/homes/sagarwal/aat.pdf", 
+        "ID": 206
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Interactive Facial Feature Localization", 
+        "Authors": "Vuong Le, Jonathan Brandt, Lubomir Bourdev Adobe SystemsInc., Zhe Lin, Thomas Huang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "lubomir.org/academic/cv.pdf", 
+        "ID": 207
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Segmentation Based Particle Filtering for Real-Time 2D Object Tracking", 
+        "Authors": "Vasileios Belagiannis, Falk Schubert, Nassir Navab, SlobodanIlic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://campar.in.tum.de/pub/belagiannis2012eccv/belagiannis2012eccv.pdf", 
+        "ID": 208
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Deconvolving PSFs for A Better Motion Deblurring using Multiple Images", 
+        "Authors": "Xiang Zhu, Filip Sroubek, Peyman Milanfar", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 209
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Discriminative Data-dependent Mixture-Model Approach for Multiple Instance Learning in Image Classification", 
+        "Authors": "Qifan Wang, Luo Si, Dan Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 210
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multi-Component Models for Object Detection", 
+        "Authors": "Chunhui Gu, Pablo Arbelaez, Yuanqing Lin, Kai Yu, Jitendra Malik", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 211
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Discriminative Decorrelation for Clustering and Classification", 
+        "Authors": "Bharath Hariharan, Jitendra Malik, DevaRamanan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 212
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Spatiotemporal Descriptor for Wide-Baseline Stereo Reconstruction of Non-Rigid and Ambiguous Scenes", 
+        "Authors": "Eduard Trulls Fortuny, Alberto Sanfeliu, Francesc Moreno-Noguer", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 213
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Recognizing Actions, Poses, and Objects with Relational Phraselets", 
+        "Authors": "Chaitanya Desai, Deva Ramanan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 214
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "No Bias Left Behind: Covariate Shift Adaptation for Discriminative 3D Pose Estimation", 
+        "Authors": "Makoto Yamada, Leonid Sigal, Michalis Raptis", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.brown.edu/~ls/Publications/eccv2012yamada.pdf", 
+        "ID": 215
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Surface Elevation Angle Estimation from Reflectance Monotonicity", 
+        "Authors": "Boxin Shi, Ping Tan, Yasu Matsushita, Katsushi Ikeuchi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 216
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Generic Cuts: An Efficient Optimal Algorithm for Submodular MRF-MAP Problems with Higher Order Cliques", 
+        "Authors": "Chetan Arora, Subhashis Banerjee, Prem Kalra, S.N. Maheshwari", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 217
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Complex Events Detection using Data-driven Concepts", 
+        "Authors": "Yang Yang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "crcv.ucf.edu/papers/eccv2012/ECCV_2012_yang.pdf", 
+        "ID": 218
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Directional Space-Time Oriented Gradients for 3D Pattern Analysis", 
+        "Authors": "Ehsan Norouznezhad, Mehrtash Harandi, Abbas Bigdeli, Mahsa Baktash, Adam Postula, Brian Lovell", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 219
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning to Recognize Unsuccessful Activities in Depth Videos Using aTwo-Layer Latent Structural Model", 
+        "Authors": "Qiang Zhou, Gang Wang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 220
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Action Recognition Using Subtensor Constraint", 
+        "Authors": "Qiguang Liu, Xiaochun Cao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 221
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "In Defence of Negative Mining for Annotating Weakly Labeled Data", 
+        "Authors": "Parthipan Siva, Tao Xiang, Chris Russell", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.eecs.qmul.ac.uk/~chrisr/neg_mine.pdf", 
+        "ID": 222
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Beyond Spatial Pyramids: A New Feature Extraction Framework with Dense Spatial Sampling for Image Classification", 
+        "Authors": "Shengye Yan, Xinxing Xu, Dong Xu, Steve Lin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vc.sce.ntu.edu.sg/index_files/GAMKL-ECCV2012.pdf", 
+        "ID": 223
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Reading Ancient Coins: Automatically Identifying Denarii using Obverse Legend Seeded Retrieval", 
+        "Authors": "Ognjen Arandjelovic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33765-9_23.pdf", 
+        "ID": 224
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Depth and Deblurring from a Spectrally-varying Depth-of-Field", 
+        "Authors": "Ayan Chakrabarti, Todd Zickler", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vision.seas.harvard.edu/ccap/CZ_ccap.pdf", 
+        "ID": 225
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Labeling Images by Integrating Sparse Multiple Distance Learning andSemantic Context Modeling", 
+        "Authors": "Chuanjun Ji, Xiangdong Zhou", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 226
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "PatchMatchGraph: Building a Graph of Dense Patch Correspondences for Label Transfer", 
+        "Authors": "Stephen Gould, Yuhang Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://users.cecs.anu.edu.au/%7Esgould/papers/eccv12-patchGraph.pdf", 
+        "ID": 227
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Online Video Segmentation by Bayesian Split-Merge Clustering", 
+        "Authors": "Juho Lee, Suha Kwak, Bohyung Han, Seungjin Choi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.postech.ac.kr/~seungjin/publications/eccv12_LeeJH.pdf", 
+        "ID": 228
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Joint Classification-Regression Forests for Spatially Structured Multi-Object Segmentation", 
+        "Authors": "Ben Glocker, Olivier Pauly, Ender Konukoglu, AntonioCriminisi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 229
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust and Practical Face Recognition via Structured Sparsity", 
+        "Authors": "Kui Jia, Tsung-Han Chan, Yi Ma", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "yima.csl.illinois.edu/psfile/ECCV2012_Jia_Face_CameraReady.pdf", 
+        "ID": 230
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Segmentation over Detection by Coupled Global and Local Sparse Representations", 
+        "Authors": "Wei Xia, Zheng Song, Jiashi Feng, Loong Fah Cheong, Shuicheng Yan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33715-4_48.pdf", 
+        "ID": 231
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Subspace Learning in Krein Spaces: Complete Kernel Fisher Discriminant with Indefinite Kernels", 
+        "Authors": "Stefanos Zafeiriou", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 232
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Online Spatio-Temporal Structural Context Learning for Visual Tracking in Unconstrained Environments", 
+        "Authors": "Longyin Wen, Zhaowei Cai, Zhen Lei, Dong Yi, Stan Z. Li", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 233
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Automatic tracking a large number of moving targets in 3D", 
+        "Authors": "Ye Liu, Hui Li, Yan Qiu Chen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 234
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Three-Layered Approach to Facade Parsing", 
+        "Authors": "Andelo Martinovic, Markus Mathias, Julien Weissenberg, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 235
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Novel Material-aware Feature Descriptor for Volumetric Image Registration in Diffusion Tensor Space", 
+        "Authors": "Shuai Li, Qinping Zhao, Shengfa Wang, Tingbo Hou, Aimin Hao, Hong Qin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 236
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Unifying Theory of Active Discovery and Learning", 
+        "Authors": "Timothy Hospedales, Shaogang Gong, Tao Xiang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 237
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Moving Object Segmentation Using Motor Signals", 
+        "Authors": "Jingen Liu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 238
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Block-sparse RPCA for Consistent Foreground Detection", 
+        "Authors": "Zhi Gao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.ece.nus.edu.sg/stfpage/eleclf/Block-sparse%2520RPCA%2520for%2520Consistent%2520Foregroud%2520Detection.pdf", 
+        "ID": 239
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Attribute Learning for Understanding Unstructured Social Activity", 
+        "Authors": "Yanwei Fu, Timothy Hospedales, Tao Xiang, Shaogang Gong", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 240
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multiple View Object Cosegmentation using Appearance and Stereo Cues", 
+        "Authors": "Adarsh Kowdle, Sudipta Sinha, Rick Szeliski", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "chenlab.ece.cornell.edu/people/adarsh/publications/kowdleECCV12.pdf", 
+        "ID": 241
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Extracting 3D Scene-consistent Object Proposals and Depth from Stereo Images", 
+        "Authors": "Michael Bleyer, Christoph Rhemann, Carsten Rother", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/pubs/170819/SenceProp_SupMat.pdf", 
+        "ID": 242
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Closed-Form Solution to Generalized Boundary Detection", 
+        "Authors": "Marius Leordeanu, Rahul Sukthankar, Cristian Sminchisescu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 243
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Recognizing Materials by Transfering Appearance from Virtual to RealExamples", 
+        "Authors": "Mario Fritz, Wenbin Li", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 244
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Local Log-Euclidean Covariance Matrix (L$^{2}$ECM) for Image Representation and Its Applications", 
+        "Authors": "Peihua Li, Qilong Wang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 245
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Scene Recognition on the Semantic Manifold", 
+        "Authors": "Roland Kwitt, Nuno Vasconcelos, Nikhil Rasiwasia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cvpapers.com/papers/SceneRecognition-eccv2012.pdf", 
+        "ID": 246
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Repairing Sparse Low-Rank Texture", 
+        "Authors": "Xiao Liang, Xiang Ren, Zhengdong Zhang, Yi Ma", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 247
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Statistical Inference of Motion in the Invisible", 
+        "Authors": "Haroon Idrees, Imran Saleemi, Mubarak Shah", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "crcv.ucf.edu/papers/eccv2012/hiddenV11r.pdf", 
+        "ID": 248
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Using linking features in learning non-parametric part models", 
+        "Authors": "Leonid Karlinsky, Shimon Ullman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 249
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Unsupervised Temporal Commonality Discovery", 
+        "Authors": "Wen-Sheng Chu, Feng Zhou, Fernando De la Torre", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.humansensing.cs.cmu.edu/projects/tcd/tcd.pdf", 
+        "ID": 250
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Finding People Using Scale, Rotation and Articulation Invariant Matching", 
+        "Authors": "Hao Jiang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 251
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Generative Model for Simultaneous Estimation of Human Body Shape and Pixel-level Segmentation", 
+        "Authors": "Ingmar Rauschert, Robert Collins", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33715-4_51.pdf", 
+        "ID": 252
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Camera Pose Estimation Using First-Order Curve Differential Geometry", 
+        "Authors": "Ricardo Fabbri, Peter J. Giblin, Benjamin Kimia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.lems.brown.edu/~rfabbri/stuff/fabbri-giblin-kimia-ECCV12.pdf", 
+        "ID": 253
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Patch Complexity, Finite Pixel Correlations and Optimal Denoising", 
+        "Authors": "Anat Levin, Boaz Nadler, Fredo Durand, William Freeman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "dspace.mit.edu/bitstream/handle/1721.1/71919/MIT-CSAIL-TR-2012-022.pdf", 
+        "ID": 254
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Measuring Image Distances via Embedding in a Semantic Manifold", 
+        "Authors": "Chen Fang, Lorenzo Torresani", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vlg.cs.dartmouth.edu/semanticembedding/semantic_manifold.files/ft_eccv12.pdf", 
+        "ID": 255
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Point-to-Subspace Query in L1 with Application to Robust Face Recognition (technical report)", 
+        "Authors": "Ju Sun, Yuqian Zhang, John Wright", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 256
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Unsupervised and Supervised Visual Codes with Restricted Boltzmann Machines", 
+        "Authors": "Hanlin Goh, Nicolas Thome, Matthieu Cord, Joo-Hwee Lim", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://webia.lip6.fr/~cord/Publications_files/ECCV2012cord.pdf", 
+        "ID": 257
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Towards Optimal Non-rigid Surface Tracking", 
+        "Authors": "Martin Klaudiny, Adrian Hilton", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "kahlan.eps.surrey.ac.uk/Personal/AdrianHilton/Publications_files/klaudiny12eccv.pdf", 
+        "ID": 258
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Beyond Feature Points: Structured Prediction for Monocular Non-rigid 3D Reconstruction", 
+        "Authors": "Mathieu Salzmann, Raquel Urtasun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 259
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Filter-based Mean-Field Inference for Random Fields with Higher Order Terms and Product Label-Spaces", 
+        "Authors": "Jonathan Warrell, Phil Torr, Vibhav Vineet", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eprints.pascal-network.org/archive/00009597/01/mf_vwt_eccv12.pdf", 
+        "ID": 260
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A new biologically inspired color- and shape-based image descriptor", 
+        "Authors": "Jun Zhang, Youssef Barhomi, ThomasSerre", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 261
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Going With the Flow: Pedestrian Efficiency in Crowded Scenes", 
+        "Authors": "Louis Kratz, Ko Nishino", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 262
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Spatially-Smooth Mappings in Non-Rigid Structure from Motion", 
+        "Authors": "Onur Hamsici, Paulo Gotardo, AleixMartinez", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 263
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Reconstructing 3D Human Pose from 2D Image Landmarks.", 
+        "Authors": "Varun Ramakrishna, Takeo Kanade, YaserSheikh", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 264
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Good Regions to Deblur", 
+        "Authors": "Zhe Hu, Ming-Hsuan Yang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33715-4_5.pdf", 
+        "ID": 265
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Active Frame Selection for Label Propagation in Videos", 
+        "Authors": "Sudheendra Vijayanarasimhan, Kristen Grauman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 266
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Non-causal Temporal Prior for Video Deblocking", 
+        "Authors": "Deqing Sun, Ce Liu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "people.csail.mit.edu/celiu/pdfs/ECCV12-vdb.pdf", 
+        "ID": 267
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Mediating Trajectory and Detection Graphs for Tracking through Persistent Occlusions", 
+        "Authors": "Katerina Fragkiadaki, Weiyu Zhang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 268
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Finding Correspondence from Multiple Images via Sparse and Low-rank Decomposition", 
+        "Authors": "Zinan Zeng, Tsung-Han  Chan, Kui Jia, Dong Xu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 269
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Indoor Segmentation and Support Inference from RGBD Images", 
+        "Authors": "Nathan Silberman, Rob Fergus, Derek Hoiem, Pushmeet Kohli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "videolectures.net/site/normal_dl/tag%3D725527/eccv2012_silberman_images_01.pdf", 
+        "ID": 270
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Taking Mobile Multi-Object Tracking to the Next Level: People, Unknown Objects, and Carried Items", 
+        "Authors": "Dennis Mitzel, Bastian Leibe", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "ais.informatik.uni-freiburg.de/teaching/ws12/seminar_robotperception/03_trackingmitzel-eccv12.pdf", 
+        "ID": 271
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Towards Optimal Design of Time and Color Multiplexing Codes", 
+        "Authors": "Tsung-Han Chan, Kui Jia, Eliot Wycoff, Chong-Yung Chi, Yi Ma", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "yima.csl.illinois.edu/psfile/Final_ECCV2012_Multiplexing.pdf", 
+        "ID": 272
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Text Image Deblurring Using Text-specific Properties", 
+        "Authors": "Hojin Cho, Jue Wang, Seungyong Lee", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33715-4_38.pdf", 
+        "ID": 273
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Sequential Spectral Learning to Hash with Multiple Representations", 
+        "Authors": "Saehoon Kim, Yoonseop Kang, Seungjin Choi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.postech.ac.kr/~seungjin/publications/eccv12_KimSH.pdf", 
+        "ID": 274
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Exact Inference for 3D Indoor Scene Understanding", 
+        "Authors": "Alexander Schwing, Raquel Urtasun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.alexander-schwing.de/papers/SchwingEtAl_ECCV2012.pdf", 
+        "ID": 275
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Multidimensional Spectral Hashing", 
+        "Authors": "Yair Weiss, Rob Fergus, Antonio Torralba", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "people.csail.mit.edu/torralba/publications/msh_eccv12.pdf", 
+        "ID": 276
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dynamic Context for Tracking Behind Occlusions", 
+        "Authors": "Fei Xiong, Octavia Camps, Mario Sznaier", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33715-4_42.pdf", 
+        "ID": 277
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Seam Segment Carving: Irregular Shape Image Retargeting", 
+        "Authors": "Shaoyu Qi, Jeffrey Ho", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 278
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Reflectance and Natural Illumination from a Single Image", 
+        "Authors": "Stephen Lombardi, Ko Nishino", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 279
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Recognizing Complex Events using Large Margin Joint Low-Level Event Model", 
+        "Authors": "Hamid Izadinia, Mubarak Shah", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.ucf.edu/~izadinia/files/LatentEvent-ECCV12.pdf", 
+        "ID": 280
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Categorizing Turn-Taking Interactions", 
+        "Authors": "Karthir Prabhakar, James Rehg", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 281
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "To Track or To Detect? An Ensemble Framework for Optimal Selection", 
+        "Authors": "XU YAN, Xuqing Wu, Ioannis A Kakadiaris, Shishir Shah", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www2.cs.uh.edu/~xwu/docs/eccv2012.pdf", 
+        "ID": 282
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Local Expert Forest of Score Fusion for Video Event Classification", 
+        "Authors": "Jingchen Liu, Scott McCloskey", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www-nlpir.nist.gov/projects/tvpubs/tv12.papers/genie.pdf", 
+        "ID": 283
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "View-Invariant Action Recognition using Latent Kernelized Structural SVM", 
+        "Authors": "Xinxiao Wu, Yunde Jia", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33715-4_30.pdf", 
+        "ID": 284
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning Hybrid Part Filters for Scene Recognition", 
+        "Authors": "Yingbin Zheng, Yu-Gang Jiang, Xiangyang Xue", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.yugangjiang.info/publication/eccv12-hybridparts.pdf", 
+        "ID": 285
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Trajectory-Based Modeling of Human Actions with Motion Reference Points", 
+        "Authors": "Yu-Gang Jiang, Qi Dai, XiangyangXue, Wei Liu, Chong-Wah Ngo", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 286
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Visual Dictionary Learning for Joint Object Categorization and Segmentation", 
+        "Authors": "Rene Vidal, Aastha Jain", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33715-4_52.pdf", 
+        "ID": 287
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Stixels motion estimation without optical flow computation", 
+        "Authors": "Bertan G\u00fcnyel, Rodrigo Benenson, Radu Timofte, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://homes.esat.kuleuven.be/~rtimofte/publications/Gunyel-ECCV-2012.pdf", 
+        "ID": 288
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Parametric Manifold of an Object under Different Viewing Directions", 
+        "Authors": "Xiaozheng Zhang, Yongsheng Gao, Terry Caelli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 289
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Video Matting Using Multi-Frame Nonlocal Matting Laplacain", 
+        "Authors": "Inchang Choi, Yu-Wing Tai, Minhaeng Lee", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 290
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Automatic localization of balloon markers and guidewire in rotational fluoroscopy with application to 3D stent reconstruction", 
+        "Authors": "Yu Wang, Terrence Chen, Peng Wang, Christopher Rohkohl, Dorin Comaniciu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://yu-wang.com/wp-content/uploads/2013/04/Yu_ECCV2012.pdf", 
+        "ID": 291
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "In Defence of RANSAC for Outlier Rejection in Deformable Registration", 
+        "Authors": "Quoc Huy Tran, Tat-Jun Chin, Gustavo Carneiro, Michael S. Brown, David Suter", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 292
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dating Historical Color Images", 
+        "Authors": "Frank Palermo, Alyosha Efros", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/bfm%253A978-3-642-33783-3%252F1.pdf", 
+        "ID": 293
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Estimation of Intrinsic Image Sequences from Image+Depth Video", 
+        "Authors": "Kyong Joon Lee, Qi Zhao, Xin Tong, Minmin Gong, Shahram Izadi, Sang Uk Lee, PingTan, Steve Lin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 294
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "What Makes a Good Detector? &#8212; Structured Priors for Learning From Few Examples", 
+        "Authors": "Tianshi Gao, Michael Stark, Daphne Koller", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 295
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Temporally Consistent 3D Scene Flow Estimation for Multi-View Data", 
+        "Authors": "Jaesik Park, Tae Hyun Oh, Jiyoung Jung, Yu-WingTai, In So Kweon", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 296
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Diagnosing Error in Object Detectors", 
+        "Authors": "Derek Hoiem, Yodsawalai Chodpathumwan, Qieyun Dai", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "pascallin.ecs.soton.ac.uk/challenges/VOC/voc2012/workshop/derek.hoiem.pdf", 
+        "ID": 297
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Two-view Underwater Structure and Motion for Cameras under Flat Refractive Interfaces", 
+        "Authors": "Lai Kang, National University of DefenseTechnology, Lingda Wu, Yee-Hong Yang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 298
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Rainbow Flash Camera: Depth Edge Extraction Using Complementary Colors", 
+        "Authors": "Yuichi Taguchi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33783-3_37.pdf", 
+        "ID": 299
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast approximations to structured sparse coding and applications to object classification", 
+        "Authors": "Arthur Szlam, Karol Gregor, Yann LeCun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "yann.lecun.com/exdb/publis/pdf/szlam-gregor-lecun-eccv-12.pdf", 
+        "ID": 300
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Naturalistic Open Source Movie for Optical Flow Evaluation", 
+        "Authors": "Daniel Butler, Jonas Wulff, Garrett Stanley, Michael Black", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://files.is.tue.mpg.de/black/papers/ButlerECCV2012.pdf", 
+        "ID": 301
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Convolutional Treelets Binary Feature Approach to Fast Keypoint Recognition", 
+        "Authors": "Chenxia Wu, Jianke Zhu, DengCai, Chun Chen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.chenxiawu.org/papers/ct-bfr.pdf", 
+        "ID": 302
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Online Moving Camera Background Subtraction", 
+        "Authors": "Ali Elqursh, Ahmed Elgammal", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.rutgers.edu/~elqursh/papers/elqursh-eccv2012.pdf", 
+        "ID": 303
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Bayesian Blind Deconvolution with General Sparse Image Priors", 
+        "Authors": "S. Derin Babacan, RafaelMolina, Minh Do, Aggelos Katsaggelos", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://netfiles.uiuc.edu/dbabacan/www/papers/Babacan_ECCV_2012.pdf", 
+        "ID": 304
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shape From Fluorescence", 
+        "Authors": "Tali Treibitz, Zack Murez, David Kriegman", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 305
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A probabilistic derivative measure based on the distribution of intensity difference", 
+        "Authors": "Youngbae Hwang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 306
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Enhancing Descriptor Approaches by a Template Structure for Face Recognition", 
+        "Authors": "Liang Chen, Ling Yan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 307
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "3D^2PM &#8211; 3D Deformable Part Models", 
+        "Authors": "Bojan Pepik, Michael Stark, Peter Gehler, Bernt Schiele", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 308
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Latent Pyramidal Regions for Recognizing Scenes", 
+        "Authors": "Fereshteh Sadeghi, Marshall Tappen", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "sunw.csail.mit.edu/papers/Sadeghi_36_SUNw.pdf", 
+        "ID": 309
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Super-Resolution-based inpainting", 
+        "Authors": "Olivier Le Meur, Christine Guillemot", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.irisa.fr/temics/staff/lemeur/publi/2012_eccv/LeMeur_ECCV2012_Final.pdf", 
+        "ID": 310
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Guaranteed Ellipse Fitting with the Sampson Distance", 
+        "Authors": "Zygmunt Szpak, Wojciech Chojnacki, Anton van den Hengel", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33715-4_7.pdf", 
+        "ID": 311
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast Planar Correlation Clustering for Image Segmentation", 
+        "Authors": "Julian Yarkony, Alexander Ihler, Charless Fowlkes", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 312
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Coregistration: Simultaneous Alignment and Modeling of Articulated 3D Shape", 
+        "Authors": "David Hirshberg, Matthew Loper, Eric Rachlin, Michael Black", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://files.is.tue.mpg.de/black/papers/Coreg_ECCV2012_corrected.pdf", 
+        "ID": 313
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Pairwise Rotation Invariant Co-occurrence Local Binary Pattern", 
+        "Authors": "Xianbiao Qi, Rong Xiao, Lei Zhang, Jun Guo", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 314
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Improving NCC-based Direct Visual Tracking", 
+        "Authors": "Glauco Scandaroli, Rogerio Richa, Maxime Meilland", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://docs.google.com/open?id=0B-mx72_whSS7MHU1dzJPd3ZKNHM", 
+        "ID": 315
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Similarity Derived From Kernel-based Transition Probability", 
+        "Authors": "Takumi Kobayashi, Nobuyuki Otsu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://staff.aist.go.jp/takumi.kobayashi/publication/2012/ECCV2012similarity.pdf", 
+        "ID": 316
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Simultaneous Compaction and Factorization of Sparse Image Motion Matrices", 
+        "Authors": "Susanna Ricco, Carlo Tomasi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 317
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Optimization For Low-Rank Integrated Bilinear Classifiers", 
+        "Authors": "Takumi Kobayashi, Nobuyuki Otsu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://staff.aist.go.jp/takumi.kobayashi/publication/2012/ECCV2012bilinear.pdf", 
+        "ID": 318
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Per-patch Descriptor Selection using Surface and Scene Properties", 
+        "Authors": "Ivo Everts, Jan van Gemert, Theo Gevers", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.science.uva.nl/~jvgemert/pub/PerPatchDescriptorECCV12.pdf", 
+        "ID": 319
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Leafsnap: A Computer Vision System for Automatic Plant Species Identification", 
+        "Authors": "Neeraj Kumar, Peter Belhumeur, Arijit Biswas, David W. Jacobs, W. John Kress, Ida Lopez, Jo\u00e3o V. B. Soares", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://homes.cs.washington.edu/~neeraj/projects/leafsnap/base/papers/nk_eccv2012_leafsnap.pdf", 
+        "ID": 320
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Convex Discrete-Continuous Approach for Markov Random Fields", 
+        "Authors": "Christopher Zach, Pushmeet Kohli", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.inf.ethz.ch/personal/chzach/pdf/zach_eccv2012.pdf", 
+        "ID": 321
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Augmented Attribute Representations", 
+        "Authors": "Viktoriia Sharmanska, Novi Quadrianto, Christoph Lampert", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 322
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Locally Linear Regression Model for Boundary Preserving Regularization in Stereo Matching", 
+        "Authors": "Shengqi Zhu, Li Zhang, Hailin Jin", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 323
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exploring the Spatial Hierarchy of Mixture Models for Human Pose Estimation", 
+        "Authors": "Yuandong Tian, C. Lawrence Zitnick, Srinivasa Narasimhan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 324
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "People Orientation Recognition by Mixtures of Wrapped Distributions on Random Trees", 
+        "Authors": "Davide Baltieri, RobertoVezzani, Rita Cucchiara", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "imagelab.ing.unimore.it/imagelab/pubblicazioni/eccv2012_orientation.pdf", 
+        "ID": 325
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Novel Fast Method for $L_\\infty$ Problems in Multiview Geometry", 
+        "Authors": "Zhijun Dai, Yihong Wu, HonganWang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 326
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Low-Rank Sparse Learning for Robust Visual Tracking", 
+        "Authors": "Tianzhu Zhang, Bernard Ghanem, Narendra Ahuja", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 327
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust and Efficient Subspace Segmentation via Least Squares Regression", 
+        "Authors": "Can-Yi Lu, Hai Min, Zhong-Qiu Zhao, Lin Zhu, De-Shuang Huang, Shuicheng Yan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://home.ustc.edu.cn/~canyilu/LSR_ECCV.pdf", 
+        "ID": 328
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Visibility Probability Structure from SfM Dataset and Applications", 
+        "Authors": "Siddharth Choudhary, P J Narayanan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cc.gatech.edu/~choudhar/publications/Choudhary12eccv.pdf", 
+        "ID": 329
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Hybrid Classifiers for Object Classification with a Rich Background", 
+        "Authors": "Margarita Osadchy, Daniel Keren, Bella Specktor", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "rita.osadchy.net/papers/OsadchyKerenFadidaECCV12.pdf", 
+        "ID": 330
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Generative Model for Online Depth Fusion", 
+        "Authors": "Oliver Woodford, George Vogiatzis", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "george-vogiatzis.org/publications/bmva_meeting.pdf", 
+        "ID": 331
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Mixed-Resolution Patch-Matching", 
+        "Authors": "Harshit Sureka, P J Narayanan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "cvit.iiit.ac.in/thesis/HarshitSurekaMS2012/ECCV2012_Sureka.pdf", 
+        "ID": 332
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Depth Recovery Using an Adaptive Color-Guided Auto-Regressive Model", 
+        "Authors": "Jingyu Yang, Xinchen Ye, Kun Li, Chunping Hou", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33715-4_12.pdf", 
+        "ID": 333
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Real-Time Camera Tracking: When is High Frame-Rate Best?", 
+        "Authors": "Ankur Handa, Richard Newcombe, Adrien Angeli, Andrew Davison", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 334
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Motion Interchange Patterns for Action Recognition in Unconstrained Videos", 
+        "Authors": "Orit Kliper-Gross, Yaron Gurovich, Tal Hassner, Lior Wolf", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.wisdom.weizmann.ac.il/~kliper/Papers/MIP_eccv12.pdf", 
+        "ID": 335
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Exploiting Sparse Representations for Robust Analysis of Noisy Complex Video Scenes", 
+        "Authors": "Gloria Zen, Elisa Ricci, Nicu Sebe", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33783-3_15.pdf", 
+        "ID": 336
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "An Automatic Pose Invariant FRAD Approach", 
+        "Authors": "Eslam Mostafa, Asem Ali, Aly Farag", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 337
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A non-parametric hierarchical model to discover behavior dynamics from tracks", 
+        "Authors": "Dariu Gavrila, Julian Kooij, GwennEnglebienne", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.gavrila.net/eccv12.pdf", 
+        "ID": 338
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Generalized Roof Duality for Multi-Label Optimization: Optimal Lower Bounds and Persistency", 
+        "Authors": "Thomas Windheuser, Hiroshi Ishikawa, Daniel Cremers", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "https://vision.in.tum.de/_media/spezial/bib/windheuser-et-al-eccv12.pdf", 
+        "ID": 339
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Semantic Segmentation with Second-Order Pooling", 
+        "Authors": "Joao Carreira, Rui Caseiro, Jorge Batista, Cristian Sminchisescu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 340
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Separability Oriented Preprocessing for Illumination-invariant Face Recognition", 
+        "Authors": "Hu Han, Shiguang Shan, Xilin Chen, Shihong Lao, Wen Gao", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "159.226.42.3/doc/2011/20131910374671726_2012_eccv_hhan_sop.pdf", 
+        "ID": 341
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Minimal Correlation Ensemble", 
+        "Authors": "Noga Levy, Lior Wolf", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.tau.ac.il/~wolf/papers/minCorr.pdf", 
+        "ID": 342
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Elastic Shape Matching of Parameterized Surfaces Using Square Root Normal Fields", 
+        "Authors": "Ian Jermyn, Sebastian Kurtek, Eric Klassen, Anuj Srivastava", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 343
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Contextual Object Detection using Set-based Classification", 
+        "Authors": "Ramazan Gokberk CINBIS, Stan Sclaroff", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.cs.bu.edu/groups/ivc/pubs/setboost_toappear.pdf", 
+        "ID": 344
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Bayesian Approach to Alignment-based Image Hallucination", 
+        "Authors": "Marshall Tappen, Ce Liu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "people.csail.mit.edu/celiu/pdfs/ECCV12-ImageHallucination.pdf", 
+        "ID": 345
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "KAZE Features", 
+        "Authors": "Pablo Fern\u00c2\u00b7ndez Alcantarilla, Adrien Bartoli, Andrew Davison", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 346
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Saliency Modeling from Image Histograms", 
+        "Authors": "Shijian Lu, Joo-Hwee Lim", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33786-4_24.pdf", 
+        "ID": 347
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "N-tuple Color Segmentation for Multi-View Silhouette Extraction", 
+        "Authors": "Abdelaziz Djelouah, technicolor, edmond boyer, Jean-Sebastien Franco, Patrick Perez, Fran\u00c3 ois Le Clerc", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 348
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Local Label Descriptor for Example based Semantic Image Labeling", 
+        "Authors": "Yiqing Yang, Zhouyuan Li, Li Zhang, Christopher Murphy, Jim Hoeve, HongruiJiang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 349
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Photo-Sequensing", 
+        "Authors": "Tali Basha, Shai Avidan, Yael Moses", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 350
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Age Invariant Face Verification with Relative Craniofacial Growth Model", 
+        "Authors": "Tao Wu, Rama Chellappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33783-3_5.pdf", 
+        "ID": 351
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Sparse Embedding: A framework for Sparsity Promoting Dimensionality Reduction", 
+        "Authors": "Hien Nguyen, Vishal Patel, NasserNasrabadi, Rama Chellappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 352
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Inferring gene interaction networks from ISH images via kernelized graphical models", 
+        "Authors": "Kriti Puniyani, Eric Xing", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 353
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Random Forest for Image Annotation", 
+        "Authors": "Hao Fu, Qian Zhang, Guoping Qiu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://ima.ac.uk/papers/Hao2012c.pdf", 
+        "ID": 354
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Continuous Markov Random Fields for Robust Stereo Estimation", 
+        "Authors": "Koichiro Yamaguchi, Tamir Hazan, DavidMcAllester, Raquel Urtasun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vision.middlebury.edu/conferences/eccv2012ws/urtasun-eccv2012-ws.pdf", 
+        "ID": 355
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Loss-Specific Training of Non-Parametric Image Restoration Models: A New State of the Art", 
+        "Authors": "Jeremy Jancsary, Sebastian Nowozin, CarstenRother", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://research.microsoft.com/pubs/170827/jancsary2012eccv.pdf", 
+        "ID": 356
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Probabilistic Approach to Robust Matrix Factorization", 
+        "Authors": "Naiyan Wang, Tiansheng Yao, Jingdong Wang, Dit-Yan Yeung", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://winsty.net/papers/prmf.pdf", 
+        "ID": 357
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Continuous Regression for Non-Rigid Image Alignment", 
+        "Authors": "Enrique Sanchez Lozano, Fernando De la Torre, Daniel Gonzalez Jimenez", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.humansensing.cs.cmu.edu/projects/contreg/contreg.pdf", 
+        "ID": 358
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fourier Kernel Learning", 
+        "Authors": "Eduard-Gabriel Bazavan, Fuxin Li, Cristian Sminchisescu", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "109.101.234.42/documente/publications/15-70.pdf", 
+        "ID": 359
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "(MP)2T: Multiple People Multiple Parts Tracker", 
+        "Authors": "Hamid Izadinia, Imran Saleemi, Wenhui Li, Mubarak Shah", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cs.ucf.edu/~izadinia/files/MPMPT-ECCV12.pdf", 
+        "ID": 360
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Information Theoretic Learning for Pixel-based Visual Agents", 
+        "Authors": "Marco Maggini, Stefano Melacci, Marco Gori, Marco Lippi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33783-3_62.pdf", 
+        "ID": 361
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Large Scale Visual Geo-Localization of Images in Mountainous Terrain", 
+        "Authors": "Georges Baatz, Olivier Saurer, Kevin Koeser, Marc Pollefeys", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.inf.ethz.ch/personal/pomarc/pubs/BaatzECCV12.pdf", 
+        "ID": 362
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A theoretical analysis of camera response functions in image deblurring", 
+        "Authors": "Xiaogang Chen, Jingyi Yu, Jie Yang, Feng Li", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "yuwing.kaist.ac.kr/papers/pami_deblurCRF.pdf", 
+        "ID": 363
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Fast Parameter Sensitivity Analysis of PDE-based Image Processing Methods", 
+        "Authors": "Torben P&#228;tz, Tobias Preusser", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 364
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "The Lazy Flipper: Efficient Depth-limited Exhaustive Search in Discrete Graphical Models", 
+        "Authors": "Bjoern Andres, J\u00cb&dagger;rg Kappes, Thorsten Beier, Ullrich Koethe, Fred Hamprecht", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 365
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Road Scene Segmentation from a Single Image", 
+        "Authors": "Jose Alvarez, Theo Gevers, Yann LeCun, AntonioLopez", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 366
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Mixture Component Identification and Learning for Visual Recognition", 
+        "Authors": "Omid Aghazadeh, Hossein Azizpour, Josephine Sullivan, Stefan Carlsson", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.csc.kth.se/~omida/oa_eccv12.pdf", 
+        "ID": 367
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Predictable and Discriminative Binary Codes", 
+        "Authors": "Mohammad Rastegari, Ali Farhadi, David Forsyth", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 368
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Scene semantics from long-term observation of people", 
+        "Authors": "Vincent Delaitre, David Fouhey, Ivan Laptev, Josef Sivic, Abhinav Gupta, Alyosha Efros", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/bfm%253A978-3-642-33783-3%252F1.pdf", 
+        "ID": 369
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Local Higher-order Statistics (LHS) for Texture Categorization and FacialAnalysis", 
+        "Authors": "Gaurav Sharma, Sibt ul Hussain, Frederic Jurie", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://hal.inria.fr/docs/00/72/28/19/PDF/lhs_eccv12.pdf", 
+        "ID": 370
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Motion-Aware Structured Light Using Spatio-Temporal Decodable Patterns", 
+        "Authors": "Yuichi Taguchi, Amit Agrawal, Oncel Tuzel", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 371
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Face Association across Unconstrained Video Frames Using Conditional Random Fields", 
+        "Authors": "Ming Du, Rama Chellappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33786-4_13.pdf", 
+        "ID": 372
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Non-Rigid Shape Registration: A Single Linear Least Squares Framework", 
+        "Authors": "Mohammad Rouhani, Angel Sappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 373
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Image Retrieval with Structured Object Queries Using Latent Ranking SVM", 
+        "Authors": "Tian Lan, Weilong Yang, Yang Wang, Greg Mori", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 374
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Similarity Constrained Latent Support Vector Machine: An Application to Weakly Supervised Action Classification", 
+        "Authors": "Nataliya Shapovalova, Arash Vahdat, Kevin Cannons, TianLan, Greg Mori", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33786-4_5.pdf", 
+        "ID": 375
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Refractive Calibration of Underwater Cameras", 
+        "Authors": "Anne Sedlazeck, Reinhard Koch", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 376
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Detection of Independently Moving Objects in Non-planar Scenes via Multi-Frame Monocular Epipolar Constraint", 
+        "Authors": "Vladimir Reilly, Soumyabrata Dey, Mubarak Shah", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "crcv.ucf.edu/papers/eccv2012/MMFMpaper_Finaltex.pdf", 
+        "ID": 377
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "SEEDS: Superpixels Extracted via Energy-Driven Sampling", 
+        "Authors": "Michael Van den Bergh, Gemma Roig Noguera, Xavier Boix, Luc Van Gool", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 378
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Shape from Angle Regularity", 
+        "Authors": "Aamer Zaheer, Maheen Rashid, Sohaib Khan", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33783-3_1.pdf", 
+        "ID": 379
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Streaming Hierarchical Video Segmentation", 
+        "Authors": "Chenliang Xu, Caiming Xiong, Jason Corso", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://www.cse.buffalo.edu/~jcorso/pubs/jcorso_ECCV2012_streamgbh.pdf", 
+        "ID": 380
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Co-inference for Multi-modal Scene Analysis", 
+        "Authors": "Daniel Munoz, James Bagnell, Martial Hebert", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33783-3_48.pdf", 
+        "ID": 381
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A Unified View on Deformable Shape Factorizations", 
+        "Authors": "Roland Angst, Marc Pollefeys", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 382
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Large-lexicon attribute-consistent text recognition in natural images", 
+        "Authors": "Tatiana Novikova, Olga Barinova, Pushmeet Kohli, Victor Lempitsky", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "research.microsoft.com/en-us/um/people/pkohli/papers/nbkl_eccv2012.pdf", 
+        "ID": 383
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Team Activity Recognition in Sports", 
+        "Authors": "Cem Direkoglu, Noel O&#8217;Connor", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33786-4_6.pdf", 
+        "ID": 384
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dictionary-based Face Recognition from Video", 
+        "Authors": "Yi-Chen Chen, Vishal Patel, Jonathon Phillips, Rama Chellappa", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.umiacs.umd.edu/users/pvishalm/Conference_pub/DFRV_ECCV2012.pdf", 
+        "ID": 385
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Learning of Camera Transitions for Person Re-Identification", 
+        "Authors": "Martin Hirzer, Peter Roth, Horst Bischof", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 386
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Saliency-Based Space-Variant Descriptor Sampling for Action Recognition", 
+        "Authors": "Eleonora Vig, Michael Dorr, David Cox", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33786-4_7.pdf", 
+        "ID": 387
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Finding the exact rotation between two images independently of the translation", 
+        "Authors": "Laurent Kneip, Roland Siegwart, Marc Pollefeys", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.inf.ethz.ch/personal/pomarc/pubs/KneipECCV12.pdf", 
+        "ID": 388
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Contraction Moves for Geometric Model Fitting", 
+        "Authors": "Oliver Woodford, Minh-Tri Pham, Atsuto Maki, Riccardo Gherardi, Frank Perbet, BjornStenger", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33786-4_14.pdf", 
+        "ID": 389
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Dynamic Probabilistic CCA for Analysis of Affective Behaviour", 
+        "Authors": "Mihalis Nicolaou, Vladimir Pavlovic, Maja Pantic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "ibug.doc.ic.ac.uk/media/uploads/documents/manicolaouetaleccv2012.pdf", 
+        "ID": 390
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Connecting Missing Links: Object Discovery from Sparse Observations", 
+        "Authors": "Hongwen Kang, Martial Hebert, Takeo Kanade", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 391
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "General and Nested Wiberg Minimization: L_2 and Maximum Likelihood", 
+        "Authors": "Dennis Strelow", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 392
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Motion Capture of Hands in Action using Discriminative Salient Points", 
+        "Authors": "Luca Ballan, Aparna Taneja, Juergen Gall, Luc Van Gool, Marc Pollefeys", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://cvg.ethz.ch/research/ih-mocap/ballanECCV12.pdf", 
+        "ID": 393
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A new set of quartic trivariate polynomial equations for stratified camera self-calibration under zero-skew and constant parameters assumptions", 
+        "Authors": "Adlane Habed, Kassem Al Ismaeil, David Fofi", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 394
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "A minimal solution for camera calibration using independent pairwise correspondences", 
+        "Authors": "Francisco Vasconcelos, Jo\u00e2&euro;&#x17E;o Pedro Barreto, edmondboyer", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "eccv2012.unifi.it/wp-content/uploads/2012/05/brochure_main_conf_ECCV2012_WEB.pdf", 
+        "ID": 395
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Robust and Accurate Shape Model Fitting using Random Forest Regression Voting", 
+        "Authors": "Tim Cootes, Mircea Ionita, Claudia Lindner, Patrick Sauer", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33786-4_21.pdf", 
+        "ID": 396
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Disentangling factors of variation for facial expression recognition", 
+        "Authors": "Salah Rifai, Yoshua Bengio, Aaron Courville, Pascal Vincent, Mehdi Mirza", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33783-3_58.pdf", 
+        "ID": 397
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Recording and playback of camera shake:  benchmarking blind deconvolution with a real-world database", 
+        "Authors": "Rolf Koehler, Michael Hirsch, Stefan Harmeling, BettyMohler, Bernhard Sch\u00cb&dagger;lkopf", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 398
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Joint Image Classification and Annotation via Biased Random Walk on Tri-Relationship Graph", 
+        "Authors": "Xiao Cai, Feiping Nie, Heng Huang", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 399
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Real&#8211;Time Human Pose Tracking using Range Cameras", 
+        "Authors": "Varun Ganapathi, Christian Plagemann, DaphneKoller, Sebastian Thrun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 400
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Spring Lattice Counting Grids: Scene recognition using deformable positional constraints", 
+        "Authors": "Alessandro Perina, Nebojsa Jojic", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "http://research.microsoft.com/pubs/168053/eccv_cr.pdf", 
+        "ID": 401
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Efficient Recursive Algorithms for Computing the Mean Diffusion Tensorand Applications to DTI Segmentation", 
+        "Authors": "Hesamoddin Salehian, Guang Cheng, Baba Vemuri", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 402
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Semi-Nonnegative Matrix Factorization for Motion Segmentation with Missing Data", 
+        "Authors": "Quanyi Mo, Bruce Draper", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "", 
+        "ID": 403
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Learning-Based Symmetry Detection in Natural Images", 
+        "Authors": "Stavros Tsogkas, Iasonas Kokkinos", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "vision.mas.ecp.fr/Personnel/iasonas/pubs/TsogkasKokkinos_symmetry_ECCV12.pdf", 
+        "ID": 404
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Beyond the line of sight: labeling the underlying surfaces", 
+        "Authors": "Ruiqi Guo, Derek Hoiem", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "www.docs-archive.com/view/82af31458820c227b4f5fab1539a6de5/Beyond-the-line-of-sight%253A-labeling-the-underlying-surfaces.pdf", 
+        "ID": 405
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Hand Pose Estimation and Hand Shape Classification using Multi&#8211;layered Randomized Decision Forests", 
+        "Authors": "Cem Keskin, Yunus Emre Kara, Furkan Kira\u00c3\u00a7, Lale Akarun", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007/978-3-642-33783-3_61.pdf", 
+        "ID": 406
+    }, 
+    {
+        "Conference": "eccv", 
+        "Title": "Nonmetric Priors for Continuous Multilabel Optimization", 
+        "Authors": "Evgeny Strekalovskiy, Claudia Nieuwenhuis, Daniel Cremers", 
+        "Project": "", 
+        "Year": 2012, 
+        "PDF": "link.springer.com/content/pdf/10.1007%252F978-3-642-33786-4_16.pdf", 
+        "ID": 407
+    }
+]

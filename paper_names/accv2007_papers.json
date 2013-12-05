@@ -1,0 +1,1649 @@
+[
+    {
+        "Authors": "Ran He, Stan Li, Zhen Lei and ShengCai Liao", 
+        "Conference": "accv", 
+        "ID": 0, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Coarse-to-Fine Statistical Shape Model by Bayesian Inference", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Horst Wildenauer,Branislav Micus\u00edkand Markus Vincze", 
+        "Conference": "accv", 
+        "ID": 1, 
+        "PDF": "http://ai.stanford.edu/~micusik/Papers/Wildenauer-etal-ACCV2007.pdf", 
+        "Project": "", 
+        "Title": "Efficient texture representation using multi-scale regions", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ilic Slobodan", 
+        "Conference": "accv", 
+        "ID": 2, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Comparing Timoshenko Beam to Energy Beam for fitting noisy data", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ramesh Marikhu,Matthew N. Dailey, Stanislav Makhanov and Kiyoshi Honda", 
+        "Conference": "accv", 
+        "ID": 3, 
+        "PDF": "http://www.cs.ait.ac.th/~mdailey/papers/Marikhu-Snakes.pdf", 
+        "Project": "", 
+        "Title": "A Family of Quadratic Snakes for Road Extraction", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yuanyuan Ding and Jingyi Yu", 
+        "Conference": "accv", 
+        "ID": 4, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multiperspective Distortion Correction Using Collineations", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Po-Hao Huang and Shang-Hong Lai", 
+        "Conference": "accv", 
+        "ID": 5, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Camera Calibration from Silhouettes under Incomplete Circular Motion with a Constant Interval Angle", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ryusuke Sagawa, Nobuya Aoki and Yasushi Yagi", 
+        "Conference": "accv", 
+        "ID": 6, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Mirror Localization for Catadioptric Imaging System by Observing Parallel Light Pairs", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xinyu Huang, Jizhou Gao and Ruigang Yang", 
+        "Conference": "accv", 
+        "ID": 7, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Calibrating Pan-Tilt Cameras with Telephoto Lenses", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xianghua Ying and Hongbin Zha", 
+        "Conference": "accv", 
+        "ID": 8, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Camera Calibration using Principal-Axes Aligned Conics", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Satoshi Kawabata, Shinsaku Hiura and Kosuke Sato", 
+        "Conference": "accv", 
+        "ID": 9, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "3D Intrusion Detection System with Uncalibrated Multiple Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tatsuya Tanaka, Atsushi Shimada, Daisaku Arita and Rin-ichiro Taniguchi", 
+        "Conference": "accv", 
+        "ID": 10, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Non-parametric Background and Shadow Modeling for Object Detection", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Luo-Wei Tsai, Yun-Jung Tseng, Jun-Wei Hsieh, Kuo-Chin Fan and Jiun-Jie Li", 
+        "Conference": "accv", 
+        "ID": 11, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Road Sign Detection Using Eigen Color", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Dan Zhang, Zhenwei Shi, Yangqiu Song and Changshui Zhang", 
+        "Conference": "accv", 
+        "ID": 12, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Localized Content-Based Image Retrieval Using Semi-Supervised Multiple Instance Learning", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Liming Wang, Jianbo Shi, Gang Song and I-fan Shen", 
+        "Conference": "accv", 
+        "ID": 13, 
+        "PDF": "http://www.cis.upenn.edu/~jshi/papers/obj_det_liming_accv07.pdf", 
+        "Project": "", 
+        "Title": "Object Detection Combining Recognition and Segmentation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Viet Cuong Dinh, Seong Soo Chun, Seungwook Cha, Hanjin Ryu and Sanghoon Sull", 
+        "Conference": "accv", 
+        "ID": 14, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Efficient Method for Text Detection in Video Based on Stroke Width Similarity", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Cong Hou, Haizhou Ai and Shihong Lao", 
+        "Conference": "accv", 
+        "ID": 15, 
+        "PDF": "http://media.cs.tsinghua.edu.cn/~imagevision/papers/accv07-Hou-48430210.pdf", 
+        "Project": "", 
+        "Title": "Multiview Pedestrian Detection Based on Vector Boosting", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Dhiraj Goel and Tsuhan Chen", 
+        "Conference": "accv", 
+        "ID": 16, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Pedestrian Detection using Global-Local Motion Patterns", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Arjan Kuijper", 
+        "Conference": "accv", 
+        "ID": 17, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Qualitative and Quantitative Behaviour of Geometrical PDEs in Image Processing", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hitesh Shah and Subhasis Chaudhuri", 
+        "Conference": "accv", 
+        "ID": 18, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automated billboard insertion in video", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chris Poppe, Ga\u00ebtan Martens, Peter Lambert and Rik Van de Walle", 
+        "Conference": "accv", 
+        "ID": 19, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Improved Background Mixture Models for Video Surveillance Applications", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ming-Chian Sung, Te-Hsun Wang and Jenn-Jier James Lien", 
+        "Conference": "accv", 
+        "ID": 20, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "High Dynamic Range Scene Realization Using Two Complementary Images", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Scott McCloskey, Michael Langer and Kaleem Siddiqi", 
+        "Conference": "accv", 
+        "ID": 21, 
+        "PDF": "http://www.cim.mcgill.ca/~shape/publications/ACCV2007_PO.pdf", 
+        "Project": "", 
+        "Title": "Automated Removal of Partial Occlusion Blur", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Fan Zhang, Wenyu Liu and Chunxiao Liu", 
+        "Conference": "accv", 
+        "ID": 22, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "High Capacity Watermarking in Nonedge Texture Under Statistical Distortion Constraint", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Masatoshi Ohara, Akira Utsumi, Hirotake Yamazoe, Shinji Abe and Noriaki Katayama", 
+        "Conference": "accv", 
+        "ID": 23, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Attention Monitoring for Music Contents Based on Analysis of Signal-Behavior Structures", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jiang Yu Zheng and Xiaolong Wang", 
+        "Conference": "accv", 
+        "ID": 24, 
+        "PDF": "http://www.cs.iupui.edu/~jzheng/accv07MM.pdf", 
+        "Project": "", 
+        "Title": "View Planning for Cityscape Archiving and Visualization", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chien-Chung Tseng and Jenn-Jier James Lien", 
+        "Conference": "accv", 
+        "ID": 25, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Synthesis of Exaggerative Caricature with Inter and Intra Correlations", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shiro Kumano, Kazuhiro Otsuka, Junji Yamato, Eisaku Maeda and Yoichi Sato", 
+        "Conference": "accv", 
+        "ID": 26, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Pose-Invariant Facial Expression Recognition Using Variable-Intensity Templates", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tae-Kyun Kim andRoberto Cipolla", 
+        "Conference": "accv", 
+        "ID": 27, 
+        "PDF": "http://mi.eng.cam.ac.uk/~cipolla/publications/inproceedings/2007-ACCV-Kim.pdf", 
+        "Project": "", 
+        "Title": "Gesture Recognition under Small Sample Size", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Qi Zhao and Hai Tao", 
+        "Conference": "accv", 
+        "ID": 28, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Motion Observability Analysis of the Simplified Color Correlogram for Visual Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Min Tian, Weiwei Zhang and Fuqiang Liu", 
+        "Conference": "accv", 
+        "ID": 29, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "On-line Ensemble SVM for Robust Object Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Wei Du, andJustus Piater", 
+        "Conference": "accv", 
+        "ID": 30, 
+        "PDF": "http://www.montefiore.ulg.ac.be/~piater/papers/Du-2007-ACCV.pdf", 
+        "Project": "", 
+        "Title": "Multi-Camera People Tracking by Collaborative Particle Filters and Principal Axis-Based Integration", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Anton van den Hengel, Anthony Dick, Henry Detmold, Alex Cichowski and Rhys Hill", 
+        "Conference": "accv", 
+        "ID": 31, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Finding Camera Overlap in Large Surveillance Networks", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Alexander Andreopoulos and John K. Tsotsos", 
+        "Conference": "accv", 
+        "ID": 32, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Information Fusion for Multi-Camera and Multi-Body Structure and Motion", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ser-Nam Lim, Larry Davis and Anurag Mittal", 
+        "Conference": "accv", 
+        "ID": 33, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Task Scheduling in Large Camera Networks", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Youding Zhu and Kikuo Fujimura", 
+        "Conference": "accv", 
+        "ID": 34, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Constrained Optimization for Human Pose Estimation from Depth Sequences", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xu Zhao and Yuncai Liu", 
+        "Conference": "accv", 
+        "ID": 35, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Generative Estimation of 3D Human Pose Using Shape Contexts Matching", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Eng Hui Loke and Masanobu Yamamoto", 
+        "Conference": "accv", 
+        "ID": 36, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Active Multi-Camera Motion Capture for Face, Fingers and Whole Body", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Leonid Raskin, Michael Rudzsky and Ehud Rivlin", 
+        "Conference": "accv", 
+        "ID": 37, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tracking and Classifying Human Motions with Gaussian Process Annealed Particle Filter", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kazushige Sugiura, Yasushi Makihara and Yasushi Yagi", 
+        "Conference": "accv", 
+        "ID": 38, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Gait Identification based on Multi-view Observations using Omnidirectional Camera", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Guochang Huang and Yunhong Wang", 
+        "Conference": "accv", 
+        "ID": 39, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Gender Classification Based on Fusion of Multi-View Gait Sequences", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Heping Li, Zhanyi Hu, Yihong Wu and Fuchao Wu", 
+        "Conference": "accv", 
+        "ID": 40, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "MAPACo-Training: A Novel Online Learning Algorithm of Behavior Models", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ke Zhang, Huidong Jin, Zhouyu Fu and Nianjun Liu", 
+        "Conference": "accv", 
+        "ID": 41, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Optimal Learning High-Order Markov Random Fields Priors of Colour Image", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Nathan Mekuz and John K. Tsotsos", 
+        "Conference": "accv", 
+        "ID": 42, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hierarchical Learning of Dominant Constellations for Object Class Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hiroki Nomiya and Kuniaki Uehara", 
+        "Conference": "accv", 
+        "ID": 43, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multistrategical Approach in Visual Learning", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jia Liang, Yuanquan Wang and Yunde Jia", 
+        "Conference": "accv", 
+        "ID": 44, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cardiac Motion Estimation from Tagged MRI using 3D-HARP and NURBS Volumetric Model", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Prakash C, Balamanohar Paluri, Nalin Pradeep S and Hitesh Shah", 
+        "Conference": "accv", 
+        "ID": 45, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fragments based Parametric Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kevin Cannons and Richard Wildes", 
+        "Conference": "accv", 
+        "ID": 46, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Spatiotemporal Oriented Energy Features for Visual Tracking (Technical report)", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jinshi Cui, Yasushi Yagi, Hongbin Zha, Yasuhiro Mukaigawa and Kazuaki Kondo", 
+        "Conference": "accv", 
+        "ID": 47, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Synchronized Ego-motion Recovery of Two Face-to-face Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kazuhiko Kawamoto", 
+        "Conference": "accv", 
+        "ID": 48, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Optical Flow-Driven Motion Model with Automatic Variance Adjustment for Adaptive Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chunsheng Hua, Qian Chen, Haiyuan Wu and Toshikazu Wada", 
+        "Conference": "accv", 
+        "ID": 49, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Noise-insensitive Object Tracking Algorithm", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Junqiu Wang and Yasushi Yagi", 
+        "Conference": "accv", 
+        "ID": 50, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discriminative Mean Shift Tracking with Auxiliary Particles", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Anand Kumar, C. V. Jawahar and R. Manmatha", 
+        "Conference": "accv", 
+        "ID": 51, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Search in Document Image Collections", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Masayuki Tanaka and Masatoshi Okutomi", 
+        "Conference": "accv", 
+        "ID": 52, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Near-real-time Video-to-video Super-resolution", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Rapha\u00ebl Mar\u00e9e, Marie Dumont, Pierre Geurts and Louis Wehenkel", 
+        "Conference": "accv", 
+        "ID": 53, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "PiXiT: a Software for Image Retrieval, Classification, and Annotation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chris Poppe, Ga\u00ebtan Martens, Peter Lambert and Rik Van de Walle", 
+        "Conference": "accv", 
+        "ID": 54, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dealing with Quick Illumination Changes when using Background Mixture Models", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Harald Wuest, Alain Pagani and Didier Stricker", 
+        "Conference": "accv", 
+        "ID": 55, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Feature Management for Efficient Camera Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yoshinori Konishi, Koichi Kinoshita, Shihong Lao and Masato Kawade", 
+        "Conference": "accv", 
+        "ID": 56, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Real-Time Estimation of Smile Intensity", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chia-Sheng Tsai and Bo-Fu Shen", 
+        "Conference": "accv", 
+        "ID": 57, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Using Wireless Sensor Nodes to Aid Face Recognition from the Variations in Illumination and Head Pose Rotation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hirotake Yamazoe, Akira Utsumi and Shinji Abe", 
+        "Conference": "accv", 
+        "ID": 58, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Gaze Direction Estimation with Single Camera Based on Feature Point Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Akihiro Imai, Nobutaka Shimada and Yoshiaki Shirai", 
+        "Conference": "accv", 
+        "ID": 59, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hand Posture Estimation in Complex Backgrounds by Considering Mis-match of Model", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tobias Jaeggli, Esther Koller-Meier and Luc Van Gool", 
+        "Conference": "accv", 
+        "ID": 60, 
+        "PDF": "ftp://ftp.vision.ee.ethz.ch/publications/proceedings/eth_biwi_00514.pdf", 
+        "Project": "", 
+        "Title": "Learning Generative Models for Monocular Body Pose Estimation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hidenori Tanaka, Atsushi Nakazawa and Haruo Takemura", 
+        "Conference": "accv", 
+        "ID": 61, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Human Pose Estimation from Volume Data and Topological Graph Database", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Seiichi Uchida, Akihiro Mori, Ryo Kurazume, Rin-ichiro Taniguchi and Tsutomu Hasegawa", 
+        "Conference": "accv", 
+        "ID": 62, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Logical DP Matching for Detecting Similar Subsequence", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shou-Der Wei and Shang-Hong Lai", 
+        "Conference": "accv", 
+        "ID": 63, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Normalized Cross Correlation Based on Adaptive Multilevel Successive Elimination", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Arif Mahmood and Sohaib Khan", 
+        "Conference": "accv", 
+        "ID": 64, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Exploiting Inter-Frame Correlation for Fast Video to Reference Image Alignment", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Michael Grabner, Helmut Grabner, Joachim Pehserl, Petra Korica-Pehserl and Horst Bischof", 
+        "Conference": "accv", 
+        "ID": 65, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Flea, Do You Remember Me", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ying Wang, Kaiqi Huang and Tieniu Tan", 
+        "Conference": "accv", 
+        "ID": 66, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-view Gymnastic Activity Recognition with Fused HMM", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Brice Michoud, Erwan Guillou, Hector Brice\u00f1o and Sa\u00efda Bouakaz", 
+        "Conference": "accv", 
+        "ID": 67, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Real-Time and Marker-Free 3D Motion Capture for Home Entertainment Oriented Applications", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Haiyuan Wu, Yosuke Kitagawa, Toshikazu Wada, Takekazu Kato and Qian Chen", 
+        "Conference": "accv", 
+        "ID": 68, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tracking Iris Contour with a 3D Eye-Model for Gaze Estimation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Inho Choi and Daijin Kim", 
+        "Conference": "accv", 
+        "ID": 69, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Eye Correction using Correlation Information", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ryo Ohtera, Takahiko Horiuchi and Shoji Tominaga", 
+        "Conference": "accv", 
+        "ID": 70, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Eye-gaze Detection from Monocular Camera Image Using Parametric Template Matching", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yu Shi and Timothy Tsui", 
+        "Conference": "accv", 
+        "ID": 71, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An FPGA-based Smart Camera for Gesture Recognition in HCI Applications", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xiaotong Yuan, Stan Z. Li and Ran He", 
+        "Conference": "accv", 
+        "ID": 72, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Color Constancy via Convex Kernel Optimization", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Alexandre Meyer, Hector M. Brice\u00f1o and Sa\u00efda Bouakaz", 
+        "Conference": "accv", 
+        "ID": 73, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "User-guided Shape from Shading to Reconstruct Fine Details from a Single Photograph", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yuxin Jin, Linmi Tao, Guangyou Xu and Yuxin Peng", 
+        "Conference": "accv", 
+        "ID": 74, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Theoretical Approach to Construct Highly Discriminative Features with Application in AdaBoost", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hansung Kim, Ryuuki Sakamoto, Itaru Kitahara, Tomoji Toriyama and Kiyoshi Kogure", 
+        "Conference": "accv", 
+        "ID": 75, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Foreground Extraction Technique Using Gaussian Family Model and Multiple Thresholds", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Harald Wuest, Alain Pagani and Didier Stricker", 
+        "Conference": "accv", 
+        "ID": 76, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Feature Management for Efficient Camera Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xin Yin, Kangying Cai, Yuki Takeda, Ryo Akama and Hiromi T. Tanaka", 
+        "Conference": "accv", 
+        "ID": 77, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Measurement of Reflection Properties in Ancient Japanese Drawing Ukiyo-e", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ping Li, Dirk Farin, Rene Klein Gunnewiek and Peter H. N. de With", 
+        "Conference": "accv", 
+        "ID": 78, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Texture-independent Feature-point Matching (TIFM) from Motion Coherence", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yuhang Zhang, Lei Wang, Richard Hartley and Hongdong Li", 
+        "Conference": "accv", 
+        "ID": 79, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Where's the Weet-Bix", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ramunas Girdziu&scaron;as and Jorma Laaksonen", 
+        "Conference": "accv", 
+        "ID": 80, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "How Marginal Likelihood Inference Unifies Entropy, Correlation and SNR-Based Stopping in Nonlinear Diffusion Scale-Spaces", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xiaoqin Zhang, Weiming Hu, Guan Luo and Steve Maybank", 
+        "Conference": "accv", 
+        "ID": 81, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Kernel-Bayesian Framework for Object Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xue Zhou, Weiming Hu, Ying Chen and Wei Hu", 
+        "Conference": "accv", 
+        "ID": 82, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Markov Random Field Modeled Level Sets Method for Object Tracking with Moving Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yinghao Cai, Wei Chen, Kaiqi Huang and Tieniu Tan", 
+        "Conference": "accv", 
+        "ID": 83, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Continuously Tracking Objects Across Multiple Widely Separated Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Pankaj Kumar, Michael J. Brooks and Anthony Dick", 
+        "Conference": "accv", 
+        "ID": 84, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Multiple Object Tracking using Colour and Segmentation Cues", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Nicolas Papadakis, Patrick H\u00e9as and \u00c9tienne M\u00e9min", 
+        "Conference": "accv", 
+        "ID": 85, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Assimilation for Motion Estimation of Atmospheric Layers with Shallow-Water Model", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Nam Trung Pham, Weimin Huang and S. H. Ong", 
+        "Conference": "accv", 
+        "ID": 86, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Probability Hypothesis Density Approach For Multi-Camera Multi-Object Tracking", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chi-Chen Raxle Wang and Jenn-Jier James Lien", 
+        "Conference": "accv", 
+        "ID": 87, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "AdaBoost Learning for Human Detection Based on Histograms of Oriented Gradients", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Qixiang Ye, Jianbin Jiao and Hua Yu", 
+        "Conference": "accv", 
+        "ID": 88, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-posture Human Detection in Video Frames by Motion Contour Matching", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yu-Ting Chen and Chu-Song Chen", 
+        "Conference": "accv", 
+        "ID": 89, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Cascade of Feed-Forward Classifiers for Fast Pedestrian Detection", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yasuhiro Murai, Hironobu Fujiyoshi and Takeo Kanade", 
+        "Conference": "accv", 
+        "ID": 90, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Combined Object Detection and Segmentation by Using Space-Time Patches", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ismail Ben Ayed and Amar Mitiche", 
+        "Conference": "accv", 
+        "ID": 91, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Embedding a Region Merging Prior in Level Set Vector-Valued Image Segmentation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Erchan Aptoula and S\u00e9bastien Lef\u00e8vre", 
+        "Conference": "accv", 
+        "ID": 92, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Basin Morphology Approach to Colour Image Segmentation by Region Merging", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tze K. Koh, Amit Agrawal, Ramesh Raskar, Steve Morgan, Nicholas Miles and Barrie Hayes-Gill", 
+        "Conference": "accv", 
+        "ID": 93, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Detecting and Segmenting Un-occluded Items by Actively Casting Shadows", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jundong Liu, Charles Smithand Hima Chebrolu", 
+        "Conference": "accv", 
+        "ID": 94, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Local Probabilistic Prior-based Active Contour Model for Brain MR Image Segmentation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yufei Han, Zhenan Sun, Fei Wang and Tieniu Tan", 
+        "Conference": "accv", 
+        "ID": 95, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Palmprint Recognition under Unconstrained Scenes", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ying Hao, Zhenan Sun and Tieniu Tan", 
+        "Conference": "accv", 
+        "ID": 96, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Comparative Studies on Multispectral Palm Image Fusion for Biometrics", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Rufeng Chu, Zhen Lei, Yufei Han, Ran He and Stan Z. Li", 
+        "Conference": "accv", 
+        "ID": 97, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Gabor Magnitude Features for Palmprint Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kikuo Fujimura and Lijie Xu", 
+        "Conference": "accv", 
+        "ID": 98, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sign Recognition using Constrained Optimization", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jiang Yu Zheng and Min Shi", 
+        "Conference": "accv", 
+        "ID": 99, 
+        "PDF": "http://www.cs.iupui.edu/~jzheng/accv07motion.pdf", 
+        "Project": "", 
+        "Title": "Depth from Stationary Blur with Adaptive Filtering", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chunjian Ren, Wenbin Chen and I-fan Shen", 
+        "Conference": "accv", 
+        "ID": 100, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Three-stage Motion Deblurring from a Video", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Nazim Ashraf, Imran N. Junejo and Hassan Foroosh", 
+        "Conference": "accv", 
+        "ID": 101, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Near-Optimal Mosaic Selection for Rotating and Zooming Video Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Akihiko Iketani, Tomokazu Sato, Sei Ikeda, Masayuki Kanbara, Noboru Nakajima and Naokazu Yokoya", 
+        "Conference": "accv", 
+        "ID": 102, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Video Mosaicing Based on Structure from Motion for Distortion-Free Document Digitization", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ankit Gupta, Lakshya Goel, Avanish Kushal, Prem Kalra and Subhashis Banerjee", 
+        "Conference": "accv", 
+        "ID": 103, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Super Resolution of images of 3D scenecs, Uma Mudenagudi", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shu-Fan Lui, Jin-Yi Wu, Hsi-Shu Mao and Jenn-Jier James Lien", 
+        "Conference": "accv", 
+        "ID": 104, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning-Based Super-Resolution System Using Single Facial Image and Multi-Resolution Wavelet Synthesis", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ying Yang, Shouxun Lin, Yongdong Zhang and Sheng Tang", 
+        "Conference": "accv", 
+        "ID": 105, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Statistical Framework for Shot Segmentation and Classification in Sports Video", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Balamanohar Paluri, Nalin Pradeep S, Hitesh Shah and Prakash C", 
+        "Conference": "accv", 
+        "ID": 106, 
+        "PDF": "http://prakashc.googlepages.com/Sportsclassificationusingcross-ratio.pdf", 
+        "Project": "", 
+        "Title": "Sports Classification using Cross-Ratio Histograms", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shih-Shinh Huang, Li-Chen Fu and Pei-Yung Hsiao", 
+        "Conference": "accv", 
+        "ID": 107, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Bayesian Network for Foreground Segmentation in Region Level", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Fangfang Lu, Zhouyu Fu and Antonio Robles-Kelly", 
+        "Conference": "accv", 
+        "ID": 108, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Graph Cuts for Multiclass Interactive Image Segmentation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Lei Wang", 
+        "Conference": "accv", 
+        "ID": 109, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Feature Subset Selection for Multi-class SVM based Image Classification", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xinyu Xu and Baoxin Li", 
+        "Conference": "accv", 
+        "ID": 110, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Evaluating Multi-Class Multiple-Instance Learning for Image Categorization", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Andrei Zaharescu, Edmond Boyer and Radu Horaud", 
+        "Conference": "accv", 
+        "ID": 111, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "TransforMesh : A Topology-Adaptive Mesh-Based Approach to Surface Evolution", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Masao Shimizu and Masatoshi Okutomi", 
+        "Conference": "accv", 
+        "ID": 112, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Microscopic Surface Shape Estimation of a Transparent Plate using a Complex Image", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "H. Zhong, W. S. Lau, W. F. Sze and Y. S. Hung", 
+        "Conference": "accv", 
+        "ID": 113, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Recovery from Turntable Image Sequence", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Fr\u00e9d\u00e9ric Courteille, Jean-Denis Durou and Pierre Gurdjos", 
+        "Conference": "accv", 
+        "ID": 114, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape from Contour for the Digitization of Curved Documents", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ryo Furukawa, Tomoya Itano, Akihiko Morisaka and Hiroshi Kawasaki", 
+        "Conference": "accv", 
+        "ID": 115, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Improved Space Carving Method for Merging and Interpolating Multiple Range Images using Information of Light Sources of Active Stereo", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hamidreza Zaboli and Mohammad Rahmati", 
+        "Conference": "accv", 
+        "ID": 116, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Representation and Classification Using Boundary Radius Function", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chunhua Shen, Hongdong Li and Michael J. Brooks", 
+        "Conference": "accv", 
+        "ID": 117, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Convex Programming Approach to the Trace Quotient Problem", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jan &Scaron;ochman and Jir\u00ed Matas", 
+        "Conference": "accv", 
+        "ID": 118, 
+        "PDF": "ftp://cmp.felk.cvut.cz/pub/cmp/articles/sochman/Sochman-accv07.pdf", 
+        "Project": "", 
+        "Title": "Learning a Fast Emulator of a Binary Decision ProcessPDF", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yasuhiro Mukaigawa, Kohei Sumino and Yasushi Yagi", 
+        "Conference": "accv", 
+        "ID": 119, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multiplexed Illumination for Measuring BRDF using an Ellipsoidal Mirror and a Projector", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Holger Handel", 
+        "Conference": "accv", 
+        "ID": 120, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Analyzing the Influences of Camera Warm-Up Effects on Image Acquisition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ouk Choi, Hyeongwoo Kim and In So Kweon", 
+        "Conference": "accv", 
+        "ID": 121, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Simultaneous Plane Extraction and 2D Homography Estimation using Local Feature Transformations", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Fangfang Lu and Richard Hartley", 
+        "Conference": "accv", 
+        "ID": 122, 
+        "PDF": "http://www.maths.lth.se/matematiklth/vision/publdb/reports/pdf/byrod-josephson-etal-accv-07.pdf", 
+        "Project": "", 
+        "Title": "A Fast Optimal Algorithm for L2 Triangulation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Bo Zheng, Jun Takamatsu and Katsushi Ikeuchi", 
+        "Conference": "accv", 
+        "ID": 123, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptively Determining Degrees of Implicit Polynomial Curves and Surfaces", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ding Yuan and Ronald Chung", 
+        "Conference": "accv", 
+        "ID": 124, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Determining Relative Geometry of Cameras from Normal Flows", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yasuyuki Sugaya and Kenichi Kanatani", 
+        "Conference": "accv", 
+        "ID": 125, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Highest Accuracy Fundamental Matrix Computation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yongduek Seo and Richard Hartley", 
+        "Conference": "accv", 
+        "ID": 126, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sequential L8 Norm Minimization for Triangulation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Matthias Wimmer and Bernd Radig", 
+        "Conference": "accv", 
+        "ID": 127, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Initial Pose Estimation for 3D Model Tracking Using Learned Objective Functions", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Cheng Wan, Kazuki Kozuka and Jun Sato", 
+        "Conference": "accv", 
+        "ID": 128, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multiple View Geometry for Non-Rigid Motions Viewed from Translational Cameras", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jae-Hak Kim, Richard Hartley, Jan-Michael Frahm and Marc Pollefeys", 
+        "Conference": "accv", 
+        "ID": 129, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Visual Odometry for Non-Overlapping Views Using Second-Order Cone Programming", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Guanghui Wang, Q. M. Jonathan Wu and Zhengqiao Ji", 
+        "Conference": "accv", 
+        "ID": 130, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Pose Estimation from Circle or Parallel Lines in a Single Image", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Pau Gargallo, Peter Sturm and Sergi Pujades", 
+        "Conference": "accv", 
+        "ID": 131, 
+        "PDF": "http://perception.inrialpes.fr/Publications/2007/GSP07/GargalloSturmPujades-accv2007.pdf", 
+        "Project": "", 
+        "Title": "An Occupancy--Depth Generative Model of Multi-View Images", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shigeki Sugimoto, Hidekazu Takahashi and Masatoshi Okutomoi", 
+        "Conference": "accv", 
+        "ID": 132, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Correspondence from Motion Subspace Constraint and Epipolar Constraint", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shobhit Niranjan, Gaurav Gupta, Amitabha Mukerjee and Sumana Gupta", 
+        "Conference": "accv", 
+        "ID": 133, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Registration of Aerial Image Sequences without Camera Priors", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Zhe Lin, Larry S. Davis, David Doermann and Daniel DeMenthon", 
+        "Conference": "accv", 
+        "ID": 134, 
+        "PDF": "http://www.cfar.umd.edu/~daniel/daniel_papersfordownload/zheLin-ACCV2007.pdf", 
+        "Project": "", 
+        "Title": "Simultaneous Appearance Modeling and Segmentation for Matching People under Occlusion", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Gajinder Singh, Manika Puri, Jeffrey Lubin and Harpreet Sawhney", 
+        "Conference": "accv", 
+        "ID": 135, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Content-Based Matching of Videos using Local Spatio-Temporal Fingerprints", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shizu Sakakibara, Yuusuke Kounoike, Yuji Shinano and Ikuko Shimizu", 
+        "Conference": "accv", 
+        "ID": 136, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic Range Image Registration using Mixed Integer Linear Programming", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ofir Pele and Michael Werman", 
+        "Conference": "accv", 
+        "ID": 137, 
+        "PDF": "http://www.cs.huji.ac.il/~werman/Papers/ACCV2007.pdf", 
+        "Project": "", 
+        "Title": "Accelerating Pattern Matching or How Much Can You Slide", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Michael Donoser, Clemens Arth and Horst Bischof", 
+        "Conference": "accv", 
+        "ID": 138, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Detecting, Tracking and Recognizing License Plates", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Somayeh Danafar and Niloofar Gheissari", 
+        "Conference": "accv", 
+        "ID": 139, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Action Recognition for Surveillance Applications Using Optic Flow and SVM", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kazuhiro Fukui and Osamu Yamaguchi", 
+        "Conference": "accv", 
+        "ID": 140, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "The Kernel Orthogonal Mutual Subspace Method and its Application to 3D Object Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Feiyue huang and Guangyou Xu", 
+        "Conference": "accv", 
+        "ID": 141, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Viewpoint Insensitive Action Recognition Using Envelop Shape", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Devi Parikh and Tsuhan Chen", 
+        "Conference": "accv", 
+        "ID": 142, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Unsupervised Identification of Multiple Objects of Interest from Multiple Images: dISCOVER", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jong-Sung Kim and Ki-Sang Hong", 
+        "Conference": "accv", 
+        "ID": 143, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast 3-D Interpretation from Monocular Image Sequences on Large Motion Fields", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Kwang Hee Lee, Changsoo Je and Sang Wook Lee", 
+        "Conference": "accv", 
+        "ID": 144, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Color-Stripe Structured Light Robust to Surface Color and Discontinuity", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Stefano Mattoccia, Federico Tombari and Luigi Di Stefano", 
+        "Conference": "accv", 
+        "ID": 145, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stereo Vision Enabling Precise Border Localization within a Scanline Optimization Framework", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Naoya Ohta, Kenji Mogi and Yoshiki Nakasone", 
+        "Conference": "accv", 
+        "ID": 146, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Three Dimensional Position Measurement for Maxillofacial Surgery by Stereo X-ray Images", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hiroshi Ishikawa", 
+        "Conference": "accv", 
+        "ID": 147, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Total Absolute Gaussian Curvature for Stereo Prior", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Martin Byr\u00f6d, Klas Josephson and Kalle \u00c5str\u00f6m", 
+        "Conference": "accv", 
+        "ID": 148, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Optimal Three View Triangulation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Joonyoung Park, Wonsik Kim and Kyoung Mu Lee", 
+        "Conference": "accv", 
+        "ID": 149, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stereo Matching using Population-based MCMC", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Masaki Yamazaki, Sho Iwata and Gang Xu", 
+        "Conference": "accv", 
+        "ID": 150, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dense 3D Reconstruction of Specular and Transparent Objects Using Stereo Cameras and Phase-Shift Method", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Wonwoo Lee, Woontack Woo and Edmond Boyer", 
+        "Conference": "accv", 
+        "ID": 151, 
+        "PDF": "http://perception.inrialpes.fr/people/Boyer/Publications/wonwoo_accv07.pdf", 
+        "Project": "", 
+        "Title": "Identifying Foreground from Multiple ImagesPDF", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Weiwei Du and Kiichi Urahama", 
+        "Conference": "accv", 
+        "ID": 152, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image and Video Matting with Membership Propagation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ali Shahrokni, Oliver Woodford and Ian Reid", 
+        "Conference": "accv", 
+        "ID": 153, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Temporal Priors for Novel Video Synthesis", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Rapha\u00ebl Mar\u00e9e, Pierre Geurts and Louis Wehenkel", 
+        "Conference": "accv", 
+        "ID": 154, 
+        "PDF": "http://www.montefiore.ulg.ac.be/services/stochastic/pubs/2007/MGW07b/maree-retrieval-accv07.pdf", 
+        "Project": "", 
+        "Title": "Content-based Image Retrieval by Indexing Random Subwindows with Randomized Trees", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Wen-Yan Chang, Chu-Song Chen and Yi-Ping Hung", 
+        "Conference": "accv", 
+        "ID": 155, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Analyzing Facial Expression by Fusing Manifolds", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Chen-Hui Kuo, Jiann-Der Lee and Tung-Jung Chan", 
+        "Conference": "accv", 
+        "ID": 156, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Novel Multi-stage Classifier for Face Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Youdong Zhao, Shuang Xu and Yunde Jia", 
+        "Conference": "accv", 
+        "ID": 157, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discriminant Clustering Embedding for Face Recognition with Image Sets", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xiaoyi Yu and Noboru Babaguchi", 
+        "Conference": "accv", 
+        "ID": 158, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Privacy Preserving: Hiding a Face in a Face", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Xiaoming Liu and Tsuhan Chen", 
+        "Conference": "accv", 
+        "ID": 159, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Face Mosaicing for Pose Robust Video-Based Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Shu Liao and Albert C. S. Chung", 
+        "Conference": "accv", 
+        "ID": 160, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Face Recognition by Using Elongated Local Binary Patterns with Average Maximum Distance Gradient Magnitude", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Liang Huang, Yong Ma, Yoshihisa Ijiri, Shihong Lao, Masato Kawade and Yuming Zhao", 
+        "Conference": "accv", 
+        "ID": 161, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Adaptive Nonparametric Discriminant Analysis Method and Its Application to Face Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yonggang Huang, Yunhong Wang and Tieniu Tan", 
+        "Conference": "accv", 
+        "ID": 162, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discriminating 3D Faces by Statistics of Depth Differences", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Wen-Sheng Vincnent Chu, Ju-Chin Chen and Jenn-Jier James Lien", 
+        "Conference": "accv", 
+        "ID": 163, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Kernel Discriminant Analysis Based on Canonical Differences for Face Recognition in Image Sets", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Huachun Tan and Yu-Jin Zhang", 
+        "Conference": "accv", 
+        "ID": 164, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Person-Similarity Weighted Feature for Expression Recognition", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Mingsong Dou, Chao Zhang, Pengwei Hao and Jun Li", 
+        "Conference": "accv", 
+        "ID": 165, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Converting Thermal Infrared Face Images into Normal Gray-Level Images", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Jen-Mei Chang, Michael Kirby, Holger Kley, Chris Peterson, Bruce Draper and J. Ross Beveridge", 
+        "Conference": "accv", 
+        "ID": 166, 
+        "PDF": "http://www.math.colostate.edu/~chang/files/ACCV07PosterChang.pdf", 
+        "Project": "", 
+        "Title": "Recognition of Digital Images of the Human Face at Ultra Low Resolution via Illumination Spaces", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Reiner Lenz", 
+        "Conference": "accv", 
+        "ID": 167, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Crystal Vision-Applications of Point Groups in Computer Vision", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yuanquan Wang, Jia Liang and Yunde Jia", 
+        "Conference": "accv", 
+        "ID": 168, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "On the Critical Point of Gradient Vector Flow Snake", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Ka Yan Wong and Chi Lap Yip", 
+        "Conference": "accv", 
+        "ID": 169, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Fast and Noise-tolerant Method for Positioning Centers of Spiraling and Circulating Vector Fields", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tomokazu Takahashi, Lina, Ichiro Ide, Yoshito Mekada and Hiroshi Murase", 
+        "Conference": "accv", 
+        "ID": 170, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Interpolation between Eigenspaces Using Rotation in Multiple Dimensions", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Peter Sturm and Pau Gargallo", 
+        "Conference": "accv", 
+        "ID": 171, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Conic Fitting Using the Geometric Distance", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Anders P. Eriksson, Carl Olsson and Fredrik Kahl", 
+        "Conference": "accv", 
+        "ID": 172, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficiently Solving the Fractional Trust Region Problem", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Tomoyuki Nagahashi, Hironobu Fujiyoshi and Takeo Kanade", 
+        "Conference": "accv", 
+        "ID": 173, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Segmentation Using Iterated Graph Cuts Based on Multi-scale Smoothing", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Erwan Bigorgne and Jean-Philippe Tarel", 
+        "Conference": "accv", 
+        "ID": 174, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Backward Segmentation and Region Fitting for Geometrical Visibility Range Estimation", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Zhenglong Li, Jian Cheng, Qingshan Liu and Hanqing Lu", 
+        "Conference": "accv", 
+        "ID": 175, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Segmentation using Co-EM Strategy", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Yadong Mu and Bingfeng Zhou", 
+        "Conference": "accv", 
+        "ID": 176, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Co-segmentation of Image Pairs with Quadratic Global Constraint in MRFs", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Hiroshi Kawasaki and Ryo Furukawa", 
+        "Conference": "accv", 
+        "ID": 177, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Reconstruction from Cast Shadows using Coplanarities and Metric Constraints", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Scott McCloskey, Michael Langer and Kaleem Siddiqi", 
+        "Conference": "accv", 
+        "ID": 178, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Evolving Measurement Regions for Depth from Defocus", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "William A.P. Smith and Edwin R. Hancock", 
+        "Conference": "accv", 
+        "ID": 179, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A New Framework for Grayscale and Colour Non-Lambertian Shape-from-Shading", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Augusto Destrero, Christine De Mol, Francesca Odone and Alessandro Verri", 
+        "Conference": "accv", 
+        "ID": 180, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A regularized Approach to Feature Selection for Face Detection", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Takuma Funahashi, Takayuki Fujiwara and Hiroyasu Koshimizu", 
+        "Conference": "accv", 
+        "ID": 181, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Iris Tracking and Regeneration for Improving Nonverbal Interface", 
+        "Year": 2007
+    }, 
+    {
+        "Authors": "Zhiguo Li, Qingshan Liu and Dimitris Metaxas", 
+        "Conference": "accv", 
+        "ID": 182, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Face Mis-alignment Analysis by Multiple-Instance Subspace", 
+        "Year": 2007
+    }
+]

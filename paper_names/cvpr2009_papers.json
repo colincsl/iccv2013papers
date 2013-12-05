@@ -1,0 +1,3440 @@
+[
+    {
+        "Authors": "Vittorio Ferrari, Manuel Marin-Jimenez, Andrew Zisserman", 
+        "Conference": "cvpr", 
+        "ID": 0, 
+        "PDF": "http://www.vision.ee.ethz.ch/~vferrari/Publications/ferrari09cvpr.pdf", 
+        "Project": "", 
+        "Title": "Pose Search: retrieving people using their pose", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michal Perdoch, Ondrej Chum, Jiri Matas", 
+        "Conference": "cvpr", 
+        "ID": 1, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Representation of Local Geometry for Large Scale Object Retrieval", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ondrej Chum, Michal Perdoch, Jiri Matas", 
+        "Conference": "cvpr", 
+        "ID": 2, 
+        "PDF": "http://cmp.felk.cvut.cz/~chum/papers/chum09cvpr.pdf", 
+        "Project": "", 
+        "Title": "Geometric min-Hashing: Finding a (Thick) Needle in a Haystack", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhong Wu,Qifa Ke,Michael Isard,Jian Sun", 
+        "Conference": "cvpr", 
+        "ID": 3, 
+        "PDF": "http://research.microsoft.com/pubs/80803/CVPR_2009_bundle.pdf", 
+        "Project": "", 
+        "Title": "Bundling Features for Large Scale Partial-Duplicate Web Image Search", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ying Wu, Jialue Fan", 
+        "Conference": "cvpr", 
+        "ID": 4, 
+        "PDF": "http://www.ece.northwestern.edu/~yingwu/papers/conference/2009/CVPR2009a_ContextualFlow_final.pdf", 
+        "Project": "", 
+        "Title": "Contextual Flow", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Thomas Brox, Christoph Bregler, Jitendra Malik1", 
+        "Conference": "cvpr", 
+        "ID": 5, 
+        "PDF": "http://www.cs.berkeley.edu/~brox/pub/brox_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Large Displacement Optical Flow", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andriy Myronenko, Xubo Song", 
+        "Conference": "cvpr", 
+        "ID": 6, 
+        "PDF": "http://www.bme.ogi.edu/~myron/publications/CVPR09_rc.pdf", 
+        "Project": "", 
+        "Title": "Image Registration by Minimization of Residual Complexity", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Richard Roberts, Christian Potthast, Frank Dellaert", 
+        "Conference": "cvpr", 
+        "ID": 7, 
+        "PDF": "http://www.cc.gatech.edu/~richard/media/Roberts2009cvpr_draft.pdf", 
+        "Project": "", 
+        "Title": "Learning General Optical Flow Subspaces for Egomotion Estimation and Detection of Motion Anomalies", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaofei He, Ming Ji, Hujun Bao", 
+        "Conference": "cvpr", 
+        "ID": 8, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Unified Active and Semi-Supervised Learning Framework for Image Compression", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dong Guo,Terence Sim", 
+        "Conference": "cvpr", 
+        "ID": 9, 
+        "PDF": "http://www.comp.nus.edu.sg/~guodong/makeup/face_makeup_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Digital Face Makeup by Example", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chia-Kai Liang,Chao-Chung Cheng, Yen-Chieh Lai,Liang-Gee Chen,Homer H. Chen", 
+        "Conference": "cvpr", 
+        "ID": 10, 
+        "PDF": "http://mpac.ee.ntu.edu.tw/~chiakai/hebp/pdf/CYPR08_preprint.pdf", 
+        "Project": "", 
+        "Title": "Hardware-Efficient Belief Propagation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zheng Lu, Zheng Wu, Michael Brown", 
+        "Conference": "cvpr", 
+        "ID": 11, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Directed Assistance for Ink-Bleed Reduction in Old Documents", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hui Kong, Jean-Yves Audibert, Jean Ponce", 
+        "Conference": "cvpr", 
+        "ID": 12, 
+        "PDF": "http://www.di.ens.fr/willow/pdfs/cvpr09c.pdf", 
+        "Project": "", 
+        "Title": "Vanishing Point Detection for Road Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jian-Feng Cai, Hui Ji, Chaoqiang Liu,Zuowei Shen", 
+        "Conference": "cvpr", 
+        "ID": 13, 
+        "PDF": "http://www.math.nus.edu.sg/~matzuows/blind_deblurring3.pdf", 
+        "Project": "", 
+        "Title": "Blind motion deblurring from a single image using sparse approximation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Guodong Guo, Guowang Mu, Yun Fu, Thomas Huang", 
+        "Conference": "cvpr", 
+        "ID": 14, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Human Age Estimation Using Bio-inspired Features", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sanjay Kanade, Dijana Petrovska-Delacr&#x17D;taz, Bernadette Dorizzi", 
+        "Conference": "cvpr", 
+        "ID": 15, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cancelable Iris Biometrics: Using Error Correcting Codes to Reduce Variabilities of the Biometric Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pradeep Buddharaju, Ioannis Pavlidis", 
+        "Conference": "cvpr", 
+        "ID": 16, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Physiological Face Recognition Is Coming of Age", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hongjun Jia, Aleix Martinez", 
+        "Conference": "cvpr", 
+        "ID": 17, 
+        "PDF": "http://www.ece.osu.edu/~jiah/documents/CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Support Vector Machines in Face Recognition with Occlusions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaogang Wang, Cha Zhang,Zhengyou Zhang", 
+        "Conference": "cvpr", 
+        "ID": 18, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/zhang/papers/CVPR09-FV.pdf", 
+        "Project": "", 
+        "Title": "Boosted Multi-Task Learning for Face Verification With Applications to Web Image and Video Search", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ritwik Kumar, Arunava Banerjee, Baba C. Vemuri", 
+        "Conference": "cvpr", 
+        "ID": 19, 
+        "PDF": "http://www.cise.ufl.edu/~rkkumar/kumar2009.pdf", 
+        "Project": "", 
+        "Title": "Volterrafaces: Discriminant Analysis using Volterra Kernels", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jie Chen, Dong Yi, Jimei Yang, Guoying Zhao, Stan Li, Matti Pietik&Scaron;inen", 
+        "Conference": "cvpr", 
+        "ID": 20, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Mappings for Face Synthesis from Near Infrared to Visual Light Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Junyan Wang, Kap Luk Chan", 
+        "Conference": "cvpr", 
+        "ID": 21, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Evolution for Rigid and Nonrigid Shape Registration and Recovery", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Matthew Toews, William Wells", 
+        "Conference": "cvpr", 
+        "ID": 22, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "SIFT-Rank: Ordinal Description for Invariant Feature Correspondence", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Simon Winder, Gang Hua,Matthew Brown", 
+        "Conference": "cvpr", 
+        "ID": 23, 
+        "PDF": "http://www.cs.ubc.ca/~mbrown/papers/cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Picking the best DAISY", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Daewon Lee, Matthias Hofmann, Florian Steinke, Yasemin Altun, Nathan Cahill, Bernhard Sch&scaron;lkopf", 
+        "Conference": "cvpr", 
+        "ID": 24, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Similarity Measure for Multi-Modal 3D Image Registration", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yefeng Zheng, Bogdan Georgescu, Haibin Ling, S. Kevin Zhou, Michael Scheuering, Comaniciu Dorin", 
+        "Conference": "cvpr", 
+        "ID": 25, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Constrained Marginal Space Learning for Efficient 3D Anatomical Structure Detection in Medical Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yalin Wang, Xianfeng Gu, Tony Chan, Paul Thompson", 
+        "Conference": "cvpr", 
+        "ID": 26, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Analysis with Conformal Invariants for Multiply Connected Domains and its Application to Analyzing Brain Morphology", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Saiprasad Ravishankar, Arpit Jain,Anurag Mittal", 
+        "Conference": "cvpr", 
+        "ID": 27, 
+        "PDF": "http://www.cse.iitm.ac.in/~amittal/dr-cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Automated Feature Extraction for Early Detection of Diabetic Retinopathy in Fundus Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chunming Li, Chris Gatenby, Li Wang, John Gore", 
+        "Conference": "cvpr", 
+        "ID": 28, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Robust Parametric Method for Bias Field Estimation and Segmentation of MR Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nils Hasler, Bodo Rosenhahn, Thorsten Thorm&auml;hlen, Michael Wand, Juergen Gall, Hans-Peter Seidel", 
+        "Conference": "cvpr", 
+        "ID": 29, 
+        "PDF": "http://www.mpi-inf.mpg.de/~hasler/download/HasRosThoWanGalSei09Audio.pdf", 
+        "Project": "", 
+        "Title": "Markerless Motion Capture with Unsynchronized Moving Cameras", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Konstantinos Derpanis,Richard Wildes", 
+        "Conference": "cvpr", 
+        "ID": 30, 
+        "PDF": "http://www.cvr.yorku.ca/members/gradstudents/kosta/publications/file_CVPR2009_Derpanis_Wildes.pdf", 
+        "Project": "", 
+        "Title": "Early Spatiotemporal Grouping with a Distributed Oriented Energy Representation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Rob Hess, Alan Fern", 
+        "Conference": "cvpr", 
+        "ID": 31, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discriminatively Trained Particle Filters for Complex Multi-Object Tracking", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, Li Fei-Fei", 
+        "Conference": "cvpr", 
+        "ID": 32, 
+        "PDF": "http://www.image-net.org/papers/imagenet_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "ImageNet: A Large-Scale Hierarchical Image Database", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andrew Gallagher,Tsuhan Chen", 
+        "Conference": "cvpr", 
+        "ID": 33, 
+        "PDF": "http://amp.ece.cmu.edu/people/Andy/Andy_files/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Understanding Images of Groups of People", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Senjian An, Patrick Peursum, Wanquan Liu, Svetha Venkatesh", 
+        "Conference": "cvpr", 
+        "ID": 34, 
+        "PDF": "http://www.cs.ualberta.ca/~jag/papersVis2/09cvpr/papers/0196.pdf", 
+        "Project": "", 
+        "Title": "Efficient Algorithms for Subwindow Search in Object Detection and Localization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhangzhang Si, Haifeng Gong, Ying Nian Wu, Song-Chun Zhu", 
+        "Conference": "cvpr", 
+        "ID": 35, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Mixed Templates for Object Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tom Yeh, John Lee, Trevor Darrell", 
+        "Conference": "cvpr", 
+        "ID": 36, 
+        "PDF": "http://people.csail.mit.edu/tomyeh/homepage/pubs/CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Fast concurrent object localization and recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alexander Toshev, Ameesh Makadia, Kostas Daniilidis", 
+        "Conference": "cvpr", 
+        "ID": 37, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape-based Detection of Moving Objects in Videos Using Synthetic 3D Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tz-Huan Huang, Kai-Yin Cheng,Yung-Yu Chuang", 
+        "Conference": "cvpr", 
+        "ID": 38, 
+        "PDF": "http://www.csie.ntu.edu.tw/~cyy/publications/papers/Huang2009ACB.pdf", 
+        "Project": "", 
+        "Title": "A Collaborative Benchmark for Region of Interest Detection Algorithms", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Piotr Doll&aacute;r, Christian Wojek, Bernt Schiele, Pietro Perona", 
+        "Conference": "cvpr", 
+        "ID": 39, 
+        "PDF": "http://vision.ucsd.edu/~pdollar/research/papers/CVPR09pedestrians.pdf", 
+        "Project": "", 
+        "Title": "Pedestrian Detection: A Benchmark", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Brendan Morris, Mohan Trivedi", 
+        "Conference": "cvpr", 
+        "ID": 40, 
+        "PDF": "http://cvrr.ucsd.edu/bmorris/docs/morris_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Learning Trajectory Patterns by Clustering: Experimental Studies and Comparative Evaluation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Feng Liu, Michael Gleicher", 
+        "Conference": "cvpr", 
+        "ID": 41, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning color and locality cues for moving object detection and segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dana Cobzas, Mark Schmidt", 
+        "Conference": "cvpr", 
+        "ID": 42, 
+        "PDF": "http://www.cs.ualberta.ca/~dana/Papers/09cvpr_contCRF.pdf", 
+        "Project": "", 
+        "Title": "Increased Discrimination in Level Set Methods with Embedded Conditional Random Fields", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mickael Pechaud, Gabriel Peyre, Renaud Keriven", 
+        "Conference": "cvpr", 
+        "ID": 43, 
+        "PDF": "http://hal.archives-ouvertes.fr/docs/00/36/55/99/PDF/CVPR.pdf", 
+        "Project": "", 
+        "Title": "Extraction of Tubular Structures over an Orientation Domain", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sebastian Schuon, Christian Theobalt, James Davis, Sebastian Thrun", 
+        "Conference": "cvpr", 
+        "ID": 44, 
+        "PDF": "http://ai.stanford.edu/~schuon/sr/cvpr09_superresolution.pdf", 
+        "Project": "", 
+        "Title": "LidarBoost: Depth Superresolution for ToF 3D Shape Scanning", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Frank R. Schmidt, Eno T&ouml;ppe, Daniel Cremers", 
+        "Conference": "cvpr", 
+        "ID": 45, 
+        "PDF": "http://www-cvpr.iai.uni-bonn.de/pub/pub/schmidt_et_al_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Efficient Planar Graph Cuts with Applications in Computer Vision", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xingwei Yang, Suzan Koknar-Tezel, Longin Jan Latecki", 
+        "Conference": "cvpr", 
+        "ID": 46, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Locally Constrained Diffusion Process on Locally Densified Distance Spaces with Applications to Shape Retrieval", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Longbin Chen, Julian J. McAuley,Rogerio S. Feris, Tiberio S. Caetano, Matthew Turk", 
+        "Conference": "cvpr", 
+        "ID": 47, 
+        "PDF": "http://rogerioferis.com/publications/FerisCVPR09a.pdf", 
+        "Project": "", 
+        "Title": "Shape Classification Through Structured Learning of Matching Measures", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andrei Zaharescu, Edmond Boyer, Kiran Varanasi, Radu Horaud", 
+        "Conference": "cvpr", 
+        "ID": 48, 
+        "PDF": "http://perception.inrialpes.fr/Publications/2009/ZBVH09/ZaharescuCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Surface Feature Detection and Description with Applications to Mesh Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wei Liu,Shih-fu Chang", 
+        "Conference": "cvpr", 
+        "ID": 49, 
+        "PDF": "http://www.ee.columbia.edu/dvmm/publications/09/sgraph.pdf", 
+        "Project": "", 
+        "Title": "Robust Multi-Class Transductive Learning with Graphs", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Changhu Wang, Zheng Song, Shuicheng Yan, Lei Zhang, Hong-Jiang Zhang", 
+        "Conference": "cvpr", 
+        "ID": 50, 
+        "PDF": "http://www.lv-nus.org/papers/2009/2009_C_14.pdf", 
+        "Project": "", 
+        "Title": "Multiplicative Nonnegative Graph Embedding", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhiwu Lu, Horace Ip", 
+        "Conference": "cvpr", 
+        "ID": 51, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Categorization with Spatial Mismatch Kernels", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhe Lin,Gang Hua, Larry Davis", 
+        "Conference": "cvpr", 
+        "ID": 52, 
+        "PDF": "http://www.ece.northwestern.edu/~ganghua/publication/CVPR09b.pdf", 
+        "Project": "", 
+        "Title": "Multiple Instance Feature for Robust Part-based Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ariadna Quattoni,Antonio Torralba", 
+        "Conference": "cvpr", 
+        "ID": 53, 
+        "PDF": "http://people.csail.mit.edu/torralba/publications/indoor.pdf", 
+        "Project": "", 
+        "Title": "Recognizing Indoor Scenes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhenguo Li, Jianzhuang Liu, Xiaoou Tang", 
+        "Conference": "cvpr", 
+        "ID": 54, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Constrained Clustering via Spectral Regularization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ruiping Wang, Xilin Chen", 
+        "Conference": "cvpr", 
+        "ID": 55, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Manifold Discriminant Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Heiko Hirschmueller, Stefan Gehrig", 
+        "Conference": "cvpr", 
+        "ID": 56, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stereo Matching in the Presence of Sub-Pixel Calibration Errors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yong Seok Heo,Kyoung Mu Lee, Sang Uk Lee", 
+        "Conference": "cvpr", 
+        "ID": 57, 
+        "PDF": "http://cv.snu.ac.kr/newhome/publication/pdf/conf/ic065.pdf", 
+        "Project": "", 
+        "Title": "Mutual Information-based Stereo Matching Combined with SIFT Descriptor in Log-chromaticity Color Space", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jiejie Zhu, Miao Liao, Ruigang Yang, Zhigeng Pan", 
+        "Conference": "cvpr", 
+        "ID": 58, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Joint Depth and Alpha Matte Optimization via Fusion of Stereo and Time-of-Flight Sensor", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jingen Liu, Yang Yang, and Mubarak Shah", 
+        "Conference": "cvpr", 
+        "ID": 59, 
+        "PDF": "http://www.cs.ucf.edu/~liujg/papers/cvpr2009_liu_yang.pdf", 
+        "Project": "", 
+        "Title": "Learning Semantic Visual Vocabularies Using Diffusion Distance", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tony Tung, Takashi Matsuyama", 
+        "Conference": "cvpr", 
+        "ID": 60, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Topology Dictionary with Markov Model for 3D Video Content-Based Skimming and Description", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kegan G. G. Samuel,Marshall F. Tappen", 
+        "Conference": "cvpr", 
+        "ID": 61, 
+        "PDF": "http://www.cs.ucf.edu/~mtappen/pubs/cvpr09_learning_map.pdf", 
+        "Project": "", 
+        "Title": "Learning Optimized MAP Estimates in Continuously-Valued MRF Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Brandon Smith,Li Zhang,Hailin Jin", 
+        "Conference": "cvpr", 
+        "ID": 62, 
+        "PDF": "http://pages.cs.wisc.edu/~lizhang/projects/mvstereo/cvpr2009/SmithCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Stereo Matching with Nonparametric Smoothness Priors in Feature Space", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mikhail Sizintsev,Richard Wildes", 
+        "Conference": "cvpr", 
+        "ID": 63, 
+        "PDF": "http://www.cse.yorku.ca/~sizints/stequel_stereo/cvpr2009-STQ-camera-ready.pdf", 
+        "Project": "", 
+        "Title": "Spatiotemporal Stereo via Spatiotemporal Quadric Element (Stequel) Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michael Bleyer, Margrit Gelautz, Carsten Rother, Christoph Rhemann", 
+        "Conference": "cvpr", 
+        "ID": 64, 
+        "PDF": "http://research.microsoft.com/pubs/80301/CVPR09_StereoMatting.pdf", 
+        "Project": "", 
+        "Title": "A Stereo Approach that Handles the Matting Problem via Image Warping", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pei-Ying Lu, Tz-Huan Huang, Meng-Sung Wu, Yi-Ting Cheng,Yung-Yu Chuang", 
+        "Conference": "cvpr", 
+        "ID": 65, 
+        "PDF": "http://www.csie.ntu.edu.tw/~cyy/publications/papers/Lu2009HDR.pdf", 
+        "Project": "", 
+        "Title": "High Dynamic Range Image Reconstruction from Hand-held Cameras", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jyotirmoy Banerjee, Anoop M. Namboodiri, C.V. Jawahar", 
+        "Conference": "cvpr", 
+        "ID": 66, 
+        "PDF": "http://research.iiit.ac.in/~jyotirmoy/jyotirmoy%20Home_files/Publications/jyotirmoyCVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Contextual Restoration of Severely Degraded Document Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tali Treibitz, Yoav Schechner", 
+        "Conference": "cvpr", 
+        "ID": 67, 
+        "PDF": "http://www.ee.technion.ac.il/people/ttali/PolarizationBenefit.pdf", 
+        "Project": "", 
+        "Title": "Polarization: Beneficial for Visibility Enhancement?", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kai-Yueh Chang, Tyng-Luh Liu, Shang-Hong Lai", 
+        "Conference": "cvpr", 
+        "ID": 68, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Partially-Observed Hidden Conditional Random Fields for Facial Expression Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ben Southall, Mayank Bansal, Jayan Eledath", 
+        "Conference": "cvpr", 
+        "ID": 69, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Real-time Vehicle Detection for Highway Driving", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gonzalo Martinez Munoz, Wei Zhang, Nadia Payet, Sinisa Todorovic, Natalia Larios Delgado, Asako Yamamuro, David Lytle, Andrew Moldenke, Eric Mortensen, Robert Paasch, Linda Shapiro, Thomas Dietterich", 
+        "Conference": "cvpr", 
+        "ID": 70, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dictionary-Free Categorization of Very Similar Objects via Stacked Evidence Trees", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Qingxiong Yang, Kar-Han Tan and Narendra Ahuja", 
+        "Conference": "cvpr", 
+        "ID": 71, 
+        "PDF": "http://vision.ai.uiuc.edu/~qyang6/publications/cvpr-09-qingxiong-yang.pdf", 
+        "Project": "", 
+        "Title": "Real-Time O(1) Bilateral Filtering", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jose Manuel  Alvarez, Theo Gevers, Antonio Lopez", 
+        "Conference": "cvpr", 
+        "ID": 72, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Photometric Invariance from Diversified Color Model Ensembles", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yong Xu, Sibin Huang, Hui Ji, Cornelia Fermuller", 
+        "Conference": "cvpr", 
+        "ID": 73, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Combining powerful local and global statistics for texture description", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Arjan Gijsenij, Theo Gevers, Joost Van de Weijer", 
+        "Conference": "cvpr", 
+        "ID": 74, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Physics-based Edge Evaluation for Improved Color Constancy", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alexandra Stefan,Vassilis Athitsos, Quan Yuan, Stan Sclaroff", 
+        "Conference": "cvpr", 
+        "ID": 75, 
+        "PDF": "http://cs-people.bu.edu/athitsos/publications/stefan_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Reducing JointBoost-Based Multiclass Classification to Vector Indexing", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andrew Wagner, John Wright, Arvind Ganesh, Zihan Zhou, Yi Ma", 
+        "Conference": "cvpr", 
+        "ID": 76, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Towards a Practical Face Recognition System: Robust Registration and Illumination by Sparse Representation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Annan Li,Shiguang Shan,Xilin Chen,Wen Gao", 
+        "Conference": "cvpr", 
+        "ID": 77, 
+        "PDF": "http://www.jdl.ac.cn/user/anli/cvpr09_paper.pdf", 
+        "Project": "", 
+        "Title": "Maximizing Intra-individual Correlations for Face Recognition Across Pose Differences", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Roberto Valenti,Zeynep Yucel, Theo Gevers", 
+        "Conference": "cvpr", 
+        "ID": 78, 
+        "PDF": "http://staff.science.uva.nl/~rvalenti/publications/CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Robustifying Eye Center Localization by Head Pose Cues", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kenji Hara,Ko Nishino", 
+        "Conference": "cvpr", 
+        "ID": 79, 
+        "PDF": "http://www.cs.drexel.edu/~kon/publication/KHara_CVPR09_preprint.pdf", 
+        "Project": "", 
+        "Title": "Illumination and Spatially Varying Specular Reflectance from a Single View", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tom Haber, Christian Fuchs, Philippe Bekaert, Hans-Peter Seidel,Michael Goesele, Hendrik P. A.  Lensch", 
+        "Conference": "cvpr", 
+        "ID": 80, 
+        "PDF": "http://www.gris.informatik.tu-darmstadt.de/~mgoesele/download/Haber-2009-ROI.pdf", 
+        "Project": "", 
+        "Title": "Relighting Objects from Image CollectionsPDF", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Rei Kawakami, Katsushi Ikeuchi", 
+        "Conference": "cvpr", 
+        "ID": 81, 
+        "PDF": "http://www.cvl.iis.u-tokyo.ac.jp/~rei/publication/kawakami-cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Color Estimation from a Single Surface Color", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "William Smith, Edwin Hancock", 
+        "Conference": "cvpr", 
+        "ID": 82, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Unified Model of Specular and Diffuse Reflectance for Rough, Glossy Surfaces", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alexandros Panagopoulos, Dimitris Samaras, Nikos Paragios", 
+        "Conference": "cvpr", 
+        "ID": 83, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Shadow and Illumination Estimation Using a Mixture Model", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dheeraj Singaraju, Carsten Rother, Christoph Rhemann", 
+        "Conference": "cvpr", 
+        "ID": 84, 
+        "PDF": "http://research.microsoft.com/pubs/80300/cvpr09-matting-newModels.pdf", 
+        "Project": "", 
+        "Title": "New Appearance Models for Natural Image Matting", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Christian Wachinger, Nassir Navab", 
+        "Conference": "cvpr", 
+        "ID": 85, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Similarity Metrics and Efficient Optimization for Simultaneous Registration", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jongmoo Choi, Gerard Medioni", 
+        "Conference": "cvpr", 
+        "ID": 86, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "StaRSaC: Stable Random Sample Consensus for Parameter Estimation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yifeng Jiang, Erin Edmiston, Fei Wang, Hilary Blumberg, Lawrence Staib, Xenophon Papademetris", 
+        "Conference": "cvpr", 
+        "ID": 87, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Comparison Using Perturbing Shape Registration", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Peng Wang, Terrence Chen, Ying Zhu, Wei Zhang, S. Kevin Zhou, Comaniciu Dorin", 
+        "Conference": "cvpr", 
+        "ID": 88, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Guidewire Tracking in Fluoroscopy", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Anand Joshi, David Shattuck, Dimitrios Pantazis, Quanzheng Li, Hanna  Damasio, Richard Leahy", 
+        "Conference": "cvpr", 
+        "ID": 89, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Optimization of Landmark Selection for Cortical Surface Registration", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tian Shen, Hongsheng Li, Zhen Qian, Xiaolei Huang", 
+        "Conference": "cvpr", 
+        "ID": 90, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Active Volume Models for 3D Medical Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Deepak Roy  Chittajallu, Gerd Brunner, Uday Kurkure, Raja Yalamanchili, Ioannis Kakadiaris", 
+        "Conference": "cvpr", 
+        "ID": 91, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fuzzy-Cuts: A Knowledge-Driven Graph-Based Method for Medical Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ritwik Kumar, Fei Wang, David Beymer, Tanveer Syeda-Mahmood", 
+        "Conference": "cvpr", 
+        "ID": 92, 
+        "PDF": "http://www.cise.ufl.edu/~rkkumar/kumar2009a.pdf", 
+        "Project": "", 
+        "Title": "Echocardiogram View Classification using Edge Filtered Scale-invariant Motion Features", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhaozheng Yin, Robert Collins", 
+        "Conference": "cvpr", 
+        "ID": 93, 
+        "PDF": "http://vision.cse.psu.edu/paper/CVPR2009YinCollins.pdf", 
+        "Project": "", 
+        "Title": "Shape Constrained Figure-Ground Segmentation and Tracking", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaobai Liu, Liang Lin, Song-Chun Zhu, Hai Jin", 
+        "Conference": "cvpr", 
+        "ID": 94, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Trajectory Parsing by Cluster Sampling in Spatio-temporal Graph", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dahua Lin, Eric Grimson, John Fisher III", 
+        "Conference": "cvpr", 
+        "ID": 95, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Visual Flows: A Lie Algebraic Approach", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hadas Kogan, Ron Maurer, Renato Keshet", 
+        "Conference": "cvpr", 
+        "ID": 96, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Vanishing Point Estimation by Self Similarity", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Prateek Jain,Ashish Kapoor", 
+        "Conference": "cvpr", 
+        "ID": 97, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/akapoor/papers/CVPR2009_Active.pdf", 
+        "Project": "", 
+        "Title": "Active Learning for Large Multi-class Problems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jasper Uijlings, Arnold Smeulders, Remko Scha", 
+        "Conference": "cvpr", 
+        "ID": 98, 
+        "PDF": "http://staff.science.uva.nl/~jrruijli/homepage/uploads/1348.pdf", 
+        "Project": "", 
+        "Title": "What is the Spatial Extent of an Object?", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mustafa Ozuysal, Vincent Lepetit, Pascal Fua", 
+        "Conference": "cvpr", 
+        "ID": 99, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/OzuysalLF09.pdf", 
+        "Project": "", 
+        "Title": "Pose Estimation for Category Specific Multiview Object Localization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Romeil Sandhu, Samuel Dambreville, Anthony Yezzi, Allen Tannenbaum", 
+        "Conference": "cvpr", 
+        "ID": 100, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Non-Rigid 2D-3D Pose Estimation and 2D Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Christian Wojek, Stefan Walk, Bernt Schiele", 
+        "Conference": "cvpr", 
+        "ID": 101, 
+        "PDF": "http://www.mis.informatik.tu-darmstadt.de/People/cwojek/wojek09cvpr.pdf", 
+        "Project": "", 
+        "Title": "Multi-Cue Onboard Pedestrian Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Iasonas Kokkinos, Alan Yuille", 
+        "Conference": "cvpr", 
+        "ID": 102, 
+        "PDF": "http://www.mas.ecp.fr/vision/Personnel/iasonas/KokkinosYuille_hop_CVPR09.pdf", 
+        "Project": "", 
+        "Title": "HOP: Hierarchical Object Parsing", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Thomas Pock, Antonin Chambolle, Daniel Cremers, Horst Bischof", 
+        "Conference": "cvpr", 
+        "ID": 103, 
+        "PDF": "http://gpu4vision.icg.tugraz.at/index.php?expand=c,c,c,c,c,e,&content=segmentation.php&id=23&field=Paper#pub23", 
+        "Project": "", 
+        "Title": "A Convex Relaxation Approach for Computing Minimal Partitions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sebastian Nowozin,Christoph H. Lampert", 
+        "Conference": "cvpr", 
+        "ID": 104, 
+        "PDF": "http://www.kyb.mpg.de/publications/attachments/CVPR2009-Nowozin_%5B0%5D.pdf", 
+        "Project": "", 
+        "Title": "Global Connectivity Potentials for Random Field Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yu Sun, Bir Bhanu", 
+        "Conference": "cvpr", 
+        "ID": 105, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Symmetry Integrated Region-based Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ganesh Sundaramoorthi, Peter Petersen, V. S. Varadarajan, Stefano Soatto", 
+        "Conference": "cvpr", 
+        "ID": 106, 
+        "PDF": "http://www.vision.cs.ucla.edu/papers/sundaramoorthiPVS09TR.pdf", 
+        "Project": "", 
+        "Title": "On the Set of Images Modulo Viewpoint and Contrast Changes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Brent Munsell, Andrew Temlyakov, Song Wang", 
+        "Conference": "cvpr", 
+        "ID": 107, 
+        "PDF": "http://www.cse.sc.edu/~songwang/document/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Fast Multiple Shape Correspondence by Pre-Organizing Shape Instances", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tingting Jiang,Frederic Jurie,Cordelia Schmid", 
+        "Conference": "cvpr", 
+        "ID": 108, 
+        "PDF": "http://lear.inrialpes.fr/pubs/2009/JJS09/cvpr2009_final.pdf", 
+        "Project": "", 
+        "Title": "Learning Shape Prior Models for Object Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hongsheng Li, Tian Shen, Xiaolei Huang", 
+        "Conference": "cvpr", 
+        "ID": 109, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Global Optimization for Alignment of Generalized Shapes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Marius  Leordeanu,Martial Hebert", 
+        "Conference": "cvpr", 
+        "ID": 110, 
+        "PDF": "http://www.ri.cmu.edu/pub_files/2009/6/2066.pdf", 
+        "Project": "", 
+        "Title": "Unsupervised Learning for Graph Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yang Wang, Greg Mori", 
+        "Conference": "cvpr", 
+        "ID": 111, 
+        "PDF": "http://www.sfu.ca/~ywang12/papers/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Max-Margin Hidden Conditional Random Fields for Human Action Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andreas Geiger, Raquel Urtasun, Trevor Darrell", 
+        "Conference": "cvpr", 
+        "ID": 112, 
+        "PDF": "http://rainsoft.de/publications/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Rank Priors for Continuous Non-Linear Dimensionality Reduction", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bin Zhao, James Kwok, Fei Wang, Changshui Zhang", 
+        "Conference": "cvpr", 
+        "ID": 113, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Unsupervised Maximum Margin Feature Selection with Manifold Regularization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Rong Jin , Shijun Wang, Zhi-Hua Zhou", 
+        "Conference": "cvpr", 
+        "ID": 114, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning a Distance Metric from Multi-instance Multi-label Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Stephen Gould, Fernando Amat, Daphne Koller", 
+        "Conference": "cvpr", 
+        "ID": 115, 
+        "PDF": "http://www.stanford.edu/~sgould/papers/cvpr09-alphabetSOUP.pdf", 
+        "Project": "", 
+        "Title": "Alphabet SOUP: A Framework for Approximate Energy Minimization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhouyu Fu, Antonio Robles-Kelly", 
+        "Conference": "cvpr", 
+        "ID": 116, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Instance Selection Approach to Multiple Instance Learning", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Timothee Cour, Benjamin Sapp, Chris Jordan,Ben Taskar", 
+        "Conference": "cvpr", 
+        "ID": 117, 
+        "PDF": "http://www.seas.upenn.edu/~taskar/pubs/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Learning from Ambiguously Labeled Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dima Damen, David Hogg", 
+        "Conference": "cvpr", 
+        "ID": 118, 
+        "PDF": "http://www.comp.leeds.ac.uk/dima/CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Recognizing Linked Events: Searching the Space of Feasible Explanations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ramin Mehran, Alexis Oyama, Mubarak Shah", 
+        "Conference": "cvpr", 
+        "ID": 119, 
+        "PDF": "http://www.cs.ucf.edu/~ramin/papers/AbnormalCrowdSocialForce_CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Abnormal Crowd Behavior Detection using Social Force Model", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Quanfu Fan, Russell Bobbitt, Zhai Yun, Akira Yanagwa, Sharath Pankanti, Arun Hampapur", 
+        "Conference": "cvpr", 
+        "ID": 120, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Recognition of Repetitive Sequential Human Activity (Technical report)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Christoph H. Lampert,Hannes Nickisch,Stefan Harmeling", 
+        "Conference": "cvpr", 
+        "ID": 121, 
+        "PDF": "http://www.kyb.mpg.de/publications/attachments/CVPR2009-Lampert_%5B0%5D.pdf", 
+        "Project": "", 
+        "Title": "Learning To Detect Unseen Object Classes by Between-Class Attribute Transfer", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Takayuki Okatani, Koichiro Deguchi", 
+        "Conference": "cvpr", 
+        "ID": 122, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "On Bias Correction for Geometric Parameter Estimation in Computer Vision", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Amir Saffari,Christian Leistner, Horst Bischof", 
+        "Conference": "cvpr", 
+        "ID": 123, 
+        "PDF": "http://www.ymer.org/papers/files/2009-RMSBoost.pdf", 
+        "Project": "", 
+        "Title": "Regularized Multi-Class Semi-Supervised Boosting", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Daniel Munoz, James Bagnell, Nicolas Vandapel, Martial Hebert", 
+        "Conference": "cvpr", 
+        "ID": 124, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Contextual Classification with Functional Max-Margin Markov Networks", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Boris Babenko, Ming-Hsuan Yang, Serge Belongie", 
+        "Conference": "cvpr", 
+        "ID": 125, 
+        "PDF": "http://vision.ucsd.edu/~bbabenko/data/miltrack_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Visual Tracking with Online Multiple Instance Learning", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Junghyun Kwon,Kyoung Mu Lee, Frank C. Park", 
+        "Conference": "cvpr", 
+        "ID": 126, 
+        "PDF": "http://cv.snu.ac.kr/newhome/publication/pdf/conf/ic068.pdf", 
+        "Project": "", 
+        "Title": "Visual Tracking on the Affine Group via Geometric Particle Filtering using Optimal Importance Function", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dan Mikami, Kazuhiro Otsuka, Junji Yamato", 
+        "Conference": "cvpr", 
+        "ID": 127, 
+        "PDF": "http://www.brl.ntt.co.jp/people/dan/demo/cvpr09/CVPR2009paper.pdf", 
+        "Project": "", 
+        "Title": "Memory-based particle filter for face pose tracking robust under complex dynamics", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Vijay Mahadevan", 
+        "Conference": "cvpr", 
+        "ID": 128, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Saliency-based Discriminant Tracking (Abstract)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mykhaylo Andriluka,Stefan Roth, Bernt Schiele", 
+        "Conference": "cvpr", 
+        "ID": 129, 
+        "PDF": "http://www.gris.informatik.tu-darmstadt.de/~sroth/pubs/cvpr09andriluka.pdf", 
+        "Project": "", 
+        "Title": "Pictorial Structures Revisited: People Detection and Articulated Pose Estimation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Juergen Gall,Victor Lempitsky", 
+        "Conference": "cvpr", 
+        "ID": 130, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/victlem/cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Class-Specific Hough Forests for Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chunhui Gu,Joseph J. Lim,Pablo Arbelaez, Jitendra Malik", 
+        "Conference": "cvpr", 
+        "ID": 131, 
+        "PDF": "http://www.eecs.berkeley.edu/~lim/paper/glam_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Recognition using Regions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Subhransu Maji, Jitendra Malik", 
+        "Conference": "cvpr", 
+        "ID": 132, 
+        "PDF": "http://www.cs.berkeley.edu/~smaji/papers/smaji-cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Object Detection using a Max-Margin Hough Transform", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Seungkyu Lee, Yanxi Liu", 
+        "Conference": "cvpr", 
+        "ID": 133, 
+        "PDF": "http://vision.cse.psu.edu/paper/CVPR2009LeeLiu.pdf", 
+        "Project": "", 
+        "Title": "Curved Glide-Reflection Symmetry Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mathieu Salzmann, Pascal Fua", 
+        "Conference": "cvpr", 
+        "ID": 134, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/Salzmann09.pdf", 
+        "Project": "", 
+        "Title": "Reconstructing Sharply Folding Surfaces: A Convex Formulation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Antoni Chan, Nuno Vasconcelos", 
+        "Conference": "cvpr", 
+        "ID": 135, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Variational Layered Dynamic Textures (Project)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Micah Johnson, Edward Adelson", 
+        "Conference": "cvpr", 
+        "ID": 136, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Retrographic sensing for the measurement of surface texture and shape", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chung-Hao Chen, Yi Yao, Anis Drira, Andreas Koschan, Mongi Abidi", 
+        "Conference": "cvpr", 
+        "ID": 137, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cooperative Mapping of Multiple PTZ Cameras in Automated Surveillance Systems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yantao Zheng, Ming Zhao, Yang Song, Hartwig Adam, Ulrich Buddemeier, Alessandro Bissacco, Fernando Brucher, Tat-Seng Chua, Hartmut Neven", 
+        "Conference": "cvpr", 
+        "ID": 138, 
+        "PDF": "http://mingzhao.name/publications/2009_CVPR_landmark.pdf", 
+        "Project": "", 
+        "Title": "Tour the World: building a web-scale landmark recognition engine", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yang Cong, Haifeng Gong, Song-Chun Zhu, Yandong Tang", 
+        "Conference": "cvpr", 
+        "ID": 139, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Flow Mosaicking: Real-time Pedestrian Counting without Scene-specific Learning", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Oleg Naroditsky, Zhiwei Zhu, Aveek Das, Supun Samarasekera, Taragay Oskiper, Rakesh Kumar", 
+        "Conference": "cvpr", 
+        "ID": 140, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "VideoTrek: A Vision System for a Tag-along Robot", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Man Chuen Leung, Kai Ki Lee, Kin Hong Wong, Michael Ming Yuen Chang", 
+        "Conference": "cvpr", 
+        "ID": 141, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Projector-based Movable Hand-held Display System", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Masashi Nishiyama, Hidenori Takeshima, Tatsuo Kozakaya, Jamie  Shotton, Osamu Yamaguchi", 
+        "Conference": "cvpr", 
+        "ID": 142, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Facial Deblur Inference to Improve Recognition of Blurred Faces", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhen Lei, Stan Li", 
+        "Conference": "cvpr", 
+        "ID": 143, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Coupled Spectral Regression for Matching Heterogeneous Faces", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sakrapee Paisitkriangkrai, Chunhua Shen, Jian Zhang", 
+        "Conference": "cvpr", 
+        "ID": 144, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficiently training a better visual detector with sparse Eigenvectors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andrea Fossati, Mathieu Salzmann, Pascal Fua", 
+        "Conference": "cvpr", 
+        "ID": 145, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/FossatiSF09.pdf", 
+        "Project": "", 
+        "Title": "Observable Subspaces for 3D Human Motion Recovery", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Josef Sivic,Mark Everingham, Andrew Zisserman", 
+        "Conference": "cvpr", 
+        "ID": 146, 
+        "PDF": "http://www.comp.leeds.ac.uk/me/Publications/cvpr09_buffy.pdf", 
+        "Project": "", 
+        "Title": "&#8220;Who are you?&#8221; - Learning person specific classifiers from video", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yu Xiang, Xiangdong Zhou, Tat-Seng Chua, Chong-Wah Ngo", 
+        "Conference": "cvpr", 
+        "ID": 147, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Revisit of Generative Model for Automatic Image Annotation using Markov Random Fields", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Rongrong Ji, Xing Xie, Hongxun Yao, Wei-Ying Ma", 
+        "Conference": "cvpr", 
+        "ID": 148, 
+        "PDF": "http://vilab.hit.edu.cn/~rrji/index_files/1184.pdf", 
+        "Project": "", 
+        "Title": "Vocabulary Hierarchy Optimization for Effective and Transferable Retrieval", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Herve Jegou,Matthijs Douze,Cordelia Schmid", 
+        "Conference": "cvpr", 
+        "ID": 149, 
+        "PDF": "http://lear.inrialpes.fr/pubs/2009/JDS09a/jegou_burstiness.pdf", 
+        "Project": "", 
+        "Title": "On the burstiness of visual elements", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Stefan Holzer, Stefan Hinterstoisser, Slobodan Ilic, Nassir Navab", 
+        "Conference": "cvpr", 
+        "ID": 150, 
+        "PDF": "http://wwwnavab.in.tum.de/pub/holzerst2009distancetemplates/holzerst2009distancetemplates.pdf", 
+        "Project": "", 
+        "Title": "Distance Transform Templates for Object Detection and Pose Estimation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Art Tevs, Martin Bokeloh, Michael Wand, Andreas Schilling, Hans-Peter Seidel", 
+        "Conference": "cvpr", 
+        "ID": 151, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Isometric Registration of Ambiguous and Partial Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ulrich Paquet", 
+        "Conference": "cvpr", 
+        "ID": 152, 
+        "PDF": "http://www.ulrichpaquet.com/Papers/CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Convexity and Bayesian Constrained Local Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Junliang Xing, Haizhou Ai, Shihong Lao", 
+        "Conference": "cvpr", 
+        "ID": 153, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-Object Tracking through Occlusions by Local Tracklets Filtering and Global Tracklets Association with Detection Responses", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Junseok Kwon,Kyoung Mu Lee", 
+        "Conference": "cvpr", 
+        "ID": 154, 
+        "PDF": "http://cv.snu.ac.kr/newhome/publication/pdf/conf/ic067.pdf", 
+        "Project": "", 
+        "Title": "Tracking of a Non-Rigid Object via Patch-based Dynamic Appearance Modeling and Adaptive Basin Hopping Monte Carlo Sampling", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Carl Olsson, Fredrik Kahl, Richard Hartley", 
+        "Conference": "cvpr", 
+        "ID": 155, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Projective Least-Squares: Global Solutions with Local Optimization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Klas Nordberg", 
+        "Conference": "cvpr", 
+        "ID": 156, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A minimal parameterization of the trifocal tensor", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ronen Basri, Pedro Felzenszwalb, Ross Girshick, David Jacobs,Caroline Klivans", 
+        "Conference": "cvpr", 
+        "ID": 157, 
+        "PDF": "http://people.cs.uchicago.edu/~klivans/cjk_visibility.pdf", 
+        "Project": "", 
+        "Title": "Visibility Constraints on Features of 3D Objects", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tat-Jun Chin, David Suter", 
+        "Conference": "cvpr", 
+        "ID": 158, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Keypoint Induced Distance Profiles for Visual Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Min Sun, Hao Su, Silvio Savarese, Li Fei-Fei", 
+        "Conference": "cvpr", 
+        "ID": 159, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Multi-View Probabilistic Model for 3D Object Classes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yazhou Liu, Shiguang Shan, Wenchao Zhang, Xilin Chen, Wen Gao", 
+        "Conference": "cvpr", 
+        "ID": 160, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Granularity-tunable gradients partition (GGP) descriptors for human detection (video high resolution,video low resolution)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Leonid Karlinsky, Michael Dinerstein, Shimon Ullman", 
+        "Conference": "cvpr", 
+        "ID": 161, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Unsupervised Feature Optimization (UFO): simultaneous selection of multiple features with their detection parameters", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Santosh Kumar Divvala, Derek Hoiem, James Hays, Alexei Efros, Martial Hebert", 
+        "Conference": "cvpr", 
+        "ID": 162, 
+        "PDF": "http://www.cs.cmu.edu/~santosh/projects/papers/contextInDetectn_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "An Empirical Study of Context in Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Francisco J. Estrada, Pascal Fua, Vincent Lepetit, Sabine Susstrunk", 
+        "Conference": "cvpr", 
+        "ID": 163, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/EstradaFLS09.pdf", 
+        "Project": "", 
+        "Title": "Appearance-based Keypoint Clustering", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Timothy Burns, Jason Corso", 
+        "Conference": "cvpr", 
+        "ID": 164, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Unsupervised Segmentation of Degraded Document Images with Topic Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ahmed Besbes, Nikos Komodakis, Georg Langs, Nikos Paragios", 
+        "Conference": "cvpr", 
+        "ID": 165, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape Priors and Discrete MRFs for Knowledge-based Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dheeraj Singaraju,Leo Grady, Ren\u00e9 Vidal", 
+        "Conference": "cvpr", 
+        "ID": 166, 
+        "PDF": "http://cns.bu.edu/~lgrady/singaraju2009pbrush.pdf", 
+        "Project": "", 
+        "Title": "P-Brush: Continuous Valued MRFs with Normed Pairwise Distributions for Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Matthew Leotta, Joseph Mundy", 
+        "Conference": "cvpr", 
+        "ID": 167, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Predicting High Resolution Image Edges with a Generic, Adaptive, 3-D Vehicle Model", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jianke Zhu, Steven C.H. Hoi, Michael Lyu", 
+        "Conference": "cvpr", 
+        "ID": 168, 
+        "PDF": "http://www.vision.ee.ethz.ch/~zhuji/pdfs/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Nonrigid Shape Recovery by Gaussian Process Regression", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ankur Patel, William Smith", 
+        "Conference": "cvpr", 
+        "ID": 169, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "3D Morphable Face Models Revisited", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiang Bai, Quannan Li, Login Jan Latecki, Wenyu Liu, Zhuowen Tu", 
+        "Conference": "cvpr", 
+        "ID": 170, 
+        "PDF": "http://xiang.bai.googlepages.com/ShapeBand_CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Shape Band: A Deformable Object Detection ApproachPDF", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yefeng Zheng, Xiaoguang Lu, Bogdan Georgescu, Arne Littmann, Edgar Mueller, Comaniciu Dorin", 
+        "Conference": "cvpr", 
+        "ID": 171, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Object Detection Using Marginal Space Learning and Ranking-Based Multi-Detector Aggregation: Application to Left Ventricle Detection in 2D MRI Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Liang Lin, Kun Zeng, Xiaobai Liu, Song-Chun Zhu", 
+        "Conference": "cvpr", 
+        "ID": 172, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Layered Graph Matching by Composite Cluster Sampling with Collaborative and Competitive Interactions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dijia Wu, Jinbo Bi, Kim Boyer", 
+        "Conference": "cvpr", 
+        "ID": 173, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Min-Max Framework of Cascaded Classifier with Multiple Instance Learning for Computer Aided Diagnosis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gang Wang, Derek Hoiem and David Forsyth", 
+        "Conference": "cvpr", 
+        "ID": 174, 
+        "PDF": "https://netfiles.uiuc.edu/gwang6/www/WangHoiemForsyth_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Building text features for object image classification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lixin Duan, Ivor W. Tsang,Dong Xu, Stephen J. Maybank", 
+        "Conference": "cvpr", 
+        "ID": 175, 
+        "PDF": "http://www3.ntu.edu.sg/home/dongxu/DTSVM.pdf", 
+        "Project": "", 
+        "Title": "Domain Transfer SVM for Video Concept Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Carsten Rother, Pushmeet Kohli, Wei Feng, Jiaya Jia", 
+        "Conference": "cvpr", 
+        "ID": 176, 
+        "PDF": "http://research.microsoft.com/pubs/80298/cvpr09-HoSparse.pdf", 
+        "Project": "", 
+        "Title": "Minimizing Sparse Higher Order Energy Functions of Discrete Variables", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jun Wang, Yu-Gang Jiang, Shih-fu Chang", 
+        "Conference": "cvpr", 
+        "ID": 177, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Label Diagnosis through Self Tuning for Web Image Search", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bing Sun, School of EECS, Peking University), Jufu Feng, Liwei Wang", 
+        "Conference": "cvpr", 
+        "ID": 178, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning IMED via Translation Invariant Transformation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wonsik Kim,Kyoung Mu Lee", 
+        "Conference": "cvpr", 
+        "ID": 179, 
+        "PDF": "http://cv.snu.ac.kr/newhome/publication/pdf/conf/ic066.pdf", 
+        "Project": "", 
+        "Title": "Markov Chain Monte Carlo Combined with Deterministic Methods for Markov Random Field Optimization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jan Heller, Tomas Pajdla", 
+        "Conference": "cvpr", 
+        "ID": 180, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stereographic Rectification of Omnidirectional Stereo Pairs", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yasutaka Furukawa, Steve Seitz, Brian Curless, Richard Szeliski", 
+        "Conference": "cvpr", 
+        "ID": 181, 
+        "PDF": "http://www.cs.washington.edu/homes/furukawa/papers/cvpr09-mws.pdf", 
+        "Project": "", 
+        "Title": "Manhattan-world Stereo", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Vu Hoang Hiep, Renaud Keriven, Jean-Philippe Pons, Patrick Labatut", 
+        "Conference": "cvpr", 
+        "ID": 182, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Towards high-resolution large-scale multi-view stereo", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Vivek Pradeep, Gerard Medioni, James Weiland", 
+        "Conference": "cvpr", 
+        "ID": 183, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Visual loop closure detection using multi-resolution SIFT grids in metric-topological SLAM", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Louis Kratz, Ko Nishino", 
+        "Conference": "cvpr", 
+        "ID": 184, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Anomaly Detection in Extremely Crowded Scenes using Spatio-Temporal Motion Pattern Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Konstantinos Rapantzikos, Yannis Avrithis, Stefanos Kollias", 
+        "Conference": "cvpr", 
+        "ID": 185, 
+        "PDF": "http://www.image.ece.ntua.gr/php/savepaper.php?id=581", 
+        "Project": "", 
+        "Title": "Dense saliency-based spatiotemporal feature points for action recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ting Yu, Ser Nam Lim, Kedar Patwardhan, Nils Krahnstoever", 
+        "Conference": "cvpr", 
+        "ID": 186, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Monitoring, Recognizing and Discovering Social Groups", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bingbing Ni, Shuicheng Yan, Ashraf Kassim", 
+        "Conference": "cvpr", 
+        "ID": 187, 
+        "PDF": "http://www.lv-nus.org/papers/2009/2009_C_12.pdf", 
+        "Project": "", 
+        "Title": "Recognizing Human Group Activities by Localized Causalities", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Peng Huang,Adrian Hilton,Jonathan Starck", 
+        "Conference": "cvpr", 
+        "ID": 188, 
+        "PDF": "http://personal.ee.surrey.ac.uk/Personal/P.Huang/Peng-web/Publications_files/huang_cvpr09_preprint.pdf", 
+        "Project": "", 
+        "Title": "Human Motion Synthesis from 3D Video", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Cristian Soto, Bi Song,Amit Roy-Chowdhury", 
+        "Conference": "cvpr", 
+        "ID": 189, 
+        "PDF": "http://www.ee.ucr.edu/~amitrc/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Distributed Multi-Target Tracking In A Self-Configuring Camera Network", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Luis Perdigoto, Joao Barreto, Rui Caseiro, Helder Araujo", 
+        "Conference": "cvpr", 
+        "ID": 190, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Active Stereo Tracking of Multiple Free-Moving Targets", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "John Wright,Gang Hua", 
+        "Conference": "cvpr", 
+        "ID": 191, 
+        "PDF": "http://www.ece.northwestern.edu/~ganghua/publication/CVPR09a.pdf", 
+        "Project": "", 
+        "Title": "Implicit Elastic Matching with Random Projections for Pose-variant Face Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Peng Li, Simon J. D. Prince", 
+        "Conference": "cvpr", 
+        "ID": 192, 
+        "PDF": "http://web4.cs.ucl.ac.uk/research/vis/pvl/publications/RegistrationFree.pdf", 
+        "Project": "", 
+        "Title": "Joint and Implicit Registration for Face Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pradeep Nagesh, Baoxin Li", 
+        "Conference": "cvpr", 
+        "ID": 193, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Compressive Sensing Approach for Expression-Invariant Face Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jean Ponce", 
+        "Conference": "cvpr", 
+        "ID": 194, 
+        "PDF": "http://www.di.ens.fr/willow/pdfs/cvpr09a.pdf", 
+        "Project": "", 
+        "Title": "What is a Camera?", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ijaz Akhter, Yaser Sheikh, Sohaib Khan", 
+        "Conference": "cvpr", 
+        "ID": 195, 
+        "PDF": "http://cvlab.lums.edu.pk/publications/Akhter_Sheikh_Khan_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "In Defense of Orthonormality Constraints for Nonrigid Structure from Motion", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Li Zhang, Sundeep Vaddadi, Hailin Jin, Shree Nayar", 
+        "Conference": "cvpr", 
+        "ID": 196, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multiple View Image Denoising", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Neel Joshi, C. Lawrence Zitnick, Richard Szeliski, David Kriegman", 
+        "Conference": "cvpr", 
+        "ID": 197, 
+        "PDF": "http://research.microsoft.com/en-us/um/redmond/groups/ivm/twocolordeconvolution/two_color_deconvolution.pdf", 
+        "Project": "", 
+        "Title": "Image Deblurring and Denoising using Color Priors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xinyu Huang, Liu Ren, Ruigang Yang", 
+        "Conference": "cvpr", 
+        "ID": 198, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Deblurring for Less Intrusive Iris Capturing Systems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jian-Feng Cai, Hui Ji, Chaoqiang Liu,Zuowei Shen", 
+        "Conference": "cvpr", 
+        "ID": 199, 
+        "PDF": "http://www.math.nus.edu.sg/~matzuows/blind_deblurring2.pdf", 
+        "Project": "", 
+        "Title": "High-quality curvelet-based motion deblurring using an image pair", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Adrian Barbu", 
+        "Conference": "cvpr", 
+        "ID": 200, 
+        "PDF": "http://stat.fsu.edu/~abarbu/papers/barbu_denoise_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Learning Real-Time MRF Inference for Image Denoising", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "German Gonzalez, Francois Fleuret, Pascal Fua", 
+        "Conference": "cvpr", 
+        "ID": 201, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/GonzalezFF09.pdf", 
+        "Project": "", 
+        "Title": "Learning Rotational Features for Filament Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wei-Ting Lee,Hwann-Tzong Chen", 
+        "Conference": "cvpr", 
+        "ID": 202, 
+        "PDF": "http://740-2.cs.nthu.edu.tw/~htchen/hipd_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Histogram-based Interest Point Detectors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Radhakrishna Achanta, Sheila Hemami, Francisco Estrada, Sabine S&Yuml;sstrunk", 
+        "Conference": "cvpr", 
+        "ID": 203, 
+        "PDF": "http://infoscience.epfl.ch/record/135217/files/SaliencyCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Frequency-tuned Salient Region Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Koray Kavukcuoglu, Marc'Aurelio Ranzato, Rob Fergus,Yann LeCun", 
+        "Conference": "cvpr", 
+        "ID": 204, 
+        "PDF": "http://yann.lecun.com/exdb/publis/pdf/koray-cvpr-09.pdf", 
+        "Project": "", 
+        "Title": "Learning Invariant Features Through Topographic Filter Maps", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ping-Han  Lee, Gee-Sern Hsu , Yi-Ping Hung", 
+        "Conference": "cvpr", 
+        "ID": 205, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Face Verification and Identification using Facial Trait Code", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaoyang Tan, Fengyi Song, Zhi-Hua Zhou, Songcan Chen", 
+        "Conference": "cvpr", 
+        "ID": 206, 
+        "PDF": "http://parnec.nuaa.edu.cn/xtan/paper/xtan-cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Enhanced Pictorial Structures for Precise Eye Localization under Uncontrolled Conditions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sanqiang Zhao, Yongsheng Gao", 
+        "Conference": "cvpr", 
+        "ID": 207, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Textural Hausdorff Distance for Wider-Range Tolerance to Pose Variation and Misalignment in 2D Face Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Akshay Asthana, Roland Goecke, Novi Quadrianto, Tom Gedeon", 
+        "Conference": "cvpr", 
+        "ID": 208, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Based Automatic Face Annotation and AAM Building for Arbitrary Poses and Expressions from Frontal Images Only", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Changhu Wang, Shuicheng Yan, Lei Zhang, Hong-Jiang Zhang", 
+        "Conference": "cvpr", 
+        "ID": 209, 
+        "PDF": "http://www.lv-nus.org/papers/2009/2009_C_13.pdf", 
+        "Project": "", 
+        "Title": "Multi-Label Sparse Coding for Automatic Image Annotation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Avinash Ravichandran, Rizwan Chaudhry, Rene Vidal", 
+        "Conference": "cvpr", 
+        "ID": 210, 
+        "PDF": "http://cis.jhu.edu/~avinash/papers/CVPR09-BOS.pdf", 
+        "Project": "", 
+        "Title": "View-Invariant Dynamic Texture Recognition using a Bag of Dynamical Systems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gang Chen, Jianwen Zhang, Fei Wang, Changshui Zhang, Yuli Gao", 
+        "Conference": "cvpr", 
+        "ID": 211, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Multi-label Classification with Hypergraph Regularization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wu-Jun Li, Dit-Yan Yeung", 
+        "Conference": "cvpr", 
+        "ID": 212, 
+        "PDF": "https://www.cse.ust.hk/~liwujun/paper/CVPR09_ecsvm.pdf", 
+        "Project": "", 
+        "Title": "Localized Content-Based Image Retrieval Through Evidence Region Identification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yasutaka Furukawa, Jean Ponce", 
+        "Conference": "cvpr", 
+        "ID": 213, 
+        "PDF": "http://www.di.ens.fr/willow/pdfs/cvpr09b.pdf", 
+        "Project": "", 
+        "Title": "Dense 3D Motion Capture for Human Faces", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bingbing Ni, Shuicheng Yan, Ashraf Kassim", 
+        "Conference": "cvpr", 
+        "ID": 214, 
+        "PDF": "http://www.lv-nus.org/papers/2009/2009_C_11.pdf", 
+        "Project": "", 
+        "Title": "Contextualizing Histogram", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lennart Wietzke , Gerald Sommer and Oliver Fleischmann", 
+        "Conference": "cvpr", 
+        "ID": 215, 
+        "PDF": "http://www.ks.informatik.uni-kiel.de/modules.php/name+Downloads,d_op+getit,lid+2313", 
+        "Project": "", 
+        "Title": "The Geometry of 2D Image Signals", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Viswanath Gopalakrishnan, Yiqun Hu, Deepu Rajan", 
+        "Conference": "cvpr", 
+        "ID": 216, 
+        "PDF": "http://www.scribd.com/document_downloads/14670221?extension=pdf&secret_password=", 
+        "Project": "", 
+        "Title": "Random Walks on Graphs to Model Saliency in Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ju Yong Chang, Ramesh Raskar,Amit Agrawal", 
+        "Conference": "cvpr", 
+        "ID": 217, 
+        "PDF": "http://www.umiacs.umd.edu/~aagrawal/cvpr09/PoseEstimationSpecularObjects/ChangCVPR09SpecularPose.pdf", 
+        "Project": "", 
+        "Title": "3D Pose Estimation and Segmentation using Specular Cues", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Brian Amberg, Andrew Blake, Thomas Vetter", 
+        "Conference": "cvpr", 
+        "ID": 218, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "On Compositional Image Alignment with an Application to Active Appearance Models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jos&eacute; A. Rodriguez-Serrano, Florent Perronnin, Josep Llados, Gemma Sanchez", 
+        "Conference": "cvpr", 
+        "ID": 219, 
+        "PDF": "http://www-staff.lboro.ac.uk/~cojar/pubs/rodriguez_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "A Similarity Measure Between Vector Sequences with Application to Handwritten Word Image Retrieval", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jun-Seong Kim, Jin-Hwan Kim, Chang-Su Kim", 
+        "Conference": "cvpr", 
+        "ID": 220, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Image and Video Retargeting Based on Fourier Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yuchi Huang, Qingshan Liu, Dimitris Metaxas", 
+        "Conference": "cvpr", 
+        "ID": 221, 
+        "PDF": "http://paul.rutgers.edu/~yuchuang/papers/CVPR09_Yuchi.pdf", 
+        "Project": "", 
+        "Title": "Video Object Segmentation by Hypergraph Cut", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Juergen Gall, Carsten Stoll, Edilson de Aguiar, Christian Theobalt, Bodo Rosenhahn, Hans-Peter Seidel", 
+        "Conference": "cvpr", 
+        "ID": 222, 
+        "PDF": "http://www.vision.ee.ethz.ch/~gallju/download/jgall_skelsurf_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Motion Capture Using Joint Skeleton Tracking and Surface Estimation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hauke Heibel, Ben Glocker, Martin Groher, Nikos Komodakis, Nikos Paragios, Nassir Navab", 
+        "Conference": "cvpr", 
+        "ID": 223, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discrete Tracking of Parametrized Curves", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yimeng Zhang, Tsuhan Chen", 
+        "Conference": "cvpr", 
+        "ID": 224, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Kernels for Identifying Unbounded-Order Spatial Features", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Florent Perronnin, Yan Liu", 
+        "Conference": "cvpr", 
+        "ID": 225, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Modeling Images as Mixtures of Reference Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ali Farhadi, Ian Endres, Derek Hoiem, David Forsyth", 
+        "Conference": "cvpr", 
+        "ID": 226, 
+        "PDF": "http://www.cs.uiuc.edu/homes/afarhad2/Attributes.pdf", 
+        "Project": "", 
+        "Title": "Describing Objects by their Attributes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wei Gao, Haizhou Ai, Shihong Lao", 
+        "Conference": "cvpr", 
+        "ID": 227, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Contour Features in Oriented Granular Space for Human Detection and Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jianchao Yang, Kai Yu, Yihong Gong, Thomas Huang", 
+        "Conference": "cvpr", 
+        "ID": 228, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Linear Spatial Pyramid Matching Using Sparse Coding for Image Classification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaopeng Hong, Hong Chang, Shiguang Shan, Xilin Chen, Wen Gao", 
+        "Conference": "cvpr", 
+        "ID": 229, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sigma Set: A Small Second Order Statistical Region Descriptor", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jiayan Jiang, Zhuowen Tu", 
+        "Conference": "cvpr", 
+        "ID": 230, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Scale Space Auto-Context for Image Segmentation and Labeling", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Daniel Freedman, Pavel Kisilev", 
+        "Conference": "cvpr", 
+        "ID": 231, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Mean Shift", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Christoph Rhemann, Carsten Rother, Jue Wang, Margrit Gelautz, Pushmeet Kohli, Pamela Rott", 
+        "Conference": "cvpr", 
+        "ID": 232, 
+        "PDF": "http://research.microsoft.com/pubs/80299/cvpr09-matting-Eval.pdf", 
+        "Project": "", 
+        "Title": "A Perceptually Motivated Online Benchmark for Image Matting", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yingze Wang, Yu Chen, Jianzhuang Liu, Xiaoou Tang", 
+        "Conference": "cvpr", 
+        "ID": 233, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "3D Reconstruction of Curved Objects from Single 2D Line Drawings", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Francesc Moreno-Noguer, Mathieu Salzmann, Vincent Lepetit, Pascal Fua", 
+        "Conference": "cvpr", 
+        "ID": 234, 
+        "PDF": "http://cvlab.epfl.ch/publications/publications/2009/Moreno-NoguerSLF09.pdf", 
+        "Project": "", 
+        "Title": "Capturing 3D Stretchable Surfaces from Single Images in Closed Form", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Li Shen,Ping Tan", 
+        "Conference": "cvpr", 
+        "ID": 235, 
+        "PDF": "http://www.ece.nus.edu.sg/stfpage/eletp/Papers/cvpr09_outdoorps.pdf", 
+        "Project": "", 
+        "Title": "Photometric Stereo and Weather Estimation Using Internet Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kalin Kolev, Daniel Cremers", 
+        "Conference": "cvpr", 
+        "ID": 236, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Continuous Ratio Optimization via Convex Relaxation with Applications to Multiview 3D Reconstruction", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chris Hermans, Y.Francken, T.Cuypers, P.Bekaert", 
+        "Conference": "cvpr", 
+        "ID": 237, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Depth from Sliding Projections (Abstract,video)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Roman Sandler, Michael Lindenbaum", 
+        "Conference": "cvpr", 
+        "ID": 238, 
+        "PDF": "http://www.cs.technion.ac.il/people/romats/online-publications/SandlerL:09.pdf", 
+        "Project": "", 
+        "Title": "Nonnegative Matrix Factorization with Earth Mover&#8217;s Distance Metric", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kun Gai, Zhenwei Shi, Changshui Zhang", 
+        "Conference": "cvpr", 
+        "ID": 239, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Blind Separation of Superimposed Images with Unknown Motions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nikhil Rasiwasia, Nuno Vasconcelos", 
+        "Conference": "cvpr", 
+        "ID": 240, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Holistic Context Modeling using Semantic Co-occurrences", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hasan Cetingul, Rene Vidal", 
+        "Conference": "cvpr", 
+        "ID": 241, 
+        "PDF": "http://cis.jhu.edu/~ertan/papers/CetingulCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Intrinsic Mean Shift for Clustering on Stiefel and Grassmann Manifolds", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chong Wang, David Blei, Li Fei-Fei", 
+        "Conference": "cvpr", 
+        "ID": 242, 
+        "PDF": "http://people.ee.duke.edu/~lcarin/WangBleiFei-Fei_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Simultaneous Image Classification and Annotation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Christopher Zach, Marc Niethammer, Jan-Michael Frahm", 
+        "Conference": "cvpr", 
+        "ID": 243, 
+        "PDF": "http://cs.unc.edu/~cmzach/pdf/cvpr2009a-preprint.pdf", 
+        "Project": "", 
+        "Title": "Continuous Maximal Flows and Wulff Shapes: Application to MRFs", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Siwei Lyu", 
+        "Conference": "cvpr", 
+        "ID": 244, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Implicit Markov Random Field Model for Natural Images in Multi-scale Oriented Representations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiao-Tong Yuan, Stan Li", 
+        "Conference": "cvpr", 
+        "ID": 245, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stochastic Gradient Kernel Density Mode-Seeking", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Rizwan Chaudhry, Avinash Ravichandran, Gregory Hager, Rene Vidal", 
+        "Conference": "cvpr", 
+        "ID": 246, 
+        "PDF": "http://www.cis.jhu.edu/~rizwanch/papers/ChaudhryCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Histograms of Oriented Optical Flow and Binet-Cauchy Kernels on Nonlinear Dynamical Systems for the Recognition of Human Actions", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tianzhu Zhang, Hanqing Lu, Stan Li", 
+        "Conference": "cvpr", 
+        "ID": 247, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Semantic Scene Models by Object Classification and Trajectory Clustering", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Matteo Bregonzio, Shaogang Gong, Tao Xiang", 
+        "Conference": "cvpr", 
+        "ID": 248, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Recognising Action as Clouds of Space-Time Interest Points", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kaiming He,Jian Sun, Xiaou Tang", 
+        "Conference": "cvpr", 
+        "ID": 249, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/jiansun/papers/Dehaze_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Single Image Haze Removal Using Dark Channel Prior", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Anat Levin, Yair Weiss, Fredo Durand, William T. Freeman", 
+        "Conference": "cvpr", 
+        "ID": 250, 
+        "PDF": "http://www.wisdom.weizmann.ac.il/~levina/papers/deconvLevinEtalCVPR09.pdf", 
+        "Project": "", 
+        "Title": "Understanding and evaluating blind deconvolution algorithms", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ce Liu, Jenny Yuen,Antonio Torralba", 
+        "Conference": "cvpr", 
+        "ID": 251, 
+        "PDF": "http://people.csail.mit.edu/torralba/publications/siftFlowCVPR.pdf", 
+        "Project": "", 
+        "Title": "Nonparametric Scene Parsing: Label Transfer via Dense Scene Alignment", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Olivier Duchenne, Francis Bach, Inso Kweon, Jean Ponce", 
+        "Conference": "cvpr", 
+        "ID": 252, 
+        "PDF": "http://www.di.ens.fr/willow/pdfs/cvpr09d.pdf", 
+        "Project": "", 
+        "Title": "A Tensor-Based Algorithm for High-Order Graph Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Chen Change Loy, Tao Xiang, Shaogang Gong", 
+        "Conference": "cvpr", 
+        "ID": 253, 
+        "PDF": "http://www.dcs.qmul.ac.uk/~ccloy/files/cvpr_2009.pdf", 
+        "Project": "", 
+        "Title": "Multi-Camera Activity Correlation Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jingen Liu, Jiebo Luo, and Mubarak Shah", 
+        "Conference": "cvpr", 
+        "ID": 254, 
+        "PDF": "http://www.cs.ucf.edu/~liujg/papers/cvpr2009_liu1.pdf", 
+        "Project": "", 
+        "Title": "Recognizing Realistic Actions from Videos \"in the Wild\"", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ju  Sun , Xiao Wu, Shuicheng Yan, Loong Fah Cheong, Tat-Seng Chua, Jintao Li", 
+        "Conference": "cvpr", 
+        "ID": 255, 
+        "PDF": "http://www.lv-nus.org/papers%5C2009%5C2009_C_16.pdf", 
+        "Project": "", 
+        "Title": "Hierarchical Spatio-Temporal Context Modeling for Action Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Abhinav Gupta, Praveen Srinivasan, Jianbo Shi, Larry S. Davis", 
+        "Conference": "cvpr", 
+        "ID": 256, 
+        "PDF": "http://www.umiacs.umd.edu/~agupta/cvpr_2009_online.pdf", 
+        "Project": "", 
+        "Title": "Understanding Videos, Constructing Plots - Learning a Visually Grounded Storyline Model from Annotated Videos", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Amelio Vazquez Reina,Eric Miller,Hanspeter Pfister", 
+        "Conference": "cvpr", 
+        "ID": 257, 
+        "PDF": "http://www.eecs.tufts.edu/~avazqu01/files/papers/active_ribbons_cvpr09oral.pdf", 
+        "Project": "", 
+        "Title": "Multiphase Geometric Couplings for the Segmentation of Neural Processes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lopamudra Mukherjee,Vikas Singh, Charles R. Dyer", 
+        "Conference": "cvpr", 
+        "ID": 258, 
+        "PDF": "http://www.biostat.wisc.edu/~vsingh/coseg.pdf", 
+        "Project": "", 
+        "Title": "Half-integrality based algorithms for Cosegmentation of Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nebojsa Jojic,Alessandro Perina, Marco Cristani, Vittorio Murino, Brendan Frey", 
+        "Conference": "cvpr", 
+        "ID": 259, 
+        "PDF": "http://profs.sci.univr.it/~perina/papers/cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Stel component analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Li-Jia Li, Richard Socher, Li Fei-Fei", 
+        "Conference": "cvpr", 
+        "ID": 260, 
+        "PDF": "http://vision.cs.princeton.edu/documents/LiSocherFei-Fei_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Towards Total Scene Understanding: Classification, Annotation and Segmentation in an Unsupervised Framework", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Marcel Br&Yuml;ckner, Ferid Bajramovic, Joachim Denzler", 
+        "Conference": "cvpr", 
+        "ID": 261, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Geometric and Probabilistic Image Dissimilarity Measures for Common Field of View Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yuanjie Zheng, Chandra Kambhamettu, Stephen Lin", 
+        "Conference": "cvpr", 
+        "ID": 262, 
+        "PDF": "http://zheng.vision.googlepages.com/opticalCenter_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Single-Image Optical Center Estimation from Vignetting and Tangential Gradient Symmetry", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Amit Agrawal,Yi Xu", 
+        "Conference": "cvpr", 
+        "ID": 263, 
+        "PDF": "http://www.cs.purdue.edu/homes/xu43/papers/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Coded Exposure Deblurring: Optimized Codes for PSF Estimation and Invertibility", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhiwei Xiong, Xiaoyan Sun, Feng Wu", 
+        "Conference": "cvpr", 
+        "ID": 264, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image hallucination with feature enhancement", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Daniel A. Vaquero,Ramesh Raskar,Rogerio S. Feris,Matthew Turk", 
+        "Conference": "cvpr", 
+        "ID": 265, 
+        "PDF": "http://www.cs.ucsb.edu/~daniel/publications/conferences/cvpr09/VaqueroCVPR09.pdf", 
+        "Project": "", 
+        "Title": "A Projector-Camera Setup for Geometry-Invariant Frequency Demultiplexing", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lifeng Shang, Kwok-Ping Chan", 
+        "Conference": "cvpr", 
+        "ID": 266, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Nonparametric Discriminant HMM and Application to Facial Expression Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yan Tong, Xiaoming Liu, Frederick Wheeler, Peter Tu", 
+        "Conference": "cvpr", 
+        "ID": 267, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic Facial Landmark Labeling with Minimal Supervision", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "David Bolme, Bruce Draper, J Ross Beveridge", 
+        "Conference": "cvpr", 
+        "ID": 268, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Average of Synthetic Exact Filters", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Fei Wang, Xin Wang, Tao Li", 
+        "Conference": "cvpr", 
+        "ID": 269, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Beyond the Graphs: Semi-parametric Semi-supervised Discriminant Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yebin Liu, Xun Cao , Qionghai Dai, Wenli Xu", 
+        "Conference": "cvpr", 
+        "ID": 270, 
+        "PDF": "http://media.au.tsinghua.edu.cn/Groupmembers/yebin.files/CVPR09-LiuYebin.pdf", 
+        "Project": "", 
+        "Title": "Continuous Depth Estimation for Multi-view Stereo", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Qijun Zhao,Lei Zhang, David Zhang, Wenyi Huang, Jian Bai", 
+        "Conference": "cvpr", 
+        "ID": 271, 
+        "PDF": "http://www4.comp.polyu.edu.hk/~cslzhang/paper/conf/CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Curvature and Singularity Driven Diffusion for Oriented Pattern Enhancement with Singular Points", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "David Changsoo Lee, Martial Hebert, Takeo Kanade", 
+        "Conference": "cvpr", 
+        "ID": 272, 
+        "PDF": "http://www.ri.cmu.edu/pub_files/2009/6/cvpr09lee.pdf", 
+        "Project": "", 
+        "Title": "Geometric Reasoning for Single Image Structure Recovery", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jae-Hean Kim", 
+        "Conference": "cvpr", 
+        "ID": 273, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Linear stratified approach for 3D modeling and calibration using full geometric constraints", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hengameh Mirzaalian,Ghassan Hamarneh, Tim Lee", 
+        "Conference": "cvpr", 
+        "ID": 274, 
+        "PDF": "http://www.cs.sfu.ca/~hamarneh/ecopy/cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "A Graph-based Approach to Skin Mole Matching Incorporating Template-Normalized Coordinates", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bruce, Neil", 
+        "Conference": "cvpr", 
+        "ID": 275, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Harris Corners in the Real World: A Principled Selection Criterion for Interest Points Based on Ecological Statistics (Technical report)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Radhouene Neji, Nikos Paragios, Gilles FLEURY, Jean-Philippe Thiran, Georg Langs", 
+        "Conference": "cvpr", 
+        "ID": 276, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Classification of Tensors and Fiber Tracts Using Mercer-Kernels Encoding Soft Probabilistic Spatial and Diffusion Information", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Linwei Wang, Heye Zhang, Ken C. L. Wong, Huafeng Liu, Pengcheng Shi", 
+        "Conference": "cvpr", 
+        "ID": 277, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Noninvasive Volumetric Imaging of Cardiac Electrophysiology", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Olivier Pauly, Nicolas Padoy, Holger Poppert, Lorena Esposito, Nassir Navab", 
+        "Conference": "cvpr", 
+        "ID": 278, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Wavelet Energy Map: A Robust Support for Multi-modal Registration of Medical Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Tung-Ying Lee, Hong-Ren Su, Shang-Hong Lai, Ti-Chiun Chang", 
+        "Conference": "cvpr", 
+        "ID": 279, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Compensation of Motion Artifacts in MRI via Graph-Based Optimization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhao Yi, Stefano Soatto", 
+        "Conference": "cvpr", 
+        "ID": 280, 
+        "PDF": "http://www.vision.cs.ucla.edu/papers/yiS09.pdf", 
+        "Project": "", 
+        "Title": "Nonrigid Registration Combining Global and Local StatisticsPDF", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Kirill Sidorov, David Marshall, Stephen Richmond", 
+        "Conference": "cvpr", 
+        "ID": 281, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Efficient Stochastic Approach to Groupwise Non-rigid Image Registration", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michael Hofmann, Dariu Gavrila", 
+        "Conference": "cvpr", 
+        "ID": 282, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-view 3D Human Pose Estimation combining Single-frame Recovery, Temporal Integration and Model Adaptation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gijs Dubbelman", 
+        "Conference": "cvpr", 
+        "ID": 283, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Bias Reduction for Stereo based Motion Estimation with Applications to Large Scale Visual Odometry", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jose Gonzalez-Mora, Fernando De la Torre, Nicolas Guil, Emilio Zapata", 
+        "Conference": "cvpr", 
+        "ID": 284, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient image alignment using linear appearance models", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Paul Schnitzspan, Mario Fritz,Stefan Roth, Bernt Schiele", 
+        "Conference": "cvpr", 
+        "ID": 285, 
+        "PDF": "http://www.gris.informatik.tu-darmstadt.de/~sroth/pubs/cvpr09schnitzspan.pdf", 
+        "Project": "", 
+        "Title": "Discriminative Structure Learning of Hierarchical Representations for Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Csaba Beleznai, Horst Bischof", 
+        "Conference": "cvpr", 
+        "ID": 286, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Human Detection in Crowded Scenes by Contour Integration and Local Shape Estimation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yong Jae Lee, Kristen Grauman", 
+        "Conference": "cvpr", 
+        "ID": 287, 
+        "PDF": "http://users.ece.utexas.edu/~ylee/shapediscovery/lee_grauman_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Shape Discovery from Unlabeled Image Collections", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sudheendra Vijayanarasimhan, Kristen Grauman", 
+        "Conference": "cvpr", 
+        "ID": 288, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "What&rsquo;s It Going to Cost You?: Predicting Effort vs. Informativeness for Multi-Label Image Annotations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Teng Li, Tao Mei, Shuicheng Yan, In So Kweon, Chilwoo Lee", 
+        "Conference": "cvpr", 
+        "ID": 289, 
+        "PDF": "http://www.lv-nus.org/papers/2009/2009_C_15.pdf", 
+        "Project": "", 
+        "Title": "Contextual Decomposition of Multi-Label Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gutemberg Guerra-Filho", 
+        "Conference": "cvpr", 
+        "ID": 290, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Disambiguating the Recognition of 3D Objects", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Fethallah Benmansour, Laurent Cohen, Max  Law, Albert Chung", 
+        "Conference": "cvpr", 
+        "ID": 291, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tubular anisotropy for 2D vessels segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pablo Arbelaez, Michael Maire, Charless Fowlkes, Jitendra Malik", 
+        "Conference": "cvpr", 
+        "ID": 292, 
+        "PDF": "http://www.cs.berkeley.edu/~arbelaez/publications/Arbelaez_Maire_Fowlkes_Malik_CVPR2009.pdf", 
+        "Project": "", 
+        "Title": "From Contours to Regions: An Empirical Evaluation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Stella Yu", 
+        "Conference": "cvpr", 
+        "ID": 293, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Angular Embedding: from Jarring Intensity Differences to Perceived Luminance", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jia-Bin Huang, Chu-Song Chen", 
+        "Conference": "cvpr", 
+        "ID": 294, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Moving Cast Shadow Detection using Physics-based Features", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Scott McCloskey, Michael Langer", 
+        "Conference": "cvpr", 
+        "ID": 295, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Planar Orientation from Blur Gradients in a Single Image", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yuanyuan Ding, Jingyi Yu, Peter Sturm", 
+        "Conference": "cvpr", 
+        "ID": 296, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Recovering Specular Surfaces Using Curved Line Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Shubao Liu, Kongbin Kang, Jean-Philippe Tarel, David Cooper", 
+        "Conference": "cvpr", 
+        "ID": 297, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Distributed Volumetric Scene Geometry Reconstruction With a Network of Distributed Smart Cameras", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Fabio Galasso, Joan Lasenby", 
+        "Conference": "cvpr", 
+        "ID": 298, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fourier Analysis and Gabor Filtering for Texture Analysis and Local Reconstruction of General Shapes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dikpal Reddy,Amit Agrawal, Rama Chellappa", 
+        "Conference": "cvpr", 
+        "ID": 299, 
+        "PDF": "http://www.umiacs.umd.edu/~aagrawal/cvpr09/SurfaceReconstructionUsingL1/ReddyCVPR09SurfaceReconstruction.pdf", 
+        "Project": "", 
+        "Title": "Enforcing Integrability by Error Correction using $l_1$-minimization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Florent Perronnin, Yan Liu, Jean-Michel Renders", 
+        "Conference": "cvpr", 
+        "ID": 300, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Family of Contextual Measures of Similarity between Distributions with Application to Image Retrieval (seminar presentation slides)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Liyu Gong, Tianjiang Wang, Fang Liu", 
+        "Conference": "cvpr", 
+        "ID": 301, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shape of Gaussians as Feature Descriptors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ajay J. Joshi, Fatih Porikli, Nikolaos Papanikolopoulos", 
+        "Conference": "cvpr", 
+        "ID": 302, 
+        "PDF": "http://www-users.cs.umn.edu/~ajay/papers/final2.pdf", 
+        "Project": "", 
+        "Title": "Multi-Class Active Learning for Image Classification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Svetlana Lazebnik, Maxim Raginsky", 
+        "Conference": "cvpr", 
+        "ID": 303, 
+        "PDF": "http://www.cs.unc.edu/~lazebnik/publications/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "An Empirical Bayes Approach to Contextual Region Classification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Neil Toronto, Bryan Morse, Kevin Seppi, Dan Ventura", 
+        "Conference": "cvpr", 
+        "ID": 304, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Super-Resolution via Recapture and Bayesian Effect Modeling", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bo Geng, Dacheng Tao, Chao Xu, Linjun Yang, Xian-Sheng Hua", 
+        "Conference": "cvpr", 
+        "ID": 305, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Ensemble Manifold Regularization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Liefeng Bo,Cristian Sminchisescu", 
+        "Conference": "cvpr", 
+        "ID": 306, 
+        "PDF": "http://sminchisescu.ins.uni-bonn.de/published/liefeng_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Structured Output-Associative Regression", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alexandre Eudes, Maxime Lhuillier", 
+        "Conference": "cvpr", 
+        "ID": 307, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Error Propagations for Local Bundle Adjustment", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Klas Josephson, Martin Byr&scaron;d", 
+        "Conference": "cvpr", 
+        "ID": 308, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Pose Estimation with Radial Distortion and Unknown Focal Length", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Vincent Rabaud, Serge Belongie", 
+        "Conference": "cvpr", 
+        "ID": 309, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Linear Embeddings in Non-Rigid Structure From Motion", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pavan Turaga, Rama Chellappa", 
+        "Conference": "cvpr", 
+        "ID": 310, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Locally Time-Invariant Models of Human Activities using Trajectories on the Grassmannian", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Junsong Yuan, Zicheng Liu, Ying Wu", 
+        "Conference": "cvpr", 
+        "ID": 311, 
+        "PDF": "http://www.ece.northwestern.edu/~jyu410/index_files/papers/Yuan_Liu_Wu_CVPR09.pdf", 
+        "Project": "", 
+        "Title": "Discriminative Subvolume Search for Efficient Action Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ruonan Li, Rama Chellappa, S. Kevin Zhou", 
+        "Conference": "cvpr", 
+        "ID": 312, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Multi-modal densities on Discriminative Temporal Interaction Manifold for Group Activity Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yannick Benezeth, Pierre-Marc Jodoin, Venkatesh Saligrama, Christophe Rosenberger", 
+        "Conference": "cvpr", 
+        "ID": 313, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Abnormal Events Detection Based on Spatio-Temporal Co-occurences", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yan Li, Leon Gu, Takeo Kanade", 
+        "Conference": "cvpr", 
+        "ID": 314, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Robust Shape Model for Multi-view Car Alignment", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hao Jiang, Stella X. Yu", 
+        "Conference": "cvpr", 
+        "ID": 315, 
+        "PDF": "http://www.cs.bc.edu/~hjiang/cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Linear Solution to Scale and Rotation Invariant Object Matching", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhaozhong Wang, Han Xiao", 
+        "Conference": "cvpr", 
+        "ID": 316, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dimension-Free Affine Shape Matching Through Subspace Invariance", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Shaolei Feng, S. Kevin Zhou, Sara Good, Comaniciu Dorin", 
+        "Conference": "cvpr", 
+        "ID": 317, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic Fetal Face Detection From Ultrasound Volumes Via Learning 3D and 2D Information", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alvina Goh, Christophe Lenglet, Paul M. Thompson, Rene Vidal", 
+        "Conference": "cvpr", 
+        "ID": 318, 
+        "PDF": "http://www.cis.jhu.edu/~alvina/papers/CVPR2009-HARDIprocessing.pdf", 
+        "Project": "", 
+        "Title": "A Nonparametric Riemannian Framework for Processing High Angular Resolution Diffusion Images (HARDI)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Vijay Chandrasekhar, Gabriel Takacs,David Chen, Sam Tsai, Radek Grzeszczuk, Bernd Girod", 
+        "Conference": "cvpr", 
+        "ID": 319, 
+        "PDF": "http://msw3.stanford.edu/~dchen/documents/CVPR2009_CHOG.pdf", 
+        "Project": "", 
+        "Title": "CHoG: Compressed Histogram of Gradients: A Low Bit-Rate Feature Descriptor", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jinjun Wang, Shenghuo Zhu, Yihong Gong", 
+        "Conference": "cvpr", 
+        "ID": 320, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Resolution-Invariant Image Representation and Its Applications", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "John Femiani, Anshuman Razdan", 
+        "Conference": "cvpr", 
+        "ID": 321, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Interval HSV: Extracting Ink Annotations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yuanyuan Ding, Jing Xiao,Kar-Han Tan, Jingyi Yu", 
+        "Conference": "cvpr", 
+        "ID": 322, 
+        "PDF": "http://vision.ai.uiuc.edu/~tankh/view_projection_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Catadioptric Projectors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bert De Decker, Jan Kautz, Tom Mertens, Philippe Bekaert", 
+        "Conference": "cvpr", 
+        "ID": 323, 
+        "PDF": "http://research.edm.uhasselt.be/bdedecker/cvpr09/timeAndColorMultiplexing.pdf", 
+        "Project": "", 
+        "Title": "Capturing Multiple Illumination Conditions using Time and Color Multiplexing", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Shengyang Dai, Ying Wu", 
+        "Conference": "cvpr", 
+        "ID": 324, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Removing Partial Blur in a Single Image", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Natsumi Kusumoto, Shinsaku Hiura, Kosuke Sato", 
+        "Conference": "cvpr", 
+        "ID": 325, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Uncalibrated Synthetic Aperture for Defocus Control", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Amit Agrawal, Ramesh Raskar", 
+        "Conference": "cvpr", 
+        "ID": 326, 
+        "PDF": "http://www.umiacs.umd.edu/~aagrawal/cvpr09/OptimalCapture/AgrawalCVPR09OptimalCapture.pdf", 
+        "Project": "", 
+        "Title": "Optimal Single Image Capture for Motion Deblurring", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Helen Cooper,Richard Bowden", 
+        "Conference": "cvpr", 
+        "ID": 327, 
+        "PDF": "http://personal.ee.surrey.ac.uk/Personal/H.M/research/papers/LearningSignFromSubtitles.pdf", 
+        "Project": "", 
+        "Title": "Learning Signs from Subtitles: A Weakly Supervised Approach to Sign Language Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Xiaoxing Li, Tao Jia, Richard  Zhang", 
+        "Conference": "cvpr", 
+        "ID": 328, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Expression-Insensitive 3D Face Recognition using Sparse Representation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sunita Nayak, Sudeep Sarkar, Barbara Loeding", 
+        "Conference": "cvpr", 
+        "ID": 329, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automated Extraction of Signs from Continuous Sign Language Sentences using Iterated Conditional Modes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nicolas Pinto, James J. DiCarlo, David D. Cox", 
+        "Conference": "cvpr", 
+        "ID": 330, 
+        "PDF": "http://pinto.scripts.mit.edu/uploads/Research/pinto-dicarlo-cox-cvpr-2009-mkl.pdf", 
+        "Project": "", 
+        "Title": "How far can you get with a modern face recognition test set using only simple features?", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Arnold Irschara,Christopher Zach, Jan-Michael Frahm, Horst Bischof", 
+        "Conference": "cvpr", 
+        "ID": 331, 
+        "PDF": "http://cs.unc.edu/~cmzach/pdf/cvpr2009b-preprint.pdf", 
+        "Project": "", 
+        "Title": "From Structure-From-Motion Point Clouds to Fast Location Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michele Merler, Rong Yan, John Smith", 
+        "Conference": "cvpr", 
+        "ID": 332, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Imbalanced RankBoost for Efficiently Ranking Large-Scale Image/Video Collections", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lorenzo Torresani, Martin Szummer, Andrew Fitzgibbon", 
+        "Conference": "cvpr", 
+        "ID": 333, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning query-dependent prefilters for scalable image retrieval", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lu  Wang, Ulrich Neumann", 
+        "Conference": "cvpr", 
+        "ID": 334, 
+        "PDF": "http://graphics.usc.edu/~luwang/pdf/lu_CVPR09.pdf", 
+        "Project": "", 
+        "Title": "A Robust Approach for Automatic Registration of Aerial Images with Untextured Aerial LiDAR Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Feng Tang, Suk Hwan Lim, Nelson Chang, Hai Tao", 
+        "Conference": "cvpr", 
+        "ID": 335, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Novel Feature Descriptor Invariant to Complex Brightness Changes (Technical report)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andrew Mastin, Jeremy Kepner, John Fisher III", 
+        "Conference": "cvpr", 
+        "ID": 336, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Mutual Information Based Registration of Optical and Ladar Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bjorn Stenger, Thomas Woodley, Roberto Cipolla", 
+        "Conference": "cvpr", 
+        "ID": 337, 
+        "PDF": "http://mi.eng.cam.ac.uk/~bdrs2/papers/stenger_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Learning to Track with Multiple Observers", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jixu Chen, Minyoung  Kim, Yu Wang, Qiang Ji", 
+        "Conference": "cvpr", 
+        "ID": 338, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Switching Gaussian Process Dynamic Models for Simultaneous Composite Motion Tracking and Recognition", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Liefei Xu, H. Quynh Dinh, Eugene Zhang, Zhongzang Lin, Robert Laramee", 
+        "Conference": "cvpr", 
+        "ID": 339, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Distribution-Based Approach to Tracking Points in Velocity Vector Fields", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Qian Yu, Gerard Medioni", 
+        "Conference": "cvpr", 
+        "ID": 340, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Motion Pattern Interpretation and Detection for Tracking Moving Vehicles in Airborne Videos", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Sami Brandt", 
+        "Conference": "cvpr", 
+        "ID": 341, 
+        "PDF": "http://www.ee.oulu.fi/~sbrandt/publications/cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Dual Distributions of Multilinear Geometric Entities", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Alexandre Vrubel, Olga Bellon, Luciano Silva", 
+        "Conference": "cvpr", 
+        "ID": 342, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A 3D Reconstruction Pipeline for Digital Preservation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hongdong Li", 
+        "Conference": "cvpr", 
+        "ID": 343, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Reduction of L-infinity Geometry Problems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Wei Zheng, Luhong Liang", 
+        "Conference": "cvpr", 
+        "ID": 344, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Car Detection Using Image Strip Features", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Bryan C. Russell,Antonio Torralba", 
+        "Conference": "cvpr", 
+        "ID": 345, 
+        "PDF": "http://people.csail.mit.edu/torralba/publications/LabelMe3D.pdf", 
+        "Project": "", 
+        "Title": "Building a database of 3D scenes from user annotations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Zhiwu Lu, Horace Ip", 
+        "Conference": "cvpr", 
+        "ID": 346, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Categorization with Spatial Mismatch Kernels", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Roth, Peter", 
+        "Conference": "cvpr", 
+        "ID": 347, 
+        "PDF": "http://www.vision.ee.ethz.ch/~hegrabne/papers/Roth2009ClassifierGridsRobusta.pdf", 
+        "Project": "", 
+        "Title": "Classifier Grids for Robust Adaptive Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mohammad Norouzi, Mani Ranjbar,Greg Mori", 
+        "Conference": "cvpr", 
+        "ID": 348, 
+        "PDF": "http://www.cs.sfu.ca/~mori/research/papers/norouzi_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Stacks of Convolutional Restricted Boltzmann Machines for Shift-Invariant Feature Learning", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Devi Parikh, C. Lawrence Zitnick, Tsuhan Chen", 
+        "Conference": "cvpr", 
+        "ID": 349, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/larryz/SteinerCVPR2009.pdf", 
+        "Project": "", 
+        "Title": "Unsupervised Learning of Hierarchical Spatial Structures In Images", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nicholas J. Butko, Javier R. Movellan", 
+        "Conference": "cvpr", 
+        "ID": 350, 
+        "PDF": "http://mplab.ucsd.edu/wp-content/uploads/2139.pdf", 
+        "Project": "", 
+        "Title": "Optimal Scanning for Faster Object Detection", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Qian-Yi Zhou,Ulrich Neumann", 
+        "Conference": "cvpr", 
+        "ID": 351, 
+        "PDF": "http://graphics.usc.edu/~qianyizh/papers/cvpr09_streaming.pdf", 
+        "Project": "", 
+        "Title": "A Streaming Framework for Seamless Building Reconstruction from Large-Scale Aerial LiDAR Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michael Kolomenkin,Ilan Shimshoni, Ayellet Tal", 
+        "Conference": "cvpr", 
+        "ID": 352, 
+        "PDF": "http://mis.haifa.ac.il/~ishimshoni/papers/KolomenkinShimshoniTalCVPR2009.pdf", 
+        "Project": "", 
+        "Title": "On Edge Detection on Surfaces", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Charalambos Poullis, Suya You", 
+        "Conference": "cvpr", 
+        "ID": 353, 
+        "PDF": "http://www.poullis.org/papers/poullis_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Automatic Reconstruction of Cities from Remote Sensor Data", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Gowri Somanath, Rohith MV, Dimitris Metaxas, Chandra Kambhamettu", 
+        "Conference": "cvpr", 
+        "ID": 354, 
+        "PDF": "http://vims.cis.udel.edu/publications/gowri_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "D - Clutter: Building object model library from unsupervised segmentation of cluttered scenes", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ehsan Elhamifar, Rene Vidal", 
+        "Conference": "cvpr", 
+        "ID": 355, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sparse Subspace Clustering", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Andriy Myronenko, Xubo Song", 
+        "Conference": "cvpr", 
+        "ID": 356, 
+        "PDF": "http://www.bme.ogi.edu/~myron/publications/CVPR09_segm.pdf", 
+        "Project": "", 
+        "Title": "Global Active Contour-based Image Segmentation via Probability Alignment", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Oliver Wang, Prabath Gunawardane, Steven Scher, James Davis", 
+        "Conference": "cvpr", 
+        "ID": 357, 
+        "PDF": "http://graphics.soe.ucsc.edu/publications/data/wango-brdfseg.pdf", 
+        "Project": "", 
+        "Title": "Material Classification using BRDF Slices", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jonathan Warrell, Simon J.D. Prince, Alastair P. Moore", 
+        "Conference": "cvpr", 
+        "ID": 358, 
+        "PDF": "http://web4.cs.ucl.ac.uk/research/vis/pvl/publications/EpitomizedPriors.pdf", 
+        "Project": "", 
+        "Title": "Epitomized Priors for Multi-labeling Problems", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Dijun Luo, Chris Ding, Heng Huang", 
+        "Conference": "cvpr", 
+        "ID": 359, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Symmetric Two Dimensional Linear Discriminant Analysis (2DLDA)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Lei Zhang, Qiang Ji", 
+        "Conference": "cvpr", 
+        "ID": 360, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Multiscale Hybrid Model Exploiting Heterogeneous Contextual Relationships for Image Segmentation", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Peter Gehler,Sebastian Nowozin", 
+        "Conference": "cvpr", 
+        "ID": 361, 
+        "PDF": "http://www.kyb.mpg.de/publications/attachments/CVPR2009-gehler_%5B0%5D.pdf", 
+        "Project": "", 
+        "Title": "Let the Kernel Figure it Out; Principled Learning of Pre-processing for Kernel Classifiers", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "C. Mario Christoudias, Raquel Urtasun,Ashish Kapoor, Trevor Darrell", 
+        "Conference": "cvpr", 
+        "ID": 362, 
+        "PDF": "http://research.microsoft.com/en-us/um/people/akapoor/papers/CVPR2009_CoTraining.pdf", 
+        "Project": "", 
+        "Title": "Co-training with noisy perceptual observations", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Leonid Sigal, Roland Memisevic, David Fleet", 
+        "Conference": "cvpr", 
+        "ID": 363, 
+        "PDF": "http://www.cs.brown.edu/~ls/Publications/cvpr2009sigal.pdf", 
+        "Project": "", 
+        "Title": "Shared Kernel Information Embedding for Discriminative Inference", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Stefanos Zafeiriou, Maria Petrou", 
+        "Conference": "cvpr", 
+        "ID": 364, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Nonlinear Nonnegative Component Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Linli Xu, Wenye Li, Dale Schuurmans", 
+        "Conference": "cvpr", 
+        "ID": 365, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Normalized Cut with Linear Constraints", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Michal Havlena, Akihiko Torii, Jan Knopp, Tomas Pajdla", 
+        "Conference": "cvpr", 
+        "ID": 366, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Randomized Structure from Motion Based on Atomic 3D Models from Camera Triplets", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Pierre Lothe, Steve Bourgeois, Fabien Dekeyser, Eric Royer, Michel Dhome", 
+        "Conference": "cvpr", 
+        "ID": 367, 
+        "PDF": "http://pierre.lothe.free.fr/Documents/CVPR09_Lothe_Bourgeois_Dekeyser_Royer_Dhome.pdf", 
+        "Project": "", 
+        "Title": "Towards Geographical Referencing of Monocular SLAM Reconstruction Using 3D City Models: Application to Real-Time Accurate Vision-Based Localization", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hanno Ackermann, Bodo Rosenhahn", 
+        "Conference": "cvpr", 
+        "ID": 368, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Trajectory Reconstruction for Affine Structure-from-Motion by Global and Local Constraints", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Marco Paladini, Alessio Del Bue, Marko Sto_i_, Marija  Dodig, Joao Xavier, Lourdes Agapito", 
+        "Conference": "cvpr", 
+        "ID": 369, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Factorization for Non-Rigid and Articulated Structure using Metric Projections", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Branislav Micusik, Jana Kosecka", 
+        "Conference": "cvpr", 
+        "ID": 370, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Piecewise Planar City 3D Modeling from Street View Panoramic Sequences", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Weina Ge, Robert Collins", 
+        "Conference": "cvpr", 
+        "ID": 371, 
+        "PDF": "http://vision.cse.psu.edu/paper/CVPR2009GeCollins.pdf", 
+        "Project": "", 
+        "Title": "Marked Point Processes for Crowd Counting", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Jaechul Kim,Kristen Grauman", 
+        "Conference": "cvpr", 
+        "ID": 372, 
+        "PDF": "http://www.cs.utexas.edu/~grauman/papers/kim_grauman_cvpr2009.pdf", 
+        "Project": "", 
+        "Title": "Observe Locally, Infer Globally: a Space-Time MRF for Detecting Abnormal Activities with Incremental Updates", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Marcin Marszalek, Ivan Laptev,Cordelia Schmid", 
+        "Conference": "cvpr", 
+        "ID": 373, 
+        "PDF": "http://lear.inrialpes.fr/pubs/2009/MLS09/MarszalekLaptevSchmid-CVPR09-ActionsContext.pdf", 
+        "Project": "", 
+        "Title": "Actions in context", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Duy-Nguyen Ta,Wei-Chao Chen, Natasha Gelfand, Kari Pulli", 
+        "Conference": "cvpr", 
+        "ID": 374, 
+        "PDF": "http://research.nokia.com/files/wchen_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "SURFTrac: Efficient Tracking and Continuous Object Recognition using Local Feature Descriptors", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Stefan Hinterstoisser, Oliver Kutter, Nassir Navab, Pascal Fua, Vincent Lepetit", 
+        "Conference": "cvpr", 
+        "ID": 375, 
+        "PDF": "http://wwwnavab.in.tum.de/pub/hinterstoisser2009gepard/hinterstoisser2009gepard.pdf", 
+        "Project": "", 
+        "Title": "Real Time Learning of Accurate Patch Rectification", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Yuan Li, Chang Huang, Ram Nevatia", 
+        "Conference": "cvpr", 
+        "ID": 376, 
+        "PDF": "http://iris.usc.edu/~yli8/papers/tracking_cvpr09.pdf", 
+        "Project": "", 
+        "Title": "Learning to Associate: HybridBoosted Multi-Target Tracker for Crowded Scene", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Patrick Buehler,Mark Everingham, Andrew Zisserman", 
+        "Conference": "cvpr", 
+        "ID": 377, 
+        "PDF": "http://www.comp.leeds.ac.uk/me/Publications/cvpr09_bsl.pdf", 
+        "Project": "", 
+        "Title": "Learning sign language by watching TV (using weakly aligned subtitles)", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Mohit Gupta, Yuandong Tian, Srinivasa G. Narasimhan, Li Zhang", 
+        "Conference": "cvpr", 
+        "ID": 378, 
+        "PDF": "http://www.cs.cmu.edu/~mohitg/DefocusingOnGlobalLightTransport.pdf", 
+        "Project": "", 
+        "Title": "(De)Focusing on Global Light Transport for Active Scene Recovery", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Nikos Komodakis, Nikos Paragios", 
+        "Conference": "cvpr", 
+        "ID": 379, 
+        "PDF": "http://www.csd.uoc.gr/~komod/publications/docs/HighOrderMRFs_DualDecomposition_cvpr09a.pdf", 
+        "Project": "", 
+        "Title": "Beyond Pairwise Energies: Efficient Optimization for Higher-order MRFs", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Ping Tan, Todd Zickler", 
+        "Conference": "cvpr", 
+        "ID": 380, 
+        "PDF": "http://www.ece.nus.edu.sg/stfpage/eletp/Papers/cvpr09_projective.pdf", 
+        "Project": "", 
+        "Title": "A Projective Framework for Radiometric Image Analysis", 
+        "Year": 2009
+    }, 
+    {
+        "Authors": "Hiroshi Ishikawa", 
+        "Conference": "cvpr", 
+        "ID": 381, 
+        "PDF": "http://www.nsc.nagoya-cu.ac.jp/~hi/HOCR.pdf", 
+        "Project": "", 
+        "Title": "Higher-Order Clique Reduction in Binary Graph Cut", 
+        "Year": 2009
+    }
+]

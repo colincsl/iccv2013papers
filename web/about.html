@@ -1,0 +1,412 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BMVC 2013</title>
+
+
+<style>
+/* CSS */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: #FCFAF1;
+	/*background-color: #F6F3E5;*/
+}
+.as {
+	font-size: 12px;
+	color: #900;
+}
+.ts {
+	font-weight: bold;
+	font-size: 14px;
+}
+.tt {
+	color: #009;
+	font-size: 13px;
+}
+.keywords {
+	font-size: 12px;
+	color: #0000A0;
+}
+h1 {
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+#titleHeader {
+	width: 100%;
+	background-color: #C05F24;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #543030;
+}
+
+#titdiv {
+	width: 100%;
+	background-color: #C0C0C0;
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #540000;
+	/*border-top: 1px solid #543030;*/
+
+}
+
+#GuideList {
+	width: 75%;
+	/*background-color: #C0C0C0;*/
+	/*color: white;*/
+	text-align: center;
+	vertical-align:text-top;
+	/*padding-top: 5px;*/
+	/*padding-bottom: 5px;*/
+	/*border-bottom: 1px solid #540000;*/
+	/*border-top: 1px solid #543030;*/
+
+}
+
+.right {
+	text-align:right;
+	padding-right: 5%;	
+}
+
+#maindiv {
+	width: 970px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: solid 1px #D6D3C5;
+	border-right: solid 1px #D6D3C5;
+	background-color: white;
+	text-align: left;
+}
+
+.apaper {
+	margin-top: 25px;
+	/*min-height: 300px;*/
+	min-height: 50px;
+}
+
+.paperdesc {
+	float: left;
+}
+
+.dllinks {
+	float: right;
+	text-align: right;
+}
+
+#titleHeader a:link{ color: white; }
+#titleHeader a:visited{ color: white; }
+#titdiv a:link{ color: white; }
+#titdiv a:visited{ color: white; }
+
+#maindiv a:link{ color: #666; }
+#maindiv a:visited{ color: #600; }
+
+.t0 { color: #000;}
+.t1 { color: #C00;}
+.t2 { color: #0C0;}
+.t3 { color: #00C;}
+.t4 { color: #AA0;}
+.t5 { color: #C0C;}
+.t6 { color: #0CC;}
+
+.topicchoice {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#explanation {
+	background-color: #f7a76f;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sortoptions {
+	text-align: center;
+	padding: 20px;
+}
+
+.sim {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstr {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstrholder {
+	background-color: #DFD;
+	border: 1px solid #BDB;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 5px;
+	display: none; /* so that these are hidden initially */
+	margin-bottom: 5px;
+}
+</style>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+
+// this line below will get filled in with database of LDA topic distributions for top words
+// for every paper
+ldadist=[]
+
+// this will be filled with pairwise scores between papers
+pairdists=[]
+
+var choices = [0, 0, 0, 1, 1, 0, 0]; // default choices, random...
+var similarityMode = 0; // is the user currently looking at papers similar to some one paper?
+var similarTo = 0; // the index of query paper
+
+// given choices of topics to sort by, handle user interface stuff (i.e. show selection)
+function colorChoices() {
+	for(var i=0;i<choices.length;i++) {
+		if(choices[i] == 1) {
+			$("#tc"+i).css("background-color", "#EFE");
+			$("#tc"+i).css("border-color", "#575");
+		} else {
+			$("#tc"+i).css("background-color", "#FFF");
+			$("#tc"+i).css("border-color", "#FFF");
+		}
+	}
+}
+
+// this permutes the divs (that contian 1 paper each) based on a custom sorting function
+// in our case, this sort is done as dot product based on the choices[] array
+// here we are guaranteed ldadist[] already sums to 1 for every paper
+function arrangeDivs() {
+	var rtable = $("#rtable");
+	var paperdivs = rtable.children(".apaper");
+
+	// normalize choices to sum to 1
+	var nn = choices.slice(0); // copy the array
+	var ss = 0.0;
+	for(var j=0;j<choices.length;j++) { ss += choices[j]; }
+	for(var j=0;j<choices.length;j++) { nn[j] = nn[j]/ss; }
+
+	paperdivs.detach().sort(function(a,b) {
+		var ixa = parseInt($(a).attr('id').substring(3));
+		var ixb = parseInt($(b).attr('id').substring(3));
+
+		if(similarityMode === 1) {
+			return pairdists[ixa][similarTo] < pairdists[ixb][similarTo] ? 1 : -1;
+		}
+
+		if(similarityMode === 0) {
+
+			// chi-squared kernel for the two histograms
+			var accuma = 0;
+			var accumb = 0;
+			for(var i=0;i<7;i++) {
+				var ai= ldadist[ixa][i];
+				var bi= ldadist[ixb][i];
+				var ci= choices[i];
+				accuma += (ai-ci)*(ai-ci)/(ai+ci);
+				accumb += (bi-ci)*(bi-ci)/(bi+ci);
+			}
+			return accuma > accumb ? 1 : -1;
+
+		}
+
+	});
+	rtable.append(paperdivs);
+}
+
+// when page loads...
+$(document).ready(function(){
+
+	arrangeDivs();
+	colorChoices();
+
+	// user clicks on one of the Topic buttons
+	$(".topicchoice").click(function() {
+		similarityMode = 0; // make sure this is off
+		var tcid = parseInt($(this).attr('id').substring(2));
+		choices[tcid] = 1 - choices[tcid]; // toggle!
+
+		colorChoices();
+		arrangeDivs();
+	});
+
+	// user clicks on "rank by tf-idf similarity to this" button for some paper
+	$(".sim").click(function() {
+		similarityMode = 1; // turn on similarity mode
+		for(var i=0;i<choices.length;i++) { choices[i] = 0; } // zero out choices
+		similarTo = parseInt($(this).attr('id').substring(3)); // store id of the paper clicked
+
+		colorChoices();
+		arrangeDivs();
+
+		// also scroll to top
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
+	});
+
+	// user clicks on "abstract button for some paper
+	$(".abstr").click(function() {
+		var pid = parseInt($(this).attr('id').substring(2)); // id of the paper clicked
+		var aurl = "abstracts/a" + pid + ".txt";
+		var holderdiv = "#abholder" + pid;
+
+		if($(holderdiv).is(':visible')) {
+
+			$(holderdiv).slideUp(); // hide the abstract away
+
+		} else {
+
+			// do ajax request and fill the abstract div with the result
+			$.ajax({
+	            url : aurl,
+	            dataType: "text",
+	            success : function (data) {
+	                $(holderdiv).html(data);
+	                $(holderdiv).slideDown();
+	            }
+	        });
+		}
+	});
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- ''''''''' Header table ''''''''' -->
+
+<div id="titleHeader">
+<center>
+<h1> www.CVGuides.net </h1>
+Improving discovery of relevant computer vision research through visualization
+</center>
+</div>
+
+<div id="titdiv">
+<table width=100% align="center">
+<tbody><tr>
+
+<td width=50% class="right">
+<h2>About</h2>
+</td>
+
+<td>
+Other guides:
+	<a href="../../2013/BMVC/index.html">BMVC 2013</a>,
+	<a href="http://www.colinlea.com/guides/cvpr2013.html">CVPR 2013</a>,
+	<a href="http://www.benhamner.com/icml2013preview/">ICML 2013</a>,
+	<a href="http://cs.stanford.edu/people/karpathy/nipspreview/">NIPS 2012</a>,
+	<a href="../../2012/BMVC/index.html">BMVC 2012</a>
+<br>
+
+Info: 
+ 	<a href="http://www.colinlea.com">maintained by</a>  
+	<a href="https://github.com/colincsl/cvpr2013papers">source code</a>
+</td>
+
+</tr></tbody>
+</table>
+</div>
+
+<!-- ''''''''' /Header table ''''''''' -->
+
+
+<div id="maindiv">
+
+<!-- Insert visualization -->
+
+<div id="explanation">
+	Overview
+</div>
+<br>
+Most conference proceedings are large, unorganized blocks of text. Our goal is to make it easier to find papers relevant to your area of interest in a shorter amount of time. We use language models that cluster topics based on the similarity of each text and visualize the connections using interactive designs. This site is automatically updated on a weekly basis to add new papers that become available.
+
+<br><br>
+If you have questions or would like to help <a href="mailto:colincsl@gmail.com">email us</a>.
+
+<br><br>
+
+<div id="explanation">
+	Available Guides
+</div>
+
+<br>
+
+<center>
+<table id="GuideList">
+<thead>
+<tr><td>
+<b>Computer Vision</b>
+</td><td>
+<b>Machine Learning</b>
+</td><td>
+<b>Robotics</b>
+</td></tr>
+
+</thead>
+
+<tbody>
+<tr>
+<td width="30%">
+<a href="../../2013/COMBINED/index.html">All 2013 Conferences</a><br>
+<a href="../../2013/BMVC/index.html">BMVC 2013</a><br>
+<a href="../../2013/CVPR/index.html">CVPR 2013</a><br>
+<a href="../../2012/ECCV/index.html">ECCV 2012</a><br>
+<a href="../../2012/BMVC/index.html">BMVC 2012</a><br>
+</td>
+<td width="30%">
+<!-- <a href="../../2013/COMBINED/index.html">All 2013 Conferences</a><br> -->
+<a href="../../2013/BMVC/index.html">ICML 2013 (outside link)</a><br>
+<a href="../../2012/BMVC/index.html">NIPS 2012 (outside link)</a><br>
+</td>
+<td width="30%">
+<!-- <a href="../../2013/COMBINED/index.html">All 2013 Conferences</a><br> -->
+<a href="../../2013/BMVC/index.html">ICRA 2013</a><br>
+<a href="../../2012/BMVC/index.html">IROS 2012</a><br>
+</td>
+</tr>
+
+</tbody>
+</table>
+</center>
+
+<br><br>
+
+
+
+<br><br>
+
+Note: No PDFs are stored on this website and all content is provided under fair use.
+
+<br>
+<br><br>
+
+
+</div>
+
+
+<div id="titdiv"> <br><br></div>
+<div id="titleHeader"> <br><br></div>
+</body>

@@ -1,0 +1,2099 @@
+[
+    {
+        "Authors": "Tatiana Tommasi (Idiap Research Institute), Novi Quadrianto (University of Cambridge), Barbara Caputo (IDIAP), Christoph Lampert (IST Austria)", 
+        "Conference": "accv", 
+        "ID": 0, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-task Unaligned Shared Knowledge Transfer", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Feng-Ju Chang (Academia Sinica), Yen-Yu Lin (Academia Sinica), Ming-Fang Weng (Academia Sinica)", 
+        "Conference": "accv", 
+        "ID": 1, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cross-database Transfer Learning via Learnable and Discriminant Error-correcting Output Codes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wei LI (The Chinese University of HK), Rui ZHAO (The Chinese University of HK), Xiaogang Wang (The Chinese University HK)", 
+        "Conference": "accv", 
+        "ID": 2, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Human Reidentification with Transferred Metric Learning", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wei Zheng (Chinese Academy of Sciences), Songling Song, Hong Chang, xilin Chen", 
+        "Conference": "accv", 
+        "ID": 3, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Grouping Active Contour Fragments for Object Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Paul Wohlhart (Graz University of Technology), Peter Roth, Michael Donoser (Graz University of Technology), Horst Bischof (Technische Universitat Graz)", 
+        "Conference": "accv", 
+        "ID": 4, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Detecting partially occluded objects with an Implicit Shape Model Random Field", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shaoxin Li (Chinese Academy of Science), Shiguang Shan (CAS, China), Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 5, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Relative Forest for Attribute Prediction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Huimin Guo (University of Maryland), Zhuolin Jiang (University of Maryland), Larry Davis (U. Maryland, USA)", 
+        "Conference": "accv", 
+        "ID": 6, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Discriminative Dictionary Learning with Pairwise Constraints", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Victor Prisacariu (University of Oxford), Alex Segal (University of Oxford), Ian Reid (University of Oxford)", 
+        "Conference": "accv", 
+        "ID": 7, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Simultaneous Monocular 2D Segmentation, 3D Pose Recovery and 3D Reconstruction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "JONGMIN KIM (KAIST), SANGHYUK PARK (KAIST), YOUNGJOO SEO (KAIST), SUNGRACK YUN (KAIST), CHANG YOO (KAIST)", 
+        "Conference": "accv", 
+        "ID": 8, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "JOINT KERNEL LEARNING FOR SUPERVISED IMAGE SEGMENTATION", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Rohith MV (University of Delaware), Chandra Kambhamettu (University of Delaware)", 
+        "Conference": "accv", 
+        "ID": 9, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Application of heterogenous motion models towards structure recovery from motio", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Youngwoon Lee (KAIST), Jae-Pil Heo (KAIST), Sung-eui Yoon (KAIST)", 
+        "Conference": "accv", 
+        "ID": 10, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Quadra-Embedding: Binary Code Embedding with Low Quantization Error", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Gianfranco Doretto (West Virginia University), Farzad Siyahjani (West Virginia University)", 
+        "Conference": "accv", 
+        "ID": 11, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning a Context Aware Dictionary for Sparse Representation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Borislav Antic (University of Heidelberg), Bjorn Ommer", 
+        "Conference": "accv", 
+        "ID": 12, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Multiple-Instance Learning with Superbags", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Alexander Freytag (Friedrich Schiller University Jena), Erik Rodner (Friedrich Schiller University Jena), Paul Bodesheim (University of Jena, Germany), Joachim Denzler", 
+        "Conference": "accv", 
+        "ID": 13, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Rapid Uncertainty Computation with Gaussian Processes and Histogram Intersection Kernels", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shuai Tang (University of Missouri), Xiaoyu Wang, Tony Han (University of Missouri), James Keller, Marjorie Skubic, Shihong Lao, Zhihai He", 
+        "Conference": "accv", 
+        "ID": 14, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Histogram of Oriented Normal Vectors for Object Recognition with a Depth Sensor", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jean-Charles Bazin (ETHZ), yongduek Seo (Sogang)", 
+        "Conference": "accv", 
+        "ID": 15, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Globally Optimal Consensus Set Maximization Through Rotation Search", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hamid Laga (University of South Australia)", 
+        "Conference": "accv", 
+        "ID": 16, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Graspable PartsRecognition in Man-made 3D Shapes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Michael Stoll (University of Stuttgart (VIS)), Sebastian Volz (University of Stuttgart), Andres Bruhn (University of Stuttgart)", 
+        "Conference": "accv", 
+        "ID": 17, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Integration of Feature Matches into Variational Optical Flow Methods", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Stefan Holzer (Technische Universit\u00e4t M\u00fcnchen), Slobodan Ilic, David Joseph Tan (Technische Universit\u00e4t M\u00fcnchen), Nassir Navab (TU Muenchen)", 
+        "Conference": "accv", 
+        "ID": 18, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Learning of Linear Predictors using Dimensionality Reduction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yuefeng Chen, Qing Wang (Northwestern Polytechnical University)", 
+        "Conference": "accv", 
+        "ID": 19, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust visual tracking using dynamic classifier selection with sparse representation of label noise", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Qianru Sun (Peking University), Hong Liu (Peking University)", 
+        "Conference": "accv", 
+        "ID": 20, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Action Disambiguation Analysis Using Normalized Google-Like Distance Correlogram", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Mikhail Sindeev (Keldysh Institute), Carsten Rother (Microsoft Research), Anton Konushin", 
+        "Conference": "accv", 
+        "ID": 21, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Alpha flow for video matting", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Maodi Hu (Buaa), Yunhong Wang, James Little", 
+        "Conference": "accv", 
+        "ID": 22, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Combinational Subsequence Matching for Human Identification from General Actions", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hui Zhang (United International College), Kwan-Yee Kenneth Wong (HKU, Hong Kong), Ling Shao", 
+        "Conference": "accv", 
+        "ID": 23, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Self-calibration and Motion Recovery from Silhouettes with Two Mirrors", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Laurent Caraffa (IFSTTAR), Jean-Philippe Tarel (IFSTTAR)", 
+        "Conference": "accv", 
+        "ID": 24, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stereo Reconstruction and Contrast Restoration in Daytime Fog", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shanmin Pang (Xi'an Jiao tong University), Jianru Xue (Xian Jiaotong University, China), Le Wang, Nanning Zheng", 
+        "Conference": "accv", 
+        "ID": 25, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Large-Scale Bundle Adjustment by Parameter Space Decomposition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hwann-Tzong Chen, Chia-Ming Cheng", 
+        "Conference": "accv", 
+        "ID": 26, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Feature Subspaces for Appearance-Based Bundle Adjustment", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lukas Bossard,Matthias Dantone,Christian Leistner, Christian Wengert,Till Quack,Luc Van Gool", 
+        "Conference": "accv", 
+        "ID": 27, 
+        "PDF": "https://www.vision.ee.ethz.ch/publications/papers/proceedings/eth_biwi_00974.pdf", 
+        "Project": "", 
+        "Title": "Apparel Classification with Style", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Naoto Miura (University of Tokyo), Yoichi Sato (University of Tokyo)", 
+        "Conference": "accv", 
+        "ID": 28, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Removing skin wrinkles and deblurreing veins by using tri-band illumination", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yoshihiro Watanabe (University of Tokyo), hiroki Shibayama, Masatoshi Ishikawa (Japan)", 
+        "Conference": "accv", 
+        "ID": 29, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Reconstruction of 3D surface and restoration of flat document image from monocular image sequence", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Huixuan Tang (University of Toronto), Kyros Kutulakos (University of Toronto)", 
+        "Conference": "accv", 
+        "ID": 30, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Utilizing Optical Aberrations for Light-efficient Panoramas", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sam Tsai (Stanford University), Vasu Parameswaran (Nokia Research Center), Jerome Berclaz (Nokia Research Center), Ramakrishna Vedantham (Nokia Research Center), Radek Grzeszczuk (Nokia Research Center), Bernd Girod (Stanford University)", 
+        "Conference": "accv", 
+        "ID": 31, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Design of a Text Detection System via Hypothesis Generation and Verification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Pietro Lovato, Alessandro Perina, Omar Zandona, Alessio Montagnini, Nicu Sebe (University of Trento, Italy), Manuele Bicego, Marco Cristani (IIT)", 
+        "Conference": "accv", 
+        "ID": 32, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tell me what you like and I'll tell you what you are: discriminating visual preferences by crowdsourcing", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Marko Ristin (ETH Zurich), Juergen Gall (Max Planck Institute for Intelligent Systems), Luc Van Gool (ETH Zurich)", 
+        "Conference": "accv", 
+        "ID": 33, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Local Context Priors for Object Proposal Generation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Chunluan Zhou (NTU), Junsong Yuan (Nanyang Technological University, Singapore)", 
+        "Conference": "accv", 
+        "ID": 34, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Arbitrary-Shape Object Localization using Adaptive Image Grids", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yuko Ozasa (Kobe University), Yasuo Ariki (Kobe University), Naoto Iwahashi (NICT), Mikio Nakano (HRI)", 
+        "Conference": "accv", 
+        "ID": 35, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Disambiguation in Unknown Object Detection by Integrating Image and Speech Recognition Condences", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "HuiJin Lee (POSTECH), Ki Sang Hong", 
+        "Conference": "accv", 
+        "ID": 36, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Class-Specific Weighted Dominant Orientation Templates for object detection", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Keren Fu (Shanghai Jiao Tong University), Chen Gong, Jie Yang", 
+        "Conference": "accv", 
+        "ID": 37, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Salient Object Detection via Color Contrast and Color Distribution", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Junge ZHANG (NLPR), Kaiqi Huang (Institute of Automation, Chinese Academy of Sciences), Tieniu Tan (NLPR, CASIA, china)", 
+        "Conference": "accv", 
+        "ID": 38, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Data Decomposition and Spatial Mixture Modeling for Part based Model", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Marcin Eichner (ETH Zurich), Vittorio Ferrari (University of Edinburgh)", 
+        "Conference": "accv", 
+        "ID": 39, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Appearance Sharing for Collective Human Pose Estimation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Pradeep krishna Yarlagadda (University of Heidelberg), Angela Eigenstetter (IWR University Heidelberg), Bjorn Ommer", 
+        "Conference": "accv", 
+        "ID": 40, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Max-Margin Regularization for Reducing Accidentalness in Chamfer Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Bo Li (bit.edu.cn), Tianfu Wu (bupt.edu.cn), Wenze Hu (ucla.edu), Mingtao Pei (bit.edu.cn)", 
+        "Conference": "accv", 
+        "ID": 41, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Coupling-and-Decoupling: a Hierarchical Model for Occlusion-Free Car Detection", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Konstantinos Rematas (K.U. Leuven), Tinne Tuytelaars (K.U.Leuven), Mario Fritz (MPI-Informatik)", 
+        "Conference": "accv", 
+        "ID": 42, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "The Pooled NBNN Kernel: Beyond Image-to-Class and Image-to-Image", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Weiqiang Ren (CASIA), YongZhen Huang (NLPR), Kaiqi Huang (Institute of Automation, Chinese Academy of Sciences), Tieniu Tan (NLPR, CASIA, china)", 
+        "Conference": "accv", 
+        "ID": 43, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Local Hypersphere Coding Based on Edges between Visual Words", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sancho McCann (UBC), David Lowe", 
+        "Conference": "accv", 
+        "ID": 44, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Spatially Local Coding for Object Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Bj\u00f6rn Fr\u00f6hlich (FSU Jena), Erik Rodner (Friedrich Schiller University Jena), Joachim Denzler", 
+        "Conference": "accv", 
+        "ID": 45, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Semantic Segmentation with Millions of Features: Integrating Multiple Cues in a Combined Random Forest Approach", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sandra Ebert (Max Planck Institute), Mario Fritz (MPI-Informatik), Bernt Schiele (MPI Informatics)", 
+        "Conference": "accv", 
+        "ID": 46, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Semi-Supervised Learning on a Budget: Scaling up to Large Datasets", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xinggang Wang (Huazhong Univ. of Sci. &amp;), Tech., Zhengdong Zhang, Yi Ma (Microsoft Research Asia), Zhuowen Tu (Laboratory of Neuro Imaging Department of Neurology, UCLA )", 
+        "Conference": "accv", 
+        "ID": 47, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "One-Class Multiple Instance Learning via Robust PCA for Common Object Discovery", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Guangxiao Zhang (University of Maryland), Zhuolin Jiang (University of Maryland), Larry Davis (U. Maryland, USA)", 
+        "Conference": "accv", 
+        "ID": 48, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Online Semi-supervised Discriminative Dictionary Learning for Sparse Representation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lin Chen (NTU), Lxin Duan (NTU), Ivor Tsang (NTU), Dong Xu (Nanyang Technological University)", 
+        "Conference": "accv", 
+        "ID": 49, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Discriminative Learning of Class Hierarchy for Many Class Prediction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Alexis Mignon (GREYC -- CNRS), Frederic Jurie", 
+        "Conference": "accv", 
+        "ID": 50, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "CMML: a New Metric Learning Approach for Cross Modal Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yinfu Feng (Zhejiang University), Jun Xiao (Zhejiang University), Yueting Zhuang (Zhejiang University), Xiaoming Liu (General Electric)", 
+        "Conference": "accv", 
+        "ID": 51, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Unsupervised Multi-View Feature Selection for Visual Concept Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Aditya Nigam (Indian Institute of Technology), Phalguni Gupta (Indian Institute of Technology)", 
+        "Conference": "accv", 
+        "ID": 52, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Iris Recognition using Consistent Corner Optical Flow", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Gayathri Mahalingam (University of Delaware), Chandra Kambhamettu (University of Delaware)", 
+        "Conference": "accv", 
+        "ID": 53, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Face Recognition in Videos - A Graph Based Modified Kernel Discriminant Analysis", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Siddhartha Chandra (IIIT Hyderabad), Shailesh Kumar, Jawahar C V (IIIT, Hyderabad)", 
+        "Conference": "accv", 
+        "ID": 54, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Hierarchical Bag of Words using Naive Bayes Clustering", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Meng Wang (BUAA), Zhaoxiang Zhang (Beihang University), Yunhong Wang", 
+        "Conference": "accv", 
+        "ID": 55, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Human Parsing Based on Sketch Representation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jiyan Pan (Carnegie Mellon University), Ye Chen (Microsoft Corporation), Bo Anderson (Microsoft Corporation), Pavel Berkhin (Microsoft Corporation), Takeo Kanade (Carnegie Mellon University)", 
+        "Conference": "accv", 
+        "ID": 56, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Effectively Leveraging Visual Context to Detect Texts in Natural Scenes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "YU ZHANG (Ntu.sg), Jianxin Wu (NTU, Singapore), Weiyao Lin (Shanghai Jiao Tong University, China)", 
+        "Conference": "accv", 
+        "ID": 57, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Exclusive Visual Descriptor Quantization", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Phoenix Huang (University of Edinburgh), Bastiaan Boom (University of Edinburgh), Robert Fisher (University of Edinburgh)", 
+        "Conference": "accv", 
+        "ID": 58, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hierarchical Classification for Live Fish Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ekaterina Potapova (TUW), Michael Zillich, Markus Vincze", 
+        "Conference": "accv", 
+        "ID": 59, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Local 3D Symmetry for Visual Saliency", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tomas Svoboda (CTU in Prague), Karel Zimmermann (CTU in Prague), David Hurych (CTU in Prague)", 
+        "Conference": "accv", 
+        "ID": 60, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Exploiting Features -- Locally Interleaved Sequential Alignment for Object Detection", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "David Ok (Imagine ENPC), Renaud Marlet", 
+        "Conference": "accv", 
+        "ID": 61, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient and Scalable $4$-th order Match Propagation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tianzhu Zhang (ADSC)", 
+        "Conference": "accv", 
+        "ID": 62, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hierarchical Object Representations for Visual Recognition via Weakly Supervised Learning", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tony Tung (Kyoto University), Takashi Matsuyama", 
+        "Conference": "accv", 
+        "ID": 63, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Invariant Surface-Based Shape Descriptor for Dynamic Surface Encoding", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wei ZHOU (Waseda University)", 
+        "Conference": "accv", 
+        "ID": 64, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Linear Discriminant Analysis with Maximum Correntropy Criterion", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Karthik Mahesh Varadarajan (TU Wien)", 
+        "Conference": "accv", 
+        "ID": 65, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "AfNet: The Affordance Network", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ling Chen (SWUFE)", 
+        "Conference": "accv", 
+        "ID": 66, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Directed Graphical Model for Linear Barcode Scanning from Blurred Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ke Ding (The Chinese University of HK), yunhui Liu (The Chinese University of Hong Kong)", 
+        "Conference": "accv", 
+        "ID": 67, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Probabilistic 3D Model Retrieval System using Sphere Image", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Stefan Hinterstoisser (TU Muenchen), Vincent Lepetit (EPFL, Switzerland), Slobodan Ilic, Stefan Holzer (Technische Universit\u00e4t M\u00fcnchen), Kurt Konolige (Industrial Perception), Gary Bradski (Industrial Perception), Nassir Navab (TU Muenchen)", 
+        "Conference": "accv", 
+        "ID": 68, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Model Based Training, Detection and Pose Estimation of Texture-Less 3D Objects in Heavily Cluttered Scenes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jixu Chen (GE), Xiaoming Liu (General Electric), lsw@cs.albany.edu Lyu", 
+        "Conference": "accv", 
+        "ID": 69, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Boosting with Side Information", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Takumi Kobayashi (National Institute of AIST)", 
+        "Conference": "accv", 
+        "ID": 70, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Generalized Mutual Subspace Based Methods for Image Set Classification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiaowei Zhao (ICT,CAS,China), Shiguang Shan (CAS, China), Xiujuan Chai (ICT,CAS), Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 71, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Locality-constrained Active Appearance Model", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Peng Li (CASIA), Jian Cheng, Hanqing Lu (Institure of Automation, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 72, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Modeling Hidden Topics with Dual Local Consistency for Image Analysis", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ashish Shrivastava (University of Maryland, CP), Hien Nguyen (University of Maryland, CP), Vishal Patel (University of Maryland, CP), Rama Chellappa (University of Maryland, CP)", 
+        "Conference": "accv", 
+        "ID": 73, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Design of Non-Linear Discriminative Dictionaries for Image Classification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Junqiu Wang (Osaka University), Yasushi Yagi", 
+        "Conference": "accv", 
+        "ID": 74, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Background Subtraction\\\\ under Abrupt Illumination Variations", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Radu Timofte(K.U. Leuven),Tinne Tuytelaars(K.U.Leuven),Luc Van Gool(K.U. Leuven and ETH Zurich)", 
+        "Conference": "accv", 
+        "ID": 75, 
+        "PDF": "http://homes.esat.kuleuven.be/~rtimofte/publications/Timofte-ACCV-2012a.pdf", 
+        "Project": "", 
+        "Title": "Naive Bayes Image Classification: beyond Nearest Neighbors", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zifeng Wu (NLPR), YongZhen Huang (NLPR), Liang Wang (Institute of Automation, Chinese Academy of Sciences), Tieniu Tan (NLPR, CASIA, china)", 
+        "Conference": "accv", 
+        "ID": 76, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Contextual Pooling in Image Classification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zifeng Wu (NLPR), YongZhen Huang (NLPR), Liang Wang (Institute of Automation, Chinese Academy of Sciences), Tieniu Tan (NLPR, CASIA, china)", 
+        "Conference": "accv", 
+        "ID": 77, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Spatial Graph for Image Classification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jie-Zhi Cheng, Feng-Ju Chang (Academia Sinica), Kuang-Jui Hsu (Academia Sinica), Yen-Yu Lin (Academia Sinica)", 
+        "Conference": "accv", 
+        "ID": 78, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Knowledge Leverage from Contours to Bounding Boxes: A Concise Approach to Annotation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Bj\u00f6rn Scheuermann (Leibniz Universit\u00e4t Hannover), Markus Schlosser (Technicolor), Bodo Rosenhahn", 
+        "Conference": "accv", 
+        "ID": 79, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Pixel-Grouping based on Dempster's Theory of Evidence for Image Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Fabio Galasso (MPI Informatics), Bernt Schiele (MPI Informatics)", 
+        "Conference": "accv", 
+        "ID": 80, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Video Segmentation with Superpixels", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Di Yang (The Australian National Univ), Stephen Gould (Australian National University), Marcus Hutter (The Australian National University)", 
+        "Conference": "accv", 
+        "ID": 81, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Noise Tolerant Watershed Transformation with Viscous Force for Seeded Image Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Dan Wang (CAS), Canxiang Yan, Shiguang shan (ICT), xilin Chen", 
+        "Conference": "accv", 
+        "ID": 82, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Active Learning for Interactive Segmentation with Expected Confidence Change", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Vladislav Kramarev (Saarland University), Oliver Demetz (Saarland University), Christopher Schroers (Saarland University), Joachim Weickert (Saarland University)", 
+        "Conference": "accv", 
+        "ID": 83, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cross Anisotropic Cost Volume Filtering for Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiaofei Di (ICT, CAS), Hong Chang, xilin Chen", 
+        "Conference": "accv", 
+        "ID": 84, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-layer Spectral Clustering for Video Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jose Rubio (Computer Vision Center. UAB), Joan Serrat, Antonio L\u00f3pez (Computer Vision Center, Univ. Aut\u00f3noma de Barcelona)", 
+        "Conference": "accv", 
+        "ID": 85, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Video Co-Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wei Liao (University of Heidelberg, and DKFZ Heidelberg), Stefan W\u00f6rz, Karl Rohr", 
+        "Conference": "accv", 
+        "ID": 86, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Globally Minimal Path Method Using Dynamic Speed Functions Based on Progressive Wave Propagation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lilian Zhang (Institute of Computer Science), Reinhard Koch", 
+        "Conference": "accv", 
+        "ID": 87, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Vanishing Points Estimation and Line Classification in a Manhattan World", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Liam Ellis (Linkoping University),vasileios Zografos(Linkoping University)", 
+        "Conference": "accv", 
+        "ID": 88, 
+        "PDF": "http://users.isy.liu.se/cvl/zografos/publications/ACCV2012_small.pdf", 
+        "Project": "", 
+        "Title": "Online Learning for Fast Segmentation of Moving Objects", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Junyan Wang (Nanyang Technological Universi), Li Wang (Nanyang Technological University, ADM), Kap Luk Chan (Nanyang Technological University, Singapore), Martin Constable (Nanyang Technological University)", 
+        "Conference": "accv", 
+        "ID": 89, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Linear Programming based Method for Joint Object Matching and Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nikhil Naikal, Dheeraj Singaraju (UC Berkeley), Shankar Sastry (University of California, Berkeley)", 
+        "Conference": "accv", 
+        "ID": 90, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Using Models of Objects with Deformable Parts for Joint Categorization and Segmentation of Objects", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Glenn Sheasby (Oxford Brookes University), Julien Valentin (Oxford Brookes University), Nigel Crook (Oxford Brookes University), Philip Torr (Oxford Brookes University)", 
+        "Conference": "accv", 
+        "ID": 91, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Robust Stereo Prior for Human Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tilman Wekel (TU-Berlin), Olaf Hellwich (TU-Berlin)", 
+        "Conference": "accv", 
+        "ID": 92, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Voronoi-based Extraction of a Feature Skeleton from Noisy Triangulated Surfaces", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Kukulage Perera (Australian National University), Nick Barnes", 
+        "Conference": "accv", 
+        "ID": 93, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Maximal Cliques based Rigid Body Motion Segmentation with a RGB-D Camera", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiang Xiang (Computer Science, JHU)", 
+        "Conference": "accv", 
+        "ID": 94, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Online Web-Data-Driven Segmentation of Selected Moving Objects in Videos", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jia Li (Yahoo! Research)", 
+        "Conference": "accv", 
+        "ID": 95, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-Level Structured Image Coding on High-Dimensional Image Representation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Stephan Liwicki (Imperial College London), Stefanos Zafeiriou (Imperial College London), Maja Pantic (Imperial College London)", 
+        "Conference": "accv", 
+        "ID": 96, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Incremental Slow Feature Analysis with Indefinite Kernel for Online Temporal Video Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "JianJia Pan (Department of Computer Science, Hong Kong Baptist University), YuanYan Tang (University of Macao )", 
+        "Conference": "accv", 
+        "ID": 97, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Texture classification based on BIMF monogenic signals", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Atreyee Sinha (New Jersey Inst. of Technology), Sugata Banerji (New Jersey Institute of Technology), Chengjun Liu (New Jersey Institute of Technology)", 
+        "Conference": "accv", 
+        "ID": 98, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Gabor-Based Novel Local, Texture, Shape and Color Descriptors for Image Classification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tingting Jiang (Peking University), Zhongqian Dong, Chang Ma, Yizhou Wang (Peking University, China)", 
+        "Conference": "accv", 
+        "ID": 99, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Toward Perception-based Shape Decomposition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yu Jiang (CASIA), Liu Jing, Zechao Li, Peng Li (CASIA), Hanqing Lu (Institure of Automation, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 100, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Co-Regularized PLSA for Multi-View Clustering", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xinting Gao* (Institute for Infocomm Researc), Damon (Wing kee Wong, ), Tian-Tsong Ng (Institute for Infocomm Research,?ASTAR, Singapore), Carol Cheung, Ching-Yu Cheng, Tien Yin Wong", 
+        "Conference": "accv", 
+        "ID": 101, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic Grading of Cortical and PSC Cataracts using Retroillumination Lens Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yongning Lu (National University of Singapo), Ying Sun (National University of Singapore), Rui Liao (Siemens Corporate Research and Technology), Sim Heng Ong (NUS, Singapore )", 
+        "Conference": "accv", 
+        "ID": 102, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Registration of Pre-operative CT and non-contrast-enhanced C-arm CT: An application to Trans-catheter Aortic Valve Implantation (TAVI)", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lan Wei (National Engineering Laboratory for Video Technology, Peking University), Yonghong Tian (National Engineering Lab for Video Technology, Peking University), Yaowei Wang (Department of Electronic Engineering, Beijing Institute of Technology), Touradj Ebrahimi (Swiss Federal Institute of Technology), Tiejun Huang (National Engineering Lab for Video Technology, Peking University )", 
+        "Conference": "accv", 
+        "ID": 103, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic Webcam-based Human Heart Rate Measurements Using Laplacian Eigenmap", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jun Cheng (Institute for Infocomm Researc), Jiang Liu, Yanwu Xu, Fengshou Yin, Damon (Wing kee Wong, ), Ngan-Meng Tan, Ching-Yu Cheng, Yih Chung Tham, Tien Yin Wong", 
+        "Conference": "accv", 
+        "ID": 104, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Superpixel Classification based Optic Disc Segmentation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hansang Lee (KAIST), Helen Hong (Seoul Women's University), Junmo Kim (KAIST )", 
+        "Conference": "accv", 
+        "ID": 105, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Anterior Cruciate Ligament Segmentation from Knee MR Images Using Graph Cuts with Geometric and Probabilistic Shape Constraints", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Kwanghee Lee (Sogang university), Sang Wook Lee (Sogang University, Korea)", 
+        "Conference": "accv", 
+        "ID": 106, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Mid-Sagittal Plane Extraction in 3-D Ultrasound Fetal Volume for First Trimester Screening", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "He Yingding (Beihang University), Xie Fengying (Beihang University)", 
+        "Conference": "accv", 
+        "ID": 107, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Automatic skin lesion segmentation based on texture analysis and supervised learning", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Pierre BUYSSENS (Universit\u00e9 de Caen), Abderrahim Elmoataz, Olivier L\u00e9zoray", 
+        "Conference": "accv", 
+        "ID": 108, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multiscale Convolutional Neural Networks for Vision&ndash;based Classification of Cells", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Samir Khoualed (LASMEA - FRANCE), Thierry Chateau (Institut Pascal (ex. LASMEA)), Umberto Castellani", 
+        "Conference": "accv", 
+        "ID": 109, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Semantic-Context-Based Augmented Descriptor For Image Feature Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Seongyun Cho (Postech), JeongMok HA (POSTECH), Hong Jeong (POSTECH)", 
+        "Conference": "accv", 
+        "ID": 110, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Real-Time Synthesis and Occlusion Removal of Intermediate Views with Stereo Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nhu Van NGUYEN (Appt 310, Le Ponant 3), Jean-Marc OGIER (University of La Rochelle )", 
+        "Conference": "accv", 
+        "ID": 111, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "PEDIVHANDI: Multimodal indexation and retrieval system for lecture videos", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yoshihiro Watanabe (University of Tokyo), Kotaro Itoyama, Masahiro Yamada (University of Tokyo), Masatoshi Ishikawa (Japan)", 
+        "Conference": "accv", 
+        "ID": 112, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Digitization of Deformed Documents using a High-speed Multi-camera Array", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shu Wen (Xi'an Jiaotong University )", 
+        "Conference": "accv", 
+        "ID": 113, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Phase-based Approach for Caption Detection in Videos", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jianlong Fu (CASIA), Jin-qiao Wang (Institute of Automation, Chinese Academy of Scieces), Zechao Li, Hanqing Lu (Institure of Automation, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 114, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Clothing Retrieval with Semantic-Preserving Visual Phrases", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ken Chatfield (University of Oxford), Andrew Zisserman (University of Oxford)", 
+        "Conference": "accv", 
+        "ID": 115, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Towards On-the-fly Large-Scale Object Category Retrieval", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Andrew Gilbert (University of Surrey), Richard Bowden", 
+        "Conference": "accv", 
+        "ID": 116, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Picture is Worth a Thousand Tags: Automatic Web Based Image Tag Expansion", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nisarg Raval (IIIT Hyderabad), Rashmi Vilas Tonge (IIIT Hyderabad), Jawahar C V (IIIT, Hyderabad )", 
+        "Conference": "accv", 
+        "ID": 117, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Retrieval using Eigen Queries", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Bin Wang (Griffith University), Yongsheng Gao (Griffith University, Austrilia )", 
+        "Conference": "accv", 
+        "ID": 118, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast and effective retrieval of plant leaf shapes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Dennis Rosebrock (Technische Universit\u00e4t Braunschweig, Institut f\u00fcr Robotik und Prozessinformatik), Friedrich Wahl (Technische Universit\u00e4t Braunschweig, Institut f\u00fcr Robotik und Prozessinformatik )", 
+        "Conference": "accv", 
+        "ID": 119, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Complete Generic Camera Calibration and Modeling Using Spline Surfaces", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nakamasa Inoue (Tokyo Institute of Technology), Koichi Shinoda (Tokyo Institute of Technology )", 
+        "Conference": "accv", 
+        "ID": 120, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "q-Gaussian Mixture Models Based on Non-Extensive Statistics for Image And Video Semantic Indexing", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "William Frick (University of Maryland College )", 
+        "Conference": "accv", 
+        "ID": 121, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Modeling and Detection of Wrinkles in Aging Human Faces using Marked Point Processes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xin Liu (Chinese Academy of Science), Shiguang Shan (CAS, China), Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences )", 
+        "Conference": "accv", 
+        "ID": 122, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Recognizing Faces With Plastic Surgery: A Comprehensive Study", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Mengyi Liu (Chinese Academy of Sciences), Shaoxin Li (Chinese Academy of Science), Shiguang Shan (CAS, China), Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 123, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Enhancing Expression Recognition in the Wild with Unlabeled Reference Data", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhiwu Huang (ICT, CAS), Shiguang Shan (CAS, China), Haihong Zhang, Shihong Lao, xilin Chen", 
+        "Conference": "accv", 
+        "ID": 124, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Benchmarking Still-to-Video Face Recognition via Partial and Local Discriminant Analysis on COX-S2V Dataset", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yan Li (ICT, CAS), Shiguang Shan (CAS, China), Haihong Zhang, Shihong Lao, Xilin Chen (Institute of Computing Technology, Chinese Academy of Sciences )", 
+        "Conference": "accv", 
+        "ID": 125, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fusing Magnitude and Phase Features for Robust Face Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Abhinav Dhall (Australian National University), Jyoti Joshi (University of Canberra), Ibrahim Radwan (University of Canberra), Roland Goecke (University of Canberra)", 
+        "Conference": "accv", 
+        "ID": 126, 
+        "PDF": "http://users.cecs.anu.edu.au/~adhall/Dhall_Joshi_Radwan_Goecke_ACCV_2012.pdf", 
+        "Project": "", 
+        "Title": "Finding Happiest Moments in a Social Context", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Donghoon Lee (KAIST), Hyunsin Park (KAIST), Junyoung Chung (KAIST), Youngook Song (KAIST), cHANG YOO (KAIST )", 
+        "Conference": "accv", 
+        "ID": 127, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sparsity sharing embedding for face verification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhenhua Chai (Chinese Academy of Sciences), Heydi Mendez-Vazquez, Ran He, Zhenan Sun (Institute of Automation, Chinese Academy of Sciences(CASIA) ), Tieniu Tan (NLPR, CASIA, china)", 
+        "Conference": "accv", 
+        "ID": 128, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Semantic Pixel Sets based Local Binary Patterns for Face Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Anoop Rajagopal (Indian Institute of Science), Ramanathan Subramanian (University of Trento), Radu Vieriu (&ldquo;Gheorghe Asachi&rdquo; Technical University, Iasi, Romania), Elisa Ricci (University of Perugia, Italy), Oswald Lanz (FBK Fondazione Bruno Kessler), Nicu Sebe (University of Trento, Italy), Kalpathi Ramakrishnan (Indian Institute of Science )", 
+        "Conference": "accv", 
+        "ID": 129, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Adaptation Framework for Head Pose Estimation in Dynamic Multi-view Scenarios", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Heng Yang(Queen Mary Univ. of London),Ioannis Patras(Queen Mary, University of London)", 
+        "Conference": "accv", 
+        "ID": 130, 
+        "PDF": "http://www.eecs.qmul.ac.uk/~hy300/papers/accv2012finalpaper.pdf", 
+        "Project": "", 
+        "Title": "Face Parts Localization Using Structured-Output Regression Forests", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jing Liu (Tsinghua university )", 
+        "Conference": "accv", 
+        "ID": 131, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Human Face Super-Resolution Based on NSCT", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sina Jafarpour (Yahoo! Research), Jia Li (Yahoo! Research), Reolof van Zwol (Netflix)", 
+        "Conference": "accv", 
+        "ID": 132, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Digital Paparazzi:\\\\ Spotting Celebrities in Professional Photo Libraries", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hyunju Maeng (Korea University), Shengcai Liao, Dong-oh Kang, Seong-Whan Lee, Anil K. Jain", 
+        "Conference": "accv", 
+        "ID": 133, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Nighttime Face Recognition at Long Distance: Cross-distance and Cross-spectral Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wang Hanjie (ICTCAS), wang qi (ICTCAS), xilin Chen", 
+        "Conference": "accv", 
+        "ID": 134, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hand Posture Recognition from Disparity Cost Map", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hyungtae Lee (University of Maryland),Vlad Morariu,Larry Davis", 
+        "Conference": "accv", 
+        "ID": 135, 
+        "PDF": "http://www.umiacs.umd.edu/%7Ehtlee/accv2012_htlee.pdf", 
+        "Project": "", 
+        "Title": "Qualitative Pose Estimation by Discriminative Deformable Part Models", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhen Lei (CBSR), Stan Li", 
+        "Conference": "accv", 
+        "ID": 136, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Discriminant Face Descriptor for Face Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiao Bian (North Carolina State Univ)", 
+        "Conference": "accv", 
+        "ID": 137, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Optimal Operator Space Pursuit: A Framework for Video Sequence Data Analysis", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhiwu Huang (ICT, CAS), Shiguang Shan (CAS, China), Haihong Zhang, Shihong Lao, xilin Chen", 
+        "Conference": "accv", 
+        "ID": 138, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cross-view Graph Embedding", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Guosheng Lin (The University of Adelaide), Chunhua Shen (University of Adelaide, Australia), David Suter (The University of Adelaide), anton van den Hengel (The University of Adelaide )", 
+        "Conference": "accv", 
+        "ID": 139, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Training of Effective Multi-class Boosting Using Coordinate Descent Optimization", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shuo Wang (Peking University), Yizhou Wang (Peking University, China), Song-Chun Zhu (UCLA )", 
+        "Conference": "accv", 
+        "ID": 140, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hierarchical Space Tiling in Scene Modeling", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Severin Stalder(ETH Zurich),Helmut Grabner(ETH Zurich),Luc Van Gool(ETH Zurich)", 
+        "Conference": "accv", 
+        "ID": 141, 
+        "PDF": "http://www.vision.ee.ethz.ch/~sstalder/publications/StalderEtAl2012DynamicObjectness.pdf", 
+        "Project": "", 
+        "Title": "Dynamic Objectness for Adaptive Tracking", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Guofeng Wang (Shandong University), Fan Zhong (Shandong University), Yue Liu (Academy of Mathematics and Systems Science, CAS), Qunsheng Peng (Zhejiang University), Xueying Qin", 
+        "Conference": "accv", 
+        "ID": 142, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Visual Tracking in Continuous Appearance Space via Sparse Coding", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Chi Li (Xiamen University), le lu (Siemens Corporate Research), Gregory Hager (Johns Hopkins University), Jianyu Tang (Xiamen University), Hanzi Wang (Xiamen University, China)", 
+        "Conference": "accv", 
+        "ID": 143, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Object Tracking in Crowd Dynamic Scenes using Explicit Stereo Depth", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhaowei Cai (CBSR.CASIA), Longyin Wen (CBSR.CASIA), Yang Jianwei (NLPR), Zhen Lei (CBSR), Stan Z. Li (CBSR.CASIA)", 
+        "Conference": "accv", 
+        "ID": 144, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Structured Tracker with Dynamic Graph", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "SunA Kim (POSTECH), Suha Kwak (POSTECH), Jan Feyereisl (POSTECH), Bohyung Han (POSTECH, Korea)", 
+        "Conference": "accv", 
+        "ID": 145, 
+        "PDF": "http://www.postech.ac.kr/~bhhan/papers/accv2012.pdf", 
+        "Project": "", 
+        "Title": "Online Multi-Target Tracking by Large Margin Structured Learning", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Wenbin Li(University of Bath),Darren Cosker(University of Bath),Matthew Brown(University of Bath)", 
+        "Conference": "accv", 
+        "ID": 146, 
+        "PDF": "http://www.cs.bath.ac.uk/~wl281/docs/APO.pdf", 
+        "Project": "", 
+        "Title": "An Anchor Patch Based Optimization Framework For Reducing Optical Flow Drift in Long Image Sequences", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Karthik Sankaranarayanan (IBM), Jim Davis (Ohio State University)", 
+        "Conference": "accv", 
+        "ID": 147, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "One-Class Multiple Instance Learning and Applications to Target Tracking", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiao wei Zhang (Xi'an Jiaotong University)", 
+        "Conference": "accv", 
+        "ID": 148, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dense Scene Flow Based on Depth and Multi-Channel Bilateral Filter", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Li Chen (SJTU), yue zhou (sjtu)", 
+        "Conference": "accv", 
+        "ID": 149, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Object Tracking Within the Framework of", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Asad Butt(Penn State),Robert Collins(Penn State)", 
+        "Conference": "accv", 
+        "ID": 150, 
+        "PDF": "http://vision.cse.psu.edu/publications/pdfs/2012asad.pdf", 
+        "Project": "", 
+        "Title": "Multiple Target Tracking Using Frame-Triplets", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lei Zhang (Northwestern Polytechnical University), Qing Wang (Northwestern Polytechnical University)", 
+        "Conference": "accv", 
+        "ID": 151, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Spatio-temporal clustering model for multi-object tracking through occlusions", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Weijun Wang (USC), Ram Nevatia (USC)", 
+        "Conference": "accv", 
+        "ID": 152, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust Object Tracking Using Constellation Model with Superpixel", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Peihua Li (Heilongjiang University), Qilong Wang", 
+        "Conference": "accv", 
+        "ID": 153, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust registration-based tracking by sparse representation with model update", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lilian Zhang (Institute of Computer Science), Chi Xu, Kok-Meng Lee, Reinhard Koch", 
+        "Conference": "accv", 
+        "ID": 154, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Robust and Efficient Pose Estimation from Line Correspondences", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shenlong Wang (Northwestern Polytechnic Univ.), Lei Zhang (Hong Kong Polytechnic University, Hong Kong, China), Yan Liang (Northwestern Polytechnical University)", 
+        "Conference": "accv", 
+        "ID": 155, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Nonlocal Spectral Prior Model for Low-level Vision", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Carl Olsson (Lund University), Johan Fredriksson (Lund University)", 
+        "Conference": "accv", 
+        "ID": 156, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Simultanious Multiple Rotation Averaging using Lagrangian Duality", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiongbiao Luo (Nagoya University), Kensaku Mori, Takayuki Kitasaka", 
+        "Conference": "accv", 
+        "ID": 157, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Observation-Driven Adaptive Differential Evolution for Robust Bronchoscope 3-D Motion Tracking", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Huei-Fang Yang (INRIA, France), Xavier Descombes, Charles Kervrann (INRIA, France), Caroline Medioni, Florence Besse", 
+        "Conference": "accv", 
+        "ID": 158, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tracking Growing Axons by Particle Filtering in 3D+t Fluorescent Two-Photon Microscopy Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Pulak Purkait (Indian Statistical Institute), Bhabatosh Chanda (Indian Statistical Institute)", 
+        "Conference": "accv", 
+        "ID": 159, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image upscaling using multiple dictionaries of natural image patches", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sivalogeswaran Ratnasingam (NICTA), Antonio Robles-Kelly (NICTA)", 
+        "Conference": "accv", 
+        "ID": 160, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Biologically Motivated Double-Opponency Approach to Illumination Invariance", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Paul Rosin (Cardiff University), Jovanka Pantovic (University of Novi Sad), Jovisa Zunic (Exeter University)", 
+        "Conference": "accv", 
+        "ID": 161, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Measuring Linearity of Closed Curves and Connected Compound Curves", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hyeoungho Bae (University of California, Irvi), Charless Fowlkes (UC Irvine), Pai Chou (Univ of California Irvine)", 
+        "Conference": "accv", 
+        "ID": 162, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Patch Mosaic for Fast Motion Deblurring", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yuquan Xu (IACAS), Lu Wang, Xiyuan Hu, Silong Peng", 
+        "Conference": "accv", 
+        "ID": 163, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Single-image blind deblurring for non-uniform camera-shake blur", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Renjie Liao (Beihang University), Zengchang Qin (Beihang University)", 
+        "Conference": "accv", 
+        "ID": 164, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Super-Resolution Using Local Learnable Kernel Regression", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Kaiden Matthew (University of California, Los )", 
+        "Conference": "accv", 
+        "ID": 165, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Nonlocal Low Rank Modeling for Interpolation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nikos Komodakis (U. Crete, Greece), Nikos Paragios (Ecole Centrale de Paris)", 
+        "Conference": "accv", 
+        "ID": 166, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "MRF-based Blind Image Deconvolution", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Juha Ylioinas (University of Oulu), Abdenour Hadid (University of Oulu), Yimo Guo (University of Oulu), Matti Pietik\u00e4inen (University of Oulu)", 
+        "Conference": "accv", 
+        "ID": 167, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Efficient Image Appearance Description Using Dense Sampling Based Local Binary Patterns", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Meng Yi (Temple University), yinfei Yang (University of Pennsylvania), Wenjing Qi (Temple University), Yu Zhou (Huazhong University of Science and Technology ), yunfeng Li (Purdue University), Zygmunt Pizlo (Purdue University), Longin Jan Latecki (Temple)", 
+        "Conference": "accv", 
+        "ID": 168, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Navigation toward Non-static Target Object using Footprint Detection based Tracking", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Takashi Shibata (NEC), Akihiko Iketani (NEC), Shuji Senda (NEC)", 
+        "Conference": "accv", 
+        "ID": 169, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Single Image Super Resolution Reconstruction in Perturbed Exemplar Sub-Space", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nilay Khatri (DA-IICT), Manjunath Joshi (DAIICT, Gandhinagar)", 
+        "Conference": "accv", 
+        "ID": 170, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Image Super-Resolution: Use of Self-learning and Gabor Prior", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Simon Hermann (The University of Auckland), Reinhard Klette (The University of Auckland)", 
+        "Conference": "accv", 
+        "ID": 171, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast Iterative Semi-Global Matching for Robust Driver Assistance Systems", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nagendar G (IIIT Hyderabad), Sai Ganesh B, Mahesh Goud Tandarpally, Jawahar C V (IIIT, Hyderabad)", 
+        "Conference": "accv", 
+        "ID": 172, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Action Recognition using Canonical Correlation Kernels", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "SeungJong Noh (GIST in S.Korea), Moongu Jeon (gist.ac.kr)", 
+        "Conference": "accv", 
+        "ID": 173, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A New Framework for Background Subtraction Using Multiple Cues", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiaobin Zhu (NLPR, CASIA, China), Liu Jing, Jin-qiao Wang (Institute of Automation, Chinese Academy of Scieces), Wei Fu, Hanqing Lu (Institure of Automation, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 174, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Weighted Interaction Force Estimation for Abnormal Detection in Crowd Scenes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ardhendu Behera (University of Leeds), David Hogg (University of Leeds), Anthony Cohn (University of Leeds)", 
+        "Conference": "accv", 
+        "ID": 175, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Egocentric Activity Monitoring and Recovery", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Andrei Zaharescu (Aimetis), Richard Wildes (York U)", 
+        "Conference": "accv", 
+        "ID": 176, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Spatiotemporal Salience via Centre-Surround Comparison of Visual Spacetime Orientations", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jie Geng (Beijing Jiaotong University), Zhenjiang Miao (Beijing Jiaotong University)", 
+        "Conference": "accv", 
+        "ID": 177, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Temporal-Spatial Refinements for Video Concept Fusion", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ramya Srinivasan (UC, Riverside), Amit Roy Chowdhury", 
+        "Conference": "accv", 
+        "ID": 178, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Features with Feeling---Incorporating User Preferences in Video Categorization", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xingxing Wang (Siat), LiMin Wang (CUHK), Yu Qiao", 
+        "Conference": "accv", 
+        "ID": 179, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Comparative Study of Encoding, Pooling and Normalization Methods for Action Recognition", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Nicolas Riche, Matei Mancas (University of Mons (UMONS)), Dubravko Culibrk, Vladimir Crnojevic, Beranrd Gosselin, Thierry Dutoit", 
+        "Conference": "accv", 
+        "ID": 180, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Dynamic saliency models and human attention: a comparative study on videos", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xinmiao Ding (China University of Mining and), Bing Li, Weihua Xiong, Weiming Hu (NLPR, Casia, P.R.C), Zhenchong Wang", 
+        "Conference": "accv", 
+        "ID": 181, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Horror Video Scene Recognition based on Multi-view Multi-instance Learning", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Kai Cordes (Universit\u00e4t Hannover)", 
+        "Conference": "accv", 
+        "ID": 182, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning Object Appearance from Occlusions using Structure and Motion Recovery", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "IRENE KOTSIA (Queen Mary University of Londo), Ioannis Patras (Queen Mary, University of London)", 
+        "Conference": "accv", 
+        "ID": 183, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Exploring the similarities of neighboring spatiotemporal points for action pair matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Mauricio Hess-Flores (UC Davis), Mark Duchaineau (Google), Kenneth Joy (UC Davis)", 
+        "Conference": "accv", 
+        "ID": 184, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Sequential Reconstruction Segment-Wise Feature Track and Structure Updating Based on Parallax Paths", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Stefanos Zafeiriou (Imperial College London), Georgios Tzimiropoulos (Imperial College London), Maja Pantic (Imperial College London), Joan Medina (Imperial College London)", 
+        "Conference": "accv", 
+        "ID": 185, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Generic Active Appearance Models Revisited", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yi Xie (Beijing Institute of Technolog), Mingtao Pei (bit.edu.cn), Zhao Liu (cppsu.edu.cn), Tianfu Wu (bupt.edu.cn)", 
+        "Conference": "accv", 
+        "ID": 186, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Tracking Pedestrian with Multi-Component Online Deformable Part-Based Model", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Guanwen Zhang (Nagoya University), Yu Wang, Jien Kato (Nagoya University), Takafumi Marutani (Nagoya University), Kenji Mase (Nagoya University)", 
+        "Conference": "accv", 
+        "ID": 187, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Local Distance Comparison for Multiple-shot People Re-Identification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Rok Mandeljc (University of Ljubljana), Stanislav Kovacic (University of Ljubljana, Faculty of Electrical Engineering), Matej Kristan (University of Ljubljana, Faculty of Electrical Engineering), Janez Pers (University of Ljubljana)", 
+        "Conference": "accv", 
+        "ID": 188, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Non-Sequential Multi-View Detection, Localization and Identification of People using Multi-Modal Feature Maps", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Clemens Arth (Graz University of Technology), Gerhard Reitmayr (Graz University of Technology), Dieter Schmalstieg (Graz University of Technology)", 
+        "Conference": "accv", 
+        "ID": 189, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Full 6DOF Pose Estimation from Geo-Located Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Liangjing Ding (Florida State University), Adrian Barbu, Anke Meyer-Baese", 
+        "Conference": "accv", 
+        "ID": 190, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Learning a Quality-Based Ranking for Feature Point Trajectories", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Muhammad Asad Ali (University of Tokyo), Imari Sato (NII, Japan), Takahiro Okabe (University of Tokyo), Yoichi Sato (University of Tokyo)", 
+        "Conference": "accv", 
+        "ID": 191, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Toward Efficient Acquisition of BRDFs with Fewer Samples", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Lumei Li (China University of Geoscience), hongping Yan, Lingfeng Wang (NLPR), Pan Chunhong", 
+        "Conference": "accv", 
+        "ID": 192, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shadow-free TILT for Facade Rectification", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Alexandros Panagopoulos (Stony Brook University), Sunil Hadap, Dimitris Samaras", 
+        "Conference": "accv", 
+        "ID": 193, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Reconstructing Shape from Dictionaries of Shading Primitives", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xing Lin (Tsinghua), Jinli Suo (Tsinghua University, China), Xun Cao, Qionghai Dai (Tsinghua University)", 
+        "Conference": "accv", 
+        "ID": 194, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Iterative Feedback Estimation of Depth and Radiance from Defocused Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Roberto Mecca (Technion), Ariel Tankus (Technion), Alfred Bruckstein (Technion)", 
+        "Conference": "accv", 
+        "ID": 195, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Two-Image Perspective Photometric Stereo using Shape-from-Shading", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Kazuki Nozawa (Tokyo Institute of Technology), Akihiko Torii (Tokyo Institute of Technology), Masatoshi Okutomi", 
+        "Conference": "accv", 
+        "ID": 196, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Stable two view reconstruction using the six-point algorithm", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jos\u00e9 Henrique Brito (IPCA), Roland Angst (ETH Zurich), Kevin Koeser (ETH Zurich), Christopher Zach (ETH Zurich), Pedro Branco (Universidade do Minho), Manuel Jo\u00e3o Ferreira, Marc Pollefeys (ETH Zurich)", 
+        "Conference": "accv", 
+        "ID": 197, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Unknown Radial Distortion Centers in Multiple View Geometry Problems", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yohei Murakami, Takeshi Endo, Yoshimichi Ito (Osaka University), Noboru Babaguchi", 
+        "Conference": "accv", 
+        "ID": 198, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Depth-Estimation-Free Condition for Projective Factorization and Its Application to 3D Reconstruction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Maria Kushnir (Haifa University), Ilan Shimshoni", 
+        "Conference": "accv", 
+        "ID": 199, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Epipolar Geometry Estimation for Urban Scenes with Repetitive Structures", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hanno Ackermann (Leibniz University Hannover), Bodo Rosenhahn", 
+        "Conference": "accv", 
+        "ID": 200, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Non-Rigid Self-Calibration Of A Projective Camera", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hyojin Kim (UC Davis), Nelson Max, Hong Xiao", 
+        "Conference": "accv", 
+        "ID": 201, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Piecewise Planar Scene Reconstruction and Optimization for Multi-View Stereo", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jing Li (Peking University), Gang Zeng (Peking University)", 
+        "Conference": "accv", 
+        "ID": 202, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Bayesian Approach to Uncertainty-Based Depth Map Super Resolution", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Xiao Tan (CSIRO), Changming Sun, Xavier Sirault (CSIRO), Robert Furbank (CSIRO), Tuan Pham", 
+        "Conference": "accv", 
+        "ID": 203, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Cross Image Inference Scheme for Stereo Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Sami Brandt (University of Copenhagen), Katrine Hommelhoff Jensen (University of Copenhagen), Francois Lauze", 
+        "Conference": "accv", 
+        "ID": 204, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Bayesian Epipolar Geometry Estimation from Tomographic Projections", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ferran Espuny (Universit\u00e9 Paris-Descartes)", 
+        "Conference": "accv", 
+        "ID": 205, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "On the Global Self-calibration of Central Cameras using Two Infinitesimal Rotations", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Pierre Moulon(LIGM/Mikros Image),Pascal Monasse,Renaud Marlet", 
+        "Conference": "accv", 
+        "ID": 206, 
+        "PDF": "http://hal-enpc.archives-ouvertes.fr/docs/00/76/92/66/PDF/moulon_monasse_marlet_adaptive_sfm_accv2012.pdf", 
+        "Project": "", 
+        "Title": "Adaptive Structure from Motion with a contrario model estimation (poster,PDF,code) - formely: Adaptive Structure from Motion with a contrario model estimations", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Changqing Zou (SIAT, China), jianzhuang Liu", 
+        "Conference": "accv", 
+        "ID": 207, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Precious 3D reconstruction from a single image", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shuji Sakai (Tohoku University), Koichi Ito (Tohoku University), Takafumi Aoki (Tohoku University), Tomohito Masuda (Toppan Printing Co., Ltd.), Hiroki Unten (Toppan Printing Co., Ltd.)", 
+        "Conference": "accv", 
+        "ID": 208, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "An Efficient Image Matching Method for Multi-View Stereo", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Fran\u00e7ois Rameau (Le2i), Adlane Habed (Le2i), C\u00e9dric Demonceaux (Le2i), D\u00e9sir\u00e9 Sidib\u00e9 (Le2i), David Fofi (Le2i)", 
+        "Conference": "accv", 
+        "ID": 209, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Self-calibration of PTZ camera using new LMI constraints", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "EL Chakik Abdallah (GREYC, IMAGE TEAM), Xavier Desquesnes (GREYC), Abderrahim Elmoataz (GREYC - image team)", 
+        "Conference": "accv", 
+        "ID": 210, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fast 3D surface reconstruction from point clouds using graph-based fronts propagation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Toshiki Sonoda (Kyushu University), Hajime Nagahara (Kyushu University), Rin-ichiro Taniguchi (Kyushu University)", 
+        "Conference": "accv", 
+        "ID": 211, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Motion-Invariant Coding Using a Programmable Aperture Camera", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Fanbo Deng (National Univ. of Singapore), Seon Joo Kim (SUNY Korea), Yu-Wing Tai (KAIST), Michael Brown (NUS, Singapore)", 
+        "Conference": "accv", 
+        "ID": 212, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Color-aware Regularization for Gradient Domain Image Manipulation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Keiichiro Shirai(Shinshu Univ.),Masahiro Okuda(Univ. of Kitakyushu), Takao Jinno (Toyohashi Univ. of Tech.), Masaaki Ikehara (Keio Univ.), Masayuki Okamoto (Shinshu Univ.)", 
+        "Conference": "accv", 
+        "ID": 213, 
+        "PDF": "http://syorserv.cs.shinshu-u.ac.jp/~keiichi/pdf/2012/LocalCov_[Shirai_ACCV2012].pdf", 
+        "Project": "", 
+        "Title": "Local Covariance Filtering for Color Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yang Jianwei (NLPR), Zhaowei Cai (CBSR.CASIA), Longyin Wen (CBSR.CASIA), Zhen Lei (CBSR), Guodong Guo, Stan Z. Li (CBSR.CASIA)", 
+        "Conference": "accv", 
+        "ID": 214, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A New Projection Space for Separation of Specular and Diffuse Re?ection Components in Color Images", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Di Huang (Beihang University), Yinhang Tang (Beihang University), Yiding Wang (North China University of Technology), Liming Chen (Ecole Centrale de Lyon), Yunhong Wang", 
+        "Conference": "accv", 
+        "ID": 215, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hand Vein Recognition based on Oriented Gradient Maps and Local Feature Matching", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zhan Qu (Chinese Academy of Sciences), Jin-qiao Wang (Institute of Automation, Chinese Academy of Scieces), Min Xu (iNEXT, School of Computing and Communications, University of Technology, Sydney), Hanqing Lu (Institure of Automation, Chinese Academy of Sciences)", 
+        "Conference": "accv", 
+        "ID": 216, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fusing Warping, Cropping, and Scaling for Optimal Image Thumbnail Generation", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Shaoyu Qi (University of Florida), Jeffrey Ho (University of Florida)", 
+        "Conference": "accv", 
+        "ID": 217, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Shift-Map Based Stereo Image Retargeting with Disparity Adjustment", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Hao Yang (NTU), Jianxin Wu (NTU, Singapore)", 
+        "Conference": "accv", 
+        "ID": 218, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Object Templates for Visual Place Categorization", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Amir Roshan zamir (UCF), afshin dehghan (UCF)", 
+        "Conference": "accv", 
+        "ID": 219, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Visual Business Recognition - A Multimodal Approach", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Saba Miyan (Nagoya Institute of Technology), Jun Sato (Nagoya Institute of Technology)", 
+        "Conference": "accv", 
+        "ID": 220, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Reconstructing Sequential Patterns without Knowing Image Correspondences", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jiri Filip (UTIA AS CR), Radomir Vavra (UTIA AS CR)", 
+        "Conference": "accv", 
+        "ID": 221, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Registration of Multi-View Images of Planar Surfaces", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Radu Timofte(K.U. Leuven),Luc Van Gool(K.U. Leuven and ETH Zurich)", 
+        "Conference": "accv", 
+        "ID": 222, 
+        "PDF": "http://homes.esat.kuleuven.be/~rtimofte/publications/Timofte-ACCV-2012b.pdf", 
+        "Project": "", 
+        "Title": "Automatic Stave Discovery for Musical Facsimiles", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "PRITHWIJIT GUHA (TCS INNOVATION LABS), Amitabha Mukerjee (IIT Kanpur)", 
+        "Conference": "accv", 
+        "ID": 223, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Unsupervised Language Learning for Discovered Visual Concepts", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Mansi Sharma (IIT Delhi), Santanu Chaudhury (Indian Institute of Delhi), Brejesh Lall (IIT DELHI)", 
+        "Conference": "accv", 
+        "ID": 224, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Parameterized Variety Based View Synthesis Scheme for Multi-View 3DTV", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Tian HAN (HKUST), CHUN LIU (HKUST), peng ZHAO (HKUST), chiew-Lan TAI (HKUST), Long Quan (HKUST)", 
+        "Conference": "accv", 
+        "ID": 225, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Quasi-Regular Facade Structure Extraction", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yang-Ho Cho (Samsung Electronics Co., Ltd.), Ho-Young Lee, Du-Sik Park", 
+        "Conference": "accv", 
+        "ID": 226, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Multi-view Synthesis Based on Single View Reference Layer", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Zuzana Kukelova (CTU in Prague), Jan Heller (CTU in Prague), Tomas Pajdla (CTU in Prague)", 
+        "Conference": "accv", 
+        "ID": 227, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Hand-Eye Calibration without Hand Orientation Measurement Using Minimal Solution", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jana Kosecka (George Mason University)", 
+        "Conference": "accv", 
+        "ID": 228, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Detecting changes in images of street scenes", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jacky Shun-Cho Yuk (The University of Hong Kong), Kwan-Yee Kenneth Wong (HKU, Hong Kong)", 
+        "Conference": "accv", 
+        "ID": 229, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Adaptive Background Defogging with Foreground Decremental Preconditioned Conjugate Gradient", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Yu Yu (Xi'an Jiaotong Universtity)", 
+        "Conference": "accv", 
+        "ID": 230, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Shadow Repair Approach for Kinecr Depth Maps", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Jesus Bermudez-Cameo (Universidad de Zaragoza), Gonzalo Lopez-Nicolas (Universidad de Zaragoza), Josechu Guerrero", 
+        "Conference": "accv", 
+        "ID": 231, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "A Unified Framework for Line Extraction in Dioptric and Catadioptric Cameras", 
+        "Year": 2012
+    }, 
+    {
+        "Authors": "Ouk Choi (SAIT), Seungkyu Lee", 
+        "Conference": "accv", 
+        "ID": 232, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Fusion of time-of-flight and stereo for unambiguous wide range depth measurements", 
+        "Year": 2012
+    }
+]

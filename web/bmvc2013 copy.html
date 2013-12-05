@@ -1,0 +1,2089 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>BMVC 2013 Accepted Papers</title>
+
+
+<style>
+/* CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: #FCFAF1;
+	/*background-color: #F6F3E5;*/
+}
+.as {
+	font-size: 12px;
+	color: #900;
+}
+.ts {
+	font-weight: bold;
+	font-size: 14px;
+}
+.tt {
+	color: #009;
+	font-size: 13px;
+}
+.keywords {
+	font-size: 12px;
+	color: #0000A0;
+}
+h1 {
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+#titleHeader {
+	width: 100%;
+	/*height: 160px;*/
+	/*background-color: #909090;*/
+	background-color: #C05F24;
+	color: white;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*padding-left: 5%;*/
+
+
+	border-bottom: 1px solid #543030;
+}
+
+#titdiv {
+	width: 100%;
+	/*background-color: #C05F24;*/
+	background-color: #C0C0C0;
+	color: white;
+
+	/*vertical-align: text-top;*/
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*padding-left: 5%;*/
+	/*margin-right: 25%;*/
+	/*margin-left*/: 25%;	
+
+	border-bottom: 1px solid #540000;
+}
+
+.right {
+	text-align:right;
+	padding-right: 5%;	
+}
+
+#maindiv {
+	width: 970px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-left: solid 1px #D6D3C5;
+	border-right: solid 1px #D6D3C5;
+
+	background-color: white;
+}
+
+.apaper {
+	margin-top: 25px;
+	min-height: 300px;
+}
+
+.paperdesc {
+	float: left;
+}
+
+.dllinks {
+	float: right;
+	text-align: right;
+}
+
+#titleHeader a:link{ color: white; }
+#titleHeader a:visited{ color: white; }
+#titdiv a:link{ color: white; }
+#titdiv a:visited{ color: white; }
+
+#maindiv a:link{ color: #666; }
+#maindiv a:visited{ color: #600; }
+
+.t0 { color: #000;}
+.t1 { color: #C00;}
+.t2 { color: #0C0;}
+.t3 { color: #00C;}
+.t4 { color: #AA0;}
+.t5 { color: #C0C;}
+.t6 { color: #0CC;}
+
+.topicchoice {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#explanation {
+	/*background-color: #CFC;*/
+	background-color: #f7a76f;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sortoptions {
+	text-align: center;
+	/*padding: 10px;*/
+	padding: 20px;
+}
+
+.sim {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstr {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstrholder {
+	background-color: #DFD;
+	border: 1px solid #BDB;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 5px;
+	display: none; /* so that these are hidden initially */
+	margin-bottom: 5px;
+}
+
+</style>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script>
+// this line below will get filled in with database of LDA topic distributions for top words
+// for every paper
+ldadist=[]
+
+// this will be filled with pairwise scores between papers
+pairdists=[]
+
+var choices = [0, 0, 0, 1, 1, 0, 0]; // default choices, random...
+var similarityMode = 0; // is the user currently looking at papers similar to some one paper?
+var similarTo = 0; // the index of query paper
+
+// given choices of topics to sort by, handle user interface stuff (i.e. show selection)
+function colorChoices() {
+	for(var i=0;i<choices.length;i++) {
+		if(choices[i] == 1) {
+			$("#tc"+i).css("background-color", "#EFE");
+			$("#tc"+i).css("border-color", "#575");
+		} else {
+			$("#tc"+i).css("background-color", "#FFF");
+			$("#tc"+i).css("border-color", "#FFF");
+		}
+	}
+}
+
+// this permutes the divs (that contian 1 paper each) based on a custom sorting function
+// in our case, this sort is done as dot product based on the choices[] array
+// here we are guaranteed ldadist[] already sums to 1 for every paper
+function arrangeDivs() {
+	var rtable = $("#rtable");
+	var paperdivs = rtable.children(".apaper");
+
+	// normalize choices to sum to 1
+	var nn = choices.slice(0); // copy the array
+	var ss = 0.0;
+	for(var j=0;j<choices.length;j++) { ss += choices[j]; }
+	for(var j=0;j<choices.length;j++) { nn[j] = nn[j]/ss; }
+
+	paperdivs.detach().sort(function(a,b) {
+		var ixa = parseInt($(a).attr('id').substring(3));
+		var ixb = parseInt($(b).attr('id').substring(3));
+
+		if(similarityMode === 1) {
+			return pairdists[ixa][similarTo] < pairdists[ixb][similarTo] ? 1 : -1;
+		}
+
+		if(similarityMode === 0) {
+
+			// chi-squared kernel for the two histograms
+			var accuma = 0;
+			var accumb = 0;
+			for(var i=0;i<7;i++) {
+				var ai= ldadist[ixa][i];
+				var bi= ldadist[ixb][i];
+				var ci= choices[i];
+				accuma += (ai-ci)*(ai-ci)/(ai+ci);
+				accumb += (bi-ci)*(bi-ci)/(bi+ci);
+			}
+			return accuma > accumb ? 1 : -1;
+
+		}
+
+	});
+	rtable.append(paperdivs);
+}
+
+// when page loads...
+$(document).ready(function(){
+
+	arrangeDivs();
+	colorChoices();
+
+	// user clicks on one of the Topic buttons
+	$(".topicchoice").click(function() {
+		similarityMode = 0; // make sure this is off
+		var tcid = parseInt($(this).attr('id').substring(2));
+		choices[tcid] = 1 - choices[tcid]; // toggle!
+
+		colorChoices();
+		arrangeDivs();
+	});
+
+	// user clicks on "rank by tf-idf similarity to this" button for some paper
+	$(".sim").click(function() {
+		similarityMode = 1; // turn on similarity mode
+		for(var i=0;i<choices.length;i++) { choices[i] = 0; } // zero out choices
+		similarTo = parseInt($(this).attr('id').substring(3)); // store id of the paper clicked
+
+		colorChoices();
+		arrangeDivs();
+
+		// also scroll to top
+		$('html, body').animate({ scrollTop: 0 }, 'fast');
+	});
+
+	// user clicks on "abstract button for some paper
+	$(".abstr").click(function() {
+		var pid = parseInt($(this).attr('id').substring(2)); // id of the paper clicked
+		var aurl = "abstracts/a" + pid + ".txt";
+		var holderdiv = "#abholder" + pid;
+
+		if($(holderdiv).is(':visible')) {
+
+			$(holderdiv).slideUp(); // hide the abstract away
+
+		} else {
+
+			// do ajax request and fill the abstract div with the result
+			$.ajax({
+	            url : aurl,
+	            dataType: "text",
+	            success : function (data) {
+	                $(holderdiv).html(data);
+	                $(holderdiv).slideDown();
+	            }
+	        });
+		}
+	});
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- ''''''''' Header table ''''''''' -->
+
+<div id="titleHeader">
+<center>
+<h1> www.CVGuides.net </h1>
+Improving discovery of relevant computer vision research through visualization
+</center>
+</div>
+
+<div id="titdiv">
+<table width=100% align="center">
+<tbody><tr>
+
+<td width=50% class="right">
+<h2>BMVC 2013</h2>
+</td>
+
+<td>
+Other guides:
+	<a href="http://www.colinlea.com/guides/cvpr2013.html">CVPR 2013</a>,
+	<a href="http://www.benhamner.com/icml2013preview/">ICML 2013</a>,
+	<a href="http://cs.stanford.edu/people/karpathy/nipspreview/">NIPS 2012
+</a> <br>
+
+Info: 
+ 	<a href="http://www.colinlea.com">maintained by</a>  
+	<a href="https://github.com/colincsl/cvpr2013papers">source code</a>
+</td>
+
+</tr></tbody>
+</table>
+</div>
+
+<!-- ''''''''' /Header table ''''''''' -->
+
+
+<div id="maindiv">
+
+<!-- Insert visualization -->
+<center>
+
+<div id="explanation">
+	Visualization of publically available papers presented at BMVC 2013<br>
+</div>
+<br>
+Hover over a node to see the paper title
+<br><br>
+
+<iframe src="visualization.html" width="800" height="600" marginwidth="10" marginheight="10" scrolling="no"></iframe>
+<br><br>
+Papers are linked together based on TF-IDF similarity and are colored using their inferred topic index from Latent Dirichlet Analysis.
+<br><br>
+</center>
+
+<div id="explanation">The 200 most frequent words in each paper are listed below each entry. Color is based on an LDA topic model with k = 5.<br />
+</div>
+
+<div id="sortoptions">
+Toggle the topics below to sort by (rough) category:<br/><br/>
+<span class="topicchoice t0" id="tc0">(0) dictionary learning</span>
+<span class="topicchoice t1" id="tc1">(1) camera/geometric models</span>
+<span class="topicchoice t2" id="tc2">(2) optimization</span><br/><br/>
+<span class="topicchoice t3" id="tc3">(3) object detection</span>
+<span class="topicchoice t4" id="tc4">(4) activity recognition</span>
+<span class="topicchoice t5" id="tc5">(5) photometry</span><br/><br/>
+<span class="topicchoice t6" id="tc6">(6) scene understanding/human poses</span>
+<!-- <span class="topicchoice t0" id="tc0">TOPIC0</span>
+<span class="topicchoice t1" id="tc1">TOPIC1</span>
+<span class="topicchoice t2" id="tc2">TOPIC2</span>
+<span class="topicchoice t3" id="tc3">TOPIC3</span>
+<span class="topicchoice t4" id="tc4">TOPIC4</span>
+<span class="topicchoice t5" id="tc5">TOPIC5</span>
+<span class="topicchoice t6" id="tc6">TOPIC6</span> -->
+</div>
+
+<!-- the keyword below will be replaced by content from the python script generatenice.py -->
+<div id="rtable">
+
+
+	<div class="apaper" id="pid0">
+	<div class="paperdesc">
+		<span class="ts">3D Deformable Shape Reconstruction with Diffusion Maps</span><br />
+		<span class="as">Lili Tao, Bogdan Matuszewski</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="3D Deformable Shape Reconstruction with Diffusion Maps" Lili Tao, Bogdan Matuszewski">[pdf] </a>
+		<span class="sim" id="sim0">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid1">
+	<div class="paperdesc">
+		<span class="ts">A Novel Approach for Efficient SVM Classification with Histogram Intersection Kernel</span><br />
+		<span class="as">Gaurav Sharma, Frederic Jurie</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://grvsharma.com/hpresources/sharma_nsvm_bmvc13.pdf">[pdf] </a>
+		<span class="sim" id="sim1">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid2">
+	<div class="paperdesc">
+		<span class="ts">A Novel Trilateral Filter based Adaptive Support Weight Method for Stereo Matching</span><br />
+		<span class="as">Dongming Chen, Liming Chen, Mohsen Ardabilian</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="A Novel Trilateral Filter based Adaptive Support Weight Method for Stereo Matching" Dongming Chen, Liming Chen, Mohsen Ardabilian">[pdf] </a>
+		<span class="sim" id="sim2">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid3">
+	<div class="paperdesc">
+		<span class="ts">A Topic Model Approach to Representing and Classifying Football Plays</span><br />
+		<span class="as">Jagannadan Varadarajan, Indriyati Atmosukarto, Shaunak Ahuja, Bernard Ghanem, Narendra Ahuja</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="A Topic Model Approach to Representing and Classifying Football Plays" Jagannadan Varadarajan, Indriyati Atmosukarto, Shaunak Ahuja, Bernard Ghanem, Narendra Ahuja">[pdf] </a>
+		<span class="sim" id="sim3">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid4">
+	<div class="paperdesc">
+		<span class="ts">Accurate and Computationally-inexpensive Recovery of Ego-Motion using Optical Flow and Range Flow with Extended Temporal Support</span><br />
+		<span class="as">Graeme Jones</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Accurate and Computationally-inexpensive Recovery of Ego-Motion using Optical Flow and Range Flow with Extended Temporal Support" Graeme Jones">[pdf] </a>
+		<span class="sim" id="sim4">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid5">
+	<div class="paperdesc">
+		<span class="ts">Action Attribute Detection from Sports Videos with Contextual Constraints</span><br />
+		<span class="as">Xiaodong Yu, Ching Lik Teo, Yezhou Yang, Cornelia Fermuller, Yiannis Aloimonos</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Action Attribute Detection from Sports Videos with Contextual Constraints" Xiaodong Yu, Ching Lik Teo, Yezhou Yang, Cornelia Fermuller, Yiannis Aloimonos">[pdf] </a>
+		<span class="sim" id="sim5">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid6">
+	<div class="paperdesc">
+		<span class="ts">Action Chart: A Representation for Efficient Recognition of Complex Activity</span><br />
+		<span class="as">Hyung Jin Chang, Jiyun Kim, Jungchan Cho, Songhwai Oh, Kwang Yi, Jin Young Choi</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Action Chart: A Representation for Efficient Recognition of Complex Activity" Hyung Jin Chang, Jiyun Kim, Jungchan Cho, Songhwai Oh, Kwang Yi, Jin Young Choi">[pdf] </a>
+		<span class="sim" id="sim6">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid7">
+	<div class="paperdesc">
+		<span class="ts">Adaptive Kernels for Improved Local Patch Alignment</span><br />
+		<span class="as">Benjamin Mears, Laura Sevilla-Lara, Erik Learned-Miller</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Adaptive Kernels for Improved Local Patch Alignment" Benjamin Mears, Laura Sevilla-Lara, Erik Learned-Miller">[pdf] </a>
+		<span class="sim" id="sim7">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid8">
+	<div class="paperdesc">
+		<span class="ts">An Adaptive Subdivision Scheme for Relaxed Binary Quadratic Programming in Multi-label Image Segmentation</span><br />
+		<span class="as">Marko Rak, Tim König, Klaus Tönnies</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="An Adaptive Subdivision Scheme for Relaxed Binary Quadratic Programming in Multi-label Image Segmentation" Marko Rak, Tim König, Klaus Tönnies">[pdf] </a>
+		<span class="sim" id="sim8">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid9">
+	<div class="paperdesc">
+		<span class="ts">An Iterative 5-pt Algorithm for Fast and Robust Essential Matrix Estimation</span><br />
+		<span class="as">Vincent Lui, Tom Drummond</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="An Iterative 5-pt Algorithm for Fast and Robust Essential Matrix Estimation" Vincent Lui, Tom Drummond">[pdf] </a>
+		<span class="sim" id="sim9">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid10">
+	<div class="paperdesc">
+		<span class="ts">Anatomical Structure Sketcher for Cephalograms by Bimodal Deep Learning</span><br />
+		<span class="as">Yuru Pei, Bin Liu, Hongbin Zha, Tianmin Xu</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Anatomical Structure Sketcher for Cephalograms by Bimodal Deep Learning" Yuru Pei, Bin Liu, Hongbin Zha, Tianmin Xu">[pdf] </a>
+		<span class="sim" id="sim10">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid11">
+	<div class="paperdesc">
+		<span class="ts">Bayesian region selection for adaptive dictionary-based Super-Resolution</span><br />
+		<span class="as">Eduardo Pérez-Pellitero, Jordi Salvador, Javier Ruiz-Hidalgo, Bodo Rosenhahn</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.tnt.uni-hannover.de/papers/data/988/PerezPellitero2013Bmvc.pdf">[pdf] </a>
+		<span class="sim" id="sim11">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid12">
+	<div class="paperdesc">
+		<span class="ts">Blockwise Linear Regression for Face Alignment</span><br />
+		<span class="as">Enrique Sánchez-Lozano, Enrique Argones-Rúa, Jose Luis Alba-Castro</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://gtm.uvigo.es/sites/default/files/publications/BMVC_2013_ESL_0.pdf">[pdf] </a>
+		<span class="sim" id="sim12">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid13">
+	<div class="paperdesc">
+		<span class="ts">Can Your Eyes Tell Me How You Think? A Gaze Directed Estimation of the Mental Activity</span><br />
+		<span class="as">Laura Florea, Corneliu Florea, Ruxandra Vranceanu, Constantin Vertan</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://imag.pub.ro/common/staff/cflorea/bmvc_NLP_2013.pdf">[pdf] </a>
+		<span class="sim" id="sim13">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid14">
+	<div class="paperdesc">
+		<span class="ts">Closed form solution for radial distortion estimation from a single vanishing point</span><br />
+		<span class="as">Horst Wildenauer, Branislav Micusik</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Closed form solution for radial distortion estimation from a single vanishing point" Horst Wildenauer, Branislav Micusik">[pdf] </a>
+		<span class="sim" id="sim14">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid15">
+	<div class="paperdesc">
+		<span class="ts">Collaboratively Regularized Nearest Points for Set Based Recognition</span><br />
+		<span class="as">Yang Wu, Michihiko Minoh, Masayuki Mukunoki</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://mm.media.kyoto-u.ac.jp/members/yangwu/publications/13C06_CRNP_BMVC.pdf">[pdf] </a>
+		<span class="sim" id="sim15">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid16">
+	<div class="paperdesc">
+		<span class="ts">Combination of paths for interactive segmentation</span><br />
+		<span class="as">Julien Mille, Sébastien Bougleux, Laurent Cohen</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://liris.cnrs.fr/Documents/Liris-6217.pdf">[pdf] </a>
+		<span class="sim" id="sim16">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid17">
+	<div class="paperdesc">
+		<span class="ts">Combining Local and Global Cues for Closed Contour Extraction</span><br />
+		<span class="as">Vida Movahedi, James Elder</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.elderlab.yorku.ca/publications/proceedings/MovahediElderBMVC13.pdf">[pdf] </a>
+		<span class="sim" id="sim17">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid18">
+	<div class="paperdesc">
+		<span class="ts">Decomposed Learning for Joint Segmentation and Categorization</span><br />
+		<span class="as">Yi-Hsuan Tsai, Jimei Yang, Ming-Hsuan Yang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Decomposed Learning for Joint Segmentation and Categorization" Yi-Hsuan Tsai, Jimei Yang, Ming-Hsuan Yang">[pdf] </a>
+		<span class="sim" id="sim18">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid19">
+	<div class="paperdesc">
+		<span class="ts">Deformable Part Models with Individual Part Scaling</span><br />
+		<span class="as">Charles Dubout, François Fleuret</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Deformable Part Models with Individual Part Scaling" Charles Dubout, François Fleuret">[pdf] </a>
+		<span class="sim" id="sim19">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid20">
+	<div class="paperdesc">
+		<span class="ts">Dense, Auto-Calibrating Visual Odometry from a Downward-Looking Camera</span><br />
+		<span class="as">Jacek Zienkiewicz, Robert Lukierski, Andrew Davison</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.paulovinicius.com/papers/borges_JFR_2011.pdf">[pdf] </a>
+		<span class="sim" id="sim20">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid21">
+	<div class="paperdesc">
+		<span class="ts">Depth Cues for Visual Saliency Computation</span><br />
+		<span class="as">Arridhana Ciptadi, Tucker Hermans, James Rehg</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Depth Cues for Visual Saliency Computation" Arridhana Ciptadi, Tucker Hermans, James Rehg">[pdf] </a>
+		<span class="sim" id="sim21">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid22">
+	<div class="paperdesc">
+		<span class="ts">Depth really Matters: Improving Visual Salient Region Detection with Depth</span><br />
+		<span class="as">Karthik Desingh, Madhava Krishna K, Deepu Rajan, CV Jawahar</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://robotics.iiit.ac.in/uploads/Main/Publications/Karthik_etal_BMVC_13.pdf">[pdf] </a>
+		<span class="sim" id="sim22">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid23">
+	<div class="paperdesc">
+		<span class="ts">Detection of Abnormal Fish Trajectories Using a Clustering Based Hierarchical Classifier</span><br />
+		<span class="as">Cigdem Beyan, Robert Fisher</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://homepages.inf.ed.ac.uk/rbf/Fish4Knowledge/PAPERS/beyanbmvc13.pdf">[pdf] </a>
+		<span class="sim" id="sim23">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid24">
+	<div class="paperdesc">
+		<span class="ts">Discriminative Generative Contour Detection</span><br />
+		<span class="as">Chao Zhang, Xiong Li, Xiang Ruan, Yuming Zhao, Ming-Hsuan Yang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://faculty.ucmerced.edu/mhyang/papers/bmvc13_contour.pdf">[pdf] </a>
+		<span class="sim" id="sim24">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid25">
+	<div class="paperdesc">
+		<span class="ts">Discriminative Tensor Sparse Coding for Image Classification</span><br />
+		<span class="as">Yangmuzi Zhang, Zhuolin Jiang, Larry Davis</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Discriminative Tensor Sparse Coding for Image Classification" Yangmuzi Zhang, Zhuolin Jiang, Larry Davis">[pdf] </a>
+		<span class="sim" id="sim25">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid26">
+	<div class="paperdesc">
+		<span class="ts">Discriminative tree-based feature mapping</span><br />
+		<span class="as">Miroslav Kobetski, Josephine Sullivan</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.csc.kth.se/cvap/cvg/papers/Kobetski_bmvc13.pdf">[pdf] </a>
+		<span class="sim" id="sim26">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid27">
+	<div class="paperdesc">
+		<span class="ts">Domain Adaptation for Upper Body Pose Tracking in Signed TV Broadcasts</span><br />
+		<span class="as">James Charles, Tomas Pfister, Andrew Zisserman, Derek Magee, David Hogg</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Domain Adaptation for Upper Body Pose Tracking in Signed TV Broadcasts" James Charles, Tomas Pfister, Andrew Zisserman, Derek Magee, David Hogg">[pdf] </a>
+		<span class="sim" id="sim27">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid28">
+	<div class="paperdesc">
+		<span class="ts">Early Recurrence Improves Edge Detection</span><br />
+		<span class="as">Xun Shi, Bo Wang, John Tsotsos</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Early Recurrence Improves Edge Detection" Xun Shi, Bo Wang, John Tsotsos">[pdf] </a>
+		<span class="sim" id="sim28">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid29">
+	<div class="paperdesc">
+		<span class="ts">Efficient Dense 3D Rigid-Body Motion Segmentation in RGB-D Image Streams</span><br />
+		<span class="as">Jörg Stückler, Sven Behnke</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Efficient Dense 3D Rigid-Body Motion Segmentation in RGB-D Image Streams" Jörg Stückler, Sven Behnke">[pdf] </a>
+		<span class="sim" id="sim29">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid30">
+	<div class="paperdesc">
+		<span class="ts">Efficient Discriminative Convolution Using Fisher Weight Map</span><br />
+		<span class="as">Hideki Nakayama</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.nlab.ci.i.u-tokyo.ac.jp/pdf/bmvc2013.pdf">[pdf] </a>
+		<span class="sim" id="sim30">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid31">
+	<div class="paperdesc">
+		<span class="ts">Efficient Shape Matching using Vector Extrapolation</span><br />
+		<span class="as">Emanuele Rodola, Tatsuya Harada, Yasuo Kuniyoshi, Daniel Cremers</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://vision.in.tum.de/_media/spezial/bib/rodola-bmvc13.pdf">[pdf] </a>
+		<span class="sim" id="sim31">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid32">
+	<div class="paperdesc">
+		<span class="ts">Egomotion Estimation Using Binocular Spatiotemporal Oriented Energy</span><br />
+		<span class="as">Hao Zhong, Richard Wildes</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.cse.yorku.ca/vision/publications/bmvc2013ZhongWildes.pdf">[pdf] </a>
+		<span class="sim" id="sim32">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid33">
+	<div class="paperdesc">
+		<span class="ts">Emotion recognition from facial images with arbitrary views</span><br />
+		<span class="as">Xiaohua Huang, Guoying Zhao, Matti Pietikainen</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Emotion recognition from facial images with arbitrary views" Xiaohua Huang, Guoying Zhao, Matti Pietikainen">[pdf] </a>
+		<span class="sim" id="sim33">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid34">
+	<div class="paperdesc">
+		<span class="ts">Enforcing Monotonous Shape Growth or Shrinkage in Video Segmentation</span><br />
+		<span class="as">Yuliya Tarabalka, Guillaume Charpiat, Ludovic Brucker, Bjoern Menze</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://hal.inria.fr/hal-00856634/PDF/2013_BMVC_TarabalkaEtAl.pdf">[pdf] </a>
+		<span class="sim" id="sim34">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid35">
+	<div class="paperdesc">
+		<span class="ts">Enhancing Action Recognition by Cross-Domain Dictionary Learning</span><br />
+		<span class="as">Fan Zhu, Ling Shao</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Enhancing Action Recognition by Cross-Domain Dictionary Learning" Fan Zhu, Ling Shao">[pdf] </a>
+		<span class="sim" id="sim35">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid36">
+	<div class="paperdesc">
+		<span class="ts">Evaluating Superpixels in Video: Metrics Beyond Figure-Ground Segmentation</span><br />
+		<span class="as">Peer Neubert, Peter Protzel</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.tu-chemnitz.de/etit/proaut/forschung/rsrc/sp_benchmark.pdf">[pdf] </a>
+		<span class="sim" id="sim36">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid37">
+	<div class="paperdesc">
+		<span class="ts">Exploring Cross-Channel Texture Correlation for Color Texture Classification</span><br />
+		<span class="as">Xianbiao Qi, Yu Qiao, Jun Guo</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Exploring Cross-Channel Texture Correlation for Color Texture Classification" Xianbiao Qi, Yu Qiao, Jun Guo">[pdf] </a>
+		<span class="sim" id="sim37">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid38">
+	<div class="paperdesc">
+		<span class="ts">Exploring Motion Boundary based Sampling and Spatial-Temporal Context Descriptors for Action Recognition</span><br />
+		<span class="as">Xiaojiang Peng, Yu Qiao, Qiang Peng, Xianbiao Qi</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Exploring Motion Boundary based Sampling and Spatial-Temporal Context Descriptors for Action Recognition" Xiaojiang Peng, Yu Qiao, Qiang Peng, Xianbiao Qi">[pdf] </a>
+		<span class="sim" id="sim38">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid39">
+	<div class="paperdesc">
+		<span class="ts">Exploring SVM for Image Annotation in Presence of Confusing Labels</span><br />
+		<span class="as">Yashaswi Verma, CV Jawahar</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Exploring SVM for Image Annotation in Presence of Confusing Labels" Yashaswi Verma, CV Jawahar">[pdf] </a>
+		<span class="sim" id="sim39">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid40">
+	<div class="paperdesc">
+		<span class="ts">Fast and Robust $\ell_1$-averaging-based Pose Estimation for Driving Scenarios</span><br />
+		<span class="as">German Ros, Angel Sappa, Daniel Ponsa, Antonio López, Julio Guerrero</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Fast and Robust $\ell_1$-averaging-based Pose Estimation for Driving Scenarios" German Ros, Angel Sappa, Daniel Ponsa, Antonio López, Julio Guerrero">[pdf] </a>
+		<span class="sim" id="sim40">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid41">
+	<div class="paperdesc">
+		<span class="ts">Fast Approximation of Distance Between Elastic Curves using Kernels</span><br />
+		<span class="as">Hedi Tabia, David Picard, Hamid Laga, Philippe-Henri Gosselin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://people.rennes.inria.fr/Philippe.Gosselin/pdf/tabia13bmvc.pdf">[pdf] </a>
+		<span class="sim" id="sim41">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid42">
+	<div class="paperdesc">
+		<span class="ts">Fast Explicit Diffusion for Accelerated Features in Nonlinear Scale Spaces</span><br />
+		<span class="as">Pablo Alcantarilla, Jesus Nuevo, Adrien Bartoli</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Fast Explicit Diffusion for Accelerated Features in Nonlinear Scale Spaces" Pablo Alcantarilla, Jesus Nuevo, Adrien Bartoli">[pdf] </a>
+		<span class="sim" id="sim42">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid43">
+	<div class="paperdesc">
+		<span class="ts">Feature and Pixel Based Cost for Wide-Baseline Surface Detection</span><br />
+		<span class="as">Jim Braux-Zin, Adrien Bartoli, Romain Dupont</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Feature and Pixel Based Cost for Wide-Baseline Surface Detection" Jim Braux-Zin, Adrien Bartoli, Romain Dupont">[pdf] </a>
+		<span class="sim" id="sim43">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid44">
+	<div class="paperdesc">
+		<span class="ts">Fisher Vector Faces in the Wild</span><br />
+		<span class="as">Karen Simonyan, Omkar Parkhi, Andrea Vedaldi, Andrew Zisserman</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.axes-project.eu/wp-content/uploads/2013/08/simonyan13.pdf">[pdf] </a>
+		<span class="sim" id="sim44">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid45">
+	<div class="paperdesc">
+		<span class="ts">Flexible and User-Centric Camera Calibration using Planar Fiducial Markers</span><br />
+		<span class="as">Shreyansh Daftry, Andreas Wendel, Horst Bischof</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://aerial.icg.tugraz.at/papers/daftry_bmvc2013.pdf">[pdf] </a>
+		<span class="sim" id="sim45">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid46">
+	<div class="paperdesc">
+		<span class="ts">Focusing Attention on Visual Features that Matter</span><br />
+		<span class="as">Grace Tsai, Benjamin Kuipers</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Focusing Attention on Visual Features that Matter" Grace Tsai, Benjamin Kuipers">[pdf] </a>
+		<span class="sim" id="sim46">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid47">
+	<div class="paperdesc">
+		<span class="ts">Fractal Approximate Nearest Neighbour Search in Log-Log Time</span><br />
+		<span class="as">Martin Stommel, Stefan Edelkamp, Thiemo Wiedemeyer</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Fractal Approximate Nearest Neighbour Search in Log-Log Time" Martin Stommel, Stefan Edelkamp, Thiemo Wiedemeyer">[pdf] </a>
+		<span class="sim" id="sim47">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid48">
+	<div class="paperdesc">
+		<span class="ts">Free your Camera: 3D Indoor Scene Understanding from Arbitrary Camera Motion</span><br />
+		<span class="as">Axel Furlan, Stephen D. Miller, Domenico G. Sorrenti, Li Fei-Fei, Silvio Savarese</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.ira.disco.unimib.it/wp-content/uploads/Furlan_et_al_ExtendedAbstract.pdf">[pdf] </a>
+		<span class="sim" id="sim48">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid49">
+	<div class="paperdesc">
+		<span class="ts">FRIF: Fast Robust Invariant Feature</span><br />
+		<span class="as">Zhenhua Wang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="FRIF: Fast Robust Invariant Feature" Zhenhua Wang">[pdf] </a>
+		<span class="sim" id="sim49">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid50">
+	<div class="paperdesc">
+		<span class="ts">From Bikers to Surfers: Visual Recognition of Urban Tribes</span><br />
+		<span class="as">Iljung Kwak, Ana Murillo, David Kriegman, Serge Belongie, Peter Belhumeur</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="From Bikers to Surfers: Visual Recognition of Urban Tribes" Iljung Kwak, Ana Murillo, David Kriegman, Serge Belongie, Peter Belhumeur">[pdf] </a>
+		<span class="sim" id="sim50">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid51">
+	<div class="paperdesc">
+		<span class="ts">Generalised Perspective Shape from Shading with Oren-Nayar Reflectance</span><br />
+		<span class="as">Yong Chul Ju, Silvia Tozza, Michael Breuss, Andres Bruhn, Andreas Kleefeld</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Generalised Perspective Shape from Shading with Oren-Nayar Reflectance" Yong Chul Ju, Silvia Tozza, Michael Breuss, Andres Bruhn, Andreas Kleefeld">[pdf] </a>
+		<span class="sim" id="sim51">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid52">
+	<div class="paperdesc">
+		<span class="ts">Generic Object Crowd Tracking by Multi-Task Learning</span><br />
+		<span class="as">Wenhan Luo, Tae-Kyun Kim</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.iis.ee.ic.ac.uk/icvl/doc/bmvc13_final.pdf">[pdf] </a>
+		<span class="sim" id="sim52">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid53">
+	<div class="paperdesc">
+		<span class="ts">Harmonic Variance: A Novel Feature for Defocus Segmentation</span><br />
+		<span class="as">Feng Li, Fatih Porikli</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Harmonic Variance: A Novel Feature for Defocus Segmentation" Feng Li, Fatih Porikli">[pdf] </a>
+		<span class="sim" id="sim53">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid54">
+	<div class="paperdesc">
+		<span class="ts">Hierarchical Scene Annotation</span><br />
+		<span class="as">Michael Maire, Stella Yu, Pietro Perona</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Hierarchical Scene Annotation" Michael Maire, Stella Yu, Pietro Perona">[pdf] </a>
+		<span class="sim" id="sim54">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid55">
+	<div class="paperdesc">
+		<span class="ts">High Frequency 3D Reconstruction from Unsynchronized Multiple Cameras</span><br />
+		<span class="as">Yumi Kakumu, Fumihiko Sakaue, Jun Sato, Kazuhisa Ishimaru, Masayuki Imanishi</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="High Frequency 3D Reconstruction from Unsynchronized Multiple Cameras" Yumi Kakumu, Fumihiko Sakaue, Jun Sato, Kazuhisa Ishimaru, Masayuki Imanishi">[pdf] </a>
+		<span class="sim" id="sim55">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid56">
+	<div class="paperdesc">
+		<span class="ts">Hyperspectral Face Recognition using 3D-DCT and Partial Least Squares</span><br />
+		<span class="as">Muhammad Uzair, Arif Mahmood, Ajmal Mian</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Hyperspectral Face Recognition using 3D-DCT and Partial Least Squares" Muhammad Uzair, Arif Mahmood, Ajmal Mian">[pdf] </a>
+		<span class="sim" id="sim56">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid57">
+	<div class="paperdesc">
+		<span class="ts">Image Blur Classification and Parameter Identification Using Two-stage Deep Belief Networks</span><br />
+		<span class="as">Ruomei Yan, Ling Shao</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Image Blur Classification and Parameter Identification Using Two-stage Deep Belief Networks" Ruomei Yan, Ling Shao">[pdf] </a>
+		<span class="sim" id="sim57">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid58">
+	<div class="paperdesc">
+		<span class="ts">Image Fusion using Gaussian Mixture Models</span><br />
+		<span class="as">Stacey Levine, Katie Heaps, Joshua Koslosky, Glenn Sidle</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.math.psu.edu/ug/curm/conferences/2011/talk_abstracts_2011.pdf">[pdf] </a>
+		<span class="sim" id="sim58">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid59">
+	<div class="paperdesc">
+		<span class="ts">Incremental Line-based 3D Reconstruction using Geometric Constraints</span><br />
+		<span class="as">Manuel Hofer, Andreas Wendel, Horst Bischof</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Incremental Line-based 3D Reconstruction using Geometric Constraints" Manuel Hofer, Andreas Wendel, Horst Bischof">[pdf] </a>
+		<span class="sim" id="sim59">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid60">
+	<div class="paperdesc">
+		<span class="ts">Incremental Solid Modeling from Sparse and Omnidirectional Structure-from-Motion Data</span><br />
+		<span class="as">Maxime Lhuillier, Vadim Litvinov</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Incremental Solid Modeling from Sparse and Omnidirectional Structure-from-Motion Data" Maxime Lhuillier, Vadim Litvinov">[pdf] </a>
+		<span class="sim" id="sim60">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid61">
+	<div class="paperdesc">
+		<span class="ts">Incremental Surface Extraction from Sparse Structure-from-Motion Point Clouds</span><br />
+		<span class="as">Christof Hoppe, Manfred Klopschitz, Michael Donoser, Horst Bischof</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://aerial.icg.tugraz.at/papers/hoppe_bmvc2013.pdf">[pdf] </a>
+		<span class="sim" id="sim61">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid62">
+	<div class="paperdesc">
+		<span class="ts">Inferring Ongoing Human Activities Based on Recurrent Self-Organizing Map Trajectory</span><br />
+		<span class="as">Qianru Sun, Hong Liu</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Inferring Ongoing Human Activities Based on Recurrent Self-Organizing Map Trajectory" Qianru Sun, Hong Liu">[pdf] </a>
+		<span class="sim" id="sim62">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid63">
+	<div class="paperdesc">
+		<span class="ts">Insulin Granule Segmentation in 3-D TEM Beta Cell Tomograms</span><br />
+		<span class="as">David Nam, Judith Mantell, David Bull, Paul Verkade, Alin Achim</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Insulin Granule Segmentation in 3-D TEM Beta Cell Tomograms" David Nam, Judith Mantell, David Bull, Paul Verkade, Alin Achim">[pdf] </a>
+		<span class="sim" id="sim63">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid64">
+	<div class="paperdesc">
+		<span class="ts">Iso-warps and Conf-warps: warps that Exactly Comply with Weak-Perspective Projection of Deforming Objects for 3D Reconstruction</span><br />
+		<span class="as">Daniel Pizarro, Adrien Bartoli, Toby Collins</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Iso-warps and Conf-warps: warps that Exactly Comply with Weak-Perspective Projection of Deforming Objects for 3D Reconstruction" Daniel Pizarro, Adrien Bartoli, Toby Collins">[pdf] </a>
+		<span class="sim" id="sim64">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid65">
+	<div class="paperdesc">
+		<span class="ts">Label embedding for text recognition</span><br />
+		<span class="as">Jose Rodriguez, Florent Perronnin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Label embedding for text recognition" Jose Rodriguez, Florent Perronnin">[pdf] </a>
+		<span class="sim" id="sim65">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid66">
+	<div class="paperdesc">
+		<span class="ts">Lagrangian Strain Tensor Computation with Higher Order Variational Models</span><br />
+		<span class="as">Alexander Hewer, Joachim Weickert, Henning Seibert, Tobias Scheffer, Stefan Diebels</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Lagrangian Strain Tensor Computation with Higher Order Variational Models" Alexander Hewer, Joachim Weickert, Henning Seibert, Tobias Scheffer, Stefan Diebels">[pdf] </a>
+		<span class="sim" id="sim66">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid67">
+	<div class="paperdesc">
+		<span class="ts">Large-scale Learning of Sign Language by Watching TV (Using Co-occurrences)</span><br />
+		<span class="as">Tomas Pfister, James Charles, Andrew Zisserman</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Large-scale Learning of Sign Language by Watching TV (Using Co-occurrences)" Tomas Pfister, James Charles, Andrew Zisserman">[pdf] </a>
+		<span class="sim" id="sim67">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid68">
+	<div class="paperdesc">
+		<span class="ts">Learnable Stroke Models for Example-based Portrait Painting</span><br />
+		<span class="as">Tinghuai Wang, John Collomosse, Andrew Hunter, Darryl Greig</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/Wang-BMVC-2013.pdf">[pdf] </a>
+		<span class="sim" id="sim68">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid69">
+	<div class="paperdesc">
+		<span class="ts">Learning beautiful (and ugly) attributes </span><br />
+		<span class="as">Luca Marchesotti, Florent Perronnin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Learning beautiful (and ugly) attributes " Luca Marchesotti, Florent Perronnin">[pdf] </a>
+		<span class="sim" id="sim69">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid70">
+	<div class="paperdesc">
+		<span class="ts">Learning Smooth Pooling Regions for Visual Recognition</span><br />
+		<span class="as">Mateusz Malinowski, Mario Fritz</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Learning Smooth Pooling Regions for Visual Recognition" Mateusz Malinowski, Mario Fritz">[pdf] </a>
+		<span class="sim" id="sim70">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid71">
+	<div class="paperdesc">
+		<span class="ts">Learning Speed Invariant Gait Template via Thin Plate Spline Kernel Manifold Fitting</span><br />
+		<span class="as">Sheng Huang, Ahmed Elgammal, Dan Yang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Learning Speed Invariant Gait Template via Thin Plate Spline Kernel Manifold Fitting" Sheng Huang, Ahmed Elgammal, Dan Yang">[pdf] </a>
+		<span class="sim" id="sim71">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid72">
+	<div class="paperdesc">
+		<span class="ts">Learning to approximate global shape priors for figure-ground segmentation</span><br />
+		<span class="as">Daniel Kuettel, Vittorio Ferrari</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://groups.inf.ed.ac.uk/calvin/Publications/kuettelBMVC13.pdf">[pdf] </a>
+		<span class="sim" id="sim72">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid73">
+	<div class="paperdesc">
+		<span class="ts">Line extraction in uncalibrated central images with revolution symmetry</span><br />
+		<span class="as">Jesus Bermudez-Cameo, Gonzalo Lopez-Nicolas, J.J. Guerrero</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Line extraction in uncalibrated central images with revolution symmetry" Jesus Bermudez-Cameo, Gonzalo Lopez-Nicolas, J.J. Guerrero">[pdf] </a>
+		<span class="sim" id="sim73">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid74">
+	<div class="paperdesc">
+		<span class="ts">Local Zernike Moment Representation for Facial Affect Recognition</span><br />
+		<span class="as">Evangelos Sariyanidi, Hatice Gunes, Andrea Cavallaro, Muhittin Gökmen</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Local Zernike Moment Representation for Facial Affect Recognition" Evangelos Sariyanidi, Hatice Gunes, Andrea Cavallaro, Muhittin Gökmen">[pdf] </a>
+		<span class="sim" id="sim74">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid75">
+	<div class="paperdesc">
+		<span class="ts">Match-time covariance for descriptors</span><br />
+		<span class="as">Eric Christiansen, Vincent Rabaud, Andrew Ziegler, Serge Belongie, David Kriegman, Irfan Essa</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Match-time covariance for descriptors" Eric Christiansen, Vincent Rabaud, Andrew Ziegler, Serge Belongie, David Kriegman, Irfan Essa">[pdf] </a>
+		<span class="sim" id="sim75">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid76">
+	<div class="paperdesc">
+		<span class="ts">Merging Pose Estimates Across Space and Time</span><br />
+		<span class="as">Xavier Burgos-Artizzu, David Hall, Pietro Perona, Piotr Dollar</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Merging Pose Estimates Across Space and Time" Xavier Burgos-Artizzu, David Hall, Pietro Perona, Piotr Dollar">[pdf] </a>
+		<span class="sim" id="sim76">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid77">
+	<div class="paperdesc">
+		<span class="ts">Metric Space Information Gain Decision Forests for Pose Estimation</span><br />
+		<span class="as">Gerard Pons-Moll, Jonathan Taylor, Jamie Shotton, Aaron Hertzmann, Andrew Fitzgibbon</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Metric Space Information Gain Decision Forests for Pose Estimation" Gerard Pons-Moll, Jonathan Taylor, Jamie Shotton, Aaron Hertzmann, Andrew Fitzgibbon">[pdf] </a>
+		<span class="sim" id="sim77">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid78">
+	<div class="paperdesc">
+		<span class="ts">Modelling Visual Objects Invariant to Depictive Style</span><br />
+		<span class="as">Qi Wu, Peter Hall</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Modelling Visual Objects Invariant to Depictive Style" Qi Wu, Peter Hall">[pdf] </a>
+		<span class="sim" id="sim78">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid79">
+	<div class="paperdesc">
+		<span class="ts">Multi-scale Joint Encoding of Local Binary Patterns for Texture and Material Classification</span><br />
+		<span class="as">Xianbiao Qi, Yu Qiao, Jun Guo</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Multi-scale Joint Encoding of Local Binary Patterns for Texture and Material Classification" Xianbiao Qi, Yu Qiao, Jun Guo">[pdf] </a>
+		<span class="sim" id="sim79">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid80">
+	<div class="paperdesc">
+		<span class="ts">Multi-view Body Part Recognition with Random Forests</span><br />
+		<span class="as">Vahid Kazemi, Magnus Burenius, Josephine Sullivan</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Multi-view Body Part Recognition with Random Forests" Vahid Kazemi, Magnus Burenius, Josephine Sullivan">[pdf] </a>
+		<span class="sim" id="sim80">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid81">
+	<div class="paperdesc">
+		<span class="ts">Multi-view Pictorial Structures for 3D Human Pose Estimation</span><br />
+		<span class="as">Sikandar Amin, Mykhaylo Andriluka, Marcus Rohrbach, Bernt Schiele</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://ias.cs.tum.edu/_media/spezial/bib/sikandar2013bmvc.pdf">[pdf] </a>
+		<span class="sim" id="sim81">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid82">
+	<div class="paperdesc">
+		<span class="ts">Object Recognition in Multi-View Dual Energy X-ray Images</span><br />
+		<span class="as">Muhammet Bastan, Wonmin Byeon, Thomas Breuel</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Object Recognition in Multi-View Dual Energy X-ray Images" Muhammet Bastan, Wonmin Byeon, Thomas Breuel">[pdf] </a>
+		<span class="sim" id="sim82">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid83">
+	<div class="paperdesc">
+		<span class="ts">Object-Centric Spatio-Temporal Pyramids for Egocentric Activity Recognition</span><br />
+		<span class="as">Tomas McCandless, Kristen Grauman</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Object-Centric Spatio-Temporal Pyramids for Egocentric Activity Recognition" Tomas McCandless, Kristen Grauman">[pdf] </a>
+		<span class="sim" id="sim83">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid84">
+	<div class="paperdesc">
+		<span class="ts">Of Gods and Goats</span><br />
+		<span class="as">Elliot Crowley, Andrew Zisserman</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Of Gods and Goats" Elliot Crowley, Andrew Zisserman">[pdf] </a>
+		<span class="sim" id="sim84">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid85">
+	<div class="paperdesc">
+		<span class="ts">Online Motion Agreement Tracking</span><br />
+		<span class="as">Zheng Wu, Jianming Zhang, Stan Sclaroff, Margrit Betke</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Online Motion Agreement Tracking" Zheng Wu, Jianming Zhang, Stan Sclaroff, Margrit Betke">[pdf] </a>
+		<span class="sim" id="sim85">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid86">
+	<div class="paperdesc">
+		<span class="ts">Oriented pooling for dense and non-dense rotation-invariant features</span><br />
+		<span class="as">Wan-Lei Zhao, Guillaume Gravier, Herve Jegou</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://hal.inria.fr/docs/00/84/15/90/PDF/cvlad.pdf">[pdf] </a>
+		<span class="sim" id="sim86">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid87">
+	<div class="paperdesc">
+		<span class="ts">Overlapping camera clustering through dominant sets for scalable 3D reconstruction</span><br />
+		<span class="as">Massimo Mauro, Hayko Riemenschneider, Luc Van Gool, Riccardo Leonardi</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Overlapping camera clustering through dominant sets for scalable 3D reconstruction" Massimo Mauro, Hayko Riemenschneider, Luc Van Gool, Riccardo Leonardi">[pdf] </a>
+		<span class="sim" id="sim87">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid88">
+	<div class="paperdesc">
+		<span class="ts">Parsing Clothes in Unrestricted Images</span><br />
+		<span class="as">Nataraj Jammalamadaka, Ayush Minocha, Digvijay Singh, CV Jawahar</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Parsing Clothes in Unrestricted Images" Nataraj Jammalamadaka, Ayush Minocha, Digvijay Singh, CV Jawahar">[pdf] </a>
+		<span class="sim" id="sim88">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid89">
+	<div class="paperdesc">
+		<span class="ts">PedCut: an iterative framework for pedestrian segmentation combining shape models and multiple data cues</span><br />
+		<span class="as">Fabian Flohr, Dariu Gavrila</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="PedCut: an iterative framework for pedestrian segmentation combining shape models and multiple data cues" Fabian Flohr, Dariu Gavrila">[pdf] </a>
+		<span class="sim" id="sim89">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid90">
+	<div class="paperdesc">
+		<span class="ts">Perception Preserving Projections</span><br />
+		<span class="as">Saining Xie, Jiashi Feng, Shuicheng Yan, Hongtao Lu</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Perception Preserving Projections" Saining Xie, Jiashi Feng, Shuicheng Yan, Hongtao Lu">[pdf] </a>
+		<span class="sim" id="sim90">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid91">
+	<div class="paperdesc">
+		<span class="ts">Place recognition from disparate views</span><br />
+		<span class="as">Rob Frampton, Andrew Calway</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.cs.bris.ac.uk/home/frampton/frampton_calway_bmvc13.pdf">[pdf] </a>
+		<span class="sim" id="sim91">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid92">
+	<div class="paperdesc">
+		<span class="ts">Plane-based Odometry using an RGB-D Camera</span><br />
+		<span class="as">Carolina Raposo, Miguel Lourenco, Joao Barreto</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Plane-based Odometry using an RGB-D Camera" Carolina Raposo, Miguel Lourenco, Joao Barreto">[pdf] </a>
+		<span class="sim" id="sim92">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid93">
+	<div class="paperdesc">
+		<span class="ts">Point Light Source Estimation based on Scenes Recorded by a RGB-D camera</span><br />
+		<span class="as">Bas Boom, Sergio Orts-Escolano, Xi Ning, Steven McDonagh, Peter Sandilands, Robert Fisher</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Point Light Source Estimation based on Scenes Recorded by a RGB-D camera" Bas Boom, Sergio Orts-Escolano, Xi Ning, Steven McDonagh, Peter Sandilands, Robert Fisher">[pdf] </a>
+		<span class="sim" id="sim93">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid94">
+	<div class="paperdesc">
+		<span class="ts">Properties of Datasets Predict the Performance of Classifiers</span><br />
+		<span class="as">Omid Aghazadeh, Stefan Carlsson</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Properties of Datasets Predict the Performance of Classifiers" Omid Aghazadeh, Stefan Carlsson">[pdf] </a>
+		<span class="sim" id="sim94">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid95">
+	<div class="paperdesc">
+		<span class="ts">Real Projective Plane Mapping for Detection of Orthogonal Vanishing Points</span><br />
+		<span class="as">Markéta Dubská, Adam Herout</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Real Projective Plane Mapping for Detection of Orthogonal Vanishing Points" Markéta Dubská, Adam Herout">[pdf] </a>
+		<span class="sim" id="sim95">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid96">
+	<div class="paperdesc">
+		<span class="ts">Recognizing Humans in Motion: Trajectory-based Aerial Video Analysis</span><br />
+		<span class="as">Yumi Iwashita, Michael Ryoo, Thomas Fuchs, Curtis Padgett</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Recognizing Humans in Motion: Trajectory-based Aerial Video Analysis" Yumi Iwashita, Michael Ryoo, Thomas Fuchs, Curtis Padgett">[pdf] </a>
+		<span class="sim" id="sim96">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid97">
+	<div class="paperdesc">
+		<span class="ts">Reconstructing faces from their signatures using RBF regression</span><br />
+		<span class="as">Alexis Mignon, Frederic Jurie</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://jurie.users.greyc.fr/papers/13_bmvc_face_reconstruction.pdf">[pdf] </a>
+		<span class="sim" id="sim97">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid98">
+	<div class="paperdesc">
+		<span class="ts">Reduced Dimensionality Extended Kalman Filter for SLAM</span><br />
+		<span class="as">Dinesh Gamage, Tom Drummond</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Reduced Dimensionality Extended Kalman Filter for SLAM" Dinesh Gamage, Tom Drummond">[pdf] </a>
+		<span class="sim" id="sim98">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid99">
+	<div class="paperdesc">
+		<span class="ts">Reflective Symmetry Detection by Rectifying Randomized Correspondences</span><br />
+		<span class="as">Zhongwei Tang, Mariano Tepper, Guillermo Sapiro</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Reflective Symmetry Detection by Rectifying Randomized Correspondences" Zhongwei Tang, Mariano Tepper, Guillermo Sapiro">[pdf] </a>
+		<span class="sim" id="sim99">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid100">
+	<div class="paperdesc">
+		<span class="ts">Relatively-Paired Space Analysis</span><br />
+		<span class="as">Zhanghui Kuang, Kenneth Wong</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Relatively-Paired Space Analysis" Zhanghui Kuang, Kenneth Wong">[pdf] </a>
+		<span class="sim" id="sim100">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid101">
+	<div class="paperdesc">
+		<span class="ts">Removing Mistracking of Multibody Motion Video Database Hopkins155</span><br />
+		<span class="as">Yasuyuki Sugaya, Yuichi Matsushita, Kenichi Kanatani</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Removing Mistracking of Multibody Motion Video Database Hopkins155" Yasuyuki Sugaya, Yuichi Matsushita, Kenichi Kanatani">[pdf] </a>
+		<span class="sim" id="sim101">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid102">
+	<div class="paperdesc">
+		<span class="ts">Replicator Graph Clustering</span><br />
+		<span class="as">Michael Donoser</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://vh.icg.tugraz.at/publications/BMVC_2013_RGC.pdf">[pdf] </a>
+		<span class="sim" id="sim102">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid103">
+	<div class="paperdesc">
+		<span class="ts">RLBP: Robust Local Binary Pattern</span><br />
+		<span class="as">Jie Chen, Vili Kellokumpu, Guoying Zhao, Matti Pietikainen</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://jivp.eurasipjournals.com/content/pdf/1687-5281-2013-17.pdf">[pdf] </a>
+		<span class="sim" id="sim103">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid104">
+	<div class="paperdesc">
+		<span class="ts">Robust Image Matching with Line Context</span><br />
+		<span class="as">Wei Guan, Suya You</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Robust Image Matching with Line Context" Wei Guan, Suya You">[pdf] </a>
+		<span class="sim" id="sim104">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid105">
+	<div class="paperdesc">
+		<span class="ts">Robust Scene Stitching in Large Scale Mobile Mapping</span><br />
+		<span class="as">Filip Schouwenaars, Radu Timofte, Luc Van Gool</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://lirias.kuleuven.be/bitstream/123456789/413459/1/Schouwenaars-BMVC-2013.pdf">[pdf] </a>
+		<span class="sim" id="sim105">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid106">
+	<div class="paperdesc">
+		<span class="ts">RPM: Random Points Matching for Pair wise Face-Similarity</span><br />
+		<span class="as">M. Saquib Sarfraz, Muhammad Adnan Siddique, Rainer Stiefelhagen</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="RPM: Random Points Matching for Pair wise Face-Similarity" M. Saquib Sarfraz, Muhammad Adnan Siddique, Rainer Stiefelhagen">[pdf] </a>
+		<span class="sim" id="sim106">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid107">
+	<div class="paperdesc">
+		<span class="ts">Salient Change Detection in Dynamic Scenes using Local Adaptive Transform</span><br />
+		<span class="as">Hakan Haberdar, Shishir Shah</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Salient Change Detection in Dynamic Scenes using Local Adaptive Transform" Hakan Haberdar, Shishir Shah">[pdf] </a>
+		<span class="sim" id="sim107">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid108">
+	<div class="paperdesc">
+		<span class="ts">Segmentation Driven Low-rank Matrix Recovery for Saliency Detection </span><br />
+		<span class="as">Wenbin Zou, Kidiyo Kpalma, Zhi Liu, joseph Ronsin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://hal.archives-ouvertes.fr/docs/00/85/33/85/PDF/SalientObjectDetection_bmvc_2.1_R.pdf">[pdf] </a>
+		<span class="sim" id="sim108">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid109">
+	<div class="paperdesc">
+		<span class="ts">Simultaneous Pose, Focal Length and 2D-to-3D Correspondences from Noisy Observations</span><br />
+		<span class="as">Adrian Penate-Sanchez, Eduard Serradell, Francesc Moreno-Noguer, Juan Andrade-Cetto</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Simultaneous Pose, Focal Length and 2D-to-3D Correspondences from Noisy Observations" Adrian Penate-Sanchez, Eduard Serradell, Francesc Moreno-Noguer, Juan Andrade-Cetto">[pdf] </a>
+		<span class="sim" id="sim109">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid110">
+	<div class="paperdesc">
+		<span class="ts">Single Image Shadow Detection Using Multiple Cues in a Supermodular MRF</span><br />
+		<span class="as">Tomas F Yago Vicente, Dimitris Samaras, Chen-Ping Yu</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Single Image Shadow Detection Using Multiple Cues in a Supermodular MRF" Tomas F Yago Vicente, Dimitris Samaras, Chen-Ping Yu">[pdf] </a>
+		<span class="sim" id="sim110">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid111">
+	<div class="paperdesc">
+		<span class="ts">Single-Image Super-Resolution via Adaptive Joint Kernel Regression</span><br />
+		<span class="as">Chen Huang, Xiaoqing Ding, Chi Fang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Single-Image Super-Resolution via Adaptive Joint Kernel Regression" Chen Huang, Xiaoqing Ding, Chi Fang">[pdf] </a>
+		<span class="sim" id="sim111">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid112">
+	<div class="paperdesc">
+		<span class="ts">Sketch Recognition by Ensemble Matching of Structured Features</span><br />
+		<span class="as">Yi Li, Yi-Zhe Song, Shaogang Gong</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Sketch Recognition by Ensemble Matching of Structured Features" Yi Li, Yi-Zhe Song, Shaogang Gong">[pdf] </a>
+		<span class="sim" id="sim112">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid113">
+	<div class="paperdesc">
+		<span class="ts">Sketch Retrieval via Dense Stroke Features</span><br />
+		<span class="as">Chao Ma, Ming-Hsuan Yang, Chongyang Zhang, Xiang Ruan, Xiaokang Yang</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://faculty.ucmerced.edu/mhyang/papers/bmvc13_sketch.pdf">[pdf] </a>
+		<span class="sim" id="sim113">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid114">
+	<div class="paperdesc">
+		<span class="ts">Social Group Discovery from Surveillance Videos: A Data-Driven Approach with Attention-Based Cues</span><br />
+		<span class="as">Isarun Chamveha, Yusuke Sugano, Yoichi Sato, Akihiro Sugimoto</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Social Group Discovery from Surveillance Videos: A Data-Driven Approach with Attention-Based Cues" Isarun Chamveha, Yusuke Sugano, Yoichi Sato, Akihiro Sugimoto">[pdf] </a>
+		<span class="sim" id="sim114">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid115">
+	<div class="paperdesc">
+		<span class="ts">Solving Person Re-identification in Non-overlapping Camera using Efficient Gibbs Sampling</span><br />
+		<span class="as">Vijay John, Gwenn Englebienne, Ben Krose</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Solving Person Re-identification in Non-overlapping Camera using Efficient Gibbs Sampling" Vijay John, Gwenn Englebienne, Ben Krose">[pdf] </a>
+		<span class="sim" id="sim115">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid116">
+	<div class="paperdesc">
+		<span class="ts">Spacetime Forests with Complementary Features for Dynamic Scene Recognition</span><br />
+		<span class="as">Christoph Feichtenhofer, Richard Wildes, Axel Pinz</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://www.cse.yorku.ca/vision/publications/bmvc2013FeichtenhoferPinzWildes.pdf">[pdf] </a>
+		<span class="sim" id="sim116">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid117">
+	<div class="paperdesc">
+		<span class="ts">Sparse-Coded Features for Image Retrieval</span><br />
+		<span class="as">Tiezheng Ge, Qifa Ke, Jian Sun</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Sparse-Coded Features for Image Retrieval" Tiezheng Ge, Qifa Ke, Jian Sun">[pdf] </a>
+		<span class="sim" id="sim117">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid118">
+	<div class="paperdesc">
+		<span class="ts">Spatial Co-Training for Semi-Supervised Image Classification</span><br />
+		<span class="as">Yi Hong</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Spatial Co-Training for Semi-Supervised Image Classification" Yi Hong">[pdf] </a>
+		<span class="sim" id="sim118">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid119">
+	<div class="paperdesc">
+		<span class="ts">Spectral Imaging using Basis Lights</span><br />
+		<span class="as">Antony Lam, Art Subpa-Asa, Imari Sato, Takahiro Okabe, Yoichi Sato</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Spectral Imaging using Basis Lights" Antony Lam, Art Subpa-Asa, Imari Sato, Takahiro Okabe, Yoichi Sato">[pdf] </a>
+		<span class="sim" id="sim119">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid120">
+	<div class="paperdesc">
+		<span class="ts">Spline Fusion: A continuous-time representation for visual-inertial fusion and rolling shutter cameras</span><br />
+		<span class="as">Steven Lovegrove, Alonso Patron-Perez, Gabe Sibley</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Spline Fusion: A continuous-time representation for visual-inertial fusion and rolling shutter cameras" Steven Lovegrove, Alonso Patron-Perez, Gabe Sibley">[pdf] </a>
+		<span class="sim" id="sim120">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid121">
+	<div class="paperdesc">
+		<span class="ts">The Complete Rank Transform: A Tool for Accurate and Morphologically Invariant Matching of Structures</span><br />
+		<span class="as">Oliver Demetz, David Hafner, Joachim Weickert</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="The Complete Rank Transform: A Tool for Accurate and Morphologically Invariant Matching of Structures" Oliver Demetz, David Hafner, Joachim Weickert">[pdf] </a>
+		<span class="sim" id="sim121">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid122">
+	<div class="paperdesc">
+		<span class="ts">Towards a minimal solution for the relative pose between axial cameras</span><br />
+		<span class="as">Francisco Vasconcelos, João Barreto</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Towards a minimal solution for the relative pose between axial cameras" Francisco Vasconcelos, João Barreto">[pdf] </a>
+		<span class="sim" id="sim122">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid123">
+	<div class="paperdesc">
+		<span class="ts">Towards Pain Monitoring: Facial Expression, Head Pose, a new Database, an Automatic System and Remaining Challenges</span><br />
+		<span class="as">Philipp Werner, Ayoub Al-Hamadi, Robert Niese, Steffen Walter, Sascha Gruss, Harald Traue</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Towards Pain Monitoring: Facial Expression, Head Pose, a new Database, an Automatic System and Remaining Challenges" Philipp Werner, Ayoub Al-Hamadi, Robert Niese, Steffen Walter, Sascha Gruss, Harald Traue">[pdf] </a>
+		<span class="sim" id="sim123">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid124">
+	<div class="paperdesc">
+		<span class="ts">Transitive Re-identification</span><br />
+		<span class="as">Yulia Brand, Tamar Avraham, Michael Lindenbaum</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Transitive Re-identification" Yulia Brand, Tamar Avraham, Michael Lindenbaum">[pdf] </a>
+		<span class="sim" id="sim124">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid125">
+	<div class="paperdesc">
+		<span class="ts">Tree-like Shapes Distance Using the Elastic Shape Analysis Framework</span><br />
+		<span class="as">Alejandro Mottini, Xavier Descombes, Florence Besse</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Tree-like Shapes Distance Using the Elastic Shape Analysis Framework" Alejandro Mottini, Xavier Descombes, Florence Besse">[pdf] </a>
+		<span class="sim" id="sim125">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid126">
+	<div class="paperdesc">
+		<span class="ts">Ultra-wide Baseline Aerial Imagery Matching in Urban Environments</span><br />
+		<span class="as">Hani Altwaijry, Serge Belongie</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Ultra-wide Baseline Aerial Imagery Matching in Urban Environments" Hani Altwaijry, Serge Belongie">[pdf] </a>
+		<span class="sim" id="sim126">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid127">
+	<div class="paperdesc">
+		<span class="ts">Unsupervised (parameter) learning for MRFs on bipartite graphs</span><br />
+		<span class="as">Boris Flach, Tomas Sixta</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Unsupervised (parameter) learning for MRFs on bipartite graphs" Boris Flach, Tomas Sixta">[pdf] </a>
+		<span class="sim" id="sim127">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid128">
+	<div class="paperdesc">
+		<span class="ts">Unsupervised Object Discovery and Segmentation in Videos</span><br />
+		<span class="as">Samuel Schulter, Christian Leistner, Peter Roth</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="http://lrs.icg.tugraz.at/pubs/schulter_bmvc_13.pdf">[pdf] </a>
+		<span class="sim" id="sim128">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid129">
+	<div class="paperdesc">
+		<span class="ts">Visual Tracking via Subspace Motion Model</span><br />
+		<span class="as">Jun Wang, Guofeng Wang, Fan Zhong, qunsheng Peng, Xueying Qin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="Visual Tracking via Subspace Motion Model" Jun Wang, Guofeng Wang, Fan Zhong, qunsheng Peng, Xueying Qin">[pdf] </a>
+		<span class="sim" id="sim129">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+
+	<div class="apaper" id="pid130">
+	<div class="paperdesc">
+		<span class="ts">What is a good evaluation measure for semantic segmentation?</span><br />
+		<span class="as">Gabriela Csurka, Diane Larlus, Florent Perronnin</span><br />
+	</div>
+	<div class="dllinks">
+		<a href="https://www.google.com/#q="What is a good evaluation measure for semantic segmentation?" Gabriela Csurka, Diane Larlus, Florent Perronnin">[pdf] </a>
+		<span class="sim" id="sim130">[rank by tf-idf similarity to this]</span><br />
+	</div>
+	</div>
+
+	
+</div>
+
+</div>
+
+<br /><br /><br /><br /><br /><br />
+</body>
+
+</html>

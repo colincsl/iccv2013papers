@@ -1,0 +1,2732 @@
+[
+    {
+        "Keywords": "", 
+        "PDF": "Achar_Compensating_for_Motion_2013_ICCV_paper.pdf", 
+        "Authors": "Supreeth Achar, Stephen T. Nuske, Srinivasa G. Narasimhan", 
+        "Title": "Compensating for Motion during Direct-Global Separation"
+    }, 
+    {
+        "Keywords": "calibration, spherical mirror, axial, catadioptirc, mirrors", 
+        "PDF": "Agrawal_Extrinsic_Camera_Calibration_2013_ICCV_paper.pdf", 
+        "Authors": "Amit Agrawal", 
+        "Title": "Extrinsic Camera Calibration without a Direct View Using Spherical Mirror"
+    }, 
+    {
+        "Keywords": "ANN, Image Search, Range Search, Nearest Neighbors", 
+        "PDF": "Aiger_Random_Grids_Fast_2013_ICCV_paper.pdf", 
+        "Authors": "Dror Aiger, Efi Kokiopoulou, Ehud Rivlin", 
+        "Title": "Random Grids: Fast Approximate Nearest Neighbors and Range Searching for Image Search"
+    }, 
+    {
+        "Keywords": "Pose estimation, Segmentation", 
+        "PDF": "Alahari_Pose_Estimation_and_2013_ICCV_paper.pdf", 
+        "Authors": "Karteek Alahari, Guillaume Seguin, Josef Sivic, Ivan Laptev", 
+        "Title": "Pose Estimation and Segmentation of People in 3D Movies"
+    }, 
+    {
+        "Keywords": "Motion Complexity, Flow Complexity, Trajectory Representation, Video Activity Analysis, Braid Theory", 
+        "PDF": "Ali_Measuring_Flow_Complexity_2013_ICCV_paper.pdf", 
+        "Authors": "Saad Ali", 
+        "Title": "Measuring Flow Complexity in Videos"
+    }, 
+    {
+        "Keywords": "word spotting, multi-writer, attibutes, cca", 
+        "PDF": "Almazan_Handwritten_Word_Spotting_2013_ICCV_paper.pdf", 
+        "Authors": "Jon Almazan, Albert Gordo, Alicia Fornes, Ernest Valveny", 
+        "Title": "Handwritten Word Spotting with Corrected Attributes"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Alnajar_Calibration-Free_Gaze_Estimation_2013_ICCV_paper.pdf", 
+        "Authors": "Fares Alnajar, Theo Gevers, Roberto Valenti, Sennay Ghebreab", 
+        "Title": "Calibration-Free Gaze Estimation Using Human Gaze Patterns"
+    }, 
+    {
+        "Keywords": "Activity Recogition, Video Parsing, Event Analysis, And-Or Graphs, Stochastic Grammars", 
+        "PDF": "Amer_Monte_Carlo_Tree_2013_ICCV_paper.pdf", 
+        "Authors": "Mohamed R. Amer, Sinisa Todorovic, Alan Fern, Song-Chun Zhu", 
+        "Title": "Monte Carlo Tree Search for Scheduling Activity Recognition"
+    }, 
+    {
+        "Keywords": "context, pose, viewpoint, allocentric, collective, configuration", 
+        "PDF": "Antonio_Allocentric_Pose_Estimation_2013_ICCV_paper.pdf", 
+        "Authors": "M. Jose Antonio, Luc De_Raedt, Tinne Tuytelaars", 
+        "Title": "Allocentric Pose Estimation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Aodha_Revisiting_Example_Dependent_2013_ICCV_paper.pdf", 
+        "Authors": "Oisin Mac Aodha, Gabriel J. Brostow", 
+        "Title": "Revisiting Example Dependent Cost-Sensitive Learning with Decision Trees"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Arora_Higher_Order_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Chetan Arora, Amir Globerson", 
+        "Title": "Higher Order Matching for Consistent Multiple Target Tracking"
+    }, 
+    {
+        "Keywords": "clustering, vector quantization, nearest neighbor search, image retrieval", 
+        "PDF": "Avrithis_Quantize_and_Conquer_2013_ICCV_paper.pdf", 
+        "Authors": "Yannis Avrithis", 
+        "Title": "Quantize and Conquer: A Dimensionality-Recursive Solution to Clustering, Vector Quantization, and Image Retrieval"
+    }, 
+    {
+        "Keywords": "Granger Causality, Sparse Graph Identification, Block Sparsification", 
+        "PDF": "Ayazoglu_Finding_Causal_Interactions_2013_ICCV_paper.pdf", 
+        "Authors": "Mustafa Ayazoglu, Burak Yilmaz, Mario Sznaier, Octavia Camps", 
+        "Title": "Finding Causal Interactions in Video Sequences"
+    }, 
+    {
+        "Keywords": "classifier ensemble, online learning, tracking-by-detection", 
+        "PDF": "Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Qinxun Bai, Zheng Wu, Stan Sclaroff, Margrit Betke, Camille Monnier", 
+        "Title": "Randomized Ensemble Tracking"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Baktashmotlagh_Unsupervised_Domain_Adaptation_2013_ICCV_paper.pdf", 
+        "Authors": "Mahsa Baktashmotlagh, Mehrtash T. Harandi, Brian C. Lovell, Mathieu Salzmann", 
+        "Title": "Unsupervised Domain Adaptation by Domain Invariant Projection"
+    }, 
+    {
+        "Keywords": "action recognition, pooling, WSVM, sparse regularization, saliency", 
+        "PDF": "Ballas_Space-Time_Robust_Representation_2013_ICCV_paper.pdf", 
+        "Authors": "Nicolas Ballas, Yi Yang, Zhen-Zhong Lan, Bertrand Delezoide, Francoise Preteux, Alexander Hauptmann", 
+        "Title": "Space-Time Robust Representation for Action Recognition"
+    }, 
+    {
+        "Keywords": "active learning, action detection, action localization, hough, entropy, voting-based, vatic, human annotation, hollywood", 
+        "PDF": "Bandla_Active_Learning_of_2013_ICCV_paper.pdf", 
+        "Authors": "Sunil Bandla, Kristen Grauman", 
+        "Title": "Active Learning of an Action Detector from Untrimmed Videos"
+    }, 
+    {
+        "Keywords": "sparse representation, image restoration, dictionary learning", 
+        "PDF": "Bao_Fast_Sparsity-Based_Orthogonal_2013_ICCV_paper.pdf", 
+        "Authors": "Chenglong Bao, Jian-Feng Cai, Hui Ji", 
+        "Title": "Fast Sparsity-Based Orthogonal Dictionary Learning for Image Restoration"
+    }, 
+    {
+        "Keywords": "face recognition, pattern recognition, diffusion maps, dimensionality reduction, overcomplete representation, high dimensional representation, unsupervised labeling", 
+        "PDF": "Barkan_Fast_High_Dimensional_2013_ICCV_paper.pdf", 
+        "Authors": "Oren Barkan, Jonathan Weill, Lior Wolf, Hagai Aronowitz", 
+        "Title": "Fast High Dimensional Vector Multiplication Face Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Barron_Volumetric_Semantic_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Jonathan T. Barron, Mark D. Biggin, Pablo Arbelaez, David W. Knowles, Soile V.E. Keranen, Jitendra Malik", 
+        "Title": "Volumetric Semantic Segmentation Using Pyramid Context Features"
+    }, 
+    {
+        "Keywords": "reconstruction, template, isometric", 
+        "PDF": "Bartoli_A_Robust_Analytical_2013_ICCV_paper.pdf", 
+        "Authors": "Adrien Bartoli, Daniel Pizarro, Toby Collins", 
+        "Title": "A Robust Analytical Solution to Isometric Shape-from-Template with Focal Length Calibration"
+    }, 
+    {
+        "Keywords": "fine-grained recognition, visual similarity, field guide", 
+        "PDF": "Berg_How_Do_You_2013_ICCV_paper.pdf", 
+        "Authors": "Thomas Berg, Peter N. Belhumeur", 
+        "Title": "How Do You Tell a Blackbird from a Crow?"
+    }, 
+    {
+        "Keywords": "OCR, deep learning, text recognition, scene text", 
+        "PDF": "Bissacco_PhotoOCR_Reading_Text_2013_ICCV_paper.pdf", 
+        "Authors": "Alessandro Bissacco, Mark Cummins, Yuval Netzer, Hartmut Neven", 
+        "Title": "PhotoOCR: Reading Text in Uncontrolled Conditions"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Bojanowski_Finding_Actors_and_2013_ICCV_paper.pdf", 
+        "Authors": "P. Bojanowski, F. Bach, I. Laptev, J. Ponce, C. Schmid, J. Sivic", 
+        "Title": "Finding Actors and Actions in Movies"
+    }, 
+    {
+        "Keywords": "visual attention, saliency, eye movements, model benchmarking", 
+        "PDF": "Borji_Analysis_of_Scores_2013_ICCV_paper.pdf", 
+        "Authors": "Ali Borji, Hamed R. Tavakoli, Dicky N. Sihite, Laurent Itti", 
+        "Title": "Analysis of Scores, Datasets, and Models in Visual Saliency Prediction"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Bossard_Event_Recognition_in_2013_ICCV_paper.pdf", 
+        "Authors": "Lukas Bossard, Matthieu Guillaumin, Luc Van_Gool", 
+        "Title": "Event Recognition in Photo Collections with a Stopwatch HMM"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Bouman_Estimating_the_Material_2013_ICCV_paper.pdf", 
+        "Authors": "Katherine L. Bouman, Bei Xiao, Peter Battaglia, William T. Freeman", 
+        "Title": "Estimating the Material Properties of Fabric from Video"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Bradley_Local_Signal_Equalization_2013_ICCV_paper.pdf", 
+        "Authors": "Derek Bradley, Thabo Beeler", 
+        "Title": "Local Signal Equalization for Correspondence Matching"
+    }, 
+    {
+        "Keywords": "multi-object tracking, 3D scene modeling, Bayesian inference, MCMCDA", 
+        "PDF": "Brau_Bayesian_3D_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Ernesto Brau, Jinyan Guan, Kyle Simek, Luca Del Pero, Colin Reimer Dawson, Kobus Barnard", 
+        "Title": "Bayesian 3D Tracking from Monocular Video"
+    }, 
+    {
+        "Keywords": "optical flow, stereo, wide-baseline, non-rigid surface registration, large displacements, features, SIFT, segments", 
+        "PDF": "Braux-Zin_A_General_Dense_2013_ICCV_paper.pdf", 
+        "Authors": "Jim Braux-Zin, Romain Dupont, Adrien Bartoli", 
+        "Title": "A General Dense Image Matching Framework Combining Direct and Feature-Based Costs"
+    }, 
+    {
+        "Keywords": "Face shape, Face recognition, Landmark estimation, Pose estimation", 
+        "PDF": "Burgos-Artizzu_Robust_Face_Landmark_2013_ICCV_paper.pdf", 
+        "Authors": "Xavier P. Burgos-Artizzu, Pietro Perona, Piotr Dollar", 
+        "Title": "Robust Face Landmark Estimation under Occlusion"
+    }, 
+    {
+        "Keywords": "local feature descriptor, binary descriptor, shape representation, feature extraction and matching", 
+        "PDF": "Byrne_Nested_Shape_Descriptors_2013_ICCV_paper.pdf", 
+        "Authors": "Jeffrey Byrne, Jianbo Shi", 
+        "Title": "Nested Shape Descriptors"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Cabral_Unifying_Nuclear_Norm_2013_ICCV_paper.pdf", 
+        "Authors": "Ricardo Cabral, Fernando De_La_Torre, Joao P. Costeira, Alexandre Bernardino", 
+        "Title": "Unifying Nuclear Norm and Bilinear Factorization Approaches for Low-Rank Matrix Decomposition"
+    }, 
+    {
+        "Keywords": "Multi-Modal Feature Integration, Heterogeneous Data Integration, Semi-Supervised Learning", 
+        "PDF": "Cai_Heterogeneous_Image_Features_2013_ICCV_paper.pdf", 
+        "Authors": "Xiao Cai, Feiping Nie, Weidong Cai, Heng Huang", 
+        "Title": "Heterogeneous Image Features Integration via Multi-modal Semi-supervised Learning Model"
+    }, 
+    {
+        "Keywords": "Graph Structured Sparsity, Multi-Label Annotation, Structured Sparsity-Inducing Norm", 
+        "PDF": "Cai_New_Graph_Structured_2013_ICCV_paper.pdf", 
+        "Authors": "Xiao Cai, Feiping Nie, Weidong Cai, Heng Huang", 
+        "Title": "New Graph Structured Sparsity Model for Multi-label Image Annotations"
+    }, 
+    {
+        "Keywords": "structure-from-motion, circular points, dual absolute quadric, absolute quadratic complex, factorization, self-calibration", 
+        "PDF": "Calvet_An_Enhanced_Structure-from-Motion_2013_ICCV_paper.pdf", 
+        "Authors": "Lilian Calvet, Pierre Gurdjos", 
+        "Title": "An Enhanced Structure-from-Motion Paradigm Based on the Absolute Dual Quadric and Images of Circular Points"
+    }, 
+    {
+        "Keywords": "transfer learning, face verification", 
+        "PDF": "Cao_A_Practical_Transfer_2013_ICCV_paper.pdf", 
+        "Authors": "Xudong Cao, David Wipf, Fang Wen, Genquan Duan, Jian Sun", 
+        "Title": "A Practical Transfer Learning Algorithm for Face Verification"
+    }, 
+    {
+        "Keywords": "unconstrained face recognition, metric learning, convex optimization", 
+        "PDF": "Cao_Similarity_Metric_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Qiong Cao, Yiming Ying, Peng Li", 
+        "Title": "Similarity Metric Learning for Face Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Cao_SYM-FISH_A_Symmetry-Aware_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaochun Cao, Hua Zhang, Si Liu, Xiaojie Guo, Liang Lin", 
+        "Title": "SYM-FISH: A Symmetry-Aware Flip Invariant Sketch Histogram Shape Descriptor"
+    }, 
+    {
+        "Keywords": "Computer Vision, Object Recognition, Fine-Grained, Segmentation, Detection", 
+        "PDF": "Chai_Symbiotic_Segmentation_and_2013_ICCV_paper.pdf", 
+        "Authors": "Yuning Chai, Victor Lempitsky, Andrew Zisserman", 
+        "Title": "Symbiotic Segmentation and Part Localization for Fine-Grained Categorization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Chang_Rectangling_Stereographic_Projection_2013_ICCV_paper.pdf", 
+        "Authors": "Che-Han Chang, Min-Chun Hu, Wen-Huang Cheng, Yung-Yu Chuang", 
+        "Title": "Rectangling Stereographic Projection for Wide-Angle Image Visualization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Chang_Stacked_Predictive_Sparse_2013_ICCV_paper.pdf", 
+        "Authors": "Hang Chang, Yin Zhou, Paul Spellman, Bahram Parvin", 
+        "Title": "Stacked Predictive Sparse Coding for Classification of Distinct Regions in Tumor Histopathology"
+    }, 
+    {
+        "Keywords": "tracking, layers, topology, flow", 
+        "PDF": "Chang_Topology-Constrained_Layered_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Jason Chang, John W. Fisher_III", 
+        "Title": "Topology-Constrained Layered Tracking with Latent Flow"
+    }, 
+    {
+        "Keywords": "structure from motion, rotation averaging, lie group, robust estimation", 
+        "PDF": "Chatterjee_Efficient_and_Robust_2013_ICCV_paper.pdf", 
+        "Authors": "Avishek Chatterjee, Venu Madhav Govindu", 
+        "Title": "Efficient and Robust Large-Scale Rotation Averaging"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Chen_A_Generalized_Low-Rank_2013_ICCV_paper.pdf", 
+        "Authors": "Yi-Lei Chen, Chiou-Ting Hsu", 
+        "Title": "A Generalized Low-Rank Appearance Model for Spatio-temporally Correlated Rain Streaks"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Chen_A_Simple_Model_2013_ICCV_paper.pdf", 
+        "Authors": "Qifeng Chen, Vladlen Koltun", 
+        "Title": "A Simple Model for Intrinsic Image Decomposition with Depth Cues"
+    }, 
+    {
+        "Keywords": "facial capture, facial feature detection, 3D facial modeling, kinect, nonrigid registration", 
+        "PDF": "Chen_Accurate_and_Robust_2013_ICCV_paper.pdf", 
+        "Authors": "Yen-Lin Chen, Hsiang-Tao Wu, Fuhao Shi, Xin Tong, Jinxiang Chai", 
+        "Title": "Accurate and Robust 3D Facial Capture Using a Single RGBD Camera"
+    }, 
+    {
+        "Keywords": "Object tracking, Representation, Two-layer template", 
+        "PDF": "Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.pdf", 
+        "Authors": "Dapeng Chen, Zejian Yuan, Yang Wu, Geng Zhang, Nanning Zheng", 
+        "Title": "Constructing Adaptive Complex Cells for Robust Visual Tracking"
+    }, 
+    {
+        "Keywords": "Latent variable models, Latent Structured SVMs, Latent SVMs, Group Norm, State Learning, Coordinate Descent, Concave-Convex Procedure, Object Detection, Deformable Part Models", 
+        "PDF": "Chen_Group_Norm_for_2013_ICCV_paper.pdf", 
+        "Authors": "Daozheng Chen, Dhruv Batra, William T. Freeman", 
+        "Title": "Group Norm for Learning Structured SVMs with Unstructured Latent Variables"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Chen_Learning_a_Dictionary_2013_ICCV_paper.pdf", 
+        "Authors": "Liang-Chieh Chen, George Papandreou, Alan L. Yuille", 
+        "Title": "Learning a Dictionary of Shape Epitomes with Applications to Image Labeling"
+    }, 
+    {
+        "Keywords": "never ending learning, visual knowledge base, common sense relationships, macro vision, object detection, scene classification, attributes, semi-supervised learning", 
+        "PDF": "Chen_NEIL_Extracting_Visual_2013_ICCV_paper.pdf", 
+        "Authors": "Xinlei Chen, Abhinav Shrivastava, Abhinav Gupta", 
+        "Title": "NEIL: Extracting Visual Knowledge from Web Data"
+    }, 
+    {
+        "Keywords": "robust statistics, machine learning", 
+        "PDF": "Chen_Robust_Dictionary_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Zhuoyuan Chen, Ying Wu", 
+        "Title": "Robust Dictionary Learning by Error Source Decomposition"
+    }, 
+    {
+        "Keywords": "salient object detection, visual attention, image abstraction, object of interest segmentation", 
+        "PDF": "Cheng_Efficient_Salient_Region_2013_ICCV_paper.pdf", 
+        "Authors": "Ming-Ming Cheng, Jonathan Warrell, Wen-Yan Lin, Shuai Zheng, Vibhav Vineet, Nigel Crook", 
+        "Title": "Efficient Salient Region Detection with Soft Image Abstraction"
+    }, 
+    {
+        "Keywords": "Face Alignment, Deformable Object Alignment, Face Registration", 
+        "PDF": "Cheng_Rank_Minimization_across_2013_ICCV_paper.pdf", 
+        "Authors": "Xin Cheng, Sridha Sridharan, Jason Saragih, Simon Lucey", 
+        "Title": "Rank Minimization across Appearance and Shape for AAM Ensemble Fitting"
+    }, 
+    {
+        "Keywords": "Sparse coding, group, affine, classification", 
+        "PDF": "Chi_Affine-Constrained_Group_Sparse_2013_ICCV_paper.pdf", 
+        "Authors": "Yu-Tseh Chi, Mohsen Ali, Muhammad Rushdi, Jeffrey Ho", 
+        "Title": "Affine-Constrained Group Sparse Coding and Its Application to Image-Based Classifications"
+    }, 
+    {
+        "Keywords": "Dictionary learning, multiple attributes, sparse coding", 
+        "PDF": "Chiang_Multi-attributed_Dictionary_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Chen-Kuo Chiang, Te-Feng Su, Chih Yen, Shang-Hong Lai", 
+        "Title": "Multi-attributed Dictionary Learning for Sparse Coding"
+    }, 
+    {
+        "Keywords": "graph matching, graph learning, feature correspondence, object recognition", 
+        "PDF": "Cho_Learning_Graphs_to_2013_ICCV_paper.pdf", 
+        "Authors": "Minsu Cho, Karteek Alahari, Jean Ponce", 
+        "Title": "Learning Graphs to Match"
+    }, 
+    {
+        "Keywords": "Lightfield Camera Calibration, Lightfield Image Reconstruction", 
+        "PDF": "Cho_Modeling_the_Calibration_2013_ICCV_paper.pdf", 
+        "Authors": "Donghyeon Cho, Minhaeng Lee, Sunyeong Kim, Yu-Wing Tai", 
+        "Title": "Modeling the Calibration Pipeline of the Lytro Camera for High Quality Light-Field Image Reconstruction"
+    }, 
+    {
+        "Keywords": "Matting, Jpeg Deblocking, Learning", 
+        "PDF": "Choi_A_Learning-Based_Approach_2013_ICCV_paper.pdf", 
+        "Authors": "Inchang Choi, Sunyeong Kim, Michael S. Brown, Yu-Wing Tai", 
+        "Title": "A Learning-Based Approach to Reduce JPEG Artifacts in Image Matting"
+    }, 
+    {
+        "Keywords": "object detection, fisher vectors", 
+        "PDF": "Cinbis_Segmentation_Driven_Object_2013_ICCV_paper.pdf", 
+        "Authors": "Ramazan Gokberk Cinbis, Jakob Verbeek, Cordelia Schmid", 
+        "Title": "Segmentation Driven Object Detection with Fisher Vectors"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Dai_Cosegmentation_and_Cosketch_2013_ICCV_paper.pdf", 
+        "Authors": "Jifeng Dai, Ying Nian Wu, Jie Zhou, Song-Chun Zhu", 
+        "Title": "Cosegmentation and Cosketch by Unsupervised Learning"
+    }, 
+    {
+        "Keywords": "Semi-supervised Learning, Semi-supervised Image Classification, Ensemble Projection, Ensemble Learning, High-level Image Feature Learning", 
+        "PDF": "Dai_Ensemble_Projection_for_2013_ICCV_paper.pdf", 
+        "Authors": "Dengxin Dai, Luc Van_Gool", 
+        "Title": "Ensemble Projection for Semi-supervised Image Classification"
+    }, 
+    {
+        "Keywords": "Facade Modeling, Facade Texture Synthesis, Facade Parsing, Facade Inpainting", 
+        "PDF": "Dai_Example-Based_Facade_Texture_2013_ICCV_paper.pdf", 
+        "Authors": "Dengxin Dai, Hayko Riemenschneider, Gerhard Schmitt, Luc Van_Gool", 
+        "Title": "Example-Based Facade Texture Synthesis"
+    }, 
+    {
+        "Keywords": "Photo Sequencing, multi-view geometry, dynamic events, CrowdCam", 
+        "PDF": "Dekel_Basha_Space-Time_Tradeoffs_in_2013_ICCV_paper.pdf", 
+        "Authors": "Tali Dekel_(Basha), Yael Moses, Shai Avidan", 
+        "Title": "Space-Time Tradeoffs in Photo Sequencing"
+    }, 
+    {
+        "Keywords": "Visual reranking, multi-graph learning, weakly-supervised learning, graph anchor, attribute", 
+        "PDF": "Deng_Visual_Reranking_through_2013_ICCV_paper.pdf", 
+        "Authors": "Cheng Deng, Rongrong Ji, Wei Liu, Dacheng Tao, Xinbo Gao", 
+        "Title": "Visual Reranking through Weakly Supervised Multi-graph Learning"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Diaz_Detecting_Dynamic_Objects_2013_ICCV_paper.pdf", 
+        "Authors": "Raul Diaz, Sam Hallman, Charless C. Fowlkes", 
+        "Title": "Detecting Dynamic Objects with Multi-view Background Subtraction"
+    }, 
+    {
+        "Keywords": "Kinship verification, Facial expression dynamics, Smile dynamics", 
+        "PDF": "Dibeklioglu_Like_Father_Like_2013_ICCV_paper.pdf", 
+        "Authors": "Hamdi Dibeklioglu, Albert Ali Salah, Theo Gevers", 
+        "Title": "Like Father, Like Son: Facial Expression Dynamics for Kinship Verification"
+    }, 
+    {
+        "Keywords": "Multitarget tracking, tracking, motion dynamics, Hankel, Rank Estimation, Generalized Linear Assignment", 
+        "PDF": "Dicle_The_Way_They_2013_ICCV_paper.pdf", 
+        "Authors": "Caglayan Dicle, Octavia I. Camps, Mario Sznaier", 
+        "Title": "The Way They Move: Tracking Multiple Targets with Similar Appearance"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ding_Facial_Action_Unit_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaoyu Ding, Wen-Sheng Chu, Fernando De_La_Torre, Jeffery F. Cohn, Qiao Wang", 
+        "Title": "Facial Action Unit Event Detection by Cascade of Tasks"
+    }, 
+    {
+        "Keywords": "Bag of Words, Latent Dirichlet Allocation, Topic Supervision", 
+        "PDF": "Dixit_Class-Specific_Simplex-Latent_Dirichlet_2013_ICCV_paper.pdf", 
+        "Authors": "Mandar Dixit, Nikhil Rasiwasia, Nuno Vasconcelos", 
+        "Title": "Class-Specific Simplex-Latent Dirichlet Allocation for Image Classification"
+    }, 
+    {
+        "Keywords": "segmentation, multi-view segmentation", 
+        "PDF": "Djelouah_Multi-view_Object_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Abdelaziz Djelouah, Jean-Sebastien Franco, Edmond Boyer, Francois Le_Clerc, Patrick Perez", 
+        "Title": "Multi-view Object Segmentation in Space and Time"
+    }, 
+    {
+        "Keywords": "edge detection, structure learning, realtime vision", 
+        "PDF": "Dollar_Structured_Forests_for_2013_ICCV_paper.pdf", 
+        "Authors": "Piotr Dollar, C. Lawrence Zitnick", 
+        "Title": "Structured Forests for Fast Edge Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Dong_A_Deformable_Mixture_2013_ICCV_paper.pdf", 
+        "Authors": "Jian Dong, Qiang Chen, Wei Xia, Zhongyang Huang, Shuicheng Yan", 
+        "Title": "A Deformable Mixture Parsing Model with Parselets"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Douze_Stable_Hyper-pooling_and_2013_ICCV_paper.pdf", 
+        "Authors": "Matthijs Douze, Jerome Revaud, Cordelia Schmid, Herve Jegou", 
+        "Title": "Stable Hyper-pooling and Query Expansion for Event Detection"
+    }, 
+    {
+        "Keywords": "object tracking", 
+        "PDF": "Duffner_PixelTrack_A_Fast_2013_ICCV_paper.pdf", 
+        "Authors": "Stefan Duffner, Christophe Garcia", 
+        "Title": "PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Efrat_Accurate_Blur_Models_2013_ICCV_paper.pdf", 
+        "Authors": "Netalee Efrat, Daniel Glasner, Alexander Apartsin, Boaz Nadler, Anat Levin", 
+        "Title": "Accurate Blur Models vs. Image Priors in Single Image Super-resolution"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Eigen_Restoring_an_Image_2013_ICCV_paper.pdf", 
+        "Authors": "David Eigen, Dilip Krishnan, Rob Fergus", 
+        "Title": "Restoring an Image Taken through a Window Covered with Dirt or Rain"
+    }, 
+    {
+        "Keywords": "Mean curvature, PdE on graphs, data restoration", 
+        "PDF": "El_Chakik_On_the_Mean_2013_ICCV_paper.pdf", 
+        "Authors": "Abdallah El_Chakik, Abderrahim Elmoataz, Ahcene Sadi", 
+        "Title": "On the Mean Curvature Flow on Graphs with Applications in Image and Manifold Processing"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Elhamifar_A_Convex_Optimization_2013_ICCV_paper.pdf", 
+        "Authors": "Ehsan Elhamifar, Guillermo Sapiro, Allen Yang, S. Shankar Sasrty", 
+        "Title": "A Convex Optimization Framework for Active Learning"
+    }, 
+    {
+        "Keywords": "Zero shot learning, object recognition, fine grained object recognition, computer vision, domain adaptation", 
+        "PDF": "Elhoseiny_Write_a_Classifier_2013_ICCV_paper.pdf", 
+        "Authors": "Mohamed Elhoseiny, Babak Saleh, Ahmed Elgammal", 
+        "Title": "Write a Classifier: Zero-Shot Learning Using Purely Textual Descriptions"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Elqursh_Online_Motion_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Ali Elqursh, Ahmed Elgammal", 
+        "Title": "Online Motion Segmentation Using Dynamic Label Propagation"
+    }, 
+    {
+        "Keywords": "SLAM, visual odometry, monocular, dense, stereo", 
+        "PDF": "Engel_Semi-dense_Visual_Odometry_2013_ICCV_paper.pdf", 
+        "Authors": "Jakob Engel, Jurgen Sturm, Daniel Cremers", 
+        "Title": "Semi-dense Visual Odometry for a Monocular Camera"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Eshet_DCSH_-_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Yaron Eshet, Simon Korman, Eyal Ofek, Shai Avidan", 
+        "Title": "DCSH - Matching Patches in RGBD Images"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Faktor_Co-segmentation_by_Composition_2013_ICCV_paper.pdf", 
+        "Authors": "Alon Faktor, Michal Irani", 
+        "Title": "Co-segmentation by Composition"
+    }, 
+    {
+        "Keywords": "abandoned object detection, large-scale deployment, video surveillance, alert ranking, relative attributes", 
+        "PDF": "Fan_Relative_Attributes_for_2013_ICCV_paper.pdf", 
+        "Authors": "Quanfu Fan, Prasad Gabbur, Sharath Pankanti", 
+        "Title": "Relative Attributes for Large-Scale Abandoned Object Detection"
+    }, 
+    {
+        "Keywords": "binary code, indexing, matching, approximate nearest neighbor search, Jensen Shannon Divergence, randomized tree", 
+        "PDF": "Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf", 
+        "Authors": "Lixin Fan", 
+        "Title": "Supervised Binary Hash Code Learning with Jensen Shannon Divergence"
+    }, 
+    {
+        "Keywords": "dataset bias, metric learning, domain generalization, web images", 
+        "PDF": "Fang_Unbiased_Metric_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Chen Fang, Ye Xu, Daniel N. Rockmore", 
+        "Title": "Unbiased Metric Learning: On the Utilization of Multiple Datasets and Web Images for Softening Bias"
+    }, 
+    {
+        "Keywords": "Kernel Metric Learning, Image Annotation, Efficient, Theoretical guarantee, Regression", 
+        "PDF": "Feng_Large-Scale_Image_Annotation_2013_ICCV_paper.pdf", 
+        "Authors": "Zheyun Feng, Rong Jin, Anil Jain", 
+        "Title": "Large-Scale Image Annotation by Efficient and Robust Kernel Metric Learning"
+    }, 
+    {
+        "Keywords": "Super-resolution, group sparsity, camera projection, low-rank textures, convex optimization, transform invariance, deblurring", 
+        "PDF": "Fernandez-Granda_Super-resolution_via_Transform-Invariant_2013_ICCV_paper.pdf", 
+        "Authors": "Carlos Fernandez-Granda, Emmanuel J. Candes", 
+        "Title": "Super-resolution via Transform-Invariant Group-Sparse Regularization"
+    }, 
+    {
+        "Keywords": "multiple query object retrieval, image retrieval, feature configurations, mid-level image representation, mid-level patterns", 
+        "PDF": "Fernando_Mining_Multiple_Queries_2013_ICCV_paper.pdf", 
+        "Authors": "Basura Fernando, Tinne Tuytelaars", 
+        "Title": "Mining Multiple Queries for Image Retrieval: On-the-Fly Learning of an Object-Specific Mid-level Representation"
+    }, 
+    {
+        "Keywords": "domain adaptation, subspace alignment, object recognition", 
+        "PDF": "Fernando_Unsupervised_Visual_Domain_2013_ICCV_paper.pdf", 
+        "Authors": "Basura Fernando, Amaury Habrard, Marc Sebban, Tinne Tuytelaars", 
+        "Title": "Unsupervised Visual Domain Adaptation Using Subspace Alignment"
+    }, 
+    {
+        "Keywords": "upsampling, superresolution, depth sensing, anisotropic tensor, total generalized variation, optimization, computer vision", 
+        "PDF": "Ferstl_Image_Guided_Depth_2013_ICCV_paper.pdf", 
+        "Authors": "David Ferstl, Christian Reinbacher, Rene Ranftl, Matthias Ruether, Horst Bischof", 
+        "Title": "Image Guided Depth Upsampling Using Anisotropic Total Generalized Variation"
+    }, 
+    {
+        "Keywords": "Color, Color Constancy, Illuminant Estimation, Statistical Moments", 
+        "PDF": "Finlayson_Corrected-Moment_Illuminant_Estimation_2013_ICCV_paper.pdf", 
+        "Authors": "Graham D. Finlayson", 
+        "Title": "Corrected-Moment Illuminant Estimation"
+    }, 
+    {
+        "Keywords": "Max flow, Graph cuts, Structured prediction", 
+        "PDF": "Fix_Structured_Learning_of_2013_ICCV_paper.pdf", 
+        "Authors": "Alexander Fix, Thorsten Joachims, Sam Park, Ramin Zabih", 
+        "Title": "Structured Learning of Sum-of-Submodular Higher Order Energy Functions"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Fouhey_Data-Driven_3D_Primitives_2013_ICCV_paper.pdf", 
+        "Authors": "David F. Fouhey, Abhinav Gupta, Martial Hebert", 
+        "Title": "Data-Driven 3D Primitives for Single Image Understanding"
+    }, 
+    {
+        "Keywords": "extreme value theory, ransac, robust estimation", 
+        "PDF": "Fragoso_EVSAC_Accelerating_Hypotheses_2013_ICCV_paper.pdf", 
+        "Authors": "Victor Fragoso, Pradeep Sen, Sergio Rodriguez, Matthew Turk", 
+        "Title": "EVSAC: Accelerating Hypotheses Generation by Modeling Matching Scores with Extreme Value Theory"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Fu_Separating_Reflective_and_2013_ICCV_paper.pdf", 
+        "Authors": "Ying Fu, Antony Lam, Imari Sato, Takahiro Okabe, Yoichi Sato", 
+        "Title": "Separating Reflective and Fluorescent Components Using High Frequency Illumination in the Spectral Domain"
+    }, 
+    {
+        "Keywords": "Video segmentation, Benchmark, Video analysis, Dataset, Metrics, Motion segmentation, Non-rigid motion, Camera motion, Hierarchical segmentation, Image segmentation", 
+        "PDF": "Galasso_A_Unified_Video_2013_ICCV_paper.pdf", 
+        "Authors": "Fabio Galasso, Naveen Shankar Nagaraja, Tatiana Jimenez Cardenas, Thomas Brox, Bernt Schiele", 
+        "Title": "A Unified Video Segmentation Benchmark: Annotation, Metrics and Analysis"
+    }, 
+    {
+        "Keywords": "multi channel features, correlation filter learning, pattern recognition", 
+        "PDF": "Galoogahi_Multi-channel_Correlation_Filters_2013_ICCV_paper.pdf", 
+        "Authors": "Hamed Kiani Galoogahi, Terence Sim, Simon Lucey", 
+        "Title": "Multi-channel Correlation Filters"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Gandhi_Decomposing_Bag_of_2013_ICCV_paper.pdf", 
+        "Authors": "Ankit Gandhi, Karteek Alahari, C.V. Jawahar", 
+        "Title": "Decomposing Bag of Words Histograms"
+    }, 
+    {
+        "Keywords": "color constancy, HVS, double-opponency Mechanism", 
+        "PDF": "Gao_A_Color_Constancy_2013_ICCV_paper.pdf", 
+        "Authors": "Shaobing Gao, Kaifu Yang, Chaoyi Li, Yongjie Li", 
+        "Title": "A Color Constancy Model with Double-Opponency Mechanisms"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Gao_Discriminant_Tracking_Using_2013_ICCV_paper.pdf", 
+        "Authors": "Jin Gao, Junliang Xing, Weiming Hu, Steve Maybank", 
+        "Title": "Discriminant Tracking Using Tensor Representation with Semi-supervised Improvement"
+    }, 
+    {
+        "Keywords": "fine-grained categorization", 
+        "PDF": "Gavves_Fine-Grained_Categorization_by_2013_ICCV_paper.pdf", 
+        "Authors": "E. Gavves, B. Fernando, C.G.M. Snoek, A.W.M. Smeulders, T. Tuytelaars", 
+        "Title": "Fine-Grained Categorization by Alignments"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Gilinsky_SIFTpack_A_Compact_2013_ICCV_paper.pdf", 
+        "Authors": "Alexandra Gilinsky, Lihi Zelnik Manor", 
+        "Title": "SIFTpack: A Compact Representation for Efficient SIFT Matching"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Girshick_Training_Deformable_Part_2013_ICCV_paper.pdf", 
+        "Authors": "Ross Girshick, Jitendra Malik", 
+        "Title": "Training Deformable Part Models with Decorrelated Features"
+    }, 
+    {
+        "Keywords": "Age invariance, face recognition", 
+        "PDF": "Gong_Hidden_Factor_Analysis_2013_ICCV_paper.pdf", 
+        "Authors": "Dihong Gong, Zhifeng Li, Dahua Lin, Jianzhuang Liu, Xiaoou Tang", 
+        "Title": "Hidden Factor Analysis for Age Invariant Face Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Gridchyn_Potts_Model_Parametric_2013_ICCV_paper.pdf", 
+        "Authors": "Igor Gridchyn, Vladimir Kolmogorov", 
+        "Title": "Potts Model, Parametric Maxflow and K-Submodular Functions"
+    }, 
+    {
+        "Keywords": "Large-scale activity recognition, Describing Activities in videos, Recognizing activities in videos, semantic hierarchies, zero-shot learning", 
+        "PDF": "Guadarrama_YouTube2Text_Recognizing_and_2013_ICCV_paper.pdf", 
+        "Authors": "Sergio Guadarrama, Niveda Krishnamoorthy, Girish Malkarnenkar, Subhashini Venugopalan, Raymond Mooney, Trevor Darrell, Kate Saenko", 
+        "Title": "YouTube2Text: Recognizing and Describing Arbitrary Activities Using Semantic Hierarchies and Zero-Shot Recognition"
+    }, 
+    {
+        "Keywords": "image descriptor, multiple kernel learning, domain adaptation", 
+        "PDF": "Guo_An_Adaptive_Descriptor_2013_ICCV_paper.pdf", 
+        "Authors": "Zhenyu Guo, Z. Jane Wang", 
+        "Title": "An Adaptive Descriptor Design for Object Recognition in the Wild"
+    }, 
+    {
+        "Keywords": "RGBD, scene understanding, image parsing, support surfaces", 
+        "PDF": "Guo_Support_Surface_Prediction_2013_ICCV_paper.pdf", 
+        "Authors": "Ruiqi Guo, Derek Hoiem", 
+        "Title": "Support Surface Prediction in Indoor Scenes"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Guo_Video_Co-segmentation_for_2013_ICCV_paper.pdf", 
+        "Authors": "Jiaming Guo, Zhuwen Li, Loong-Fah Cheong, Steven Zhiying Zhou", 
+        "Title": "Video Co-segmentation for Meaningful Action Extraction"
+    }, 
+    {
+        "Keywords": "high dynamic range imaging, computational imaging, computational cameras, outdoor imaging, low light imaging, high performance imaging", 
+        "PDF": "Gupta_Fibonacci_Exposure_Bracketing_2013_ICCV_paper.pdf", 
+        "Authors": "Mohit Gupta, Daisuke Iso, Shree K. Nayar", 
+        "Title": "Fibonacci Exposure Bracketing for High Dynamic Range Imaging"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Gupta_Non-convex_P-Norm_Projection_2013_ICCV_paper.pdf", 
+        "Authors": "Mithun Das Gupta, Sanjeev Kumar", 
+        "Title": "Non-convex P-Norm Projection for Robust Sparsity"
+    }, 
+    {
+        "Keywords": "structured light, 3D scanning, ambient illumination, outdoors, projector, camera, robotics, autonomous navigation, pico projector, low-power projector, light source", 
+        "PDF": "Gupta_Structured_Light_in_2013_ICCV_paper.pdf", 
+        "Authors": "Mohit Gupta, Qi Yin, Shree K. Nayar", 
+        "Title": "Structured Light in Sunlight"
+    }, 
+    {
+        "Keywords": "Image Classification, Image Retrival, Human Interest, Interestingness", 
+        "PDF": "Gygli_The_Interestingness_of_2013_ICCV_paper.pdf", 
+        "Authors": "Michael Gygli, Helmut Grabner, Hayko Riemenschneider, Fabian Nater, Luc Van_Gool", 
+        "Title": "The Interestingness of Images"
+    }, 
+    {
+        "Keywords": "deblurring, image restoration", 
+        "PDF": "Hacohen_Deblurring_by_Example_2013_ICCV_paper.pdf", 
+        "Authors": "Yoav Hacohen, Eli Shechtman, Dani Lischinski", 
+        "Title": "Deblurring by Example Using Dense Correspondence"
+    }, 
+    {
+        "Keywords": "shape-from-shading, shape estimation, kinect", 
+        "PDF": "Han_High_Quality_Shape_2013_ICCV_paper.pdf", 
+        "Authors": "Yudeog Han, Joon-Young Lee, In So Kweon", 
+        "Title": "High Quality Shape from a Single RGB-D Image under Uncalibrated Natural Illumination"
+    }, 
+    {
+        "Keywords": "Grassmann manifolds, sparse coding, dictionary learning, image-set, dynamic texture classification, action recognition", 
+        "PDF": "Harandi_Dictionary_Learning_and_2013_ICCV_paper.pdf", 
+        "Authors": "Mehrtash Harandi, Conrad Sanderson, Chunhua Shen, Brian Lovell", 
+        "Title": "Dictionary Learning and Sparse Coding on Grassmann Manifolds: An Extrinsic Solution"
+    }, 
+    {
+        "Keywords": "Single-view 3D reconstruction, Monocular 3D, Faces", 
+        "PDF": "Hassner_Viewing_Real-World_Faces_2013_ICCV_paper.pdf", 
+        "Authors": "Tal Hassner", 
+        "Title": "Viewing Real-World Faces in 3D"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "He_Content-Aware_Rotation_2013_ICCV_paper.pdf", 
+        "Authors": "Kaiming He, Huiwen Chang, Jian Sun", 
+        "Title": "Content-Aware Rotation"
+    }, 
+    {
+        "Keywords": "subpixel stereo matching, second-order prior, variational formulation, quadratic relaxation, PatchMatch", 
+        "PDF": "Heise_PM-Huber_PatchMatch_with_2013_ICCV_paper.pdf", 
+        "Authors": "Philipp Heise, Sebastian Klose, Brian Jensen, Alois Knoll", 
+        "Title": "PM-Huber: PatchMatch with Huber Regularization for Stereo Matching"
+    }, 
+    {
+        "Keywords": "Depth tracking, sensor fusion, inertial sensors, real-time", 
+        "PDF": "Helten_Real-Time_Body_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Thomas Helten, Meinard Muller, Hans-Peter Seidel, Christian Theobalt", 
+        "Title": "Real-Time Body Tracking with One Depth Camera and Inertial Sensors"
+    }, 
+    {
+        "Keywords": "detection, hard negative mining, support vector machine, filtering, fourier transform, circulant matrix, block-diagonalization", 
+        "PDF": "Henriques_Beyond_Hard_Negative_2013_ICCV_paper.pdf", 
+        "Authors": "Joao F. Henriques, Joao Carreira, Rui Caseiro, Jorge Batista", 
+        "Title": "Beyond Hard Negative Mining: Efficient Detector Learning via Block-Circulant Decomposition"
+    }, 
+    {
+        "Keywords": "offline tracking, Bayesian model averaging", 
+        "PDF": "Hong_Orderless_Tracking_through_2013_ICCV_paper.pdf", 
+        "Authors": "Seunghoon Hong, Suha Kwak, Bohyung Han", 
+        "Title": "Orderless Tracking through Model-Averaged Posterior Estimation"
+    }, 
+    {
+        "Keywords": "Tracking, Multi-task, Multi-view, Outliers, Sparse Representation", 
+        "PDF": "Hong_Tracking_via_Robust_2013_ICCV_paper.pdf", 
+        "Authors": "Zhibin Hong, Xue Mei, Danil Prokhorov, Dacheng Tao", 
+        "Title": "Tracking via Robust Multi-task Multi-view Joint Sparse Representation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Hu_Multi-scale_Topological_Features_2013_ICCV_paper.pdf", 
+        "Authors": "Kaoning Hu, Lijun Yin", 
+        "Title": "Multi-scale Topological Features for Hand Posture Representation and Analysis"
+    }, 
+    {
+        "Keywords": "Human-Object Interaction, exemplar modelling, action recognition", 
+        "PDF": "Hu_Recognising_Human-Object_Interaction_2013_ICCV_paper.pdf", 
+        "Authors": "Jian-Fang Hu, Wei-Shi Zheng, Jianhuang Lai, Shaogang Gong, Tao Xiang", 
+        "Title": "Recognising Human-Object Interaction via Exemplar Based Modelling"
+    }, 
+    {
+        "Keywords": "Active Learning, Crowdsourcing, Kernel Machine Ensemble, Visual Recognition", 
+        "PDF": "Hua_Collaborative_Active_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Gang Hua, Chengjiang Long, Ming Yang, Yan Gao", 
+        "Title": "Collaborative Active Learning of a Kernel Machine Ensemble for Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Huang_Coupled_Dictionary_and_2013_ICCV_paper.pdf", 
+        "Authors": "De-An Huang, Yu-Chiang Frank Wang", 
+        "Title": "Coupled Dictionary and Feature Space Learning with Applications to Cross-Domain Image Synthesis and Recognition"
+    }, 
+    {
+        "Keywords": "still-to-video face recognition, coupling alignments with recognition", 
+        "PDF": "Huang_Coupling_Alignments_with_2013_ICCV_paper.pdf", 
+        "Authors": "Zhiwu Huang, Xiaowei Zhao, Shiguang Shan, Ruiping Wang, Xilin Chen", 
+        "Title": "Coupling Alignments with Recognition for Still-to-Video Face Recognition"
+    }, 
+    {
+        "Keywords": "Low-level filter, stroke width transform, text component, text covariance descriptors", 
+        "PDF": "Huang_Text_Localization_in_2013_ICCV_paper.pdf", 
+        "Authors": "Weilin Huang, Zhe Lin, Jianchao Yang, Jue Wang", 
+        "Title": "Text Localization in Natural Images Using Stroke Feature Transform and Text Covariance Descriptors"
+    }, 
+    {
+        "Keywords": "data assimilation, galerkin projection, motion estimation, reduced model, satellite image", 
+        "PDF": "Huot_Optimal_Orthogonal_Basis_2013_ICCV_paper.pdf", 
+        "Authors": "Etienne Huot, Giuseppe Papari, Isabelle Herlin", 
+        "Title": "Optimal Orthogonal Basis and Image Assimilation: Motion Modeling"
+    }, 
+    {
+        "Keywords": "Face Recognition, Markov Network, Unified Framework", 
+        "PDF": "Hwang_Markov_Network-Based_Unified_2013_ICCV_paper.pdf", 
+        "Authors": "Wonjun Hwang, Kyungshik Roh, Junmo Kim", 
+        "Title": "Markov Network-Based Unified Classifier for Face Identification"
+    }, 
+    {
+        "Keywords": "Neighbor-To-Neighbor Search, Gaussian mixture model, Bag of visual word, Fisher kernel, Image classification", 
+        "PDF": "Inoue_Neighbor-to-Neighbor_Search_for_2013_ICCV_paper.pdf", 
+        "Authors": "Nakamasa Inoue, Koichi Shinoda", 
+        "Title": "Neighbor-to-Neighbor Search for Fast Coding of Feature Vectors"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Isola_Scene_Collaging_Analysis_2013_ICCV_paper.pdf", 
+        "Authors": "Phillip Isola, Ce Liu", 
+        "Title": "Scene Collaging: Analysis and Synthesis of Natural Images with Semantic Layers"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Iwamura_What_is_the_2013_ICCV_paper.pdf", 
+        "Authors": "Masakazu Iwamura, Tomokazu Sato, Koichi Kise", 
+        "Title": "What is the Most EfficientWay to Select Nearest Neighbor Candidates for Fast Approximate Nearest Neighbor Search?"
+    }, 
+    {
+        "Keywords": "specular surface reconstruction, reflection, reflective surface reconstruction, normal map capture", 
+        "PDF": "Jacquet_Real-World_Normal_Map_2013_ICCV_paper.pdf", 
+        "Authors": "Bastien Jacquet, Christian Hane, Kevin Koser, Marc Pollefeys", 
+        "Title": "Real-World Normal Map Capture for Nearly Flat Reflective Surfaces"
+    }, 
+    {
+        "Keywords": "Face detection, domain adaptation, classification cascades", 
+        "PDF": "Jain_Adapting_Classification_Cascades_2013_ICCV_paper.pdf", 
+        "Authors": "Vidit Jain, Sachin Sudhakar Farfade", 
+        "Title": "Adapting Classification Cascades to New Domains"
+    }, 
+    {
+        "Keywords": "Video segmentation, Image segmentation, hierarchical inference, coarse-to-fine inference, energy minimization", 
+        "PDF": "Jain_Coarse-to-Fine_Semantic_Video_2013_ICCV_paper.pdf", 
+        "Authors": "Aastha Jain, Shuanak Chatterjee, Rene Vidal", 
+        "Title": "Coarse-to-Fine Semantic Video Segmentation Using Supervoxel Trees"
+    }, 
+    {
+        "Keywords": "higher-order grouping, tensor decomposition, subspace estimation, grassmann manifold, motion segmentation", 
+        "PDF": "Jain_Efficient_Higher-Order_Clustering_2013_ICCV_paper.pdf", 
+        "Authors": "Suraj Jain, Venu Madhav Govindu", 
+        "Title": "Efficient Higher-Order Clustering on the Grassmann Manifold"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Jain_Predicting_Sufficient_Annotation_2013_ICCV_paper.pdf", 
+        "Authors": "Suyog Dutt Jain, Kristen Grauman", 
+        "Title": "Predicting Sufficient Annotation Strength for Interactive Foreground Segmentation"
+    }, 
+    {
+        "Keywords": "Shape manifold, Positive definite kernels, Mercer kernels, Shape analysis", 
+        "PDF": "Jayasumana_A_Framework_for_2013_ICCV_paper.pdf", 
+        "Authors": "Sadeep Jayasumana, Mathieu Salzmann, Hongdong Li, Mehrtash Harandi", 
+        "Title": "A Framework for Shape Analysis via Hilbert Space Embedding"
+    }, 
+    {
+        "Keywords": "Computational Photography, Deblurring, Coded Exposure", 
+        "PDF": "Jeon_Fluttering_Pattern_Generation_2013_ICCV_paper.pdf", 
+        "Authors": "Hae-Gon Jeon, Joon-Young Lee, Yudeog Han, Seon Joo Kim, In So Kweon", 
+        "Title": "Fluttering Pattern Generation Using Modified Legendre Sequence for Coded Exposure Imaging"
+    }, 
+    {
+        "Keywords": "action recognition, dataset, JHMDB, annotation, optical flow estimation, pose estimation", 
+        "PDF": "Jhuang_Towards_Understanding_Action_2013_ICCV_paper.pdf", 
+        "Authors": "Hueihan Jhuang, Juergen Gall, Silvia Zuffi, Cordelia Schmid, Michael J. Black", 
+        "Title": "Towards Understanding Action Recognition"
+    }, 
+    {
+        "Keywords": "saliency detection, objectness", 
+        "PDF": "Jia_Category-Independent_Object-Level_Saliency_2013_ICCV_paper.pdf", 
+        "Authors": "Yangqing Jia, Mei Han", 
+        "Title": "Category-Independent Object-Level Saliency Detection"
+    }, 
+    {
+        "Keywords": "object recognition, image classification, large scale, optimization", 
+        "PDF": "Jia_Latent_Task_Adaptation_2013_ICCV_paper.pdf", 
+        "Authors": "Yangqing Jia, Trevor Darrell", 
+        "Title": "Latent Task Adaptation with Large-Scale Hierarchies"
+    }, 
+    {
+        "Keywords": "structure-from-motion", 
+        "PDF": "Jiang_A_Global_Linear_2013_ICCV_paper.pdf", 
+        "Authors": "Nianjuan Jiang, Zhaopeng Cui, Ping Tan", 
+        "Title": "A Global Linear Method for Camera Pose Registration"
+    }, 
+    {
+        "Keywords": "saliency detection, object detection, absorbing Markov chain", 
+        "PDF": "Jiang_Saliency_Detection_via_2013_ICCV_paper.pdf", 
+        "Authors": "Bowen Jiang, Lihe Zhang, Huchuan Lu, Chuan Yang, Ming-Hsuan Yang", 
+        "Title": "Saliency Detection via Absorbing Markov Chain"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Jiang_Salient_Region_Detection_2013_ICCV_paper.pdf", 
+        "Authors": "Peng Jiang, Haibin Ling, Jingyi Yu, Jingliang Peng", 
+        "Title": "Salient Region Detection by UFO: Uniqueness, Focusness and Objectness"
+    }, 
+    {
+        "Keywords": "Approximate Nearest Neighbor Search, Hashing", 
+        "PDF": "Jin_Complementary_Projection_Hashing_2013_ICCV_paper.pdf", 
+        "Authors": "Zhongming Jin, Yao Hu, Yue Lin, Debing Zhang, Shiding Lin, Deng Cai, Xuelong Li", 
+        "Title": "Complementary Projection Hashing"
+    }, 
+    {
+        "Keywords": "Human Attribute, Fine-grained Recognition, Weakly-Supervised Learning", 
+        "PDF": "Joo_Human_Attribute_Recognition_2013_ICCV_paper.pdf", 
+        "Authors": "Jungseock Joo, Shuo Wang, Song-Chun Zhu", 
+        "Title": "Human Attribute Recognition by Rich Appearance Dictionary"
+    }, 
+    {
+        "Keywords": "Structure from Motion, underwater, refraction, 3D model", 
+        "PDF": "Jordt-Sedlazeck_Refractive_Structure-from-Motion_on_2013_ICCV_paper.pdf", 
+        "Authors": "Anne Jordt-Sedlazeck, Reinhard Koch", 
+        "Title": "Refractive Structure-from-Motion on Underwater Images"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kahler_Efficient_3D_Scene_2013_ICCV_paper.pdf", 
+        "Authors": "Olaf Kahler, Ian Reid", 
+        "Title": "Efficient 3D Scene Labeling Using Fields of Trees"
+    }, 
+    {
+        "Keywords": "Eye Tracking, Dog and Cat Detection, Text Detection", 
+        "PDF": "Karthikeyan_From_Where_and_2013_ICCV_paper.pdf", 
+        "Authors": "S. Karthikeyan, Vignesh Jagadeesh, Renuka Shenoy, Miguel Ecksteinz, B.S. Manjunath", 
+        "Title": "From Where and How to What We See"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kazmar_Drosophila_Embryo_Stage_2013_ICCV_paper.pdf", 
+        "Authors": "Tomas Kazmar, Evgeny Z. Kvon, Alexander Stark, Christoph H. Lampert", 
+        "Title": "Drosophila Embryo Stage Annotation Using Label Propagation"
+    }, 
+    {
+        "Keywords": "morphable model, faces, 3D reconstruction, photometric stereo, single view, optical flow", 
+        "PDF": "Kemelmacher-Shlizerman_Internet_Based_Morphable_2013_ICCV_paper.pdf", 
+        "Authors": "Ira Kemelmacher-Shlizerman", 
+        "Title": "Internet Based Morphable Model"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Khosla_Modifying_the_Memorability_2013_ICCV_paper.pdf", 
+        "Authors": "Aditya Khosla, Wilma A. Bainbridge, Antonio Torralba, Aude Oliva", 
+        "Title": "Modifying the Memorability of Face Photographs"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kiechle_A_Joint_Intensity_2013_ICCV_paper.pdf", 
+        "Authors": "Martin Kiechle, Simon Hawe, Martin Kleinsteuber", 
+        "Title": "A Joint Intensity and Depth Co-sparse Analysis Model for Depth Map Super-resolution"
+    }, 
+    {
+        "Keywords": "Scene understanding, 3D reconstruction, RGB-D", 
+        "PDF": "Kim_3D_Scene_Understanding_2013_ICCV_paper.pdf", 
+        "Authors": "Byung-Soo Kim, Pushmeet Kohli, Silvio Savarese", 
+        "Title": "3D Scene Understanding by Voxel-CRF"
+    }, 
+    {
+        "Keywords": "Semi-supervised learning, manifold, regularization", 
+        "PDF": "Kim_Curvature-Aware_Regularization_on_2013_ICCV_paper.pdf", 
+        "Authors": "Kwang In Kim, James Tompkin, Christian Theobalt", 
+        "Title": "Curvature-Aware Regularization on Riemannian Submanifolds"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kim_Dynamic_Scene_Deblurring_2013_ICCV_paper.pdf", 
+        "Authors": "Tae Hyun Kim, Byeongjoo Ahn, Kyoung Mu Lee", 
+        "Title": "Dynamic Scene Deblurring"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kim_Fingerspelling_Recognition_with_2013_ICCV_paper.pdf", 
+        "Authors": "Taehwan Kim, Greg Shakhnarovich, Karen Livescu", 
+        "Title": "Fingerspelling Recognition with Semi-Markov Conditional Random Fields"
+    }, 
+    {
+        "Keywords": "3D reconstruction, Radial 1D camera, Matrix rank minimization", 
+        "PDF": "Kim_Multi-view_3D_Reconstruction_2013_ICCV_paper.pdf", 
+        "Authors": "Jae-Hak Kim, Yuchao Dai, Hongdong Li, Xin Du, Jonghyuk Kim", 
+        "Title": "Multi-view 3D Reconstruction from Uncalibrated Radially-Symmetric Cameras"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kim_Optical_Flow_via_2013_ICCV_paper.pdf", 
+        "Authors": "Tae Hyun Kim, Hee Seok Lee, Kyoung Mu Lee", 
+        "Title": "Optical Flow via Locally Adaptive Fusion of Complementary Data Costs"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kirmani_First-Photon_Imaging_Scene_2013_ICCV_paper.pdf", 
+        "Authors": "Ahmed Kirmani, Dongeek Shin, Dheera Venkatraman, Franco N. C. Wong, Vivek K Goyal", 
+        "Title": "First-Photon Imaging: Scene Depth and Reflectance Acquisition from One Detected Photon per Pixel"
+    }, 
+    {
+        "Keywords": "geometric computer vision, structure-from-motion, rolling-shutter cameras", 
+        "PDF": "Klingner_Street_View_Motion-from-Structure-from-Motion_2013_ICCV_paper.pdf", 
+        "Authors": "Bryan Klingner, David Martin, James Roseborough", 
+        "Title": "Street View Motion-from-Structure-from-Motion"
+    }, 
+    {
+        "Keywords": "Geometric Vision, Relative Pose Computation", 
+        "PDF": "Kneip_Direct_Optimization_of_2013_ICCV_paper.pdf", 
+        "Authors": "Laurent Kneip, Simon Lynen", 
+        "Title": "Direct Optimization of Frame-to-Frame Rotation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kokkinos_Shufflets_Shared_Mid-level_2013_ICCV_paper.pdf", 
+        "Authors": "Iasonas Kokkinos", 
+        "Title": "Shufflets: Shared Mid-level Parts for Fast Object Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kong_A_New_Image_2013_ICCV_paper.pdf", 
+        "Authors": "Xiangfei Kong, Kuan Li, Qingxiong Yang, Liu Wenyin, Ming-Hsuan Yang", 
+        "Title": "A New Image Quality Metric for Image Auto-denoising"
+    }, 
+    {
+        "Keywords": "Mahalanobis Metric Learning, Prototype Learning, k-NN Classification, k-Nearest Prototype Classification, Speedup, Evaluation Time", 
+        "PDF": "Kostinger_Joint_Learning_of_2013_ICCV_paper.pdf", 
+        "Authors": "Martin Kostinger, Paul Wohlhart, Peter M. Roth, Horst Bischof", 
+        "Title": "Joint Learning of Discriminative Prototypes and Large Margin Nearest Neighbor Classifiers"
+    }, 
+    {
+        "Keywords": "attributes, personalization, domain adaptation, image retrieval", 
+        "PDF": "Kovashka_Attribute_Adaptation_for_2013_ICCV_paper.pdf", 
+        "Authors": "Adriana Kovashka, Kristen Grauman", 
+        "Title": "Attribute Adaptation for Personalized Image Search"
+    }, 
+    {
+        "Keywords": "relative attributes, image retrieval, relevance feedback, active selection", 
+        "PDF": "Kovashka_Attribute_Pivots_for_2013_ICCV_paper.pdf", 
+        "Authors": "Adriana Kovashka, Kristen Grauman", 
+        "Title": "Attribute Pivots for Guiding Relevance Feedback in Image Search"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kuang_Pose_Estimation_with_2013_ICCV_paper.pdf", 
+        "Authors": "Yubin Kuang, Kalle Astrom", 
+        "Title": "Pose Estimation with Unknown Focal Length Using Points, Directions and Lines"
+    }, 
+    {
+        "Keywords": "absolute pose, radial distortion, focal length, 3D reconstruction", 
+        "PDF": "Kukelova_Real-Time_Solution_to_2013_ICCV_paper.pdf", 
+        "Authors": "Zuzana Kukelova, Martin Bujnak, Tomas Pajdla", 
+        "Title": "Real-Time Solution to the Absolute Pose Problem with Unknown Radial Distortion and Focal Length"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Kumar_Discriminative_Label_Propagation_2013_ICCV_paper.pdf", 
+        "Authors": "K.C. Amit Kumar, Christophe De_Vleeschouwer", 
+        "Title": "Discriminative Label Propagation for Multi-object Tracking with Sporadic Appearance Features"
+    }, 
+    {
+        "Keywords": "Camera Alignment, Trajectory Matching, Unsynchronized Videos", 
+        "PDF": "Kuo_Camera_Alignment_Using_2013_ICCV_paper.pdf", 
+        "Authors": "Thomas Kuo, Santhoshkumar Sunderrajan, B.S. Manjunath", 
+        "Title": "Camera Alignment Using Trajectory Intersections in Unsynchronized Videos"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lan_From_Subcategories_to_2013_ICCV_paper.pdf", 
+        "Authors": "Tian Lan, Michalis Raptis, Leonid Sigal, Greg Mori", 
+        "Title": "From Subcategories to Visual Composites: A Multi-level Framework for Object Detection"
+    }, 
+    {
+        "Keywords": "metric learning, machine learning", 
+        "PDF": "Law_Quadruplet-Wise_Image_Similarity_2013_ICCV_paper.pdf", 
+        "Authors": "Marc T. Law, Nicolas Thome, Matthieu Cord", 
+        "Title": "Quadruplet-Wise Image Similarity Learning"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lee_Detecting_Curved_Symmetric_2013_ICCV_paper.pdf", 
+        "Authors": "Tom Sie Ho Lee, Sanja Fidler, Sven Dickinson", 
+        "Title": "Detecting Curved Symmetric Parts Using a Deformable Disc Model"
+    }, 
+    {
+        "Keywords": "MaxFS, fitting of multiple strucutres, inlier scale", 
+        "PDF": "Lee_Deterministic_Fitting_of_2013_ICCV_paper.pdf", 
+        "Authors": "Kwang Hee Lee, Sang Wook Lee", 
+        "Title": "Deterministic Fitting of Multiple Structures Using Iterative MaxFS with Inlier Scale Estimation"
+    }, 
+    {
+        "Keywords": "model selection, motion segmentation, subspace segmentation, facility location, Hopkins 155, minimal basis subspace representation, joint sparsity", 
+        "PDF": "Lee_Minimal_Basis_Facility_2013_ICCV_paper.pdf", 
+        "Authors": "Choon-Meng Lee, Loong-Fah Cheong", 
+        "Title": "Minimal Basis Facility Location for Subspace Segmentation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lee_Style-Aware_Mid-level_Representation_2013_ICCV_paper.pdf", 
+        "Authors": "Yong Jae Lee, Alexei A. Efros, Martial Hebert", 
+        "Title": "Style-Aware Mid-level Representation for Discovering Visual Connections in Space and Time"
+    }, 
+    {
+        "Keywords": "Bayesian network, pose prior, non-parametric, structure learning, compositionality, real-time", 
+        "PDF": "Lehrmann_A_Non-parametric_Bayesian_2013_ICCV_paper.pdf", 
+        "Authors": "Andreas M. Lehrmann, Peter V. Gehler, Sebastian Nowozin", 
+        "Title": "A Non-parametric Bayesian Network Prior of Human Pose"
+    }, 
+    {
+        "Keywords": "variational methods, total variation, denoising, manifold, tensor, angular data, rotation group", 
+        "PDF": "Lellmann_Total_Variation_Regularization_2013_ICCV_paper.pdf", 
+        "Authors": "Jan Lellmann, Evgeny Strekalovskiy, Sabrina Koetter, Daniel Cremers", 
+        "Title": "Total Variation Regularization for Functions with Values in a Manifold"
+    }, 
+    {
+        "Keywords": "Optical Flow, Motion Field Estimation, Occlusion Detection, Graph Matching, Feature Matching", 
+        "PDF": "Leordeanu_Locally_Affine_Sparse-to-Dense_2013_ICCV_paper.pdf", 
+        "Authors": "Marius Leordeanu, Andrei Zanfir, Cristian Sminchisescu", 
+        "Title": "Locally Affine Sparse-to-Dense Matching for Motion and Occlusion Estimation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Levinkov_Sequential_Bayesian_Model_2013_ICCV_paper.pdf", 
+        "Authors": "Evgeny Levinkov, Mario Fritz", 
+        "Title": "Sequential Bayesian Model Update under Structured Scene Prior for Semantic Road Scenes Labeling"
+    }, 
+    {
+        "Keywords": "Sparse Representation-based EMD (SR-EMD), Gaussian Mixture Model (GMM), Metric Learning for GMMs", 
+        "PDF": "Li_A_Novel_Earth_2013_ICCV_paper.pdf", 
+        "Authors": "Peihua Li, Qilong Wang, Lei Zhang", 
+        "Title": "A Novel Earth Mover's Distance Methodology for Image Matching with Gaussian Mixture Models"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Codemaps_-_Segment_2013_ICCV_paper.pdf", 
+        "Authors": "Zhenyang Li, Efstratios Gavves, Koen E.A. van_de_Sande, Cees G.M. Snoek, Arnold W.M. Smeulders", 
+        "Title": "Codemaps - Segment, Classify and Search Objects Locally"
+    }, 
+    {
+        "Keywords": "Saliency detection, Salient Object Detection", 
+        "PDF": "Li_Contextual_Hypergraph_Modeling_2013_ICCV_paper.pdf", 
+        "Authors": "Xi Li, Yao Li, Chunhua Shen, Anthony Dick, Anton Van_Den_Hengel", 
+        "Title": "Contextual Hypergraph Modeling for Salient Object Detection"
+    }, 
+    {
+        "Keywords": "video analysis, pooling, complex event, activity recognition", 
+        "PDF": "Li_Dynamic_Pooling_for_2013_ICCV_paper.pdf", 
+        "Authors": "Weixin Li, Qian Yu, Ajay Divakaran, Nuno Vasconcelos", 
+        "Title": "Dynamic Pooling for Complex Event Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Exploiting_Reflection_Change_2013_ICCV_paper.pdf", 
+        "Authors": "Yu Li, Michael S. Brown", 
+        "Title": "Exploiting Reflection Change for Automatic Reflection Removal"
+    }, 
+    {
+        "Keywords": "Egocentric Vision, Gaze Prediction, Action Recognition, Object Segmentation", 
+        "PDF": "Li_Learning_to_Predict_2013_ICCV_paper.pdf", 
+        "Authors": "Yin Li, Alireza Fathi, James M. Rehg", 
+        "Title": "Learning to Predict Gaze in Egocentric Video"
+    }, 
+    {
+        "Keywords": "Log-Euclidean Kernels, Space of Symmetric Positive Definite (SPD) Matrices, Sparse Representation, Dictionary Learning", 
+        "PDF": "Li_Log-Euclidean_Kernels_for_2013_ICCV_paper.pdf", 
+        "Authors": "Peihua Li, Qilong Wang, Wangmeng Zuo, Lei Zhang", 
+        "Title": "Log-Euclidean Kernels for Sparse Representation and Dictionary Learning"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Model_Recommendation_with_2013_ICCV_paper.pdf", 
+        "Authors": "Cheng Li, Kris M. Kitani", 
+        "Title": "Model Recommendation with Virtual Probes for Egocentric Hand Detection"
+    }, 
+    {
+        "Keywords": "Occlusion Modeling, Car Detection, AND-OR structure, CAD simulation", 
+        "PDF": "Li_Modeling_Occlusion_by_2013_ICCV_paper.pdf", 
+        "Authors": "Bo Li, Wenze Hu, Tianfu Wu, Song-Chun Zhu", 
+        "Title": "Modeling Occlusion by Discriminative AND-OR Structures"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Motion-Aware_KNN_Laplacian_2013_ICCV_paper.pdf", 
+        "Authors": "Dingzeyu Li, Qifeng Chen, Chi-Keung Tang", 
+        "Title": "Motion-Aware KNN Laplacian for Video Matting"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Perspective_Motion_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Zhuwen Li, Jiaming Guo, Loong-Fah Cheong, Steven Zhiying Zhou", 
+        "Title": "Perspective Motion Segmentation via Collaborative Clustering"
+    }, 
+    {
+        "Keywords": "PEP Model, Detector Adaptation, Face Detection", 
+        "PDF": "Li_Probabilistic_Elastic_Part_2013_ICCV_paper.pdf", 
+        "Authors": "Haoxiang Li, Gang Hua, Zhe Lin, Jonathan Brandt, Jianchao Yang", 
+        "Title": "Probabilistic Elastic Part Model for Unsupervised Face Detector Adaptation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Li_Saliency_Detection_via_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaohui Li, Huchuan Lu, Lihe Zhang, Xiang Ruan, Ming-Hsuan Yang", 
+        "Title": "Saliency Detection via Dense and Sparse Reconstruction"
+    }, 
+    {
+        "Keywords": "Video Segmentation, CPMC, tracking segments, appearance model, composite statistical inference, CSI", 
+        "PDF": "Li_Video_Segmentation_by_2013_ICCV_paper.pdf", 
+        "Authors": "Fuxin Li, Taeyoung Kim, Ahmad Humayun, David Tsai, James M. Rehg", 
+        "Title": "Video Segmentation by Tracking Many Figure-Ground Segments"
+    }, 
+    {
+        "Keywords": "Background Subtraction, Pose estimation", 
+        "PDF": "Lim_Joint_Segmentation_and_2013_ICCV_paper.pdf", 
+        "Authors": "Taegyu Lim, Seunghoon Hong, Bohyung Han, Joon Hee Han", 
+        "Title": "Joint Segmentation and Pose Tracking of Human in Natural Videos"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lim_Parsing_IKEA_Objects_2013_ICCV_paper.pdf", 
+        "Authors": "Joseph J. Lim, Hamed Pirsiavash, Antonio Torralba", 
+        "Title": "Parsing IKEA Objects: Fine Pose Estimation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lin_3D_Sub-query_Expansion_2013_ICCV_paper.pdf", 
+        "Authors": "Yen-Liang Lin, Cheng-Yu Huang, Hao-Jeng Wang, Winston Hsu", 
+        "Title": "3D Sub-query Expansion for Improving Sketch-Based Multi-view Image Retrieval"
+    }, 
+    {
+        "Keywords": "binary codes, hashing, image retrieval", 
+        "PDF": "Lin_A_General_Two-Step_2013_ICCV_paper.pdf", 
+        "Authors": "Guosheng Lin, Chunhua Shen, David Suter, Anton van_den_Hengel", 
+        "Title": "A General Two-Step Approach to Learning-Based Hashing"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lin_Characterizing_Layouts_of_2013_ICCV_paper.pdf", 
+        "Authors": "Dahua Lin, Jianxiong Xiao", 
+        "Title": "Characterizing Layouts of Outdoor Scenes Using Spatial Topic Processes"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lin_Holistic_Scene_Understanding_2013_ICCV_paper.pdf", 
+        "Authors": "Dahua Lin, Sanja Fidler, Raquel Urtasun", 
+        "Title": "Holistic Scene Understanding for 3D Object Detection with RGBD Cameras"
+    }, 
+    {
+        "Keywords": "matching, warping, curve fitting, spline, non-parametric", 
+        "PDF": "Lin_Robust_Non-parametric_Data_2013_ICCV_paper.pdf", 
+        "Authors": "Wen-Yan Lin, Ming-Ming Cheng, Shuai Zheng, Jiangbo Lu, Nigel Crook", 
+        "Title": "Robust Non-parametric Data Fitting for Correspondence Modeling"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Liu_A_Scalable_Unsupervised_2013_ICCV_paper.pdf", 
+        "Authors": "Lingqiao Liu, Lei Wang", 
+        "Title": "A Scalable Unsupervised Feature Merging Approach to Efficient Dimensionality Reduction of High-Dimensional Visual Data"
+    }, 
+    {
+        "Keywords": "Grouping, Segmentation, Repetition Detection, City Analysis", 
+        "PDF": "Liu_Automatic_Kronecker_Product_2013_ICCV_paper.pdf", 
+        "Authors": "Juan Liu, Emmanouil Psarakis, Ioannis Stamos", 
+        "Title": "Automatic Kronecker Product Model Based Detection of Repeated Patterns in 2D Urban Images"
+    }, 
+    {
+        "Keywords": "Part localization, Fine-grained classification", 
+        "PDF": "Liu_Bird_Part_Localization_2013_ICCV_paper.pdf", 
+        "Authors": "Jiongxin Liu, Peter N. Belhumeur", 
+        "Title": "Bird Part Localization Using Exemplar-Based Models with Enforced Pose and Subcategory Consistency"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Liu_Joint_Subspace_Stabilization_2013_ICCV_paper.pdf", 
+        "Authors": "Feng Liu, Yuzhen Niu, Hailin Jin", 
+        "Title": "Joint Subspace Stabilization for Stereoscopic Video"
+    }, 
+    {
+        "Keywords": "visual surveillance, person re-identification, ranking, manifold, information retrieval, human computer interaction", 
+        "PDF": "Liu_POP_Person_Re-identification_2013_ICCV_paper.pdf", 
+        "Authors": "Chunxiao Liu, Chen Change Loy, Shaogang Gong, Guijin Wang", 
+        "Title": "POP: Person Re-identification Post-rank Optimisation"
+    }, 
+    {
+        "Keywords": "Attention, Saliency, Hidden Markov Model, Gaze shift, Levy flight", 
+        "PDF": "Liu_Semantically-Based_Human_Scanpath_2013_ICCV_paper.pdf", 
+        "Authors": "Huiying Liu, Dong Xu, Qingming Huang, Wen Li, Min Xu, Stephen Lin", 
+        "Title": "Semantically-Based Human Scanpath Estimation with HMMs"
+    }, 
+    {
+        "Keywords": "Image decomposition, Structural decorrelating, Structure gradient", 
+        "PDF": "Liu_SGTD_Structure_Gradient_2013_ICCV_paper.pdf", 
+        "Authors": "Qiegen Liu, Jianbo Liu, Pei Dong, Dong Liang", 
+        "Title": "SGTD: Structure Gradient and Texture Decorrelating Regularization for Image Decomposition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lobel_Hierarchical_Joint_Max-Margin_2013_ICCV_paper.pdf", 
+        "Authors": "Hans Lobel, Rene Vidal, Alvaro Soto", 
+        "Title": "Hierarchical Joint Max-Margin Learning of Mid and Top Level Representations for Visual Recognition"
+    }, 
+    {
+        "Keywords": "Human Gait, Gait Recognition, Gait Representation, Two-Point Gait, Two-Point Statistics", 
+        "PDF": "Lombardi_Two-Point_Gait_Decoupling_2013_ICCV_paper.pdf", 
+        "Authors": "Stephen Lombardi, Ko Nishino, Yasushi Makihara, Yasushi Yagi", 
+        "Title": "Two-Point Gait: Decoupling Gait from Body Shape"
+    }, 
+    {
+        "Keywords": "Active Learning, Crowdsourcing, Visual Recognition, Gaussian Processes, Expectation Propagation", 
+        "PDF": "Long_Active_Visual_Recognition_2013_ICCV_paper.pdf", 
+        "Authors": "Chengjiang Long, Gang Hua, Ashish Kapoor", 
+        "Title": "Active Visual Recognition with Expertise Estimation in Crowdsourcing"
+    }, 
+    {
+        "Keywords": "Transfer learning, feature learning, joint distribution adaptation", 
+        "PDF": "Long_Transfer_Feature_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Mingsheng Long, Jianmin Wang, Guiguang Ding, Jiaguang Sun, Philip S. Yu", 
+        "Title": "Transfer Feature Learning with Joint Distribution Adaptation"
+    }, 
+    {
+        "Keywords": "visual surveillance, crowd counting, person counting, semi-supervised, regression", 
+        "PDF": "Loy_From_Semi-supervised_to_2013_ICCV_paper.pdf", 
+        "Authors": "Chen Change Loy, Shaogang Gong, Tao Xiang", 
+        "Title": "From Semi-supervised to Transfer Counting of Crowds"
+    }, 
+    {
+        "Keywords": "abnormal event detection, real-time, surveillance video, dictionary learning", 
+        "PDF": "Lu_Abnormal_Event_Detection_2013_ICCV_paper.pdf", 
+        "Authors": "Cewu Lu, Jianping Shi, Jiaya Jia", 
+        "Title": "Abnormal Event Detection at 150 FPS in MATLAB"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lu_Correlation_Adaptive_Subspace_2013_ICCV_paper.pdf", 
+        "Authors": "Canyi Lu, Jiashi Feng, Zhouchen Lin, Shuicheng Yan", 
+        "Title": "Correlation Adaptive Subspace Segmentation by Trace Lasso"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lu_Correntropy_Induced_L2_2013_ICCV_paper.pdf", 
+        "Authors": "Canyi Lu, Jinhui Tang, Min Lin, Liang Lin, Shuicheng Yan, Zhouchen Lin", 
+        "Title": "Correntropy Induced L2 Graph for Robust Subspace Clustering"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Lu_Face_Recognition_Using_2013_ICCV_paper.pdf", 
+        "Authors": "Chaochao Lu, Deli Zhao, Xiaoou Tang", 
+        "Title": "Face Recognition Using Face Patch Networks"
+    }, 
+    {
+        "Keywords": "Image set classification, face recognition, object recognition, metric learning", 
+        "PDF": "Lu_Image_Set_Classification_2013_ICCV_paper.pdf", 
+        "Authors": "Jiwen Lu, Gang Wang, Pierre Moulin", 
+        "Title": "Image Set Classification Using Holistic Multiple Order Statistics Features and Localized Multi-kernel Metric Learning"
+    }, 
+    {
+        "Keywords": "face recognition, attributes, deep learning", 
+        "PDF": "Luo_A_Deep_Sum-Product_2013_ICCV_paper.pdf", 
+        "Authors": "Ping Luo, Xiaogang Wang, Xiaoou Tang", 
+        "Title": "A Deep Sum-Product Architecture for Robust Facial Attributes Analysis"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Luo_Group_Sparsity_and_2013_ICCV_paper.pdf", 
+        "Authors": "Jiajia Luo, Wei Wang, Hairong Qi", 
+        "Title": "Group Sparsity and Geometry Constrained Dictionary Learning for Action Recognition from Depth Maps"
+    }, 
+    {
+        "Keywords": "pedestrian parsing, deep learning", 
+        "PDF": "Luo_Pedestrian_Parsing_via_2013_ICCV_paper.pdf", 
+        "Authors": "Ping Luo, Xiaogang Wang, Xiaoou Tang", 
+        "Title": "Pedestrian Parsing via Deep Decompositional Network"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ma_A_Method_of_2013_ICCV_paper.pdf", 
+        "Authors": "Chang Ma, Zhongqian Dong, Tingting Jiang, Yizhou Wang, Wen Gao", 
+        "Title": "A Method of Perceptual-Based Shape Decomposition"
+    }, 
+    {
+        "Keywords": "action recognition, action localization, space-time representation", 
+        "PDF": "Ma_Action_Recognition_and_2013_ICCV_paper.pdf", 
+        "Authors": "Shugao Ma, Jianming Zhang, Nazli Ikizler-Cinbis, Stan Sclaroff", 
+        "Title": "Action Recognition and Localization by Hierarchical Space-Time Segments"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ma_Constant_Time_Weighted_2013_ICCV_paper.pdf", 
+        "Authors": "Ziyang Ma, Kaiming He, Yichen Wei, Jian Sun, Enhua Wu", 
+        "Title": "Constant Time Weighted Median Filtering for Stereo Matching and Beyond"
+    }, 
+    {
+        "Keywords": "Person Re-Identification, Domain Adaptation", 
+        "PDF": "Ma_Domain_Transfer_Support_2013_ICCV_paper.pdf", 
+        "Authors": "Andy J. Ma, Pong C. Yuen, Jiawei Li", 
+        "Title": "Domain Transfer Support Vector Ranking for Person Re-identification without Target Camera Label Information"
+    }, 
+    {
+        "Keywords": "View-Invariant, Action Recognition, Multitask Learning", 
+        "PDF": "Mahasseni_Latent_Multitask_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Behrooz Mahasseni, Sinisa Todorovic", 
+        "Title": "Latent Multitask Learning for View-Invariant Action Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Maire_Progressive_Multigrid_Eigensolvers_2013_ICCV_paper.pdf", 
+        "Authors": "Michael Maire, Stella X. Yu", 
+        "Title": "Progressive Multigrid Eigensolvers for Multiscale Spectral Segmentation"
+    }, 
+    {
+        "Keywords": "Object Detection, Object Proposal", 
+        "PDF": "Manen_Prime_Object_Proposals_2013_ICCV_paper.pdf", 
+        "Authors": "Santiago Manen, Matthieu Guillaumin, Luc Van_Gool", 
+        "Title": "Prime Object Proposals with Randomized Prim's Algorithm"
+    }, 
+    {
+        "Keywords": "Pedestrian detection, Random Forest, Local Experts, HOG, LBP", 
+        "PDF": "Marin_Random_Forests_of_2013_ICCV_paper.pdf", 
+        "Authors": "Javier Marin, David Vazquez, Antonio M. Lopez, Jaume Amores, Bastian Leibe", 
+        "Title": "Random Forests of Local Experts for Pedestrian Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Marinoiu_Pictorial_Human_Spaces_2013_ICCV_paper.pdf", 
+        "Authors": "Elisabeta Marinoiu, Dragos Papava, Cristian Sminchisescu", 
+        "Title": "Pictorial Human Spaces: How Well Do Humans Perceive a 3D Articulated Pose?"
+    }, 
+    {
+        "Keywords": "active light reconstruction, structured light, unstructured light", 
+        "PDF": "Martin_Subpixel_Scanning_Invariant_2013_ICCV_paper.pdf", 
+        "Authors": "Nicolas Martin, Vincent Couture, Sebastien Roy", 
+        "Title": "Subpixel Scanning Invariant to Indirect Lighting Using Quadratic Code Length"
+    }, 
+    {
+        "Keywords": "object detection, pedestrian detection, occlusion", 
+        "PDF": "Mathias_Handling_Occlusions_with_2013_ICCV_paper.pdf", 
+        "Authors": "Markus Mathias, Rodrigo Benenson, Radu Timofte, Luc Van_Gool", 
+        "Title": "Handling Occlusions with Franken-Classifiers"
+    }, 
+    {
+        "Keywords": "object detection, 3D models, structure from motion, geography", 
+        "PDF": "Matzen_NYC3DCars_A_Dataset_2013_ICCV_paper.pdf", 
+        "Authors": "Kevin Matzen, Noah Snavely", 
+        "Title": "NYC3DCars: A Dataset of 3D Vehicles in Geographic Context"
+    }, 
+    {
+        "Keywords": "Rolling Shutter, Motion Blur, Registration, Tracking, Dense, Real-time", 
+        "PDF": "Meilland_A_Unified_Rolling_2013_ICCV_paper.pdf", 
+        "Authors": "Maxime Meilland, Tom Drummond, Andrew I. Comport", 
+        "Title": "A Unified Rolling Shutter and Motion Blur Model for 3D Visual Registration"
+    }, 
+    {
+        "Keywords": "Plumd-line, calibration, HFL, Unsupervised, Distortion", 
+        "PDF": "Melo_Unsupervised_Intrinsic_Calibration_2013_ICCV_paper.pdf", 
+        "Authors": "R. Melo, M. Antunes, J.P. Barreto, G. Falcao, N. Goncalves", 
+        "Title": "Unsupervised Intrinsic Calibration from a Single Frame Using a \"Plumb-Line\" Approach"
+    }, 
+    {
+        "Keywords": "image processing, single image dehazing, visibility enhancement", 
+        "PDF": "Meng_Efficient_Image_Dehazing_2013_ICCV_paper.pdf", 
+        "Authors": "Gaofeng Meng, Ying Wang, Jiangyong Duan, Shiming Xiang, Chunhong Pan", 
+        "Title": "Efficient Image Dehazing with Boundary Constraint and Contextual Regularization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Meng_Robust_Matrix_Factorization_2013_ICCV_paper.pdf", 
+        "Authors": "Deyu Meng, Fernando De_La_Torre", 
+        "Title": "Robust Matrix Factorization with Unknown Noise"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Michaeli_Nonparametric_Blind_Super-resolution_2013_ICCV_paper.pdf", 
+        "Authors": "Tomer Michaeli, Michal Irani", 
+        "Title": "Nonparametric Blind Super-resolution"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Mirrashed_Domain_Adaptive_Classification_2013_ICCV_paper.pdf", 
+        "Authors": "Fatemeh Mirrashed, Mohammad Rastegari", 
+        "Title": "Domain Adaptive Classification"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Mishra_Image_Retrieval_Using_2013_ICCV_paper.pdf", 
+        "Authors": "Anand Mishra, Karteek Alahari, C.V. Jawahar", 
+        "Title": "Image Retrieval Using Textual Cues"
+    }, 
+    {
+        "Keywords": "Calibration, Structure-from-Motion, robust estimation", 
+        "PDF": "Moulon_Global_Fusion_of_2013_ICCV_paper.pdf", 
+        "Authors": "Pierre Moulon, Pascal Monasse, Renaud Marlet", 
+        "Title": "Global Fusion of Relative Motions for Robust, Accurate and Scalable Structure from Motion"
+    }, 
+    {
+        "Keywords": "Optimization, MCMC, Slice Sampling, Particle Belief Propagation, Feature Tracking", 
+        "PDF": "Muller_Slice_Sampling_Particle_2013_ICCV_paper.pdf", 
+        "Authors": "Oliver Muller, Michael Ying Yang, Bodo Rosenhahn", 
+        "Title": "Slice Sampling Particle Belief Propagation"
+    }, 
+    {
+        "Keywords": "Motion segmentation, optical flow, object detection, tracking", 
+        "PDF": "Narayana_Coherent_Motion_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Manjunath Narayana, Allen Hanson, Erik Learned-Miller", 
+        "Title": "Coherent Motion Segmentation in Moving Camera Videos Using Optical Flow Orientations"
+    }, 
+    {
+        "Keywords": "text-in-the-wild, text localization, text recognition, nature scene text", 
+        "PDF": "Neumann_Scene_Text_Localization_2013_ICCV_paper.pdf", 
+        "Authors": "Lukas Neumann, Jiri Matas", 
+        "Title": "Scene Text Localization and Recognition with Oriented Stroke Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ni_Manipulation_Pattern_Discovery_2013_ICCV_paper.pdf", 
+        "Authors": "Bingbing Ni, Pierre Moulin", 
+        "Title": "Manipulation Pattern Discovery: A Nonparametric Bayesian Approach"
+    }, 
+    {
+        "Keywords": "segmentation, optimization, sequences, continuous, proportion, prior, size shape, multi-label, constraint, video", 
+        "PDF": "Nieuwenhuis_Proportion_Priors_for_2013_ICCV_paper.pdf", 
+        "Authors": "Claudia Nieuwenhuis, Evgeny Strekalovskiy, Daniel Cremers", 
+        "Title": "Proportion Priors for Image Sequence Segmentation"
+    }, 
+    {
+        "Keywords": "Global segmentation, geometric constraints, convex optimization, functional lifting, containment, detachment, microscopy, histology", 
+        "PDF": "Nosrati_Bounded_Labeling_Function_2013_ICCV_paper.pdf", 
+        "Authors": "Masoud S. Nosrati, Shawn Andrews, Ghassan Hamarneh", 
+        "Title": "Bounded Labeling Function for Global Segmentation of Multi-part Objects with Geometric Constraints"
+    }, 
+    {
+        "Keywords": "Rank minimization, Robust PCA, Nuclear Norm, Partial sum of singular values", 
+        "PDF": "Oh_Partial_Sum_Minimization_2013_ICCV_paper.pdf", 
+        "Authors": "Tae-Hyun Oh, Hyeongwoo Kim, Yu-Wing Tai, Jean-Charles Bazin, In So Kweon", 
+        "Title": "Partial Sum Minimization of Singular Values in RPCA for Low-Level Vision"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Olsson_Partial_Enumeration_and_2013_ICCV_paper.pdf", 
+        "Authors": "Carl Olsson, Johannes Ulen, Yuri Boykov, Vladimir Kolmogorov", 
+        "Title": "Partial Enumeration and Curvature Regularization"
+    }, 
+    {
+        "Keywords": "action recognition, action localization, event recognition, Fisher vectors, bag of visual words, evaluation, uncontrolled realistic videos, dense trajectories", 
+        "PDF": "Oneata_Action_and_Event_2013_ICCV_paper.pdf", 
+        "Authors": "Dan Oneata, Jakob Verbeek, Cordelia Schmid", 
+        "Title": "Action and Event Recognition with Fisher Vectors on a Compact Feature Set"
+    }, 
+    {
+        "Keywords": "categorization, categories, prediction, images, language, entry-level, retrieval", 
+        "PDF": "Ordonez_From_Large_Scale_2013_ICCV_paper.pdf", 
+        "Authors": "Vicente Ordonez, Jia Deng, Yejin Choi, Alexander C. Berg, Tamara L. Berg", 
+        "Title": "From Large Scale Image Categorization to Entry-Level Categories"
+    }, 
+    {
+        "Keywords": "Pedestrian Detection, object detection, deep learning, feature learning, deep neural network, convolutional neural network, deformation, occlusion", 
+        "PDF": "Ouyang_Joint_Deep_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Wanli Ouyang, Xiaogang Wang", 
+        "Title": "Joint Deep Learning for Pedestrian Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Owens_Shape_Anchors_for_2013_ICCV_paper.pdf", 
+        "Authors": "Andrew Owens, Jianxiong Xiao, Antonio Torralba, William Freeman", 
+        "Title": "Shape Anchors for Data-Driven Multi-view Reconstruction"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Paisitkriangkrai_Efficient_Pedestrian_Detection_2013_ICCV_paper.pdf", 
+        "Authors": "Sakrapee Paisitkriangkrai, Chunhua Shen, Anton Van Den Hengel", 
+        "Title": "Efficient Pedestrian Detection by Directly Optimizing the Partial Area under the ROC Curve"
+    }, 
+    {
+        "Keywords": "object detection, 3D geometric context", 
+        "PDF": "Pan_Coherent_Object_Detection_2013_ICCV_paper.pdf", 
+        "Authors": "Jiyan Pan, Takeo Kanade", 
+        "Title": "Coherent Object Detection with 3D Geometric Context from a Single Image"
+    }, 
+    {
+        "Keywords": "Instance Retrieval, Average Precision, memory footprint", 
+        "PDF": "Panda_Offline_Mobile_Instance_2013_ICCV_paper.pdf", 
+        "Authors": "Jayaguru Panda, Michael S. Brown, C.V. Jawahar", 
+        "Title": "Offline Mobile Instance Retrieval with a Small Memory Footprint"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Pang_Finding_the_Best_2013_ICCV_paper.pdf", 
+        "Authors": "Yu Pang, Haibin Ling", 
+        "Title": "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms"
+    }, 
+    {
+        "Keywords": "video, video segmentation", 
+        "PDF": "Papazoglou_Fast_Object_Segmentation_2013_ICCV_paper.pdf", 
+        "Authors": "Anestis Papazoglou, Vittorio Ferrari", 
+        "Title": "Fast Object Segmentation in Unconstrained Video"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Parikh_Implied_Feedback_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Devi Parikh, Kristen Grauman", 
+        "Title": "Implied Feedback: Learning Nuances of User Behavior in Image Search"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Parisot_Uncertainty-Driven_Efficiently-Sampled_Sparse_2013_ICCV_paper.pdf", 
+        "Authors": "Sarah Parisot, William Wells_III, Stephane Chemouny, Hugues Duffau, Nikos Paragios", 
+        "Title": "Uncertainty-Driven Efficiently-Sampled Sparse Graphical Models for Concurrent Tumor Segmentation and Atlas Registration"
+    }, 
+    {
+        "Keywords": "Multiview Photometric Stereo", 
+        "PDF": "Park_Multiview_Photometric_Stereo_2013_ICCV_paper.pdf", 
+        "Authors": "Jaesik Park, Sudipta N. Sinha, Yasuyuki Matsushita, Yu-Wing Tai, In So Kweon", 
+        "Title": "Multiview Photometric Stereo Using Planar Mesh Parameterization"
+    }, 
+    {
+        "Keywords": "Social scene understanding, Gaze prediction", 
+        "PDF": "Park_Predicting_Primary_Gaze_2013_ICCV_paper.pdf", 
+        "Authors": "Hyun Soo Park, Eakta Jain, Yaser Sheikh", 
+        "Title": "Predicting Primary Gaze Behavior Using Social Saliency Fields"
+    }, 
+    {
+        "Keywords": "Subspace clustering, dimension reduction, sparse optimization", 
+        "PDF": "Patel_Latent_Space_Sparse_2013_ICCV_paper.pdf", 
+        "Authors": "Vishal M. Patel, Hien Van Nguyen, Rene Vidal", 
+        "Title": "Latent Space Sparse Subspace Clustering"
+    }, 
+    {
+        "Keywords": "Texture, Image Features, Analysis of Galaxy Images", 
+        "PDF": "Pedersen_Shape_Index_Descriptors_2013_ICCV_paper.pdf", 
+        "Authors": "Kim Steenstrup Pedersen, Kristoffer Stensbo-Smidt, Andrew Zirm, Christian Igel", 
+        "Title": "Shape Index Descriptors Applied to Texture-Based Galaxy Analysis"
+    }, 
+    {
+        "Keywords": "Unsupervised Random Forest, Manifold Alignment, Lipreading, RFMA", 
+        "PDF": "Pei_Unsupervised_Random_Forest_2013_ICCV_paper.pdf", 
+        "Authors": "Yuru Pei, Tae-Kyun Kim, Hongbin Zha", 
+        "Title": "Unsupervised Random Forest Manifold Alignment for Lipreading"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Peng_Incorporating_Cloud_Distribution_2013_ICCV_paper.pdf", 
+        "Authors": "Kuan-Chuan Peng, Tsuhan Chen", 
+        "Title": "Incorporating Cloud Distribution in Sky Representation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Phan_Recognizing_Text_with_2013_ICCV_paper.pdf", 
+        "Authors": "Trung Quy Phan, Palaiahnakote Shivakumara, Shangxuan Tian, Chew Lim Tan", 
+        "Title": "Recognizing Text with Perspective Distortion in Natural Scenes"
+    }, 
+    {
+        "Keywords": "human pose estimation", 
+        "PDF": "Pishchulin_Strong_Appearance_and_2013_ICCV_paper.pdf", 
+        "Authors": "Leonid Pishchulin, Mykhaylo Andriluka, Peter Gehler, Bernt Schiele", 
+        "Title": "Strong Appearance and Expressive Spatial Models for Human Pose Estimation"
+    }, 
+    {
+        "Keywords": "Low-level vision, Image processing, White balance, Color constancy", 
+        "PDF": "Prinet_Illuminant_Chromaticity_from_2013_ICCV_paper.pdf", 
+        "Authors": "Veronique Prinet, Dani Lischinski, Michael Werman", 
+        "Title": "Illuminant Chromaticity from Image Sequences"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Qiu_Visual_Semantic_Complex_2013_ICCV_paper.pdf", 
+        "Authors": "Shi Qiu, Xiaogang Wang, Xiaoou Tang", 
+        "Title": "Visual Semantic Complex Network for Web Images"
+    }, 
+    {
+        "Keywords": "3D pose reconstruction, pose estimation, self-occlusion", 
+        "PDF": "Radwan_Monocular_Image_3D_2013_ICCV_paper.pdf", 
+        "Authors": "Ibrahim Radwan, Abhinav Dhall, Roland Goecke", 
+        "Title": "Monocular Image 3D Human Pose Estimation under Self-Occlusion"
+    }, 
+    {
+        "Keywords": "line drawing, single view reconstruction, junctions, linear program", 
+        "PDF": "Ramalingam_Lifting_3D_Manhattan_2013_ICCV_paper.pdf", 
+        "Authors": "Srikumar Ramalingam, Matthew Brand", 
+        "Title": "Lifting 3D Manhattan Lines from a Single Image"
+    }, 
+    {
+        "Keywords": "video event recognition, natural language descriptions", 
+        "PDF": "Ramanathan_Video_Event_Understanding_2013_ICCV_paper.pdf", 
+        "Authors": "Vignesh Ramanathan, Percy Liang, Li Fei-Fei", 
+        "Title": "Video Event Understanding Using Natural Language Descriptions"
+    }, 
+    {
+        "Keywords": "3D Tracking, 3D Reconstruction, Generative model", 
+        "PDF": "Ren_STAR3D_Simultaneous_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Carl Yuheng Ren, Victor Prisacariu, David Murray, Ian Reid", 
+        "Title": "STAR3D: Simultaneous Tracking and Reconstruction of 3D Objects Using RGB-D Data"
+    }, 
+    {
+        "Keywords": "over-segmentation, superpixel, supervoxel, video segmentation, tracking", 
+        "PDF": "Reso_Temporally_Consistent_Superpixels_2013_ICCV_paper.pdf", 
+        "Authors": "Matthias Reso, Jorn Jachalsky, Bodo Rosenhahn, Jorn Ostermann", 
+        "Title": "Temporally Consistent Superpixels"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ricco_Video_Motion_for_2013_ICCV_paper.pdf", 
+        "Authors": "Susanna Ricco, Carlo Tomasi", 
+        "Title": "Video Motion for Every Visible Point"
+    }, 
+    {
+        "Keywords": "Saliency maps, Human eye fixations, Metrics, Validation", 
+        "PDF": "Riche_Saliency_and_Human_2013_ICCV_paper.pdf", 
+        "Authors": "Nicolas Riche, Matthieu Duvinage, Matei Mancas, Bernard Gosselin, Thierry Dutoit", 
+        "Title": "Saliency and Human Fixations: State-of-the-Art and Study of Comparison Metrics"
+    }, 
+    {
+        "Keywords": "Object Detection, 3D", 
+        "PDF": "Rios-Cabrera_Discriminatively_Trained_Templates_2013_ICCV_paper.pdf", 
+        "Authors": "Reyes Rios-Cabrera, Tinne Tuytelaars", 
+        "Title": "Discriminatively Trained Templates for 3D Object Detection: A Real Time Scalable Approach"
+    }, 
+    {
+        "Keywords": "shape matching, graph matching, regression analysis, non-rigid shapes, quadratic assignment problem", 
+        "PDF": "Rodola_Elastic_Net_Constraints_2013_ICCV_paper.pdf", 
+        "Authors": "Emanuele Rodola, Andrea Torsello, Tatsuya Harada, Yasuo Kuniyoshi, Daniel Cremers", 
+        "Title": "Elastic Net Constraints for Shape Matching"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Rohrbach_Translating_Video_Content_2013_ICCV_paper.pdf", 
+        "Authors": "Marcus Rohrbach, Wei Qiu, Ivan Titov, Stefan Thater, Manfred Pinkal, Bernt Schiele", 
+        "Title": "Translating Video Content to Natural Language Descriptions"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Roig_Active_MAP_Inference_2013_ICCV_paper.pdf", 
+        "Authors": "Gemma Roig, Xavier Boix, Roderick De_Nijs, Sebastian Ramos, Koljia Kuhnlenz, Luc Van_Gool", 
+        "Title": "Active MAP Inference in CRFs for Efficient Semantic Segmentation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Russakovsky_Detecting_Avocados_to_2013_ICCV_paper.pdf", 
+        "Authors": "Olga Russakovsky, Jia Deng, Zhiheng Huang, Alexander C. Berg, Li Fei-Fei", 
+        "Title": "Detecting Avocados to Zucchinis: What Have We Done, and Where Are We Going?"
+    }, 
+    {
+        "Keywords": "attributes, relative attributes, visual attributes", 
+        "PDF": "Sadovnik_Spoken_Attributes_Mixing_2013_ICCV_paper.pdf", 
+        "Authors": "Amir Sadovnik, Andrew Gallagher, Devi Parikh, Tsuhan Chen", 
+        "Title": "Spoken Attributes: Mixing Binary and Relative Attributes to Say the Right Thing"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Salehian_Recursive_Estimation_of_2013_ICCV_paper.pdf", 
+        "Authors": "Hesamoddin Salehian, Guang Cheng, Baba C. Vemuri, Jeffrey Ho", 
+        "Title": "Recursive Estimation of the Stein Center of SPD Matrices and Its Applications"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "San_Biagio_Heterogeneous_Auto-similarities_of_2013_ICCV_paper.pdf", 
+        "Authors": "Marco San_Biagio, Marco Crocco, Marco Cristani, Samuele Martelli, Vittorio Murino", 
+        "Title": "Heterogeneous Auto-similarities of Characteristics (HASC): Exploiting Relational Information for Classification"
+    }, 
+    {
+        "Keywords": "Computer Vision, Scene Understanding, Geometry Estimation, 3D Data, Machine Learning", 
+        "PDF": "Satkin_3DNN_Viewpoint_Invariant_2013_ICCV_paper.pdf", 
+        "Authors": "Scott Satkin, Martial Hebert", 
+        "Title": "3DNN: Viewpoint Invariant 3D Geometry Matching for Scene Understanding"
+    }, 
+    {
+        "Keywords": "Stereo, Rolling Shutter", 
+        "PDF": "Saurer_Rolling_Shutter_Stereo_2013_ICCV_paper.pdf", 
+        "Authors": "Olivier Saurer, Kevin Koser, Jean-Yves Bouguet, Marc Pollefeys", 
+        "Title": "Rolling Shutter Stereo"
+    }, 
+    {
+        "Keywords": "Face detection, face reconstruction, morphable face model, ada boost", 
+        "PDF": "Scherbaum_Fast_Face_Detector_2013_ICCV_paper.pdf", 
+        "Authors": "Kristina Scherbaum, James Petterson, Rogerio S. Feris, Volker Blanz, Hans-Peter Seidel", 
+        "Title": "Fast Face Detector Training Using Tailored Views"
+    }, 
+    {
+        "Keywords": "Tracking, Graphical Model, Factor Graph, Segmentation, Integer Linear Programming", 
+        "PDF": "Schiegg_Conservation_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Martin Schiegg, Philipp Hanslovsky, Bernhard X. Kausler, Lars Hufnagel, Fred A. Hamprecht", 
+        "Title": "Conservation Tracking"
+    }, 
+    {
+        "Keywords": "Random Forest, Regression, Object Detection, Head Pose Estimation", 
+        "PDF": "Schulter_Alternating_Regression_Forests_2013_ICCV_paper.pdf", 
+        "Authors": "Samuel Schulter, Christian Leistner, Paul Wohlhart, Peter M. Roth, Horst Bischof", 
+        "Title": "Alternating Regression Forests for Object Detection and Pose Estimation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Schwing_Box_in_the_2013_ICCV_paper.pdf", 
+        "Authors": "Alexander G. Schwing, Sanja Fidler, Marc Pollefeys, Raquel Urtasun", 
+        "Title": "Box in the Box: Joint 3D Layout and Object Reasoning from Single Images"
+    }, 
+    {
+        "Keywords": "multi-target tracking, data association, bayesian inference, hybrid inference, model selection, message passing", 
+        "PDF": "Segal_Latent_Data_Association_2013_ICCV_paper.pdf", 
+        "Authors": "Aleksandr V. Segal, Ian Reid", 
+        "Title": "Latent Data Association: Bayesian Model Selection for Multi-target Tracking"
+    }, 
+    {
+        "Keywords": "object detection, metric learning, Fisher vectors, image retrieval, fine-grained categorization", 
+        "PDF": "Serrano_Predicting_an_Object_2013_ICCV_paper.pdf", 
+        "Authors": "Jose A. Rodriguez Serrano, Diane Larlus", 
+        "Title": "Predicting an Object Location Using a Global Image Representation"
+    }, 
+    {
+        "Keywords": "Contextual information, Hierarchical models, Image segmentation, Disjunctive normal form", 
+        "PDF": "Seyedhosseini_Image_Segmentation_with_2013_ICCV_paper.pdf", 
+        "Authors": "Mojtaba Seyedhosseini, Mehdi Sajjadi, Tolga Tasdizen", 
+        "Title": "Image Segmentation with Cascaded Hierarchical Models and Logistic Disjunctive Normal Networks"
+    }, 
+    {
+        "Keywords": "Ranking, Semantic Descriptions, Optimization", 
+        "PDF": "Shankar_Semantic_Transform_Weakly_2013_ICCV_paper.pdf", 
+        "Authors": "Sukrit Shankar, Joan Lasenby, Roberto Cipolla", 
+        "Title": "Semantic Transform: Weakly Supervised Semantic Inference for Relating Visual Attributes"
+    }, 
+    {
+        "Keywords": "Occupation Recognition, Social Context, Visual Attributes", 
+        "PDF": "Shao_What_Do_You_2013_ICCV_paper.pdf", 
+        "Authors": "Ming Shao, Liangyue Li, Yun Fu", 
+        "Title": "What Do You Do? Occupation Recognition in a Photo via Social Context"
+    }, 
+    {
+        "Keywords": "Activity Recognition, Time-series alignment, Segmentation and Matching", 
+        "PDF": "Shariat_A_New_Adaptive_2013_ICCV_paper.pdf", 
+        "Authors": "Shahriar Shariat, Vladimir Pavlovic", 
+        "Title": "A New Adaptive Segmental Matching Measure for Human Activity Recognition"
+    }, 
+    {
+        "Keywords": "Learning to rank, privileged information during training, object classification", 
+        "PDF": "Sharmanska_Learning_to_Rank_2013_ICCV_paper.pdf", 
+        "Authors": "Viktoriia Sharmanska, Novi Quadrianto, Christoph H. Lampert", 
+        "Title": "Learning to Rank Using Privileged Information"
+    }, 
+    {
+        "Keywords": "Bayesian, Joint Topic Modelling, Weakly Supervised", 
+        "PDF": "Shi_Bayesian_Joint_Topic_2013_ICCV_paper.pdf", 
+        "Authors": "Zhiyuan Shi, Timothy M. Hospedales, Tao Xiang", 
+        "Title": "Bayesian Joint Topic Modelling for Weakly Supervised Object Localisation"
+    }, 
+    {
+        "Keywords": "Human co-detection, human identity labeling, co-training, HCD dataset", 
+        "PDF": "Shi_CoDeL_A_Human_2013_ICCV_paper.pdf", 
+        "Authors": "Jianping Shi, Renjie Liao, Jiaya Jia", 
+        "Title": "CoDeL: A Human Co-detection and Labeling Framework"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Shi_Robust_Trajectory_Clustering_2013_ICCV_paper.pdf", 
+        "Authors": "Feng Shi, Zhong Zhou, Jiangjian Xiao, Wei Wu", 
+        "Title": "Robust Trajectory Clustering for Motion Segmentation"
+    }, 
+    {
+        "Keywords": "Photo collections, image noise estimation and denoising", 
+        "PDF": "Shih_Joint_Noise_Level_2013_ICCV_paper.pdf", 
+        "Authors": "Yichang Shih, Vivek Kwatra, Troy Chinen, Hui Fang, Sergey Ioffe", 
+        "Title": "Joint Noise Level Estimation from Personal Photo Collections"
+    }, 
+    {
+        "Keywords": "object detection, 3D object detection, deformable part models, GDPM, DPM, geometry-driven deformable part based model, 3D object understanding, surface normal prediction, 3D primitives, geometry models, geometry based representations", 
+        "PDF": "Shrivastava_Building_Part-Based_Object_2013_ICCV_paper.pdf", 
+        "Authors": "Abhinav Shrivastava, Abhinav Gupta", 
+        "Title": "Building Part-Based Object Detectors via 3D Geometry"
+    }, 
+    {
+        "Keywords": "Point sets, Saliency, Visual saliency", 
+        "PDF": "Shtrom_Saliency_Detection_in_2013_ICCV_paper.pdf", 
+        "Authors": "Elizabeth Shtrom, George Leifman, Ayellet Tal", 
+        "Title": "Saliency Detection in Large Point Sets"
+    }, 
+    {
+        "Keywords": "Correspondences, Non-rigid shapes, shape matching", 
+        "PDF": "Sipiran_A_Fully_Hierarchical_2013_ICCV_paper.pdf", 
+        "Authors": "Ivan Sipiran, Benjamin Bustos", 
+        "Title": "A Fully Hierarchical Approach for Finding Correspondences in Non-rigid Shapes"
+    }, 
+    {
+        "Keywords": "tracking, RGBD, benchmark", 
+        "PDF": "Song_Tracking_Revisited_Using_2013_ICCV_paper.pdf", 
+        "Authors": "Shuran Song, Jianxiong Xiao", 
+        "Title": "Tracking Revisited Using RGBD Camera: Unified Benchmark and Baselines"
+    }, 
+    {
+        "Keywords": "hand tracking, RGB, depth, time-of-flight, 3D pose estimation, sum of gaussians, markerless tracking, articulation", 
+        "PDF": "Sridhar_Interactive_Markerless_Articulated_2013_ICCV_paper.pdf", 
+        "Authors": "Srinath Sridhar, Antti Oulasvirta, Christian Theobalt", 
+        "Title": "Interactive Markerless Articulated Hand Motion Tracking Using RGB and Depth Data"
+    }, 
+    {
+        "Keywords": "Scene understanding, unsupervised learning, clustering, hierarchical Bayesian models, topic models, variational Bayes", 
+        "PDF": "Steinberg_Synergistic_Clustering_of_2013_ICCV_paper.pdf", 
+        "Authors": "Daniel M. Steinberg, Oscar Pizarro, Stefan B. Williams", 
+        "Title": "Synergistic Clustering of Image and Segment Descriptors for Unsupervised Scene Understanding"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Steinbrucker_Large-Scale_Multi-resolution_Surface_2013_ICCV_paper.pdf", 
+        "Authors": "Frank Steinbrucker, Christian Kerl, Daniel Cremers", 
+        "Title": "Large-Scale Multi-resolution Surface Reconstruction from RGB-D Sequences"
+    }, 
+    {
+        "Keywords": "segmentation, edge model, supervised learning, region annotation, decision tree, structured objective function", 
+        "PDF": "Straehle_Weakly_Supervised_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Christoph Straehle, Ullrich Koethe, Fred A. Hamprecht", 
+        "Title": "Weakly Supervised Learning of Image Partitioning Using Decision Trees with Structured Split Criteria"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Strandmark_Shortest_Paths_with_2013_ICCV_paper.pdf", 
+        "Authors": "Petter Strandmark, Johannes Ulen, Fredrik Kahl, Leo Grady", 
+        "Title": "Shortest Paths with Curvature and Torsion"
+    }, 
+    {
+        "Keywords": "Segmentation, Optimization, Medical Imaging", 
+        "PDF": "Stuhmer_Tree_Shape_Priors_2013_ICCV_paper.pdf", 
+        "Authors": "Jan Stuhmer, Peter Schroder, Daniel Cremers", 
+        "Title": "Tree Shape Priors with Connectivity Constraints Using Convex Relaxation on General Graphs"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Su_Linear_Sequence_Discriminant_2013_ICCV_paper.pdf", 
+        "Authors": "Bing Su, Xiaoqing Ding", 
+        "Title": "Linear Sequence Discriminant Analysis: A Model-Based Dimensionality Reduction Method for Vector Sequences"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Sun_ACTIVE_Activity_Concept_2013_ICCV_paper.pdf", 
+        "Authors": "Chen Sun, Ram Nevatia", 
+        "Title": "ACTIVE: Activity Concept Transitions in Video Event Classification"
+    }, 
+    {
+        "Keywords": "large scale image classification, hierarchical classifier, branch-and-bound", 
+        "PDF": "Sun_Find_the_Best_2013_ICCV_paper.pdf", 
+        "Authors": "Min Sun, Wan Huang, Silvio Savarese", 
+        "Title": "Find the Best Path: An Efficient and Accurate Classifier for Image Hierarchies"
+    }, 
+    {
+        "Keywords": "face verification, deep learning, relational visual features", 
+        "PDF": "Sun_Hybrid_Deep_Learning_2013_ICCV_paper.pdf", 
+        "Authors": "Yi Sun, Xiaogang Wang, Xiaoou Tang", 
+        "Title": "Hybrid Deep Learning for Face Verification"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Sun_Learning_Discriminative_Part_2013_ICCV_paper.pdf", 
+        "Authors": "Jian Sun, Jean Ponce", 
+        "Title": "Learning Discriminative Part Detectors for Image Classification and Cosegmentation"
+    }, 
+    {
+        "Keywords": "functional recognition, functional learning, functional scene element, pyramid coding, scene understanding, scene learning", 
+        "PDF": "Swears_Pyramid_Coding_for_2013_ICCV_paper.pdf", 
+        "Authors": "Eran Swears, Anthony Hoogs, Kim Boyer", 
+        "Title": "Pyramid Coding for Functional Scene Element Recognition in Video Scenes"
+    }, 
+    {
+        "Keywords": "Low-rank methods, Subspace Segmentation, Divide-and-conquer, Distributed, Scalable", 
+        "PDF": "Talwalkar_Distributed_Low-Rank_Subspace_2013_ICCV_paper.pdf", 
+        "Authors": "Ameet Talwalkar, Lester Mackey, Yadong Mu, Shih-Fu Chang, Michael I. Jordan", 
+        "Title": "Distributed Low-Rank Subspace Segmentation"
+    }, 
+    {
+        "Keywords": "Light Field Video, Compressive Sensing, Coded Aperture, Dictionary Learning, Sparse Representation, Motion Aware Reconstruction", 
+        "PDF": "Tambe_Towards_Motion_Aware_2013_ICCV_paper.pdf", 
+        "Authors": "Salil Tambe, Ashok Veeraraghavan, Amit Agrawal", 
+        "Title": "Towards Motion Aware Light Field Video for Dynamic Scenes"
+    }, 
+    {
+        "Keywords": "Complex Event Recognition, Feature Combination", 
+        "PDF": "Tang_Combining_the_Right_2013_ICCV_paper.pdf", 
+        "Authors": "Kevin Tang, Bangpeng Yao, Li Fei-Fei, Daphne Koller", 
+        "Title": "Combining the Right Features for Complex Event Recognition"
+    }, 
+    {
+        "Keywords": "segmentation, graph cut, color separation, MRF", 
+        "PDF": "Tang_GrabCut_in_One_2013_ICCV_paper.pdf", 
+        "Authors": "Meng Tang, Lena Gorelick, Olga Veksler, Yuri Boykov", 
+        "Title": "GrabCut in One Cut"
+    }, 
+    {
+        "Keywords": "Pedestrian Detection, Tracking, Multiple People Tracking, Occlusion Handling, Structured SVM, Synthetic Training Data", 
+        "PDF": "Tang_Learning_People_Detectors_2013_ICCV_paper.pdf", 
+        "Authors": "Siyu Tang, Mykhaylo Andriluka, Anton Milan, Konrad Schindler, Stefan Roth, Bernt Schiele", 
+        "Title": "Learning People Detectors for Tracking in Crowded Scenes"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Tang_Real-Time_Articulated_Hand_2013_ICCV_paper.pdf", 
+        "Authors": "Danhang Tang, Tsz-Ho Yu, Tae-Kyun Kim", 
+        "Title": "Real-Time Articulated Hand Pose Estimation Using Semi-supervised Transductive Regression Forests"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Tanskanen_Live_Metric_3D_2013_ICCV_paper.pdf", 
+        "Authors": "Petri Tanskanen, Kalin Kolev, Lorenz Meier, Federico Camposeco, Olivier Saurer, Marc Pollefeys", 
+        "Title": "Live Metric 3D Reconstruction on Mobile Phones"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Tao_Depth_from_Combining_2013_ICCV_paper.pdf", 
+        "Authors": "Michael W. Tao, Sunil Hadap, Jitendra Malik, Ravi Ramamoorthi", 
+        "Title": "Depth from Combining Defocus and Correspondence Using Light-Field Cameras"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Thomas_A_Flexible_Scene_2013_ICCV_paper.pdf", 
+        "Authors": "Diego Thomas, Akihiro Sugimoto", 
+        "Title": "A Flexible Scene Representation for 3D Reconstruction Using an RGB-D Camera"
+    }, 
+    {
+        "Keywords": "Hierarchical Model, Data-Driven Approach, Globally Optimal Solution, Theoretical Analysis, Nonconvex Optimization", 
+        "PDF": "Tian_Hierarchical_Data-Driven_Descent_2013_ICCV_paper.pdf", 
+        "Authors": "Yuandong Tian, Srinivasa G. Narasimhan", 
+        "Title": "Hierarchical Data-Driven Descent for Efficient Optimal Deformation Estimation"
+    }, 
+    {
+        "Keywords": "super-resolution, neighbor embedding, sparse coding, ridge regression, anchored neighborhood regression", 
+        "PDF": "Timofte_Anchored_Neighborhood_Regression_2013_ICCV_paper.pdf", 
+        "Authors": "Radu Timofte, Vincent De_Smet, Luc Van_Gool", 
+        "Title": "Anchored Neighborhood Regression for Fast Example-Based Super-Resolution"
+    }, 
+    {
+        "Keywords": "tracking, pose estimation", 
+        "PDF": "Tokola_Breaking_the_Chain_2013_ICCV_paper.pdf", 
+        "Authors": "Ryan Tokola, Wongun Choi, Silvio Savarese", 
+        "Title": "Breaking the Chain: Liberation from the Temporal Markov Assumption for Tracking Human Poses"
+    }, 
+    {
+        "Keywords": "image retrieval, descriptor aggregation, VLAD, Hamming Embedding", 
+        "PDF": "Tolias_To_Aggregate_or_2013_ICCV_paper.pdf", 
+        "Authors": "Giorgos Tolias, Yannis Avrithis, Herve Jegou", 
+        "Title": "To Aggregate or Not to aggregate: Selective Match Kernels for Image Search"
+    }, 
+    {
+        "Keywords": "object detection, object recognition, texture-less, descriptors, image features", 
+        "PDF": "Tombari_BOLD_Features_to_2013_ICCV_paper.pdf", 
+        "Authors": "Federico Tombari, Alessandro Franchi, Luigi Di_Stefano", 
+        "Title": "BOLD Features to Detect Texture-less Objects"
+    }, 
+    {
+        "Keywords": "Domain Adaptation, Naive Bayes Nearest Neighbor", 
+        "PDF": "Tommasi_Frustratingly_Easy_NBNN_2013_ICCV_paper.pdf", 
+        "Authors": "Tatiana Tommasi, Barbara Caputo", 
+        "Title": "Frustratingly Easy NBNN Domain Adaptation"
+    }, 
+    {
+        "Keywords": "fundamental moire theorem, moire pattern synthesis, phase modulation, moire art, moire cryptography", 
+        "PDF": "Tsai_Target-Driven_Moire_Pattern_2013_ICCV_paper.pdf", 
+        "Authors": "Pei-Hen Tsai, Yung-Yu Chuang", 
+        "Title": "Target-Driven Moire Pattern Synthesis by Phase Modulation"
+    }, 
+    {
+        "Keywords": "attributes, attribute dominance, image search, zero shot learning, textual description, attribute based classification", 
+        "PDF": "Turakhia_Attribute_Dominance_What_2013_ICCV_paper.pdf", 
+        "Authors": "Naman Turakhia, Devi Parikh", 
+        "Title": "Attribute Dominance: What Pops Out?"
+    }, 
+    {
+        "Keywords": "Curvilinear networks, tubular structures, curvilinear structures, segmentation, tubularity measure, image gradient flux, optimally oriented flux, multi-directional oriented flux", 
+        "PDF": "Turetken_Detecting_Irregular_Curvilinear_2013_ICCV_paper.pdf", 
+        "Authors": "Engin Turetken, Carlos Becker, Przemyslaw Glowacki, Fethallah Benmansour, Pascal Fua", 
+        "Title": "Detecting Irregular Curvilinear Structures in Gray Scale and Color Imagery Using Multi-directional Oriented Flux"
+    }, 
+    {
+        "Keywords": "Active Appearance Models, AAMs, Face alignment, In-the-wild", 
+        "PDF": "Tzimiropoulos_Optimization_Problems_for_2013_ICCV_paper.pdf", 
+        "Authors": "Georgios Tzimiropoulos, Maja Pantic", 
+        "Title": "Optimization Problems for Fast AAM Fitting in-the-Wild"
+    }, 
+    {
+        "Keywords": "image based modeling, dynamic scene analysis, 4-d compression, free viewpoint video, 3-d tracking", 
+        "PDF": "Ulusoy_Dynamic_Probabilistic_Volumetric_2013_ICCV_paper.pdf", 
+        "Authors": "Ali Osman Ulusoy, Octavian Biris, Joseph L. Mundy", 
+        "Title": "Dynamic Probabilistic Volumetric Models"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Ummenhofer_Point-Based_3D_Reconstruction_2013_ICCV_paper.pdf", 
+        "Authors": "Benjamin Ummenhofer, Thomas Brox", 
+        "Title": "Point-Based 3D Reconstruction of Thin Objects"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Vahdat_Compositional_Models_for_2013_ICCV_paper.pdf", 
+        "Authors": "Arash Vahdat, Kevin Cannons, Greg Mori, Sangmin Oh, Ilseo Kim", 
+        "Title": "Compositional Models for Video Event Detection: A Multiple Kernel Learning Latent Variable Approach"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Vahdat_Handling_Uncertain_Tags_2013_ICCV_paper.pdf", 
+        "Authors": "Arash Vahdat, Greg Mori", 
+        "Title": "Handling Uncertain Tags in Visual Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Van_Den_Bergh_Online_Video_SEEDS_2013_ICCV_paper.pdf", 
+        "Authors": "Michael Van_Den_Bergh, Gemma Roig, Xavier Boix, Santiago Manen, Luc Van_Gool", 
+        "Title": "Online Video SEEDS for Temporal Window Objectness"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Vogel_Piecewise_Rigid_Scene_2013_ICCV_paper.pdf", 
+        "Authors": "Christoph Vogel, Konrad Schindler, Stefan Roth", 
+        "Title": "Piecewise Rigid Scene Flow"
+    }, 
+    {
+        "Keywords": "object detection, hog, visualization, hoggles", 
+        "PDF": "Vondrick_HOGgles_Visualizing_Object_2013_ICCV_paper.pdf", 
+        "Authors": "Carl Vondrick, Aditya Khosla, Tomasz Malisiewicz, Antonio Torralba", 
+        "Title": "HOGgles: Visualizing Object Detection Features"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_A_Max-Margin_Perspective_2013_ICCV_paper.pdf", 
+        "Authors": "Zhaowen Wang, Jianchao Yang, Nasser Nasrabadi, Thomas Huang", 
+        "Title": "A Max-Margin Perspective on Sparse Representation-Based Classification"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_A_Unified_Probabilistic_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaoyang Wang, Qiang Ji", 
+        "Title": "A Unified Probabilistic Approach Modeling Relationships between Attributes and Objects"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Action_Recognition_with_2013_ICCV_paper.pdf", 
+        "Authors": "Heng Wang, Cordelia Schmid", 
+        "Title": "Action Recognition with Improved Trajectories"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Bayesian_Robust_Matrix_2013_ICCV_paper.pdf", 
+        "Authors": "Naiyan Wang, Dit-Yan Yeung", 
+        "Title": "Bayesian Robust Matrix Factorization for Image and Video Processing"
+    }, 
+    {
+        "Keywords": "Spatiotemporal relationship, AU recognition, RBM", 
+        "PDF": "Wang_Capturing_Global_Semantic_2013_ICCV_paper.pdf", 
+        "Authors": "Ziheng Wang, Yongqiang Li, Shangfei Wang, Qiang Ji", 
+        "Title": "Capturing Global Semantic Relationships for Facial Action Unit Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Directed_Acyclic_Graph_2013_ICCV_paper.pdf", 
+        "Authors": "Ling Wang, Hichem Sahbi", 
+        "Title": "Directed Acyclic Graph Kernels for Action Recognition"
+    }, 
+    {
+        "Keywords": "Dynamic Label Propagation, Multi-class, Multi-label", 
+        "PDF": "Wang_Dynamic_Label_Propagation_2013_ICCV_paper.pdf", 
+        "Authors": "Bo Wang, Zhuowen Tu, John K. Tsotsos", 
+        "Title": "Dynamic Label Propagation for Semi-supervised Multi-class Multi-label Classification"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Fast_Neighborhood_Graph_2013_ICCV_paper.pdf", 
+        "Authors": "Jing Wang, Jingdong Wang, Gang Zeng, Rui Gan, Shipeng Li, Baining Guo", 
+        "Title": "Fast Neighborhood Graph Search Using Cartesian Concatenation"
+    }, 
+    {
+        "Keywords": "Subspace Search, Locality Sensitive Hashing, Grassmannian Based Hashing", 
+        "PDF": "Wang_Fast_Subspace_Search_2013_ICCV_paper.pdf", 
+        "Authors": "Xu Wang, Stefan Atev, John Wright, Gilad Lerman", 
+        "Title": "Fast Subspace Search via Grassmannian Based Hashing"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Image_Co-segmentation_via_2013_ICCV_paper.pdf", 
+        "Authors": "Fan Wang, Qixing Huang, Leonidas J. Guibas", 
+        "Title": "Image Co-segmentation via Consistent Functional Maps"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Improving_Graph_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Chao Wang, Lei Wang, Lingqiao Liu", 
+        "Title": "Improving Graph Matching via Density Maximization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Learning_Coupled_Feature_2013_ICCV_paper.pdf", 
+        "Authors": "Kaiye Wang, Ran He, Wei Wang, Liang Wang, Tieniu Tan", 
+        "Title": "Learning Coupled Feature Spaces for Cross-Modal Matching"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Learning_Hash_Codes_2013_ICCV_paper.pdf", 
+        "Authors": "Jun Wang, Wei Liu, Andy X. Sun, Yu-Gang Jiang", 
+        "Title": "Learning Hash Codes with Listwise Supervision"
+    }, 
+    {
+        "Keywords": "Action Recognition, Dynamic Temporal Warpping, Temporal Model, Depth Camera", 
+        "PDF": "Wang_Learning_Maximum_Margin_2013_ICCV_paper.pdf", 
+        "Authors": "Jiang Wang, Ying Wu", 
+        "Title": "Learning Maximum Margin Temporal Warping for Action Recognition"
+    }, 
+    {
+        "Keywords": "action recognition, mid-level representation", 
+        "PDF": "Wang_Mining_Motion_Atoms_2013_ICCV_paper.pdf", 
+        "Authors": "Limin Wang, Yu Qiao, Xiaoou Tang", 
+        "Title": "Mining Motion Atoms and Phrases for Complex Action Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wang_Online_Robust_Non-negative_2013_ICCV_paper.pdf", 
+        "Authors": "Naiyan Wang, Jingdong Wang, Dit-Yan Yeung", 
+        "Title": "Online Robust Non-negative Dictionary Learning for Visual Tracking"
+    }, 
+    {
+        "Keywords": "Regionlet, Object Detection, DPM, Deformation, Subcategory, PASCAL, ImageNet, Detection", 
+        "PDF": "Wang_Regionlets_for_Generic_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaoyu Wang, Ming Yang, Shenghuo Zhu, Yuanqing Lin", 
+        "Title": "Regionlets for Generic Object Detection"
+    }, 
+    {
+        "Keywords": "Image cosegmentation, Semi-supervised learning, Energy minimization function, Binary quadratic programming problem", 
+        "PDF": "Wang_Semi-supervised_Learning_for_2013_ICCV_paper.pdf", 
+        "Authors": "Zhengxiang Wang, Rujie Liu", 
+        "Title": "Semi-supervised Learning for Large Scale Image Cosegmentation"
+    }, 
+    {
+        "Keywords": "Dictionary Learning, Semi-Supervised Learning, Robust Dictionary Learning", 
+        "PDF": "Wang_Semi-supervised_Robust_Dictionary_2013_ICCV_paper.pdf", 
+        "Authors": "Hua Wang, Feiping Nie, Weidong Cai, Heng Huang", 
+        "Title": "Semi-supervised Robust Dictionary Learning via Efficient l-Norms Minimization"
+    }, 
+    {
+        "Keywords": "low-rank prior, single-patch, non-pointwise random valued impulse noise, joint low-rank and sparse matrix recovery framework", 
+        "PDF": "Wang_Single-Patch_Low-Rank_Prior_2013_ICCV_paper.pdf", 
+        "Authors": "Ruixuan Wang, Emanuele Trucco", 
+        "Title": "Single-Patch Low-Rank Prior for Non-pointwise Impulse Noise Removal"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wei_Concurrent_Action_Detection_2013_ICCV_paper.pdf", 
+        "Authors": "Ping Wei, Nanning Zheng, Yibiao Zhao, Song-Chun Zhu", 
+        "Title": "Concurrent Action Detection with Structural Prediction"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wei_Modeling_4D_Human-Object_2013_ICCV_paper.pdf", 
+        "Authors": "Ping Wei, Yibiao Zhao, Nanning Zheng, Song-Chun Zhu", 
+        "Title": "Modeling 4D Human-Object Interactions for Event and Object Recognition"
+    }, 
+    {
+        "Keywords": "3D reconstruction, multi-view normal field integration, mirroring objects", 
+        "PDF": "Weinmann_Multi-view_Normal_Field_2013_ICCV_paper.pdf", 
+        "Authors": "Michael Weinmann, Aljosa Osep, Roland Ruiters, Reinhard Klein", 
+        "Title": "Multi-view Normal Field Integration for 3D Reconstruction of Mirroring Objects"
+    }, 
+    {
+        "Keywords": "optical flow, large displacements, dense matching, non-rigid matching, deep convolutional networks", 
+        "PDF": "Weinzaepfel_DeepFlow_Large_Displacement_2013_ICCV_paper.pdf", 
+        "Authors": "Philippe Weinzaepfel, Jerome Revaud, Zaid Harchaoui, Cordelia Schmid", 
+        "Title": "DeepFlow: Large Displacement Optical Flow with Deep Matching"
+    }, 
+    {
+        "Keywords": "structured prediction, pose estimation", 
+        "PDF": "Weiss_Dynamic_Structured_Model_2013_ICCV_paper.pdf", 
+        "Authors": "David Weiss, Benjamin Sapp, Ben Taskar", 
+        "Title": "Dynamic Structured Model Selection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Weng_Robust_Feature_Set_2013_ICCV_paper.pdf", 
+        "Authors": "Renliang Weng, Jiwen Lu, Junlin Hu, Gao Yang, Yap-Peng Tan", 
+        "Title": "Robust Feature Set Matching for Partial Face Recognition"
+    }, 
+    {
+        "Keywords": "visual object tracking, tracking elongated objects, tracking longitudinal objects, generic tracking, configurable tracking", 
+        "PDF": "Wesierski_Pose-Configurable_Generic_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Daniel Wesierski, Patrick Horain", 
+        "Title": "Pose-Configurable Generic Tracking of Elongated Objects"
+    }, 
+    {
+        "Keywords": "image clustering, hierarchical clustering, scale space, medoid shift, semantic labelling", 
+        "PDF": "Weyand_Discovering_Details_and_2013_ICCV_paper.pdf", 
+        "Authors": "Tobias Weyand, Bastian Leibe", 
+        "Title": "Discovering Details and Scene Structure with Hierarchical Iconoid Shift"
+    }, 
+    {
+        "Keywords": "structure from motion, disambiguation, clustering coefficient, internet photo collections", 
+        "PDF": "Wilson_Network_Principles_for_2013_ICCV_paper.pdf", 
+        "Authors": "Kyle Wilson, Noah Snavely", 
+        "Title": "Network Principles for SfM: Disambiguating Repeated Structures with Local Context"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wu_Cross-View_Action_Recognition_2013_ICCV_paper.pdf", 
+        "Authors": "Xinxiao Wu, Han Wang, Cuiwei Liu, Yunde Jia", 
+        "Title": "Cross-View Action Recognition over Heterogeneous Feature Spaces"
+    }, 
+    {
+        "Keywords": "Decision Policy, Cost-Sensitive Computing, Risk Minimization, Dynamic Programming, Object Detection", 
+        "PDF": "Wu_Learning_Near-Optimal_Cost-Sensitive_2013_ICCV_paper.pdf", 
+        "Authors": "Tianfu Wu, Song-Chun Zhu", 
+        "Title": "Learning Near-Optimal Cost-Sensitive Decision Policy for Object Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wu_Multiple_Non-rigid_Surface_2013_ICCV_paper.pdf", 
+        "Authors": "Yi Wu, Yoshihisa Ijiri, Ming-Hsuan Yang", 
+        "Title": "Multiple Non-rigid Surface Detection and Registration"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Wu_Simultaneous_Clustering_and_2013_ICCV_paper.pdf", 
+        "Authors": "Baoyuan Wu, Siwei Lyu, Bao-Gang Hu, Qiang Ji", 
+        "Title": "Simultaneous Clustering and Tracklet Linking for Multi-face Tracking in Videos"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xia_Joint_Inverted_Indexing_2013_ICCV_paper.pdf", 
+        "Authors": "Yan Xia, Kaiming He, Fang Wen, Jian Sun", 
+        "Title": "Joint Inverted Indexing"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xia_Semantic_Segmentation_without_2013_ICCV_paper.pdf", 
+        "Authors": "Wei Xia, Csaba Domokos, Jian Dong, Loong-Fah Cheong, Shuicheng Yan", 
+        "Title": "Semantic Segmentation without Annotating Segments"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xiao_SUN3D_A_Database_2013_ICCV_paper.pdf", 
+        "Authors": "Jianxiong Xiao, Andrew Owens, Antonio Torralba", 
+        "Title": "SUN3D: A Database of Big Spaces Reconstructed Using SfM and Object Labels"
+    }, 
+    {
+        "Keywords": "Fine-Grained Visual Categorization, Hierarchical Part Matching, Foreground Inference and Segmentation, Hierarchical Structure Learning, Geometric Phrase Pooling", 
+        "PDF": "Xie_Hierarchical_Part_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Lingxi Xie, Qi Tian, Richang Hong, Shuicheng Yan, Bo Zhang", 
+        "Title": "Hierarchical Part Matching for Fine-Grained Visual Categorization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xie_Inferring_Dark_Matter_2013_ICCV_paper.pdf", 
+        "Authors": "Dan Xie, Sinisa Todorovic, Song-Chun Zhu", 
+        "Title": "Inferring \"Dark Matter\" and \"Dark Energy\" from Videos"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xie_Parallel_Transport_of_2013_ICCV_paper.pdf", 
+        "Authors": "Qian Xie, Sebastian Kurtek, Huiling Le, Anuj Srivastava", 
+        "Title": "Parallel Transport of Deformations in Shape Space of Elastic Surfaces"
+    }, 
+    {
+        "Keywords": "Object tracking, template update, sparse representation, dictionary learning", 
+        "PDF": "Xing_Robust_Object_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Junliang Xing, Jin Gao, Bing Li, Weiming Hu, Shuicheng Yan", 
+        "Title": "Robust Object Tracking with Online Multi-lifespan Dictionary Learning"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xiong_Face_Recognition_via_2013_ICCV_paper.pdf", 
+        "Authors": "Yuanjun Xiong, Wei Liu, Deli Zhao, Xiaoou Tang", 
+        "Title": "Face Recognition via Archetype Hull Ranking"
+    }, 
+    {
+        "Keywords": "realtime, hand pose estimation, random forest", 
+        "PDF": "Xu_Efficient_Hand_Pose_2013_ICCV_paper.pdf", 
+        "Authors": "Chi Xu, Li Cheng", 
+        "Title": "Efficient Hand Pose Estimation from a Single Depth Image"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xu_Feature_Weighting_via_2013_ICCV_paper.pdf", 
+        "Authors": "Zhongwen Xu, Yi Yang, Ivor Tsang, Nicu Sebe, Alexander G. Hauptmann", 
+        "Title": "Feature Weighting via Optimal Thresholding for Video Analysis"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xu_Flattening_Supervoxel_Hierarchies_2013_ICCV_paper.pdf", 
+        "Authors": "Chenliang Xu, Spencer Whitt, Jason J. Corso", 
+        "Title": "Flattening Supervoxel Hierarchies by the Uniform Entropy Slice"
+    }, 
+    {
+        "Keywords": "Online subspace learning, Structured sparsity, Manifold optimization, online background subtraction, online multiple face tracking", 
+        "PDF": "Xu_GOSUS_Grassmannian_Online_2013_ICCV_paper.pdf", 
+        "Authors": "Jia Xu, Vamsi K. Ithapu, Lopamudra Mukherjee, James M. Rehg, Vikas Singh", 
+        "Title": "GOSUS: Grassmannian Online Subspace Updates with Structured-Sparsity"
+    }, 
+    {
+        "Keywords": "Human re-identification, Video Surveillance, Object Recognition, Computer Vision", 
+        "PDF": "Xu_Human_Re-identification_by_2013_ICCV_paper.pdf", 
+        "Authors": "Yuanlu Xu, Liang Lin, Wei-Shi Zheng, Xiaobai Liu", 
+        "Title": "Human Re-identification by Matching Compositional Template with Cluster Sampling"
+    }, 
+    {
+        "Keywords": "face synthesis, manifold, sparse samples, transfer learning", 
+        "PDF": "Xu_Manifold_Based_Face_2013_ICCV_paper.pdf", 
+        "Authors": "Hongteng Xu, Hongyuan Zha", 
+        "Title": "Manifold Based Face Synthesis from Sparse Samples"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Xue_Perceptual_Fidelity_Aware_2013_ICCV_paper.pdf", 
+        "Authors": "Wufeng Xue, Xuanqin Mou, Lei Zhang, Xiangchu Feng", 
+        "Title": "Perceptual Fidelity Aware Mean Squared Error"
+    }, 
+    {
+        "Keywords": "Wet surfaces, Dry surfaces, spectral absorption", 
+        "PDF": "Yacoob_Matching_Dry_to_2013_ICCV_paper.pdf", 
+        "Authors": "Yaser Yacoob", 
+        "Title": "Matching Dry to Wet Materials"
+    }, 
+    {
+        "Keywords": "clothing parsing, clothing recognition, segmentation", 
+        "PDF": "Yamaguchi_Paper_Doll_Parsing_2013_ICCV_paper.pdf", 
+        "Authors": "Kota Yamaguchi, M. Hadi Kiapour, Tamara L. Berg", 
+        "Title": "Paper Doll Parsing: Retrieving Similar Styles to Parse Clothing Items"
+    }, 
+    {
+        "Keywords": "image restoration, denoise, cross-field, near-infrared", 
+        "PDF": "Yan_Cross-Field_Joint_Image_2013_ICCV_paper.pdf", 
+        "Authors": "Qiong Yan, Xiaoyong Shen, Li Xu, Shaojie Zhuo, Xiaopeng Zhang, Liang Shen, Jiaya Jia", 
+        "Title": "Cross-Field Joint Image Restoration via Scale Map"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yan_Joint_Optimization_for_2013_ICCV_paper.pdf", 
+        "Authors": "Junchi Yan, Yu Tian, Hongyuan Zha, Xiaokang Yang, Ya Zhang, Stephen M. Chu", 
+        "Title": "Joint Optimization for Consistent Multiple Graph Matching"
+    }, 
+    {
+        "Keywords": "Multi-Task Learning, Multi-view, Head Pose Classification", 
+        "PDF": "Yan_No_Matter_Where_2013_ICCV_paper.pdf", 
+        "Authors": "Yan Yan, Elisa Ricci, Ramanathan Subramanian, Oswald Lanz, Nicu Sebe", 
+        "Title": "No Matter Where You Are: Flexible Graph-Guided Multi-task Learning for Multi-view Head Pose Classification under Target Motion"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yang_Complex_3D_General_2013_ICCV_paper.pdf", 
+        "Authors": "Linjie Yang, Jianzhuang Liu, Xiaoou Tang", 
+        "Title": "Complex 3D General Object Reconstruction from Line Drawings"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yang_Exemplar_Cut_2013_ICCV_paper.pdf", 
+        "Authors": "Jimei Yang, Yi-Hsuan Tsai, Ming-Hsuan Yang", 
+        "Title": "Exemplar Cut"
+    }, 
+    {
+        "Keywords": "single-image super-resolution, fast, cluster, subspace, linear regression", 
+        "PDF": "Yang_Fast_Direct_Super-Resolution_2013_ICCV_paper.pdf", 
+        "Authors": "Chih-Yuan Yang, Ming-Hsuan Yang", 
+        "Title": "Fast Direct Super-Resolution by Simple Functions"
+    }, 
+    {
+        "Keywords": "ICP, 3D registration, shape matching", 
+        "PDF": "Yang_Go-ICP_Solving_3D_2013_ICCV_paper.pdf", 
+        "Authors": "Jiaolong Yang, Hongdong Li, Yunde Jia", 
+        "Title": "Go-ICP: Solving 3D Registration Efficiently and Globally Optimally"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yang_How_Related_Exemplars_2013_ICCV_paper.pdf", 
+        "Authors": "Yi Yang, Zhigang Ma, Zhongwen Xu, Shuicheng Yan, Alexander G. Hauptmann", 
+        "Title": "How Related Exemplars Help Complex Event Detection in Web Videos?"
+    }, 
+    {
+        "Keywords": "object tracking, shape tracking, occlusions, dis-occlusions, level set methods, optical flow", 
+        "PDF": "Yang_Modeling_Self-Occlusions_in_2013_ICCV_paper.pdf", 
+        "Authors": "Yanchao Yang, Ganesh Sundaramoorthi", 
+        "Title": "Modeling Self-Occlusions in Dynamic Shape and Appearance Tracking"
+    }, 
+    {
+        "Keywords": "regression forests, facial feature detection, votes sieving", 
+        "PDF": "Yang_Sieving_Regression_Forest_2013_ICCV_paper.pdf", 
+        "Authors": "Heng Yang, Ioannis Patras", 
+        "Title": "Sieving Regression Forest Votes for Facial Feature Detection in the Wild"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yang_Sparse_Variation_Dictionary_2013_ICCV_paper.pdf", 
+        "Authors": "Meng Yang, Luc Van_Gool, Lei Zhang", 
+        "Title": "Sparse Variation Dictionary Learning for Face Recognition with a Single Training Sample per Person"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Yao_Discovering_Object_Functionality_2013_ICCV_paper.pdf", 
+        "Authors": "Bangpeng Yao, Jiayuan Ma, Li Fei-Fei", 
+        "Title": "Discovering Object Functionality"
+    }, 
+    {
+        "Keywords": "Multi-perspective Imaging, XSlit Camera, Stereo, 3D Imaging", 
+        "PDF": "Ye_A_Rotational_Stereo_2013_ICCV_paper.pdf", 
+        "Authors": "Jinwei Ye, Yu Ji, Jingyi Yu", 
+        "Title": "A Rotational Stereo Model Based on XSlit Imaging"
+    }, 
+    {
+        "Keywords": "large-scale, video hashing, video structure", 
+        "PDF": "Ye_Large-Scale_Video_Hashing_2013_ICCV_paper.pdf", 
+        "Authors": "Guangnan Ye, Dong Liu, Jun Wang, Shih-Fu Chang", 
+        "Title": "Large-Scale Video Hashing via Structure Learning"
+    }, 
+    {
+        "Keywords": "Visual Tracking, Initialization, Saliency, Local Feature, Generalized Hough Transform", 
+        "PDF": "Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.pdf", 
+        "Authors": "Kwang Moo Yi, Hawook Jeong, Byeongho Heo, Hyung Jin Chang, Jin Young Choi", 
+        "Title": "Initialization-Insensitive Visual Tracking through Voting with Salient Local Features"
+    }, 
+    {
+        "Keywords": "Light Field Triangulation, Light Field Stereo Matching", 
+        "PDF": "Yu_Line_Assisted_Light_2013_ICCV_paper.pdf", 
+        "Authors": "Zhan Yu, Xinqing Guo, Haibing Lin, Andrew Lumsdaine, Jingyi Yu", 
+        "Title": "Line Assisted Light Field Triangulation and Stereo Matching"
+    }, 
+    {
+        "Keywords": "Face landmark localization, deformable shape model, part based model, face tracking", 
+        "PDF": "Yu_Pose-Free_Facial_Landmark_2013_ICCV_paper.pdf", 
+        "Authors": "Xiang Yu, Junzhou Huang, Shaoting Zhang, Wang Yan, Dimitris N. Metaxas", 
+        "Title": "Pose-Free Facial Landmark Fitting via Optimized Part Mixtures and Cascaded Deformable Shape Model"
+    }, 
+    {
+        "Keywords": "Slow Feature Analysis, Component Analysis", 
+        "PDF": "Zafeiriou_Learning_Slow_Features_2013_ICCV_paper.pdf", 
+        "Authors": "Lazaros Zafeiriou, Mihalis A. Nicolaou, Stefanos Zafeiriou, Symeon Nikitidis, Maja Pantic", 
+        "Title": "Learning Slow Features for Behaviour Analysis"
+    }, 
+    {
+        "Keywords": "face recognition, kernel learning, face tracking", 
+        "PDF": "Zafeiriou_On_One-Shot_Similarity_2013_ICCV_paper.pdf", 
+        "Authors": "Stefanos Zafeiriou, Irene Kotsia", 
+        "Title": "On One-Shot Similarity Kernels: Explicit Feature Maps and Properties"
+    }, 
+    {
+        "Keywords": "action recognition, action detection, moving pose descriptor, RGB-D cameras", 
+        "PDF": "Zanfir_The_Moving_Pose_2013_ICCV_paper.pdf", 
+        "Authors": "Mihai Zanfir, Marius Leordeanu, Cristian Sminchisescu", 
+        "Title": "The Moving Pose: An Efficient 3D Kinematics Descriptor for Low-Latency Action Recognition and Detection"
+    }, 
+    {
+        "Keywords": "point cloud registration, RGB-D registration, 3D reconstruction", 
+        "PDF": "Zeisl_Automatic_Registration_of_2013_ICCV_paper.pdf", 
+        "Authors": "Bernhard Zeisl, Kevin Koser, Marc Pollefeys", 
+        "Title": "Automatic Registration of RGB-D Scans via Salient Directions"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zeng_A_Generic_Deformation_2013_ICCV_paper.pdf", 
+        "Authors": "Yun Zeng, Chaohui Wang, Xianfeng Gu, Dimitris Samaras, Nikos Paragios", 
+        "Title": "A Generic Deformation Model for Dense Non-rigid Surface Registration: A Higher-Order MRF-Based Approach"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zeng_Geometric_Registration_Based_2013_ICCV_paper.pdf", 
+        "Authors": "Wei Zeng, Mayank Goswami, Feng Luo, Xianfeng Gu", 
+        "Title": "Geometric Registration Based on Distortion Estimation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zeng_Multi-stage_Contextual_Deep_2013_ICCV_paper.pdf", 
+        "Authors": "Xingyu Zeng, Wanli Ouyang, Xiaogang Wang", 
+        "Title": "Multi-stage Contextual Deep Learning for Pedestrian Detection"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Deformable_Part_Descriptors_2013_ICCV_paper.pdf", 
+        "Authors": "Ning Zhang, Ryan Farrell, Forrest Iandola, Trevor Darrell", 
+        "Title": "Deformable Part Descriptors for Fine-Grained Recognition and Attribute Prediction"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Estimating_the_3D_2013_ICCV_paper.pdf", 
+        "Authors": "Jian Zhang, Chen Kan, Alexander G. Schwing, Raquel Urtasun", 
+        "Title": "Estimating the 3D Layout of Indoor Scenes and Its Clutter from Depth Sensors"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Event_Detection_in_2013_ICCV_paper.pdf", 
+        "Authors": "Yifan Zhang, Qiang Ji, Hanqing Lu", 
+        "Title": "Event Detection in Complex Scenes Using Interval Temporal Constraints"
+    }, 
+    {
+        "Keywords": "action classification, action detection", 
+        "PDF": "Zhang_From_Actemes_to_2013_ICCV_paper.pdf", 
+        "Authors": "Weiyu Zhang, Menglong Zhu, Konstantinos G. Derpanis", 
+        "Title": "From Actemes to Action: A Strongly-Supervised Representation for Detailed Action Understanding"
+    }, 
+    {
+        "Keywords": "Image Parsing, Adaptive Subgradient Descent, Conditional Random Field", 
+        "PDF": "Zhang_Learning_CRFs_for_2013_ICCV_paper.pdf", 
+        "Authors": "Honghui Zhang, Jingdong Wang, Ping Tan, Jinglu Wang, Long Quan", 
+        "Title": "Learning CRFs for Image Parsing with Adaptive Subgradient Descent"
+    }, 
+    {
+        "Keywords": "Learning Graph Matching, Attributed Relational Graphs, Model Learning", 
+        "PDF": "Zhang_Learning_Graph_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Quanshi Zhang, Xuan Song, Xiaowei Shao, Huijing Zhao, Ryosuke Shibasaki", 
+        "Title": "Learning Graph Matching: Oriented to Category Modeling from Cluttered Scenes"
+    }, 
+    {
+        "Keywords": "image classification, low-rank, bow", 
+        "PDF": "Zhang_Low-Rank_Sparse_Coding_2013_ICCV_paper.pdf", 
+        "Authors": "Tianzhu Zhang, Bernard Ghanem, Si Liu, Changsheng Xu, Narendra Ahuja", 
+        "Title": "Low-Rank Sparse Coding for Image Classification"
+    }, 
+    {
+        "Keywords": "Face Recognition, Pose-Invariant, Sparse, Many-to-One Encoder, Random Faces", 
+        "PDF": "Zhang_Random_Faces_Guided_2013_ICCV_paper.pdf", 
+        "Authors": "Yizhe Zhang, Ming Shao, Edward K. Wong, Yun Fu", 
+        "Title": "Random Faces Guided Sparse Many-to-One Encoder for Pose-Invariant Face Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Robust_Subspace_Clustering_2013_ICCV_paper.pdf", 
+        "Authors": "Yingya Zhang, Zhenan Sun, Ran He, Tieniu Tan", 
+        "Title": "Robust Subspace Clustering via Half-Quadratic Minimization"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Robust_Tucker_Tensor_2013_ICCV_paper.pdf", 
+        "Authors": "Miao Zhang, Chris Ding", 
+        "Title": "Robust Tucker Tensor Decomposition for Effective Image Representation"
+    }, 
+    {
+        "Keywords": "visual saliency, eye fixation, salient object detection", 
+        "PDF": "Zhang_Saliency_Detection_A_2013_ICCV_paper.pdf", 
+        "Authors": "Jianming Zhang, Stan Sclaroff", 
+        "Title": "Saliency Detection: A Boolean Map Approach"
+    }, 
+    {
+        "Keywords": "Image retrieval, co-indexing, vocabulary tree, object recognition", 
+        "PDF": "Zhang_Semantic-Aware_Co-indexing_for_2013_ICCV_paper.pdf", 
+        "Authors": "Shiliang Zhang, Ming Yang, Xiaoyu Wang, Yuanqing Lin, Qi Tian", 
+        "Title": "Semantic-Aware Co-indexing for Image Retrieval"
+    }, 
+    {
+        "Keywords": "Illumination cone model, Object instance verification, Lambertian surface, Nonconvex object", 
+        "PDF": "Zhang_Toward_Guaranteed_Illumination_2013_ICCV_paper.pdf", 
+        "Authors": "Yuqian Zhang, Cun Mu, Han-Wen Kuo, John Wright", 
+        "Title": "Toward Guaranteed Illumination Models for Non-convex Objects"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhang_Understanding_High-Level_Semantics_2013_ICCV_paper.pdf", 
+        "Authors": "Hongyi Zhang, Andreas Geiger, Raquel Urtasun", 
+        "Title": "Understanding High-Level Semantics by Modeling Traffic Patterns"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhao_Cascaded_Shape_Space_2013_ICCV_paper.pdf", 
+        "Authors": "Xiaowei Zhao, Shiguang Shan, Xiujuan Chai, Xilin Chen", 
+        "Title": "Cascaded Shape Space Pruning for Robust Facial Landmark Detection"
+    }, 
+    {
+        "Keywords": "Person re-identification, salience matching, salience, saliency, patch matching, pedestrian matching", 
+        "PDF": "Zhao_Person_Re-identification_by_2013_ICCV_paper.pdf", 
+        "Authors": "Rui Zhao, Wanli Ouyang, Xiaogang Wang", 
+        "Title": "Person Re-identification by Salience Matching"
+    }, 
+    {
+        "Keywords": "Deblurring, Homography, Forward Motion, Normal", 
+        "PDF": "Zheng_Forward_Motion_Deblurring_2013_ICCV_paper.pdf", 
+        "Authors": "Shicheng Zheng, Li Xu, Jiaya Jia", 
+        "Title": "Forward Motion Deblurring"
+    }, 
+    {
+        "Keywords": "dictionary learning, action recognition", 
+        "PDF": "Zheng_Learning_View-Invariant_Sparse_2013_ICCV_paper.pdf", 
+        "Authors": "Jingjing Zheng, Zhuolin Jiang", 
+        "Title": "Learning View-Invariant Sparse Representations for Cross-View Action Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zheng_Revisiting_the_PnP_2013_ICCV_paper.pdf", 
+        "Authors": "Yinqiang Zheng, Yubin Kuang, Shigeki Sugimoto, Kalle Astrom, Masatoshi Okutomi", 
+        "Title": "Revisiting the PnP Problem: A Fast, General and Optimal Solution"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhou_Elastic_Fragments_for_2013_ICCV_paper.pdf", 
+        "Authors": "Qian-Yi Zhou, Stephen Miller, Vladlen Koltun", 
+        "Title": "Elastic Fragments for Dense Scene Reconstruction"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhou_Enhanced_Continuous_Tabu_2013_ICCV_paper.pdf", 
+        "Authors": "Guoqing Zhou, Qing Wang", 
+        "Title": "Enhanced Continuous Tabu Search for Parameter Estimation in Multiview Geometry"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhou_Exemplar-Based_Graph_Matching_2013_ICCV_paper.pdf", 
+        "Authors": "Feng Zhou, Jonathan Brandt, Zhe Lin", 
+        "Title": "Exemplar-Based Graph Matching for Robust Facial Landmark Localization"
+    }, 
+    {
+        "Keywords": "Latent Task, Action Recognition", 
+        "PDF": "Zhou_Learning_to_Share_2013_ICCV_paper.pdf", 
+        "Authors": "Qiang Zhou, Gang Wang, Kui Jia, Qi Zhao", 
+        "Title": "Learning to Share Latent Tasks for Action Recognition"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhu_Action_Recognition_with_2013_ICCV_paper.pdf", 
+        "Authors": "Jun Zhu, Baoyuan Wang, Xiaokang Yang, Wenjun Zhang, Zhuowen Tu", 
+        "Title": "Action Recognition with Actons"
+    }, 
+    {
+        "Keywords": "deep learning, face recognition", 
+        "PDF": "Zhu_Deep_Learning_Identity-Preserving_2013_ICCV_paper.pdf", 
+        "Authors": "Zhenyao Zhu, Ping Luo, Xiaogang Wang, Xiaoou Tang", 
+        "Title": "Deep Learning Identity-Preserving Face Space"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zhu_From_Point_to_2013_ICCV_paper.pdf", 
+        "Authors": "Pengfei Zhu, Lei Zhang, Wangmeng Zuo, David Zhang", 
+        "Title": "From Point to Set: Extend the Learning of Distance Metrics"
+    }, 
+    {
+        "Keywords": "visual object retrieval, instance search, asymmetrical dissimilarity, distance metric", 
+        "PDF": "Zhu_Query-Adaptive_Asymmetrical_Dissimilarities_2013_ICCV_paper.pdf", 
+        "Authors": "Cai-Zhi Zhu, Herve Jegou, Shin'Ichi Satoh", 
+        "Title": "Query-Adaptive Asymmetrical Dissimilarities for Visual Object Retrieval"
+    }, 
+    {
+        "Keywords": "video synopsis, learning heterogeneous data sources, multi-source correlation, noisy data, partial/missing data", 
+        "PDF": "Zhu_Video_Synopsis_by_2013_ICCV_paper.pdf", 
+        "Authors": "Xiatian Zhu, Chen Change Loy, Shaogang Gong", 
+        "Title": "Video Synopsis by Heterogeneous Multi-source Correlation"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zitnick_Learning_the_Visual_2013_ICCV_paper.pdf", 
+        "Authors": "C. Lawrence Zitnick, Devi Parikh, Lucy Vanderwende", 
+        "Title": "Learning the Visual Interpretation of Sentences"
+    }, 
+    {
+        "Keywords": "human pose estimation, optical flow, video", 
+        "PDF": "Zuffi_Estimating_Human_Pose_2013_ICCV_paper.pdf", 
+        "Authors": "Silvia Zuffi, Javier Romero, Cordelia Schmid, Michael J. Black", 
+        "Title": "Estimating Human Pose with Flowing Puppets"
+    }, 
+    {
+        "Keywords": "", 
+        "PDF": "Zuo_A_Generalized_Iterated_2013_ICCV_paper.pdf", 
+        "Authors": "Wangmeng Zuo, Deyu Meng, Lei Zhang, Xiangchu Feng, David Zhang", 
+        "Title": "A Generalized Iterated Shrinkage Algorithm for Non-convex Sparse Coding"
+    }
+]

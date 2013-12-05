@@ -1,0 +1,371 @@
+[
+    {
+        "Authors": "Jamie\nShotton(University of Cambridge);John Winn(Microsoft Research, Cambridge); Carsten Rother (Microsoft Research,\nCambridge); Antonio Criminisi (Microsoft Research, Cambridge)", 
+        "Conference": "eccv", 
+        "ID": 0, 
+        "PDF": "http://mi.eng.cam.ac.uk/%7Ejdjs2/publications/eccv06.pdf", 
+        "Project": "", 
+        "Title": "TextonBoost: Joint Appearance, Shape and Context Modeling\nfor Multi-Class Object Recognition and Segmentation", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "David\nCrandall(Cornell University);Daniel Huttenlocher(Cornell University)", 
+        "Conference": "eccv", 
+        "ID": 1, 
+        "PDF": "http://www.cs.cornell.edu/%7Ecrandall/papers/weaklysupervised06eccv.pdf", 
+        "Project": "", 
+        "Title": "Weakly Supervised Learning of Part-Based\nSpatial Models for Visual Object Recognition", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Ankur\nAgarwal(GRAVIR-INRIA);Bill Triggs(GRAVIR-CNRS-INRIA)", 
+        "Conference": "eccv", 
+        "ID": 2, 
+        "PDF": "http://lear.inrialpes.fr/pubs/2006/AT06b/Agarwal-Triggs-eccv06.pdf", 
+        "Project": "", 
+        "Title": "Hyperfeatures - Multilevel Local Coding\nfor Visual Recognition (Abstract,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Tony\nLin(Peking University); Hongbin Zha (Peking\nUniversity); Sang Uk\nLee (Seoul National University)", 
+        "Conference": "eccv", 
+        "ID": 3, 
+        "PDF": "http://www.cis.pku.edu.cn/faculty/vision/lintong/research/papers/ECCV06-lin.pdf", 
+        "Project": "", 
+        "Title": "Riemannian Manifold Learning for Nonlinear Dimensionality\nReduction", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Matthias\nHeiler(University of Mannheim, Germany);\nChristoph\nSchn&ouml;rr (University of Mannheim, Germany)", 
+        "Conference": "eccv", 
+        "ID": 4, 
+        "PDF": "http://www.cvgpr.uni-mannheim.de/heiler/papers/sntf_eccv.pdf", 
+        "Project": "", 
+        "Title": "Controlling Sparseness in Non-Negative Tensor Factorization\n(PDF,project)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Dahua\nLin(The Chinese University of Hong Kong); Xiaoou\nTang (Microsoft\nResearch Asia)\n&nbsp;", 
+        "Conference": "eccv", 
+        "ID": 5, 
+        "PDF": "http://personal.ie.cuhk.edu.hk/%7Edhlin4/mypapers/eccv_06_b.pdf", 
+        "Project": "", 
+        "Title": "Conditional Infomax Learning: An Integrated Framework for\nFeature Extraction and Fusion", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Yasutaka\nFurukawa(Beckman Institute, University of\nIllinois at\nUrbana-Champaign);Jean\nPonce(Beckman Institute, University of\nIllinois at Urbana-Champaign)", 
+        "Conference": "eccv", 
+        "ID": 6, 
+        "PDF": "http://www-cvr.ai.uiuc.edu/%7Eyfurukaw/papers/eccv06b.pdf", 
+        "Project": "", 
+        "Title": "Carved Visual Hulls for Image-Based Modeling", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Amit\nAgrawal(University of Maryland); Ramesh Raskar\n(MERL); Rama\nChellappa (University of Maryland)", 
+        "Conference": "eccv", 
+        "ID": 7, 
+        "PDF": "http://www.cfar.umd.edu/%7Eaagrawal/eccv06/AgrawalECCV06.pdf", 
+        "Project": "", 
+        "Title": "What is the Range of Surface Reconstructions from a\nGradient\nField?", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Sameer\nAgarwal(University of California, San Diego);Manmohan\nChandraker(University of California, San Diego); Fredrik\nKahl (Lund\nUniversity); David Kriegman (University of California, San Diego);\nSerge Belongie (University of California, San Diego)", 
+        "Conference": "eccv", 
+        "ID": 8, 
+        "PDF": "http://vision.ucsd.edu/%7Emanu/eccv06_optimal.pdf", 
+        "Project": "", 
+        "Title": "Practical Global Optimization for Multiview Geometry", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Konrad\nSchindler(ECSE, Monash University); James U (ECSE,\nMonash\nUniversity);Hanzi\nWang(ECSE, Monash University)", 
+        "Conference": "eccv", 
+        "ID": 9, 
+        "PDF": "http://users.monash.edu.au/%7Ekonrads/papers/eccv06.pdf", 
+        "Project": "", 
+        "Title": "Perspective n-view Multibody Structure-and-Motion through\nModel Selection", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Samuel\nW. Hasinoff(University of Toronto); Kiriakos N.\nKutulakos\n(University of Toronto)", 
+        "Conference": "eccv", 
+        "ID": 10, 
+        "PDF": "http://www.cs.toronto.edu/%7Ehasinoff/pubs/hasinoff-confocal-2006.pdf", 
+        "Project": "", 
+        "Title": "Confocal Stereo -Honorable\nMention Paper Awards(PDF,Project,\nvideos)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Vladimir\nKolmogorov(Microsoft Research Cambridge);Carsten\nRother(Microsoft Research Cambridge)", 
+        "Conference": "eccv", 
+        "ID": 11, 
+        "PDF": "http://www.adastral.ucl.ac.uk/%7Evladkolm/papers/KR-ECCV06.pdf", 
+        "Project": "", 
+        "Title": "Comparison of energy minimization algorithms for highly\nconnected graphs (Abstract,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Rick\nSzeliski(Microsoft Research);Ramin Zabih(Cornell\nUniversity);\nDaniel Scharstein (Middlebury College); Olga Veksler (University of\nWestern Ontario); Vladimir Kolmogorov (University College London);\nAseem Agarwala (University of Washington); Marshall Tappen (MIT);\nCarsten Rother (Microsoft Research)", 
+        "Conference": "eccv", 
+        "ID": 12, 
+        "PDF": "http://vision.middlebury.edu/MRF/eccv06/SZSVKATR-ECCV06.pdf", 
+        "Project": "", 
+        "Title": "A Comparative Study of Energy Minimization Methods for\nMarkov\nRandom Fields (Project,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Pushmeet\nKohli(Oxford Brookes University); Philip H.S.\nTorr (Oxford\nBrookes University)", 
+        "Conference": "eccv", 
+        "ID": 13, 
+        "PDF": "http://cms.brookes.ac.uk/staff/PushmeetKohli/papers/MinMarginals.pdf", 
+        "Project": "", 
+        "Title": "Measuring Uncertainty in Graph Cut Solutions - Efficiently\nComputing Min-marginal Energies using Dynamic Graph Cuts", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Wen-Chieh Lin (National Chiao-Tung University, Taiwan);\nYanxi Liu\n(Carnegie Mellon University)", 
+        "Conference": "eccv", 
+        "ID": 14, 
+        "PDF": "http://www.cs.nctu.edu.tw/%7Ewclin/dnrt/nrt_eccv_final.pdf", 
+        "Project": "", 
+        "Title": "Tracking Dynamic Near-regular Textures under Occlusions and\nRapid Movements (Project,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Omar Ait-Aider (LASMEA, UMR 6602 CNRS); Nicolas Andreff\n(LASMEA, UMR\n6602 CNRS); Jean Marc Lavest (LASMEA, UMR 6602 CNRS); Philippe Martinet\n(LASMEA, UMR 6602 CNRS)", 
+        "Conference": "eccv", 
+        "ID": 15, 
+        "PDF": "http://comsee.univ-bpclermont.fr/publications/simultaneous_object_pose_and_velocity_computation_using_a_single_view_from_a_rolling_shutter_camera.pdf", 
+        "Project": "", 
+        "Title": "Simultaneous Object Pose and Velocity Computation Using a\nSingle View from a Rolling Shutter Camera -Honorable Mention Paper Awards(PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Matthias M&uuml;hlich (RWTH Aachen, Germany); Til Aach\n(RWTH\nAachen, Germany)", 
+        "Conference": "eccv", 
+        "ID": 16, 
+        "PDF": "http://www.lfb.rwth-aachen.de/files/publications/2006/MUE06a.pdf", 
+        "Project": "", 
+        "Title": "A Theory of Multiple Orientation Estimation (Project,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Alban Foulonneau (ERA 27 LCPC); Pierre Charbonnier (ERA 27\nLCPC);\nFabrice Heitz (Laboratoire des Sciences de l'Image, de l'Informatique\net de la Teledetection)", 
+        "Conference": "eccv", 
+        "ID": 17, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Affine-Invariant Multi-Reference Shape Priors for Active\nContours (Bibtex)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Xiaofeng\nRen(U.C. Berkeley); Charless Fowlkes (U.C.\nBerkeley);\nJitendra Malik (U.C. Berkeley)", 
+        "Conference": "eccv", 
+        "ID": 18, 
+        "PDF": "http://www.cs.berkeley.edu/%7Exren/publication/xren_eccv06_figureground.pdf", 
+        "Project": "", 
+        "Title": "Figure/Ground Assignment in Natural Images", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Jian\nSun(Microsoft Research Asia); Weiwei Zhang (Microsoft\nResearch\nAsia); Xiaoou Tang (Microsoft Research Asia); Heung-Yeung Shum\n(Microsoft Research Asia)", 
+        "Conference": "eccv", 
+        "ID": 19, 
+        "PDF": "http://research.microsoft.com/%7Ejiansun/papers/BgCut_Camera.pdf", 
+        "Project": "", 
+        "Title": "Background Cut", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Matthieu Bray (Oxford Brookes University);Pushmeet\nKohli(Oxford\nBrookes University); Philip Torr (Oxford Brookes University)", 
+        "Conference": "eccv", 
+        "ID": 20, 
+        "PDF": "http://cms.brookes.ac.uk/staff/PushmeetKohli/papers/PoseCut.pdf", 
+        "Project": "", 
+        "Title": "PoseCut: Simultaneous Segmentation and 3D Pose Estimation\nof\nHumans using Dynamic Graph-Cuts", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Shai Avidan (MERL); Moshe Butman (Bar Ilan University)", 
+        "Conference": "eccv", 
+        "ID": 21, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "Blind Vision (Project,tehnical\nreport)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Vittorio\nFerrari(ETHZ); Tinne Tuytelaars (KUL); Luc Van\nGool (ETHZ/KUL)", 
+        "Conference": "eccv", 
+        "ID": 22, 
+        "PDF": "http://www.vision.ee.ethz.ch/%7Eferrari/Publications/ferrari-eccv06.pdf", 
+        "Project": "", 
+        "Title": "Object Detection by Contour Segment Networks", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Gustavo\nCarneiro(University of British Columbia);David\nLowe(University of British Columbia)", 
+        "Conference": "eccv", 
+        "ID": 23, 
+        "PDF": "http://www.cs.ubc.ca/%7Ecarneiro/publications/sparse_flexible_model.pdf", 
+        "Project": "", 
+        "Title": "Sparse Flexible Models of Local Features", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Gang\nLi(Yale University); Steven W. Zucker (Yale\nUniversity)", 
+        "Conference": "eccv", 
+        "ID": 24, 
+        "PDF": "http://citeseer.ist.psu.edu/pdf/761317", 
+        "Project": "", 
+        "Title": "Differential Geometric Consistency Extends Stereo to Curved\nSurfaces (CiteSeer,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Ping Tan (Computer Science Department, Hong Kong University\nof Science\nand Technology); Stephen Lin (Microsoft Research Asia); Long Quan\n(Computer Science Department, Hong Kong University of Science and\nTechnology)", 
+        "Conference": "eccv", 
+        "ID": 25, 
+        "PDF": "http://www.cse.ust.hk/%7Eptan/Projects/eccv06/super-ps.pdf", 
+        "Project": "", 
+        "Title": "Resolution-Enhanced Photometric Stereo (Project,PDF,PPT)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Chia-Ping Chen (Institute of Information Science, Academia\nSinica);\nChu-Song Chen (Institute of Information Science, Academia Sinica)", 
+        "Conference": "eccv", 
+        "ID": 26, 
+        "PDF": "", 
+        "Project": "", 
+        "Title": "The 4-Source Photometric Stereo under General Unknown\nLighting", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Mustafa\nOzuysal(CVLab EPFL); Francois Fleuret (CVLab\nEPFL); Vincent\nLepetit (CVLab EPFL); Pascal Fua (CVLab EPFL)", 
+        "Conference": "eccv", 
+        "ID": 27, 
+        "PDF": "http://cvlab.epfl.ch/%7Elepetit/papers/ozuysal-eccv06.pdf", 
+        "Project": "", 
+        "Title": "Feature Harvesting for Tracking-by-Detection (CiteSeer,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Hanzi\nWang(Monash University); David Suter (Monash\nUniversity); Konrad\nSchindler (Monash University)", 
+        "Conference": "eccv", 
+        "ID": 28, 
+        "PDF": "http://users.monash.edu.au/%7Ehanzi/papers/SMOG_ECCV06.pdf", 
+        "Project": "", 
+        "Title": "Effective Appearance Model and Similarity Measure for\nParticle Filtering and Visual Tracking", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Josephine\nSullivan(Royal Institute of Technology, Sweden);\nStefan\nCarlsson (Royal Institute of Technology, Sweden)", 
+        "Conference": "eccv", 
+        "ID": 29, 
+        "PDF": "http://www.nada.kth.se/cvap/Papers/sullivan_eccv06.pdf", 
+        "Project": "", 
+        "Title": "Tracking and Labelling of Interacting Multiple Targets", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Tingting Jiang (Department of Computer Science, Duke\nUniversity); Carlo\nTomasi (Department of Computer Science, Duke\nUniversity)&nbsp;&nbsp; &nbsp;", 
+        "Conference": "eccv", 
+        "ID": 30, 
+        "PDF": "http://www.cs.duke.edu/%7Etomasi/papers/jiang/jiangEccv06.pdf", 
+        "Project": "", 
+        "Title": "Level-Set Curve Particles (Project,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Hongming\nZhang(Harbin Institute of Technology,China); Wen\nGao\n(Institute of Computing Technology, CAS,China); Xilin Chen (Institute\nof Computing Technology, CAS,China); Shiguang Shan (Institute of\nComputing Technology, CAS,China); Debin Zhao (Harbin Institute of\nTechnology,China)", 
+        "Conference": "eccv", 
+        "ID": 31, 
+        "PDF": "http://www.jdl.ac.cn/doc/2006/Robust%20Multi-view%20Face%20Detection%20Using%20Error%20Correcting%20Output%20Codes.pdf", 
+        "Project": "", 
+        "Title": "Robust Multi-View Face Detection Using Error Correcting\nOutput Codes", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Dahua\nLin(The Chinese University of Hong Kong); Xiaoou\nTang (Microsoft\nResearch Asia)", 
+        "Conference": "eccv", 
+        "ID": 32, 
+        "PDF": "http://personal.ie.cuhk.edu.hk/%7Edhlin4/mypapers/eccv_06_a.pdf", 
+        "Project": "", 
+        "Title": "Inter-Modality Face Recognition", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Ognjen Arandjelovic (University of Cambridge); Roberto\nCipolla\n(University of Cambridge)", 
+        "Conference": "eccv", 
+        "ID": 33, 
+        "PDF": "http://mi.eng.cam.ac.uk/reports/svr-ftp/arandjelovic_ECCV06.pdf", 
+        "Project": "", 
+        "Title": "Face Recognition from Video using the Generic\nShape-Illumination Manifold (CiteSeer,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Dhruv\nMahajan(Columbia University);Ravi Ramamoorthi(Columbia\nUniversity); Brian Curless (University of Washington)", 
+        "Conference": "eccv", 
+        "ID": 34, 
+        "PDF": "http://www1.cs.columbia.edu/%7Edhruv/eccv06.pdf", 
+        "Project": "", 
+        "Title": "A Theory of Spherical Harmonic Identities for BRDF/Lighting\nTransfer and Image Consistency", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Todor\nGeorgiev(Adobe Systems)", 
+        "Conference": "eccv", 
+        "ID": 35, 
+        "PDF": "http://www.tgeorgiev.net/CovariantDerivatives.pdf", 
+        "Project": "", 
+        "Title": "Covariant Derivatives and Vision", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Ryan\nWhite(University of California, Berkeley); D.A.\nForsyth\n(University of Illinois, Urbana-Champaign)", 
+        "Conference": "eccv", 
+        "ID": 36, 
+        "PDF": "http://www.ryanmwhite.com/research/white2006eccv.pdf", 
+        "Project": "", 
+        "Title": "Retexturing Single Views Using Texture and Shading (Project,PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Charles Kervrann (IRISA-INRIA / INRA-MIA); Jerome Boulanger\n(IRISA /\nINRIA Rennes)", 
+        "Conference": "eccv", 
+        "ID": 37, 
+        "PDF": "http://www.irisa.fr/vista/Papers/2006_eccv_kervrann.pdf", 
+        "Project": "", 
+        "Title": "Unsupervised patch-based image regularization and\nrepresentation", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Sylvain Paris(MIT CSAIL); Fr&eacute;do Durand (MIT CSAIL)", 
+        "Conference": "eccv", 
+        "ID": 38, 
+        "PDF": "http://people.csail.mit.edu/sparis/publi/2006/eccv/Paris_06_Fast_Approximation.pdf", 
+        "Project": "", 
+        "Title": "A Fast Approximation of the Bilateral Filter using a Signal\nProcessing Approach (Project,PDF,PPT)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Anat\nLevin(The Hebrew University); Yair Weiss (The Hebrew\nUniversity)", 
+        "Conference": "eccv", 
+        "ID": 39, 
+        "PDF": "http://www.cs.huji.ac.il/%7Ealevin/papers/CRFs-eccv06.pdf", 
+        "Project": "", 
+        "Title": "Learning to Combine Bottom-Up and Top-Down Segmentation -Longuet-Higgins Best Paper Award(PDF)", 
+        "Year": 2006
+    }, 
+    {
+        "Authors": "Amnon\nShashua(Hebrew University); Ron Zass (Hebrew\nUniversity); Tamir\nHazan (Hebrew University)", 
+        "Conference": "eccv", 
+        "ID": 40, 
+        "PDF": "http://www.cs.huji.ac.il/%7Eshashua/papers/sntf-eccv06.pdf", 
+        "Project": "", 
+        "Title": "Multi-way Clustering Using Super-symmetric Non-negative\nTensor Factorization", 
+        "Year": 2006
+    }
+]

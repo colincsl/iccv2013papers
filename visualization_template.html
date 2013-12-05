@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.node {
+  stroke: #fff;
+  stroke-width: 0px;
+  cursor: pointer;
+}
+
+.link {
+  stroke: #AAA;
+  stroke-opacity: .6;
+}
+
+
+</style>
+<body>
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+<!-- <script src="../../d3.v3.min.js"></script>
+<script src="../../jquery-1.10.2.min.js"></script> -->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var link_strength_default = 1
+    charge_strength_default = -100
+var width = 800,
+    height = 600
+    circle_radius = 10
+    link_width = 1;
+    selected_group = -1;
+var screen_scale = 1.;
+    screen_translate = [0,0];
+var color = d3.scale.category20();
+// Bug in D3? must initialized color
+for (var i=0; i<20; i++) color(i);
+var nodes = [];
+var links = [];
+var link_strengths = [];
+var charge_strengths = [];
+var circle_radii = [];
+var node_d3, link_d3, graph_d3, tooltip_3d;
+
+
+// Push cluster centers to points in a circle around the center of the window
+var n_foci = 12
+var foci = [], foci_orig = [];
+for (var i=0; i<n_foci; i++)
+{
+  foci.push( {x:width/3*Math.cos(i/n_foci*2*Math.PI)+width/2, y:height/3*Math.sin(i/n_foci*2*Math.PI)+height/2 } );
+  foci_orig.push(foci[i]);
+}
+// console.log(foci);
+
+
+var force = d3.layout.force()
+    .charge( function(d) 
+      { 
+        return charge_strengths[d.index]
+      } )
+    .linkDistance( function(d) 
+        { 
+          return 20;
+        } )    
+    .linkStrength( function(d) 
+        { 
+          return link_strengths[d.source.index]
+        } )
+    .size([width, height]);
+
+
+// Main SVG window
+var svg = d3.select("body").append("svg:svg")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("pointer-events", "all")
+    .append('svg:g')
+    .call(d3.behavior.zoom().on("zoom", redraw))
+    .append('svg:g');
+
+svg.append('svg:rect')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('fill', 'white');
+
+
+function redraw() {
+    if (d3.event.scale != undefined)
+    {
+      screen_scale = d3.event.scale;
+      screen_translate = d3.event.translate;
+    }
+    svg.attr("transform", "translate(" + screen_translate + ")" + 
+                          " scale(" + screen_scale + ")");
+    svg.selectAll(".node").attr("r", 
+      function(d) {return circle_radii[d.index] / screen_scale});
+    svg.selectAll(".link").style("stroke-width", link_width/screen_scale);
+}
+
+function update_nodes(graph) {
+  // Only add certain nodes to the graph
+  nodes = [];
+  links = [];
+  link_strengths = [];
+  charge_strengths = [];
+  circle_radii = [];
+
+  // Add nodes that are in the selected group
+  graph.nodes.forEach( function(o,i) 
+  {
+    if (selected_group == -1 || o.group == selected_group) { nodes.push(o) };
+  });
+  
+  graph.links.forEach( function(o,i) 
+  {
+    if (selected_group==-1) {
+      links.push(o);
+    } else if ( o.source.group == selected_group ) { 
+        links.push(o);
+        nodes.push(graph.nodes[o.target.index]);
+    } else if ( o.target.group == selected_group ) { 
+        links.push(o);
+        nodes.push(graph.nodes[o.source.index]);
+    }
+  });
+
+  nodes.forEach(function(o, i) 
+  {
+      link_strengths.push(link_strength_default);
+      charge_strengths.push(charge_strength_default);
+      circle_radii.push(circle_radius);
+  });
+
+  svg.selectAll(".node").remove();
+  svg.selectAll(".link").remove();
+  force
+      .nodes(nodes)
+      .links(links)
+      .start();
+
+  link_d3 = svg.selectAll(".link")
+      .data(links)
+      .enter().append("line")
+      .attr("class", "link")
+      .style("stroke-width", link_width/screen_scale)
+      ;
+
+  node_d3 = svg.selectAll(".node")
+      .data(nodes)
+      .enter().append("circle")
+      .attr("class", "node")
+      .attr("r", function(d) {return circle_radii[d.index] / screen_scale})
+      .style("fill", function(d) { return color(d.group); })       
+
+  tooltip_3d = d3.select("body")
+      .append("div")
+      .attr("id", "tooltip")
+      .attr("class", "tooltip")
+      .style("position", "absolute")
+      .style("z-index", "10")
+      .style("text-shadow", "-1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF")
+      .style("font-size","18px")
+      .style("font-family", "Verdana")
+      .text("tooltip");
+
+  node_d3.on("mouseover", mouse_over)
+        .on("mousemove", mouse_move)
+        .on("mouseout", function(){return tooltip_3d.style("visibility", "hidden");})
+        .on("click", mouse_click);
+
+  force.on("tick", tick);
+
+}
+
+// ----------------------------------------------------------
+// ----------------------------------------------------------
+
+// Get data and update graph
+data = d3.json("graph_data.json", function(error, graph) {
+  graph_d3 = graph;
+  update_nodes(graph);
+});
+
+function tick(e){
+    // Push nodes toward their designated focus.
+      var step_size = 1. * e.alpha;
+      if (selected_group != -1) step_size = .01 * e.alpha;
+
+      nodes.forEach(function(o, i) {
+        if (selected_group == -1 || o.group == selected_group)
+        {        
+          o.y += (foci[o.group].y - o.y) * step_size;
+          o.x += (foci[o.group].x - o.x) * step_size;
+        }
+      });
+    
+
+    link_d3.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node_d3.attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });  
+};
+
+function mouse_move() {
+  return tooltip_3d.style("top", (d3.event.pageY+5)+"px")
+                  .style("left",(d3.event.pageX-200)+"px");
+};
+function mouse_over(d) {
+  return tooltip_3d.style("visibility", "visible")
+                    .html("<b>"+d.name+"</b><br/>"+d.authors );
+};
+
+
+
+function mouse_click(d){
+    tooltip_3d.style("visibility", "hidden");
+      // Find which group is selected
+    var group_i = nodes[d.index].group;
+
+    //Reset foci
+    for (var i=0; i<n_foci; i++)
+      {foci[i] = foci_orig[i]};
+
+    // Toggle/change selected group
+    if (selected_group == -1) {
+      selected_group = group_i;
+      foci[group_i] = {x:width/2, y:height/2};
+
+    } else selected_group = -1;
+      
+    update_nodes(graph_d3);
+
+    // Increase the size of the selected node
+    // nodes.forEach(function(o, i) {
+    //   link_strengths[i] = link_strength_default;
+    //   charge_strengths[i] = charge_strength_default;
+    //   // if (i==d.index){
+    //   // // if (o.group==group_i){
+    //   //   circle_radii[i] = circle_radius*1;
+    //   // } else {
+    //   //   circle_radii[i] = circle_radius;
+    //   // }
+    // });
+    
+    // Increase the strength of the links around the selected node
+    links.forEach(function(o, i) {
+      // if (o.source.group == group_i || o.target.group == group_i)
+      // {
+        link_strengths[o.source.index] = 0;
+        link_strengths[o.target.index] = 0;
+        charge_strengths[o.source.index] = -15;
+        charge_strengths[o.target.index] = -15;
+
+      // };
+      // if (o.source.index == d.index || o.target.index == d.index)
+      // {
+      //   link_strengths[o.source.index] = 10;//link_strength_default/100;
+      //   link_strengths[o.target.index] = 10;//link_strength_default/100;
+      //   charge_strengths[o.source.index] = 0;//charge_strength_default/100;
+      //   charge_strengths[o.target.index] = 0;//charge_strength_default/100;
+      // };      
+    });
+
+    // Refresh with new force at selected node
+    force.start();
+    redraw();
+    // });
+};
+
+
+</script>

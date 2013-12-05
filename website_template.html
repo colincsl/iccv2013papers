@@ -1,0 +1,548 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CONFERENCE YEAR</title>
+
+
+<style>
+/* CSS */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: #FCFAF1;
+}
+.as {
+	font-size: 12px;
+	color: #950;
+}
+.ts {
+	font-weight: bold;
+	font-size: 14px;
+}
+.tt {
+	color: #009;
+	font-size: 13px;
+}
+.keywords {
+	font-size: 12px;
+	color: #0000A0;
+}
+h1 {
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+#titleHeader {
+	width: 100%;
+	background-color: #C05F24;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #543030;
+}
+
+#titdiv {
+	width: 100%;
+	background-color: #C0C0C0;
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #540000;
+}
+
+.right {
+	text-align:right;
+	padding-right: 5%;	
+}
+
+#maindiv {
+	width: 970px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: solid 1px #D6D3C5;
+	border-right: solid 1px #D6D3C5;
+	background-color: white;
+}
+
+.apaper {
+	margin-top: 25px;
+	padding: 5px;
+	/*min-height: 300px;*/
+	min-height: 50px;
+	border:1px solid;
+	border-radius:10px;	
+	border-color:#444444;	
+}
+
+.paperdesc {
+	float: left;
+	/*margin: 0px;*/
+	/*background-color: #AAA;*/
+}
+
+.dllinks {
+	float: right;
+	text-align: right;
+}
+
+.simpapers {
+	font-size: 10pt;
+	padding: 5px;
+	margin: 5px;
+	list-style-type: square;
+	/*width:50%;*/
+}
+
+.abstract {
+	font-size: 10pt;
+	text-align: justify;
+	/*width:50%;*/
+}
+
+table {
+	width:100%;
+	vertical-align: "top";
+}
+
+tr {
+	vertical-align: "top";
+}
+
+hr {
+	margin:0px;
+	padding:0px;
+}
+
+#titleHeader a:link{ color: white; }
+#titleHeader a:visited{ color: white; }
+#titdiv a:link{ color: white; }
+#titdiv a:visited{ color: white; }
+
+#maindiv a:link{ color: #666; }
+#maindiv a:visited{ color: #600; }
+
+/*.t0 { color: #000;}
+.t1 { color: #C00;}
+.t2 { color: #0C0;}
+.t3 { color: #00C;}
+.t4 { color: #AA0;}
+.t5 { color: #C0C;}
+.t6 { color: #0CC;}*/
+
+/*.topicchoice {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	text-decoration: underline;
+	line-height: 15px;
+}*/
+
+/*.topicchoice .tooltip {
+	position:relative;
+	display: none;
+}
+*/
+/*.topicchoice:hover .tooltip {
+    display:inline-block;
+    background-color:black;
+    border-radius:5px;
+    color:white;
+    box-shadow:1px 1px 3px gray;
+    position:absolute;
+    padding:5px;
+    top:1.3em;
+    left:0px;
+    max-height:250px;
+}*/
+
+/*---------*/
+.topicchoice {
+	outline: none; position: relative;
+	min-width: 75px;
+	max-width: 255px;
+
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	/*text-decoration: underline;*/
+	/*line-height: 15px;*/
+}
+
+/*.topicchoice .tooltip {
+  opacity: 0; visibility: hidden;
+  position: absolute;
+}
+
+.topicchoice:hover .tooltip {
+  display: block;
+  background: #FFF; 
+  border: 1px solid: #555; 
+  /*color: #000000;*/
+  /*padding: 3px;*/
+  /*word-wrap:break-word;*/
+
+  /* general styling */
+  /*position: absolute; */
+  /*position: relative;*/
+  /*right: 50px; */
+  /*top: 2.6em; */
+  /*z-index: 99;*/
+  
+  /*visibility: visible; */
+  /*opacity: 1;*/
+  /*width: 300px;*/
+/*}*/
+
+
+/*---------*/
+
+#explanation {
+	background-color: #f7a76f;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#sortoptions {
+	text-align: center;
+	padding: 20px;
+}
+
+.sim {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstr {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.abstrholder {
+	background-color: #DFD;
+	border: 1px solid #BDB;
+	font-size: 12px;
+	padding: 10px;
+	border-radius: 5px;
+	display: none; /* so that these are hidden initially */
+	margin-bottom: 5px;
+}
+
+.circle {
+    border-radius: 50%/50%; 
+    width: 15px;
+    height: 15px;
+}
+
+
+</style>
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<!-- <script src="../../jquery-1.10.2.min.js"></script> -->
+<!-- <script src="../../d3.v3.min.js"></script> -->
+<script>
+
+// this line below will get filled in with database of LDA topic distributions for top words
+// for every paper 
+var loaddists = LOADDISTS
+var clusters = CLUSTERS
+var pairdists = PAIRDISTS
+var keywords = KEYWORDS
+
+var paperdivs_raw;
+
+var colors = d3.scale.category20();
+// Bug in D3? must initialized color
+for (var i=0; i<20; i++) colors(i);
+
+var choices = []
+var n_groups = loaddists[0].length
+for (var i=0; i<n_groups; i++) {
+	choices.push(0);
+	document.styleSheets[0].insertRule(".circ"+i+"{background: "+colors(i)+"}", 1);
+}
+
+var similarityMode = 0; // is the user currently looking at papers similar to some one paper?
+var similarTo = 0; // the index of query paper
+
+// given choices of topics to sort by, handle user interface stuff (i.e. show selection)
+function colorChoices() {
+	for(var i=0;i<choices.length;i++) {
+		if(choices[i] == 1) {
+			$("#tc"+i).css("background-color", "#EFE");
+			$("#tc"+i).css("border-color", "#575");
+		} else {
+			$("#tc"+i).css("background-color", "#FFF");
+			$("#tc"+i).css("border-color", "#FFF");
+		}
+	}
+}
+
+function filter_clusters(search_txt)
+{
+	// Filter the papers by cluster number and search parameters
+	var paperdivs_new = []
+	// Check if all toggles are off
+	var all_off = true
+	for (var i=0; i<n_groups; i++)
+	{
+		if (choices[i] == 1) all_off = false;
+	}
+
+	// Only display papers in clusters that are 'on'
+	paperdivs_raw.each( function(a) {
+		var ixa = parseInt(paperdivs_raw[a]['id'].substring(3));
+
+		// Filter by clusters
+		for (var i=0; i<n_groups; i++)
+		{
+			if ((choices[i] == 1 || all_off) && loaddists[ixa][i]>0 ) {
+				//Filter by search
+				if ((search_txt=="") ||
+					(search_txt!="" && paperdivs_raw[a].innerText.toLowerCase().indexOf(search_txt) > -1)) {
+					paperdivs_new.push(paperdivs_raw[a]);
+					break;
+				}
+			}
+		}
+	})
+
+	return paperdivs_new;
+};
+
+// this permutes the divs (that contain 1 paper each) based on a custom sorting function
+// in our case, this sort is done as dot product based on the choices[] array
+// here we are guaranteed ldadist[] already sums to 1 for every paper
+function update_papers() {
+	if (paperdivs_raw == undefined) {
+		paperdivs_raw = $("#rtable").children(".apaper").clone();
+	}
+	var paperdivs = paperdivs_raw;
+	$("#rtable").children(".apaper").detach();
+	
+	// normalize choices to sum to 1
+	var nn = choices.slice(0); // copy the array
+	var ss = 0.0;
+	for(var j=0;j<choices.length;j++) { ss += choices[j]; }
+	for(var j=0;j<choices.length;j++) { nn[j] = nn[j]/ss; }
+
+	// Sort data using either cluster scores or pairwise TFIDF score
+	paperdivs.sort(function(a,b) {
+		var ixa = parseInt($(a)[0]['id'].substring(3));
+		var ixb = parseInt($(b)[0]['id'].substring(3));
+
+		if(similarityMode === 1) {
+			return pairdists[ixa][similarTo] < pairdists[ixb][similarTo] ? 1 : -1;
+		}
+
+		if(similarityMode === 0) {
+			// chi-squared kernel for the two histograms
+			var accuma = 0;
+			var accumb = 0;
+			for(var i=0;i<7;i++) {
+				var ai= 0;
+				var bi= 0;
+				var ci= choices[i];
+				accuma += (ai-ci)*(ai-ci)/(ai+ci);
+				accumb += (bi-ci)*(bi-ci)/(bi+ci);
+			}
+			return accuma > accumb ? 1 : -1;
+		}
+
+	});
+
+	// Filter the clusters based on which topics are toggled
+	var search_txt = document.getElementById("searchText").value.toLowerCase();
+	// console.log("Search: "+search_txt);
+	paperdivs = filter_clusters(search_txt);
+
+
+	$("#rtable").append(paperdivs);
+}
+
+// when page loads...
+$(document).ready(function(){
+
+	// Add sorting options above paper list
+	s = '<table width=50%><tbody><tr>'
+	for (var i=0; i<n_groups; i++) {
+		if ((i-1)%6 == 5) s = s + "</tr><tr>";	
+		s = s + '<td align="center" padding=5px valign="top"><span style="color:'+colors(i) + '" class="topicchoice" id="tc'+i+'"> <u>Topic '+i+':</u></span>';
+		s = s + '<br><span style="color:'+colors(i) + '"> ' + keywords[i] + '</span></td>';
+	}	
+	s = s + "</tr></tbody></table>"
+	$("#sortoptions").append(s);
+
+
+	update_papers();
+	colorChoices();
+
+	// user clicks on one of the Topic buttons
+	$(".topicchoice").click(function() {
+		similarityMode = 0; // make sure this is off
+		// var tcid = parseInt($(this).attr('id').substring(2));
+		var tcid = parseInt($(this)[0]['id'].substring(2));
+		choices[tcid] = 1 - choices[tcid]; // toggle!
+
+		colorChoices();
+		update_papers();
+	});
+
+	// user clicks on "rank by tf-idf similarity to this" button for some paper
+	$(".sim").click(function() {
+		similarityMode = 1; // turn on similarity mode
+		for(var i=0;i<choices.length;i++) { choices[i] = 0; } // zero out choices
+		// similarTo = parseInt($(this).attr('id').substring(3)); // store id of the paper 
+		// console.log($(this)[0]['id']);
+		similarTo = parseInt($(this)[0]['id'].substring(3)); // store id of the paper clicked
+
+		// document.getElementById("searchText").value = ""
+		colorChoices();
+		update_papers();
+
+		// also scroll to top
+		// $('html, body').animate({ scrollTop: 0 }, 'fast');
+	});
+
+	// user clicks on "abstract button for some paper
+	$(".abstr").click(function() {
+		var pid = parseInt($(this).attr('id').substring(2)); // id of the paper clicked
+		var aurl = "abstracts/a" + pid + ".txt";
+		var holderdiv = "#abholder" + pid;
+
+		if($(holderdiv).is(':visible')) {
+
+			$(holderdiv).slideUp(); // hide the abstract away
+
+		} else {
+
+			// do ajax request and fill the abstract div with the result
+			$.ajax({
+	            url : aurl,
+	            dataType: "text",
+	            success : function (data) {
+	                $(holderdiv).html(data);
+	                $(holderdiv).slideDown();
+	            }
+	        });
+		}
+	});
+});
+
+</script>
+
+</head>
+
+<body>
+
+<!-- ''''''''' Header table ''''''''' -->
+
+<div id="titleHeader">
+<center>
+<h1> CS Conference Navigator </h1>
+Improving discovery of relevant computer science research through visualization and clustering
+</center>
+</div>
+
+<div id="titdiv">
+<table width=100% align="center">
+<tbody><tr>
+
+<td width=50% class="right">
+<h2>CONFERENCE YEAR</h2>
+</td>
+
+<td>
+Other guides:
+	<a href="http://cs.stanford.edu/people/karpathy/nips2013/">NIPS 2013</a>,
+	<a href="http://www.colinlea.com/guides/cvpr2013.html">CVPR 2013</a>,
+	<a href="http://www.benhamner.com/icml2013preview/">ICML 2013</a>,
+	<a href="http://cs.stanford.edu/people/karpathy/nipspreview/">NIPS 2012</a>,
+<br>
+
+Info: 
+ 	<a href="http://www.colinlea.com">maintained by</a>, 
+ 	<a href="../../about.html">about</a>, 
+	<a href="https://github.com/colincsl/iccv2013papers">source code</a>
+</td>
+
+</tr></tbody>
+</table>
+</div>
+
+<!-- ''''''''' /Header table ''''''''' -->
+
+
+<div id="maindiv">
+
+<!-- Insert visualization -->
+<center>
+
+<div id="explanation">
+	Visualization of publically available papers presented at CONFERENCE YEAR
+	<!--<br> ( PUBLIC_COUNT of TOTAL_COUNT papers are available) -->
+	<br>
+</div>
+<br>
+Hover over a node to see the paper title. Click on a color to only show papers connected to that cluster. Zoom and move around with normal map controls.
+<br><br>
+
+<iframe src="visualization.html" width="800" height="600" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<br><br>
+Papers are linked together based on TF-IDF similarity and are colored using their predicted topic index.
+<br><br>
+</center>
+
+<!-- <div id="explanation">The most frequent words in each paper are listed below each entry. Color is based on an Spectral Cluserting of the TF-IDF similarity.<br />
+</div>
+ -->
+<div id="explanation">
+</div>
+
+<div id="sortoptions" line-height=20px>
+Toggle the topics below to sort by category. The top 10 words from each cluster are shown.<br/><br/>
+</div>
+
+<div id="search_header">
+	<center>
+	Filter current papers by keyword or author:
+	<input type="text" id="searchText" size="40" maxlength="200" value="" onkeydown="if (event.keyCode == 13) update_papers()">
+	<!-- onKeyUp="update_papers()" onKeyDown="update_papers()" -->
+	<input type="submit" value=">" onClick="update_papers()">
+	</center>
+</div>
+
+
+<!-- the keyword below will be replaced by content from the python script -->
+<div id="rtable">
+RESULTTABLE
+</div>
+
+</div>
+
+<!-- <br /><br /><br /><br /><br /><br /> -->
+
+
+<div id="titdiv"> <br><br></div>
+<div id="titleHeader"> <br><br>
+<div style="padding-top:1000px"></div></div>
+</body>
+
+</html>
