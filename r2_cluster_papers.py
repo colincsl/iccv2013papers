@@ -20,8 +20,8 @@ YEAR = 2013
 # CONFERENCE = 'CVPR'
 # YEAR = 2012
 
-# BASE_FOLDER = os.path.expanduser("~/")+"Dropbox/ConferenceGuides/"
-BASE_FOLDER = '/Users/colin/Desktop/ConferenceGuides/'
+BASE_FOLDER = os.path.expanduser("~/")+"Desktop/ConferenceGuides/"
+# BASE_FOLDER = '/Users/colin/Desktop/ConferenceGuides/'
 N_TOPICS=12
 N_TOP_WORDS=100
 
